@@ -1,8 +1,91 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: JIN23
+description: Kod och annat
+baseurl: "/JIN23" # the subpath of your site, e.g. /blog
+url: https://campusmolndaleducation.github.io/JIN23
+# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+permalink: /pretty
 
-url: https://just-the-docs.github.io
+paginate: 10
+paginate_path: /page:num/
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+encoding: utf-8
+
+# Handling Reading
+safe                : false
+include             : [".htaccess"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files          : [".git", ".svn"]
+encoding            : "utf-8"
+markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter : false
+
+# search
+search_enabled: true
+aux_links_new_tab: true
+
+# Navigation
+nav_sort: case_insensitive # Capital letters sorted before lowercase
+nav_depth: 10
+
+# Navbar footer
+navbar_footer_text: "© 2021 Campus Molndal Education"
+
+# Table of contents heading
+toc_heading: Innehåll  
+toc_depth: 10
+
+# back to top
+back_to_top: true
+back_to_top_text: "Till toppen</a><br><div id=\"google_translate_element\"></div><script type=\"text/javascript\">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'sv'},'google_translate_element');} </script> <script type=\"text/javascript\" src=\"https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script><a>"
+# TOC
+toc:
+  title: Undersidor
+  icon: fas fa-list
+  depth: 10
+
+# children
+children:
+  title: Undersidor
+  icon: fas fa-list
+  depth: 10
+
+# callouts
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+# compress html
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit."
+gh_edit_repository: "https://github.com/CampusMolndalEducation/JIN23" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# font size
+font_size:
+  base: 16px
+  headings: 1.25rem
