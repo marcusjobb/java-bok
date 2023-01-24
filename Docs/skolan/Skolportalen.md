@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 02:01
 lang_supported: ["csharp","java"]
 permalink: skolan/skolportalen
-tags: ["skolan","skolportalen"]
-categories: ["Skolan","Skolportalen"]
-parent: Skolan
+tags: ["[skolportalen","skolan"]
+categories: ["[Skolportalen","Skolan"]
 layout: default
 isverified: true
 nav_order: 1

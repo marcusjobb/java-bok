@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-20 02:40
 lang_supported: ["csharp","java"]
 permalink: ordlista/git
-tags: ["git","ordlista"]
-categories: ["Ordlista"]
-parent: Ordlista
+tags: ["[git","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
 isverified: true
 nav_order: 1

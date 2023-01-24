@@ -4,10 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:32
 lang_supported: ["csharp","java"]
 permalink: verktyg/installation/visualstudioinstallation
-tags: ["installation","verktyg","visual,studio,installation,microsoft"]
-categories: ["Installation","Verktyg"]
-parent: Installation
-grandparent: Verktyg
+tags: ["[visual","installation","microsoft","studio"]
+categories: ["[Installation","Installation","Verktyg"]
 layout: default
 isverified: true
 nav_order: 3
@@ -27,4 +25,4 @@ nav_order: 3
 
 ## Beskrivning
 
-Visual Studio är ett IDE för C# och .NET. Det är främst den som används när man arbetar med C#.
+Visual Studio är ett IDE för Java och .NET. Det är främst den som används när man arbetar med Java.

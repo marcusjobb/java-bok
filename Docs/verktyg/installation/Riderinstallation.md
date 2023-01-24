@@ -4,10 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:32
 lang_supported: ["csharp","java"]
 permalink: verktyg/installation/riderinstallation
-tags: ["installation","rider,installation, jetbrains","verktyg"]
-categories: ["Installation","Verktyg"]
-parent: Installation
-grandparent: Verktyg
+tags: ["[rider","installation","jetbrains"]
+categories: ["[Installation","Installation","Verktyg"]
 layout: default
 isverified: true
 nav_order: 6
@@ -23,4 +21,4 @@ nav_order: 6
 
 ## Beskrivning
 
-Jetbrains Rider är ett IDE för C# och .NET. Det är ett gratis program som är öppen källkod. Den är som Visual Studio Code och den har Jetbrains Resharper inbyggt.
+Jetbrains Rider är ett IDE för Java och .NET. Det är ett gratis program som är öppen källkod. Den är som Visual Studio Code och den har Jetbrains Resharper inbyggt.

@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:56
 lang_supported: ["csharp","java"]
 permalink: verktyg/forslag/evernote
-tags: ["evernote","forslag","verktyg"]
-categories: ["Evernote","Forslag","Verktyg"]
-parent: Förslag
+tags: ["[evernote","forslag","verktyg"]
+categories: ["[Evernote","Forslag","Verktyg"]
 layout: default
 isverified: true
 nav_order: 1

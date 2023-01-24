@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:38
 lang_supported: ["csharp","java"]
 permalink: sql/constraints
-tags: ["constraints","sql"]
-categories: ["Constraints","Sql"]
-parent: SQL
+tags: ["[constraints","sql"]
+categories: ["[Constraints","Sql"]
 layout: default
 isverified: true
 nav_order: 7

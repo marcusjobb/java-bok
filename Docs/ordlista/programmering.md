@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-20 02:40
 lang_supported: ["csharp","java"]
 permalink: ordlista/programmering
-tags: ["ordlista","programmering"]
-categories: ["Ordlista"]
-parent: Ordlista
+tags: ["[programmering","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
 isverified: true
 nav_order: 2

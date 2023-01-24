@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:38
 lang_supported: ["csharp","java"]
 permalink: sql/databas
-tags: ["databas, databaser","sql"]
-categories: ["Databas","Sql"]
-parent: SQL
+tags: ["[databas","databaser"]
+categories: ["[Databas","Sql"]
 layout: default
 isverified: true
 nav_order: 7

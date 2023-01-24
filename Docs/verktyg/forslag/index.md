@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:56
 lang_supported: ["csharp","java"]
 permalink: verktyg/forslag
-tags: ["forslag","förslag","verktyg"]
-categories: ["Forslag","Förslag","Verktyg"]
-parent: Verktyg
+tags: ["[förslag","forslag","verktyg"]
+categories: ["[Förslag","Forslag","Verktyg"]
 layout: default
 has_children: true
 isverified: true

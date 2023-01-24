@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:38
 lang_supported: ["csharp","java"]
 permalink: skolan/ggcl
-tags: ["google,classroom","skolan"]
-categories: ["Google Classroom","Skolan"]
-parent: Skolan
+tags: ["[google","classroom"]
+categories: ["[Google Classroom","Skolan"]
 layout: default
 isverified: true
 nav_order: 2

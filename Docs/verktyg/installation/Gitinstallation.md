@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:38
 lang_supported: ["csharp","java"]
 permalink: verktyg/installation/gitinstallation
-tags: ["git,installation","installation","verktyg"]
-categories: ["Installation","Verktyg"]
-parent: Installation
+tags: ["[git","installation"]
+categories: ["[Installation","Installation","Verktyg"]
 layout: default
 isverified: true
 nav_order: 4

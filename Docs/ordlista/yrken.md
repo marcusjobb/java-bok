@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-20 02:40
 lang_supported: ["csharp","java"]
 permalink: ordlista/yrken
-tags: ["ordlista","yrken"]
-categories: ["Ordlista"]
-parent: Ordlista
+tags: ["[yrken","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
 isverified: true
 nav_order: 3

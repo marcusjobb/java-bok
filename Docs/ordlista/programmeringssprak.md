@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-20 02:40
 lang_supported: ["csharp","java"]
 permalink: ordlista/programmeringssprak
-tags: ["ordlista","programmeringsspråk"]
-categories: ["Ordlista"]
-parent: Ordlista
+tags: ["[programmeringsspråk","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
 isverified: true
 nav_order: 4

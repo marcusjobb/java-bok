@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-20 02:40
 lang_supported: ["csharp","java"]
 permalink: ordlista/webb
-tags: ["ordlista","webb"]
-categories: ["Ordlista"]
-parent: Ordlista
+tags: ["[webb","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
 isverified: true
 nav_order: 6

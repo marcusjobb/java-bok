@@ -4,10 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:32
 lang_supported: ["csharp","java"]
 permalink: verktyg/installation/vscodeinstallation
-tags: ["installation","verktyg","vs,code,installation,microsoft"]
-categories: ["Installation","Verktyg"]
-parent: Installation
-grandparent: Verktyg
+tags: ["[vs","code","installation","microsoft"]
+categories: ["[Installation","Installation","Verktyg"]
 layout: default
 isverified: true
 nav_order: 5
@@ -24,4 +22,4 @@ nav_order: 5
 
 ## Beskrivning
 
-VS Code är ett IDE för C# och .NET. Det är ett gratis program som är öppen källkod. Den är mer anpassaningsbar än Visual Studio och den har inte lika många funktioner som Visual Studio. Den är mer anpassad för webbutveckling än Visual Studio.
+VS Code är ett IDE för Java och .NET. Det är ett gratis program som är öppen källkod. Den är mer anpassaningsbar än Visual Studio och den har inte lika många funktioner som Visual Studio. Den är mer anpassad för webbutveckling än Visual Studio.

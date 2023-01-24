@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:38
 lang_supported: ["csharp","java"]
 permalink: sql/tabeller
-tags: ["sql","tabell, tabeller"]
-categories: ["Databas","Sql"]
-parent: SQL
+tags: ["[tabell","tabeller"]
+categories: ["[Databas","Sql"]
 layout: default
 isverified: true
 nav_order: 3

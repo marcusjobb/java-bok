@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 12:47
 lang_supported: ["csharp","java"]
 permalink: skolan/discord
-tags: ["discord","skolan"]
-categories: ["Discord","Skolan"]
-parent: Skolan
+tags: ["[discord","skolan"]
+categories: ["[Discord","Skolan"]
 layout: default
 isverified: true
 nav_order: 3

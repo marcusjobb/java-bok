@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-17 11:01
 lang_supported: ["csharp","java"]
 permalink: verktyg/forslag/gk
-tags: ["forslag","google,keep","verktyg"]
-categories: ["Forslag","Förslag","Verktyg"]
-parent: Förslag
+tags: ["[google","keep"]
+categories: ["[Förslag","Forslag","Verktyg"]
 layout: default
 isverified: true
 nav_order: 3

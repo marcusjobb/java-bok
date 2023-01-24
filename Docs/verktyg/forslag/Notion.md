@@ -4,10 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:56
 lang_supported: ["csharp","java"]
 permalink: verktyg/forslag/notion
-tags: ["forslag","notion","verktyg"]
-categories: ["Forslag","Notion","Verktyg"]
-parent: Förslag
-grandparent: Verktyg
+tags: ["[notion","forslag","verktyg"]
+categories: ["[Notion","Forslag","Verktyg"]
 layout: default
 isverified: true
 nav_order: 2

@@ -4,9 +4,8 @@ author: Marcus Medina
 date: 2022-11-16 08:38
 lang_supported: ["csharp","java"]
 permalink: skolan/googledocs
-tags: ["google,docs","skolan"]
-categories: ["Google Docs","Skolan"]
-parent: Skolan
+tags: ["[google","docs"]
+categories: ["[Google Docs","Skolan"]
 layout: default
 isverified: true
 nav_order: 4

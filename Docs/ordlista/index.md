@@ -4,8 +4,8 @@ author: Marcus Medina
 date: 2022-11-20 02:40
 lang_supported: ["csharp","java"]
 permalink: ordlista
-tags: ["ordlista"]
-categories: ["Ordlista"]
+tags: ["[ordlista","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
 has_children: true
 isverified: true
