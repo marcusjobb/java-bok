@@ -1,19 +1,15 @@
 ---
-author: Marcus Medina
 title: Git
-nav_order: 2
-parent: Ordlista
-grand_parent: Java
-permalink: ordlista/Git
+author: Marcus Medina
 date: 2022-11-20 02:40
+lang_supported: ["csharp","java"]
+permalink: ordlista/git
+tags: ["[git","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
-author_url: https://marcusmedina.pro
-id: cde58042-4d8d-4596-bf4f-8a1b2a0a93cc
-author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
-codelanguage: C#
+isverified: true
+nav_order: 1
 ---
-
 # Git Ordlista
 
 | Ord | Förklaring |
@@ -36,3 +32,5 @@ codelanguage: C#
 | Upstream | Det vanligaste namnet på en remote som inte är din. |
 | Fork | Att kopiera ett repo till din github. |
 | Pull request | Att be servern merga två brancher. |
+
+*Filen editerades senast 2022-12-09*

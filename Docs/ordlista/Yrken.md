@@ -1,19 +1,15 @@
 ---
-author: Marcus Medina
 title: Yrken
-nav_order: 10
-parent: Ordlista
-grand_parent: Java
-permalink: ordlista/Yrken
+author: Marcus Medina
 date: 2022-11-20 02:40
+lang_supported: ["csharp","java"]
+permalink: ordlista/yrken
+tags: ["[yrken","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
-author_url: https://marcusmedina.pro
-id: 2c3f7c51-efcf-4a9f-8343-e189dd345a44
-author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
-codelanguage: C#
+isverified: true
+nav_order: 3
 ---
-
 ## IT Yrken
 
 | Ord | Förklaring |
@@ -41,3 +37,5 @@ codelanguage: C#
 | IT-tekniker | En person som hjälper användare med IT. |
 | Systemarkitekt | En person som planerar och utvecklar system. |
 | Systemutvecklare | En person som hjälper företag med systemutveckling. |
+
+*Filen editerades senast 2022-12-09*
