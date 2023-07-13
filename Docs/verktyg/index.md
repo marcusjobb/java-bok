@@ -1,19 +1,21 @@
 ---
 author: Marcus Medina
 title: Verktyg
-nav_order: 8
-parent: Home
+nav_order: 4
+parent: Java
+grand_parent: Home
 permalink: verktyg/index
 date: 2022-11-19 02:33
 layout: home
-codelanguage: C#
-id: e495588d-64d1-4339-b960-439dd10c0443
-enhance: false
 author_url: https://marcusmedina.pro
-author_github: https://github.com/marcusjobb
-has_children: true
 school: https://campus.molndal.se/yh
+enhance: false
+id: e495588d-64d1-4339-b960-439dd10c0443
+codelanguage: C#
+has_children: true
+author_github: https://github.com/marcusjobb
 ---
+
 # Verktyg
 I denna artikel kommer vi att titta på några användbara verktyg för att underlätta utvecklingen av Java-program. Genom att använda dessa verktyg kan vi öka vår produktivitet och förbättra kvaliteten på vår kod. Det är viktigt att välja verktyg som bäst passar våra behov och att utforska och använda dem på rätt sätt.
 ## 1. IDE (Integrated Development Environment)

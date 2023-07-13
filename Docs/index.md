@@ -1,20 +1,21 @@
 ---
 author: Marcus Medina
 title: Java
-nav_order: 4
+nav_order: 2
 parent: Home
 permalink: /index
 date: 2023-07-02
 layout: default
 nav_exclude: true
 author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
+has_children: true
 school: https://campus.molndal.se/yh
 enhance: false
-id: 2e766ee8-8856-4d67-a73b-de2409fe778b
+author_url: https://marcusmedina.pro
 codelanguage: C#
-has_children: true
+id: 2e766ee8-8856-4d67-a73b-de2409fe778b
 ---
+
 ## Java
 
 En introduktion till ämnet Java inom programmering.

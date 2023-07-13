@@ -7,13 +7,14 @@ grand_parent: Objektorienterad programmering (OOP)
 permalink: oop/polymorfism/abstraktaklasser/index
 date: 2022-11-19 08:17
 layout: default
-id: 41b84e28-8a7e-4b61-a87d-ca4642273d4f
-codelanguage: C#
 author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
 school: https://campus.molndal.se/yh
 has_children: true
+codelanguage: C#
+author_url: https://marcusmedina.pro
+id: 41b84e28-8a7e-4b61-a87d-ca4642273d4f
 ---
+
 # Abstrakta klasser
 Abstrakta klasser är klasser som innehåller både kod och abstrakta metoder. De fungerar som en kombination av ett interface och en klass.
 

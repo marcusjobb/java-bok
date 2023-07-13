@@ -1,20 +1,21 @@
 ---
 author: Marcus Medina
 title: Events
-nav_order: 18
+nav_order: 14
 parent: Objektorienterad programmering (OOP)
-grand_parent: Home
+grand_parent: Java
 permalink: oop/events/index
 date: 2022-11-20 02:59
 layout: default
-enhance: false
-codelanguage: C#
 author_url: https://marcusmedina.pro
-id: 8f3f3ae4-2872-400e-92b1-1f2a454a589c
-has_children: true
-author_github: https://github.com/marcusjobb
 school: https://campus.molndal.se/yh
+author_github: https://github.com/marcusjobb
+id: 8f3f3ae4-2872-400e-92b1-1f2a454a589c
+codelanguage: C#
+enhance: false
+has_children: true
 ---
+
 # Händelser
 I denna översikt kommer vi att utforska konceptet händelser i C#. Händelser är en funktion som låter oss reagera på händelser som inträffar under körningen av vårt program.
 ## Vad är händelser?

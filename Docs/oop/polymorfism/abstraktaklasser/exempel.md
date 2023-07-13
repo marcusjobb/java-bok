@@ -7,12 +7,12 @@ grand_parent: Polymorfism
 permalink: oop/polymorfism/abstraktaklasser/exempel
 date: 2022-11-20 01:27
 layout: default
-author_url: https://marcusmedina.pro
-enhance: false
 author_github: https://github.com/marcusjobb
-id: 7b2a61ca-28e9-4efe-9104-3c808ba4b9f1
 codelanguage: Java
 school: https://campus.molndal.se/yh
+enhance: false
+id: 7b2a61ca-28e9-4efe-9104-3c808ba4b9f1
+author_url: https://marcusmedina.pro
 ---
 
 # Exempel - Webscraping
@@ -118,11 +118,11 @@ public abstract class WebScraper {
     }
 
     public String getHtml() {
-        return htmlDocument != null ? htmlDocument.outerHtml() : "";
+        return htmlDocument != null ? htmlDocument.outerHtml() :;
     }
 
     public String getText() {
-        return htmlDocument != null ? htmlDocument.text() : "";
+        return htmlDocument != null ? htmlDocument.text() :;
     }
 
     public String getHtmlDocument(String url) {
@@ -140,7 +140,7 @@ public abstract class WebScraper {
 
     public String getDivById(String id) {
         Element div = htmlDocument != null ? htmlDocument.getElementById(id) : null;
-        return div != null ? div.outerHtml() : "";
+        return div != null ? div.outerHtml() :;
     }
 
     public List<String> getDivByClass(String className) {

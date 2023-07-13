@@ -2,17 +2,17 @@
 author: Marcus Medina
 title: Plugins
 nav_order: 2
-parent: Gränssnitt
+parent: Interfaces
 grand_parent: Polymorfism
-permalink: oop/polymorfism/gränssnitt/plugins
+permalink: oop/polymorfism/interfaces/plugins
 date: 2022-11-20
 layout: default
-author_url: https://marcusmedina.pro
-enhance: false
 author_github: https://github.com/marcusjobb
-id: c0155fa9-1c24-4fe8-a452-221be5b112a8
 codelanguage: C#
 school: https://campus.molndal.se/yh
+enhance: false
+id: c0155fa9-1c24-4fe8-a452-221be5b112a8
+author_url: https://marcusmedina.pro
 ---
 
 # Plugins

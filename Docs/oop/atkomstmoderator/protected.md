@@ -1,0 +1,58 @@
+---
+author: Marcus Medina
+title: Protected
+nav_order: 4
+parent: Åtkomstmodifikatorer i Java
+grand_parent: Objektorienterad programmering (OOP)
+permalink: oop/atkomstmoderator/protected
+date: 2023-07-02
+layout: default
+author_url: https://marcusmedina.pro
+codelanguage: C#
+author_github: https://github.com/marcusjobb
+school: https://campus.molndal.se/yh
+available: Java Java
+id: 91c193e4-c32c-4d30-9925-48c5f654a67f
+---
+
+# Protected
+
+Protected är en åtkomstmodifierare som gör att en klass, metod eller egenskap är tillgänglig för klassen den är deklarerad i och alla klasser som ärver från den.
+
+<details open markdown="block">
+  <summary>
+    Innehållsförteckning
+  </summary>
+  {: .text-delta }
+1. TOC
+   {:toc}
+</details>
+
+## Beskrivning
+
+När vi arbetar med polymorfism kan det vara bra att göra en metod eller egenskap tillgänglig för alla klasser som ärver från en klass. Detta gör vi genom att använda protected.
+Protected är som private för alla klasser, utom den som ärver. Klasser kan inte ärva privata medlemmar, så detta är det bästa alternativet.
+
+## Exempel
+
+```java 
+public class Person {
+    protected String name;
+}
+public class Student extends Person {
+    public Student(String name) {
+        this.name = name;
+    }
+    public void printInfo() {
+        System.out.println("Student Info: " + name);
+```
+
+## Förklaring
+
+I exemplet ovan är "name" propertyn i klassen Person skyddad för alla klasser förutom de som ärver från den, vilket gör att klassen Student kan lägga till ett namn och skriva ut det, medan inga andra klasser kan göra det.
+
+## Obligatorisk Dad-Joke
+
+Varför var det nyckelordet "protected" så nervöst hela tiden?
+
+För att det alltid ville hålla sitt privata liv... väl, "protected"! 😄

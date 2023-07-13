@@ -1,9 +1,9 @@
 ---
 author: Marcus Medina
 title: Array övningar
-nav_order: 4
+nav_order: 2
 parent: Datastrukturer
-grand_parent: Home
+grand_parent: Java
 permalink: datastrukturer/exercises/index
 date: 2023-07-04
 layout: default

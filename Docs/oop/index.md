@@ -1,18 +1,19 @@
 ---
 author: Marcus Medina
 title: Objektorienterad programmering (OOP)
-nav_order: 20
-parent: Home
+nav_order: 16
+parent: Java
+grand_parent: Home
 permalink: oop/index
 date: 2023-07-02
 layout: default
-has_children: true
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
 id: de0512ef-23c1-4252-b793-13b46f7ad50d
-school: https://campus.molndal.se/yh
-enhance: false
 codelanguage: C#
+author_url: https://marcusmedina.pro
+author_github: https://github.com/marcusjobb
+has_children: true
+enhance: false
+school: https://campus.molndal.se/yh
 ---
 
 # Objektorienterad programmering (OOP)

@@ -1,3 +1,18 @@
+---
+author: Marcus Medina
+title: Interfaces
+nav_order: 4
+parent: Polymorfism
+grand_parent: Objektorienterad programmering (OOP)
+permalink: oop/polymorfism/interfaces/index
+layout: default
+author_github: https://github.com/marcusjobb
+id: 6f44637f-d8ef-45c4-89bd-685337996e05
+school: https://campus.molndal.se/yh
+has_children: true
+author_url: https://marcusmedina.pro
+---
+
 Här är den korrigerade och förbättrade versionen av artikeln med kommentarer:
 
 ```markdown

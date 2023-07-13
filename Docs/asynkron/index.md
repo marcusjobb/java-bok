@@ -1,19 +1,20 @@
 ---
 author: Marcus Medina
 title: Asynkron
-nav_order: 36
-parent: Home
+nav_order: 24
+parent: Java
+grand_parent: Home
 permalink: asynkron/index
 date: 2022-11-28 10:23
 layout: home
-school: https://campus.molndal.se/yh
-available: Java Java
-codelanguage: C#
-author_url: https://marcusmedina.pro
-has_children: true
-enhance: false
 author_github: https://github.com/marcusjobb
 id: 1e86d3a3-ce3e-4d5e-a261-143930f38baf
+available: Java Java
+has_children: true
+codelanguage: C#
+school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
+enhance: false
 ---
 
 # Asynkron

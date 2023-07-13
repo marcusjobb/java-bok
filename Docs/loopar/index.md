@@ -1,18 +1,19 @@
 ---
 author: Marcus Medina
 title: Loopar
-nav_order: 16
-parent: Home
+nav_order: 12
+parent: Java
+grand_parent: Home
 permalink: loopar/index
 date: 2023-07-02
 layout: default
-school: https://campus.molndal.se/yh
-author_url: https://marcusmedina.pro
-codelanguage: C#
 id: 6dcdd3eb-9705-4329-a68f-cf26522ac4c0
-has_children: true
-enhance: false
 author_github: https://github.com/marcusjobb
+codelanguage: C#
+author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
+enhance: false
+has_children: true
 ---
 
 # Loopar

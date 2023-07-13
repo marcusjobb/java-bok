@@ -1,18 +1,18 @@
 ---
 author: Marcus Medina
 title: Polymorfism
-nav_order: 12
+nav_order: 10
 parent: Objektorienterad programmering (OOP)
-grand_parent: Home
+grand_parent: Java
 permalink: oop/polymorfism/index
 date: 2022-11-19 02:33
 layout: default
-author_url: https://marcusmedina.pro
-has_children: true
 id: 64110526-2c7e-468c-adcc-d695a8c14dc7
-codelanguage: C#
 author_github: https://github.com/marcusjobb
 school: https://campus.molndal.se/yh
+has_children: true
+codelanguage: C#
+author_url: https://marcusmedina.pro
 ---
 
 # Polymorfism

@@ -1,0 +1,38 @@
+---
+author: Marcus Medina
+title: Git
+nav_order: 2
+parent: Ordlista
+grand_parent: Java
+permalink: ordlista/Git
+date: 2022-11-20 02:40
+layout: default
+author_url: https://marcusmedina.pro
+id: cde58042-4d8d-4596-bf4f-8a1b2a0a93cc
+author_github: https://github.com/marcusjobb
+school: https://campus.molndal.se/yh
+codelanguage: C#
+---
+
+# Git Ordlista
+
+| Ord | Förklaring |
+| --- | --- |
+| Repository | En mapp som innehåller alla filer och historiken för en projekt. |
+| Branch | En gren i repot. Det är en ögonblickskopia av repot. |
+| Commit | En commit är en punkt i historiken. Det är en punkt där du sparar dina ändringar. |
+| Push | Att skicka upp ändringar till servern. |
+| Pull | Att hämta ner ändringar från servern. |
+| Merge | Att slå ihop två grenar. |
+| Rebase | Att flytta en gren till en annan gren. |
+| Stash | Att spara undan ändringar som inte är klara. |
+| Checkout | Att byta gren. |
+| Clone | Att kopiera ett repo till din dator. |
+| Fork | Att kopiera ett repo till din github. |
+| Pull request | Att be servern merga två brancher. |
+| Merge conflict | När två grenar har ändrat samma fil på samma ställe. |
+| Remote | En koppling till ett annat repo. |
+| Origin | Det vanligaste namnet på en remote. |
+| Upstream | Det vanligaste namnet på en remote som inte är din. |
+| Fork | Att kopiera ett repo till din github. |
+| Pull request | Att be servern merga två brancher. |

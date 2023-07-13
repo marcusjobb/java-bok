@@ -1,20 +1,20 @@
 ---
 author: Marcus Medina
 title: Åtkomstmoderator
-nav_order: 8
+nav_order: 6
 parent: Objektorienterad programmering (OOP)
-grand_parent: Home
+grand_parent: Java
 permalink: oop/atkomstmoderator/index
 date: 2023-07-02
 layout: default
 school: https://campus.molndal.se/yh
-author_url: https://marcusmedina.pro
+author_github: https://github.com/marcusjobb
 available: Java Java
 id: 07de5481-b270-41bc-a1aa-454cb9158e19
 enhance: false
-has_children: true
+author_url: https://marcusmedina.pro
 codelanguage: C#
-author_github: https://github.com/marcusjobb
+has_children: true
 ---
 
 # Åtkomstmodifikatorer i Java

@@ -1,19 +1,20 @@
 ---
 author: Marcus Medina
 title: Datastrukturer
-nav_order: 18
-parent: Home
+nav_order: 14
+parent: Java
+grand_parent: Home
 permalink: datastrukturer/index
 date: 2023-07-02
 layout: default
-enhance: false
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 5369652b-3134-4966-a7bd-5509534e0d7a
-available: Java Java
-school: https://campus.molndal.se/yh
 has_children: true
 codelanguage: C#
+author_github: https://github.com/marcusjobb
+available: Java Java
+author_url: https://marcusmedina.pro
+enhance: false
+id: 5369652b-3134-4966-a7bd-5509534e0d7a
+school: https://campus.molndal.se/yh
 ---
 
 # Datastrukturer

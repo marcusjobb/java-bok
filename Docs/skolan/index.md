@@ -2,20 +2,21 @@
 author: Marcus Medina
 title: Skolan
 nav_order: 2
-parent: Home
+parent: Java
+grand_parent: Home
 permalink: skolan/index
 date: 2023-06-17 12:56:23
 layout: default
-school: https://campus.molndal.se/yh
 order: 0
+author_url: https://marcusmedina.pro
 updated: 2023-06-17 12:56:23
+author_github: https://github.com/marcusjobb
 company: Campus Mölndal
-id: 9183020b-a472-43ca-96e9-b7bb56583b1d
 category: ["skolan"]
 has_children: true
+school: https://campus.molndal.se/yh
+id: 9183020b-a472-43ca-96e9-b7bb56583b1d
 codelanguage: Java
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
 ---
 
 # Skolan

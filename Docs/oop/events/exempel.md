@@ -2,18 +2,19 @@
 author: Marcus Medina
 title: Exempel
 nav_order: 2
-parent: Events
+parent: Händelser
 grand_parent: Objektorienterad programmering (OOP)
 permalink: oop/events/exempel
 date: 2022-11-20 02:59
 layout: default
-author_url: https://marcusmedina.pro
-enhance: false
 author_github: https://github.com/marcusjobb
-id: 8a0093ea-7628-4da9-a1c7-0cc6ccc60314
 codelanguage: C#
 school: https://campus.molndal.se/yh
+enhance: false
+id: 8a0093ea-7628-4da9-a1c7-0cc6ccc60314
+author_url: https://marcusmedina.pro
 ---
+
 # Bankkonto
 Vi ska skapa ett bankkonto där vi kan sätta in pengar och ta ut pengar. Ett bankkonto är en vanlig komponent i finansiella system och används för att hantera insättningar, uttag och saldo.
 ## Beskrivning

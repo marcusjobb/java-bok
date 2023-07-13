@@ -1,18 +1,20 @@
 ---
 author: Marcus Medina
 title: Filhantering
-nav_order: 22
-parent: Home
+nav_order: 18
+parent: Java
+grand_parent: Home
 permalink: filhantering/index
 date: 2022-11-16 08:38
 layout: default
 school: https://campus.molndal.se/yh
 author_url: https://marcusmedina.pro
+author_github: https://github.com/marcusjobb
 codelanguage: C#
 has_children: true
 id: f4960b36-e538-4fd4-9540-ba446993d975
-author_github: https://github.com/marcusjobb
 ---
+
 # Filhantering
 
 Vi ska skapa en klass och spara den i hårddisken, sedan ska vi läsa in den.

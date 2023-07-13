@@ -2,18 +2,19 @@
 author: Marcus Medina
 title: Exempel
 nav_order: 2
-parent: Delegater
+parent: delegater
 grand_parent: Objektorienterad programmering (OOP)
 permalink: oop/delegater/exempel
 date: 2022-11-20 02:59
 layout: default
-author_url: https://marcusmedina.pro
-enhance: false
 author_github: https://github.com/marcusjobb
-id: e2a625a1-45b1-4d4c-b88b-b868ce6dc947
 codelanguage: C#
 school: https://campus.molndal.se/yh
+enhance: false
+id: e2a625a1-45b1-4d4c-b88b-b868ce6dc947
+author_url: https://marcusmedina.pro
 ---
+
 klass som innehåller en metod för att utföra en beräkning med hjälp av delegater. |
 | Addera      | En metod som tar två heltal som parametrar och returnerar deras summa.        |
 | Subtrahera  | En metod som tar två heltal som parametrar och returnerar deras differens.    |

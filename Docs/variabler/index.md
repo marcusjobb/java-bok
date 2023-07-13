@@ -1,18 +1,19 @@
 ---
 author: Marcus Medina
 title: Variabler
-nav_order: 12
-parent: Home
+nav_order: 8
+parent: Java
+grand_parent: Home
 permalink: variabler/index
 date: 2023-07-02
 layout: default
-id: 7ce3b430-4fa5-4f60-9692-e72bd32370f9
-school: https://campus.molndal.se/yh
-author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-has_children: true
-enhance: false
 codelanguage: Java
+author_github: https://github.com/marcusjobb
+school: https://campus.molndal.se/yh
+id: 7ce3b430-4fa5-4f60-9692-e72bd32370f9
+enhance: false
+has_children: true
 ---
 
 # Variabler

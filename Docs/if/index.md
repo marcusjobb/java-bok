@@ -1,18 +1,19 @@
 ---
 author: Marcus Medina
 title: If
-nav_order: 14
-parent: Home
+nav_order: 10
+parent: Java
+grand_parent: Home
 permalink: if/index
 date: 2023-07-02
 layout: default
-enhance: false
-id: 5b760e63-a63c-4011-983c-e2bef4f658d2
-author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-has_children: true
-codelanguage: C#
 school: https://campus.molndal.se/yh
+author_github: https://github.com/marcusjobb
+id: 5b760e63-a63c-4011-983c-e2bef4f658d2
+enhance: false
+codelanguage: C#
+has_children: true
 ---
 
 # If

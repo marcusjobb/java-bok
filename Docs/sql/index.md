@@ -1,18 +1,19 @@
 ---
 author: Marcus Medina
 title: SQL
-nav_order: 24
-parent: Home
+nav_order: 20
+parent: Java
+grand_parent: Home
 permalink: sql/index
 date: 2022-11-16 08:38
 layout: default
-school: https://campus.molndal.se/yh
-id: 20b3bbb2-1e0d-4056-bca2-4d25ccef8421
-codelanguage: SQL
 author_url: https://marcusmedina.pro
-has_children: true
-enhance: false
 author_github: https://github.com/marcusjobb
+codelanguage: SQL
+id: 20b3bbb2-1e0d-4056-bca2-4d25ccef8421
+school: https://campus.molndal.se/yh
+enhance: false
+has_children: true
 ---
 
 # SQL
