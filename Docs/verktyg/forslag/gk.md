@@ -1,28 +1,22 @@
 ---
+title: Google Keep
 author: Marcus Medina
-title: gk
-nav_order: 4
-parent: Notion
-grand_parent: Verktyg
+date: 2022-11-17 11:01
+lang_supported: ["csharp","java"]
 permalink: verktyg/forslag/gk
-date: 2023-06-17 12:56:23
+tags: ["[google","keep"]
+categories: ["[Förslag","Forslag","Verktyg"]
 layout: default
-id: 88e8ce8a-caa8-42b0-9991-b40882a81bcf
-codelanguage: Java
-order: 9999
-updated: 2023-06-17 12:56:23
-category: ["forslag"]
-company: Campus Mölndal
-author_url: https://marcusmedina.pro
-author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+isverified: true
+nav_order: 3
 ---
-
 # Google Keep
 
 [Installera Google Keep](https://keep.google.com/){: .btn }
 
+*Filen editerades senast 2022-12-09*
 ## Beskrivning
 
-Google Keep är ett program som utvecklats av Google. Det används för att spara anteckningar och är öppen källkod. Det kan liknas vid att ha en digital anslagstavla med virtuella post-it-lappar.
-Programmet är helt gratis att använda.
+Google Keep är ett program som är gjort av Google. 
+Man använder det till att spara anteckningar. Det är och öppen källkod.
+Det är ungefär som att ha en tavla med post-it lappar.

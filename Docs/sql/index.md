@@ -1,37 +1,24 @@
 ---
-author: Marcus Medina
 title: SQL
-nav_order: 20
-parent: Java
-grand_parent: Home
-permalink: sql/index
+author: Marcus Medina
 date: 2022-11-16 08:38
+lang_supported: ["csharp","java"]
+permalink: sql
+tags: ["[sql","sql"]
+categories: ["[Sql","Sql"]
 layout: default
-author_url: https://marcusmedina.pro
-author_github: https://github.com/marcusjobb
-codelanguage: SQL
-id: 20b3bbb2-1e0d-4056-bca2-4d25ccef8421
-school: https://campus.molndal.se/yh
-enhance: false
 has_children: true
+isverified: true
+nav_order: 5
 ---
-
 # SQL
 
-SQL erbjuder många avancerade funktioner och kommandon för att hantera och manipulera data i databaser. Genom att lära dig SQL kan du få en djupare förståelse för databaser och hur man effektivt hanterar och analyserar data.
+SQL står för Structured Query Language och är ett språk som används för att kommunicera med databaser. Det är ett av de mest använda språken i världen.
 
-## Exempel
+*Filen editerades senast 2022-12-09*
+## Referenser
 
-Låt oss titta på ett exempel där vi använder SQL för att skapa en databas och en tabell i SQL-Server.
-
-```sql
-CREATE DATABASE IF NOT EXISTS test;
-USE test;
-
-CREATE TABLE IF NOT EXISTS users (
-    id INT NOT NULL AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    PRIMARY KEY (id)
-);
-```
+- [SQL](https://www.w3schools.com/sql/default.asp)
+- [SQL Cheat Sheet](https://www.w3schools.com/sql/sql_ref_mysql.asp)
+- [SQL Zoo](https://sqlzoo.net/)
+- [SQL Fiddle](https://sqlfiddle.com/)

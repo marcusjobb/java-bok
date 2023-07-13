@@ -1,36 +1,31 @@
 ---
-author: Marcus Medina
 title: Skolan
-nav_order: 2
-parent: Java
-grand_parent: Home
-permalink: skolan/index
-date: 2023-06-17 12:56:23
+author: Marcus Medina
+date: 2022-11-16 08:38
+lang_supported: ["csharp","java"]
+permalink: skolan
+tags: ["[skolan","skolan"]
+categories: ["[Skolan","Skolan"]
 layout: default
-order: 0
-author_url: https://marcusmedina.pro
-updated: 2023-06-17 12:56:23
-author_github: https://github.com/marcusjobb
-company: Campus Mölndal
-category: ["skolan"]
 has_children: true
-school: https://campus.molndal.se/yh
-id: 9183020b-a472-43ca-96e9-b7bb56583b1d
-codelanguage: Java
+isverified: true
+nav_order: 2
 ---
-
 # Skolan
 
-Här är en lista över webbtjänster som används i skolan.
+Här är en lista på webbtjänster vi använder i skolan.
 
-## Skolans webbplatser
+*Filen editerades senast 2022-12-09*
+## Här är skolans webbplatser
 
-- [Campus Mölndals hemsida](https://campus.molndal.se)
-- [LinkedIn](https://www.linkedin.com/school/campus-molndal/)
-- [Instagram](https://www.instagram.com/yh_campusmolndal_it/)
 - [Facebook](https://www.facebook.com/campusmolndal/)
+- [Instagram](https://www.instagram.com/yh_campusmolndal_it/)
+- [Campus Mölndals hemsida](https://campus.molndal.se)
+LinkedIn är ett måste när man vill skapa sig en karriär. Så tveka inte och skapa ett konto. Det är gratis och du kan skapa ett konto med din skolmail.
+
+## Länkar till oss
+
 - [Marcus Medina](https://www.linkedin.com/in/marcusmedina/?locale=sv_SE)
 - [Annika Lund](https://www.linkedin.com/in/annika-lund-profile/)
+- [Campus Mölndal](https://www.linkedin.com/school/campus-molndal/)
 - [#CampusMölndal](https://www.linkedin.com/search/results/all/?keywords=%23campusm%C3%B6lndal&origin=GLOBAL_SEARCH_HEADER&sid=gtu)
-
-LinkedIn är ett måste när du vill bygga upp din karriär. Tveka inte att skapa ett konto. Det är gratis och du kan använda din skolmail för att skapa ett konto.

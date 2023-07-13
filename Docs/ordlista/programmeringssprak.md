@@ -1,19 +1,15 @@
 ---
-author: Marcus Medina
 title: Programmeringsspråk
-nav_order: 6
-parent: Ordlista
-grand_parent: Java
-permalink: ordlista/programmeringssprak
+author: Marcus Medina
 date: 2022-11-20 02:40
+lang_supported: ["csharp","java"]
+permalink: ordlista/programmeringssprak
+tags: ["[programmeringsspråk","ordlista"]
+categories: ["[Ordlista","Ordlista"]
 layout: default
-author_url: https://marcusmedina.pro
-id: f020d8ad-561a-49c9-a99e-53b0641f4b11
-author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
-codelanguage: C#
+isverified: true
+nav_order: 4
 ---
-
 ## Programmeringspråk
 
 | --- | --- |
@@ -48,3 +44,5 @@ codelanguage: C#
 | XML | Extensible Markup Language. |
 | YAML | Yet Another Markup Language. |
 | Yarn | Ett pakethanteringsverktyg. |
+
+*Filen editerades senast 2022-12-09*

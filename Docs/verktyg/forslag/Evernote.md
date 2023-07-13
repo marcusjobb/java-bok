@@ -1,30 +1,21 @@
 ---
-author: Marcus Medina
 title: Evernote
-nav_order: 2
-parent: Notion
-grand_parent: Verktyg
-permalink: verktyg/forslag/Evernote
-date: 2023-06-17 12:56:23
+author: Marcus Medina
+date: 2022-11-16 08:56
+lang_supported: ["csharp","java"]
+permalink: verktyg/forslag/evernote
+tags: ["[evernote","forslag","verktyg"]
+categories: ["[Evernote","Forslag","Verktyg"]
 layout: default
-id: a50b41ac-7a42-4152-a7bc-d05f981c6b23
-codelanguage: Java
-order: 9999
-updated: 2023-06-17 12:56:23
-category: ["forslag"]
-company: Campus Mölndal
-author_url: https://marcusmedina.pro
-author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+isverified: true
+nav_order: 1
 ---
-
 # Evernote
+
 [Installera Evernote](https://evernote.com/intl/sv/download/){: .btn .btn-blue }
 
-Evernote är en programvara som kan användas för att skapa anteckningar, skapa listor och lägga till anteckningar på bilder. Det är enkelt att dela anteckningar med andra. Det finns också en mobilapp som gör det enkelt att skapa anteckningar när du är på språng.
+Evernote är ett program som kan användas för att skriva anteckningar, skapa listor och göra anteckningar om bilder. Det är enkelt att dela med sig av anteckningar till andra. Det finns även en mobilapp som gör det enkelt att skriva anteckningar på språng.
+Det är gratis att skapa ett konto och använda programmet. Men vill man ha mer utrymme eller fler funktioner så får man skaffa ett betalkonto. [Studenter kan få 40 % rabatt på ett årsabonnemang på Evernote Personal.](https://evernote.com/intl/sv/students). 
+Det finns även en [webbversion](https://www.evernote.com/Login.action?targetUrl=%2Fclient%2Fweb) som du kan använda om du inte vill installera programmet på din dator.
 
-Det är gratis att skapa ett konto och använda programvaran. Men om du vill ha mer lagringsutrymme eller fler funktioner kan du uppgradera till en betalversion.
-
-[Studenter kan få 40% rabatt på en årslicens för Evernote Personal.](https://evernote.com/intl/sv/students).
-
-Det finns också en [webbversion](https://www.evernote.com/Login.action?targetUrl=%2Fclient%2Fweb) som du kan använda om du inte vill installera programvaran på din dator.
+*Filen editerades senast 2022-12-09*
