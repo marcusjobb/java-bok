@@ -13,4 +13,4 @@ gem "jekyll-sitemap"
 gem "jekyll-include-cache"
 #gem "jekyll-paginate"
 
-gem 'jekyll-mermaid'
+#gem 'jekyll-mermaid'
