@@ -9,7 +9,6 @@ layout: default
 nav_exclude: true
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-codelanguage: C#
 enhance: false
 has_children: true
 id: 2e766ee8-8856-4d67-a73b-de2409fe778b
