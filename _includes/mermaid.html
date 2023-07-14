@@ -1,9 +1,11 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.forest.min.css">
 <script>
 $(document).ready(function() {
   mermaid.initialize({
     startOnLoad: true,
     htmlLabels: true,
+    theme: 'forest',
     flowchart: { htmlLabels: true },
     sequence: { htmlLabels: true },
     gantt: { htmlLabels: true },
@@ -21,7 +23,7 @@ $(document).ready(function() {
 
       // Replace special characters using regular expressions
       code = code.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-      code += "\n";
+
       try {
         mermaid.mermaidAPI.render('mermaid-' + Math.random(), code, function(svgCode) {
           mermaidDiv.innerHTML = svgCode;
