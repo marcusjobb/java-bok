@@ -8,7 +8,7 @@ date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-available: Java Java
+available: Java
 codelanguage: C#
 enhance: false
 has_children: true
@@ -40,12 +40,11 @@ Exempel:
 
 ```java
 public class Person {
-public String name; // Tillgänglig från alla klasser
-private int age; // Endast tillgänglig från Person-klassen
-protected String address; // Tillgänglig från Person-klassen och dess underklasser
-String phoneNumber; // Endast tillgänglig inom samma paket som Person-klassen
+    public String name; // Tillgänglig från alla klasser
+    private int age; // Endast tillgänglig från Person-klassen
+    protected String address; // Tillgänglig från Person-klassen och dess underklasser
+    String phoneNumber; // Endast tillgänglig inom samma paket som Person-klassen
 }
-
 ```
 
 I exemplet ovan är `name` tillgänglig från alla klasser, `age` är endast tillgänglig från `Person`-klassen, `address` är tillgänglig från `Person`-klassen och dess underklasser, och `phoneNumber` är endast tillgänglig inom samma paket som `Person`-klassen.

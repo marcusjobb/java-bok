@@ -38,8 +38,8 @@ Låt oss titta på ett exempel där vi använder privat för att göra en klassm
 
 ```java
 public class Person {
-private String name;
-private int age;
+    private String name;
+    private int age;
 }
 ```
 
@@ -47,8 +47,15 @@ I detta exempel har vi en klass som heter Person. Vi har också två egenskaper,
 
 Detta innebär att vi inte kan använda dem i klassen Person själv heller. Vi kan inte ens använda dem i en konstruktor i Person-klassen. Detta beror på att privata medlemmar endast är tillgängliga för den klass där de är deklarerade.
 
-_LOL_
+Jaja det är ju bara ett exempel. Det får räcka som Dad-Joke för den här artikeln.
 
-Jaja det är ju bara ett exempel.
-
-Det får räcka som Dad-Joke för idag.
+```
+ ___       _______   ___     
+ |   |     |   _   | |   |    
+ |.  |     |.  |   | |.  |    
+ |.  |___  |.  |   | |.  |___ 
+ |:  1   | |:  1   | |:  1   |
+ |::.. . | |::.. . | |::.. . |
+ `-------' `-------' `-------'
+                              
+```

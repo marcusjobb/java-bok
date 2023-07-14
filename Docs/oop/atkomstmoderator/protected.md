@@ -35,16 +35,23 @@ Protected är som private för alla klasser, utom den som ärver. Klasser kan in
 
 ## Exempel
 
-```java 
+```java
+// Klassen Person ärver inte från någon annan klass
+// Eller ja... den ärver från Objekt, det gör alla klasser :) 
 public class Person {
-protected String name;
+    protected String name;
 }
+
+// Klassen Student ärver från Person och kan därför använda "name"
 public class Student extends Person {
-public Student(String name) {
-this.name = name;
-}
+    public Student(String name) {
+        this.name = name;
+    }
+
+// Klassen Student kan nu använda "name" och skriva ut det
 public void printInfo() {
-System.out.println("Student Info: " + name);
+    System.out.println("Student Info: " + name);
+}
 ```
 
 ## Förklaring

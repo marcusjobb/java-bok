@@ -38,13 +38,13 @@ När koden kompileras kommer alla statiska medlemmar att tilldelas ett gemensamt
 
 ```mermaid
 mindmap
-root((Minnet))
-Instanser av klasser
-Instansvariabler
-Instansmetoder
-Statiskt
-Statiska variabler
-Statiska metoder
+    root((Minnet))
+        Instanser av klasser
+            Instansvariabler
+            Instansmetoder
+        Statiskt
+            Statiska variabler
+            Statiska metoder
 ```
 
 I detta diagram representerar "Minne" den allmänna minnesplatsen där programmet körs.
@@ -60,9 +60,9 @@ Hoppas att detta diagram hjälper till att illustrera hur en statisk metod lägg
 
 ```java
 public class UserSettings {
-public static String UserName;
-public static int Password;
-public static boolean DarkMode = true;
+    public static String UserName;
+    public static int Password;
+    public static boolean DarkMode = true;
 }
 ```
 

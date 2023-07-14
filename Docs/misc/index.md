@@ -15,4 +15,4 @@ school: https://campus.molndal.se/yh
 
 # Övrigt
 
-Här finns några andra ämnen som inte riktigt passar någon annanstans
+Här finns några andra ämnen som inte riktigt passar någon annanstans. Detta kommer att fyllas på med tiden...
