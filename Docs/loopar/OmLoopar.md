@@ -61,7 +61,7 @@ Här är ett exempel på en for-loop som används för att iterera igenom en lis
 ```java
 int[] list = {1, 2, 3, 4, 5};
 for (int i = 0; i < list.length; i++) {
-System.out.println(list[i]);
+    System.out.println(list[i]);
 }
 
 ```

@@ -60,13 +60,13 @@ Här är ett exempel som visar hur man använder en while-loop i Java:
 
 ```java
 public class WhileExample {
-public static void main(String[] args) {
-int count = 0;
-while (count < 5) {
-System.out.println("Count: " + count);
-count++;
-}
-}
+    public static void main(String[] args) {
+        int count = 0;
+        while (count < 5) {
+            System.out.println("Count: " + count);
+            count++;
+        }
+    }
 }
 ```
 

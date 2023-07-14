@@ -290,3 +290,9 @@ Om du vill ha mer inspiration kan du titta på några av följande filmer:
 - [Happy Death day](https://www.imdb.com/title/tt5308322/)
 - [Edge of tomorrow](https://www.imdb.com/title/tt1631867/)
 - [Source code](https://www.imdb.com/title/tt0945513/)
+
+## Obligatorisk dad-joke
+
+Varför gillar programmerare att använda rekursion i skämt?
+
+För att förstå rekursion i skämt måste du först förstå rekursion i skämt.
