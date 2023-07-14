@@ -109,7 +109,7 @@ public String getAddressDetails() {
 return "Address: " + address.getStreet() + ", " + address.getCity() + ", " + address.getState() + ", " + address.getZipCode();
 }
 }
-```	
+```
 
 Här har vi en klass som representerar en person. Den innehåller attribut för namn, ålder och en instans av klassen `Address` för att hantera adressuppgifter. Klassen har också en metod `getAddressDetails()` som returnerar en strängrepresentation av personens adress.
 

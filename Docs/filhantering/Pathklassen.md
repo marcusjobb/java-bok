@@ -1,17 +1,16 @@
 ---
-author: Marcus Medina
 title: Path-klassen
-nav_order: 18
+permalink: filhantering/pathklassen
+nav_order: 12
 parent: Filhantering
-grand_parent: Home
-permalink: filhantering/Pathklassen
+author: Marcus Medina
 date: 2022-11-20 03:49
 layout: default
-author_url: https://marcusmedina.pro
-enhance: false
 author_github: https://github.com/marcusjobb
-id: b907f3be-d890-404d-8133-486e55ab91cc
+author_url: https://marcusmedina.pro
 codelanguage: C#
+enhance: false
+id: b907f3be-d890-404d-8133-486e55ab91cc
 school: https://campus.molndal.se/yh
 ---
 
@@ -64,8 +63,8 @@ Som du kan se ger Path-klassen oss enkla och effektiva verktyg för att hantera 
 
 Oavsett om du behöver slå ihop sökvägar, extrahera information om filer och mappar eller ändra filändelser, kan Path-klassen vara till stor hjälp. Genom att utforska dokumentationen för Path-klassen kan du lära dig mer om de olika metoderna och hur de kan användas för att hantera sökvägar i dina Java-program.
 
-# Path klassen
+# Path-klassen
 
 - [Java Path Documentation](https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html)
 - [Java Path Tutorial](https://www.baeldung.com/java-nio-2-path)
-- 
+-

@@ -29,7 +29,7 @@ Innehållsförteckning
 *Filen editerades senast 2022-12-09*
 ### Skapa en databas
 
-```sql	
+```sql
 CREATE DATABASE databasnamn;
 ```
 

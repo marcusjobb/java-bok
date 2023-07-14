@@ -50,12 +50,12 @@ Detta innebär att vi inte kan använda dem i klassen Person själv heller. Vi k
 Jaja det är ju bara ett exempel. Det får räcka som Dad-Joke för den här artikeln.
 
 ```
- ___       _______   ___     
- |   |     |   _   | |   |    
- |.  |     |.  |   | |.  |    
- |.  |___  |.  |   | |.  |___ 
+ ___       _______   ___
+ |   |     |   _   | |   |
+ |.  |     |.  |   | |.  |
+ |.  |___  |.  |   | |.  |___
  |:  1   | |:  1   | |:  1   |
  |::.. . | |::.. . | |::.. . |
  `-------' `-------' `-------'
-                              
+
 ```

@@ -15,7 +15,7 @@ school: https://campus.molndal.se/yh
 
 # Tabeller
 
-Tabeller är som ett rutnät av data som lagras i en databas. Varje tabell har en eller flera kolumner, och varje rad i tabellen är en post. Varje post har en värde för varje kolumn. En tabell kan ha en primärnyckel, som är en kolumn som är unik för varje post. En tabell kan också ha en eller flera främmande nycklar, som är en kolumn som är kopplad till en annan tabell. 
+Tabeller är som ett rutnät av data som lagras i en databas. Varje tabell har en eller flera kolumner, och varje rad i tabellen är en post. Varje post har en värde för varje kolumn. En tabell kan ha en primärnyckel, som är en kolumn som är unik för varje post. En tabell kan också ha en eller flera främmande nycklar, som är en kolumn som är kopplad till en annan tabell.
 Exemplen här nedanför är för MySQL. Det kan skilja på andra servrar {: warning}
 
 <details open markdown="block">

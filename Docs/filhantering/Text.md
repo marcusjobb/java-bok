@@ -1,7 +1,7 @@
 ---
 title: Text
 permalink: filhantering/text
-nav_order: 12
+nav_order: 10
 parent: Filhantering
 author: Marcus Medina
 date: 2022-11-16 08:38

@@ -1,7 +1,7 @@
 ---
 title: Array övningar
 permalink: datastrukturer/arrayexercises/index
-nav_order: 10
+nav_order: 18
 parent: Datastrukturer
 author: Marcus Medina
 date: 2023-07-04

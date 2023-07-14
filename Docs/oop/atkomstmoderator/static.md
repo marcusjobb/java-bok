@@ -12,6 +12,7 @@ author_url: https://marcusmedina.pro
 available: Java Java
 codelanguage: C#
 id: 507a847c-b7af-4357-9946-7bc110f26aeb
+mermaid: true
 school: https://campus.molndal.se/yh
 ---
 
@@ -36,7 +37,7 @@ Vi kan använda static för att göra en klassmedlem tillhör klassen och inte o
 
 När koden kompileras kommer alla statiska medlemmar att tilldelas ett gemensamt minnesutrymme som delas av alla instanser av klassen. Detta gör att vi kan dela data mellan olika klasser utan att behöva skapa flera instanser av en klass. Detta är användbart om vi vill dela data mellan olika klasser utan att behöva skapa flera instanser av en klass.
 
-```mermaid
+<div class="mermaid">
 mindmap
     root((Minnet))
         Instanser av klasser
@@ -45,7 +46,7 @@ mindmap
         Statiskt
             Statiska variabler
             Statiska metoder
-```
+</div>
 
 I detta diagram representerar "Minne" den allmänna minnesplatsen där programmet körs.
 

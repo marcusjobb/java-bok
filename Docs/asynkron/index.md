@@ -1,7 +1,7 @@
 ---
 title: Asynkron
 permalink: asynkron/index
-nav_order: 130
+nav_order: 140
 parent: Home
 author: Marcus Medina
 date: 2022-11-28 10:23
@@ -101,7 +101,7 @@ public class Main {
             try {
                 // Skapa en URL-anslutning till webbplatsen
                 URL website = new URL(url);
-                // Öppna anslutningen 
+                // Öppna anslutningen
                 URLConnection connection = website.openConnection();
                 // Skapa en BufferedReader för att läsa svaret
                 BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));

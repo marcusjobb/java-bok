@@ -191,7 +191,7 @@ Arv kan tillämpas inom olika områden inom programmering, från grafiska använ
 För att fördjupa dina kunskaper rekommenderar vi att du fortsätter läsa om arv, utforskar mer avancerade koncept som abstrakt arv och gränssnitt och experimenterar med att använda arv i dina egna programmeringsprojekt.
 ## TL;DRArv i Java:
 
-Arv i Java är en princip som möjliggör att en klass kan ärva egenskaper och beteenden från en annan klass. Detta möjliggör kodåteranvändning och skapar en hierarki av klasser. 
+Arv i Java är en princip som möjliggör att en klass kan ärva egenskaper och beteenden från en annan klass. Detta möjliggör kodåteranvändning och skapar en hierarki av klasser.
 För att implementera arv i Java används nyckelordet "extends". En klass kan ärva från en annan klass genom att använda extends-nyckelordet och ange namnet på den överordnade klassen. Klassen som ärver kallas subklassen och den överordnade klassen kallas superklassen.
 Här är ett exempel som visar hur arv fungerar i Java:
 // Superklass

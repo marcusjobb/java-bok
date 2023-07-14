@@ -141,4 +141,3 @@ File-klassen i Java erbjuder enkla och kraftfulla metoder för att hantera filer
 - **writeAllBytes**: En metod i Java File-klassen som skriver en byte-array till en fil med hjälp av `FileOutputStream`.
 - **writeAllLines**: En metod i Java File-klassen som skriver en lista av strängar till en textfil, en sträng per rad. Du kan använda `BufferedWriter` tillsammans med `FileWriter`-klassen för att uppnå detta.
 - **writeAllText**: En metod i Java File-klassen som skriver en sträng till en textfil.
-

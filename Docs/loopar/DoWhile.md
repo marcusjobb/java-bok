@@ -75,4 +75,3 @@ Do While är en loopstruktur i Java som körs minst en gång och sedan fortsätt
 | Loop         | En struktur i programmering som gör att en viss kod kan köras upprepade gånger tills ett visst villkor är uppfyllt. |
 | Iteration    | En enskild körning av kod inuti en loop.                                                                         |
 | Villkor      | Ett uttryck som avgör om en loop ska fortsätta köras eller inte.                                                 |
-

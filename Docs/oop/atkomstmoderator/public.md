@@ -12,8 +12,8 @@ author_url: https://marcusmedina.pro
 available: Java Java
 codelanguage: C#
 id: d2bb99cc-1fe2-44cf-a659-e5803b1a1d72
-school: https://campus.molndal.se/yh
 mermaid: true
+school: https://campus.molndal.se/yh
 ---
 
 # Public

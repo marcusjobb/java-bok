@@ -54,7 +54,7 @@ I detta exempel utvärderar vi en elevs poäng och skriver ut det motsvarande be
 
 Här utvärderar vi input från användaren
 
-```java	
+```java
 import java.util.Scanner;
 
 public class Main {

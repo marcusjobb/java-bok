@@ -202,4 +202,3 @@ CSV-filformatet är ett enkelt och flexibelt sätt att lagra och hantera tabulä
 - [Google Kalender](https://calendar.google.com/)
 - [Outlook Kalender](https://outlook.live.com/calendar/0/view/month)
 - [Google Kalender CSV](https://support.google.com/calendar/answer/37118?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccreate-or-edit-a-csv-file)
-

@@ -37,7 +37,7 @@ Protected är som private för alla klasser, utom den som ärver. Klasser kan in
 
 ```java
 // Klassen Person ärver inte från någon annan klass
-// Eller ja... den ärver från Objekt, det gör alla klasser :) 
+// Eller ja... den ärver från Objekt, det gör alla klasser :)
 public class Person {
     protected String name;
 }

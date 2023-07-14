@@ -194,7 +194,7 @@ Vi kan skapa ett objekt av varje klass och använda deras metoder för att visa 
 
 I exemplet skapar vi en bok, sedan skapar vi en person som heter John Doe och är 30 år gammal. Vi lånar sedan boken till John Doe och visar informationen om boken och medlemmen.
 
-När vi har båda klasserna instansierade kan vi nu tala om för boken att visa sin information och för medlemmen att visa sin information. 
+När vi har båda klasserna instansierade kan vi nu tala om för boken att visa sin information och för medlemmen att visa sin information.
 Vi kan också lägga till en bok till medlemmens lånade böcker och sedan visa informationen om medlemmen igen för att se att boken har lagts till.
 
 ### Output
@@ -209,7 +209,7 @@ Borrowed Books:
 - The Catcher in the Rye
 ```
 
-Så kan vi använda klasserna, `Book` och `Member`, som representerar en bok och en medlem i biblioteket. 
+Så kan vi använda klasserna, `Book` och `Member`, som representerar en bok och en medlem i biblioteket.
 Vi kan skapa objekt av varje klass och använda deras metoder för att visa informationen om boken och medlemmen.
 
 ## Slutsats

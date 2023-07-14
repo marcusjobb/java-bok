@@ -1,7 +1,7 @@
 ---
 title: Filhantering
 permalink: filhantering/index
-nav_order: 126
+nav_order: 136
 parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38
@@ -24,28 +24,28 @@ Vi ska skapa en klass och spara den i hårddisken, sedan ska vi läsa in den.
 class Person{
     String namn;
     int ålder;
-    
+
     public Person(String namn, int ålder){
         this.namn = namn;
         this.ålder = ålder;
     }
-    
+
     public String toString(){
         return "Namn: " + namn + " Ålder:" + ålder;
     }
-    
+
     public String getNamn(){
         return namn;
     }
-    
+
     public int getÅlder(){
         return ålder;
     }
-    
+
     public void setNamn(String namn){
         this.namn = namn;
     }
-    
+
     public void setÅlder(int ålder){
         this.ålder = ålder;
     }

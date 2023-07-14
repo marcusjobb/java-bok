@@ -20,6 +20,6 @@ school: https://campus.molndal.se/yh
 *Filen editerades senast 2022-12-09*
 ## Beskrivning
 
-Git är ett versionhanteringssystem som används för att spara och hantera källkod. Det är ett av de mest använda versionhanteringssystemen i dagens samhälle. Det är ett gratis program som är öppen källkod. 
+Git är ett versionhanteringssystem som används för att spara och hantera källkod. Det är ett av de mest använda versionhanteringssystemen i dagens samhälle. Det är ett gratis program som är öppen källkod.
 Den här installationen är för Windows. För att installera Git på Mac eller Linux, gå till [Git installation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 Du behöver inte den om du bara arbetar med Visual Studio, men ska du in på Console / Terminalen så behöver du det.

@@ -1,7 +1,7 @@
 ---
 title: Variabler
 permalink: variabler/index
-nav_order: 116
+nav_order: 126
 parent: Home
 author: Marcus Medina
 date: 2023-07-02
@@ -12,8 +12,8 @@ codelanguage: Java
 enhance: false
 has_children: true
 id: 7ce3b430-4fa5-4f60-9692-e72bd32370f9
-school: https://campus.molndal.se/yh
 mermaid: true
+school: https://campus.molndal.se/yh
 ---
 
 # Variabler

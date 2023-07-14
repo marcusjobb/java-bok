@@ -48,7 +48,7 @@ public class MainClass {
         // Skriv ut den nya arrayen
         System.out.print("De fem första talen: ");
             printArray(femForsta);
-        
+
         System.out.println();
         }
     private static void printArray(int[] array) {

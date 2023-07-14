@@ -14,7 +14,7 @@ id: d17a2df2-5ed0-4df7-9c1c-5d5cdc74bde4
 school: https://campus.molndal.se/yh
 ---
 
-# JSON
+# Json
 
 JSON är ett textbaserat filformat som används för att lagra och överföra data på ett strukturerat sätt. Det är enklare att läsa och skriva än XML och används ofta inom webbapplikationer. JSON används för att representera data i form av objekt och arrayer, och det är ett populärt filformat som har stöd i olika programmeringsspråk och plattformar.
 
