@@ -2,7 +2,7 @@
 title: Övrigt
 permalink: misc/index
 nav_order: 22
-parent: Java
+parent: Home
 author: Marcus Medina
 date: 2023-07-04
 layout: default

@@ -3,7 +3,7 @@ title: Förslag
 permalink: verktyg/forslag/index
 nav_order: 4
 parent: Verktyg
-grand_parent: Home
+grand_parent: Hem
 author: Marcus Medina
 date: 2022-11-16 08:56
 layout: default

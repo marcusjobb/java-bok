@@ -3,7 +3,7 @@ title: Installation
 permalink: verktyg/installation/index
 nav_order: 2
 parent: Verktyg
-grand_parent: Home
+grand_parent: Hem
 author: Marcus Medina
 date: 2022-11-16 08:32
 layout: default

@@ -2,7 +2,7 @@
 title: Variabler
 permalink: variabler/index
 nav_order: 10
-parent: Java
+parent: Home
 author: Marcus Medina
 date: 2023-07-02
 layout: default

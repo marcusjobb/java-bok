@@ -3,7 +3,7 @@ title: Events
 permalink: oop/events/index
 nav_order: 14
 parent: Objektorienterad programmering (OOP)
-grand_parent: Home
+grand_parent: Hem
 author: Marcus Medina
 date: 2022-11-20 02:59
 layout: default

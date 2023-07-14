@@ -3,7 +3,7 @@ title: Om sidan
 permalink: /Omsidan
 nav_order: 26
 parent: Java
-grand_parent: Home
+grand_parent: Hem
 author: Marcus Medina
 date: 2022-11-16 08:32
 layout: default

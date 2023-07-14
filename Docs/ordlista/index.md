@@ -2,7 +2,7 @@
 title: Ordlista
 permalink: ordlista/index
 nav_order: 8
-parent: Java
+parent: Home
 author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default

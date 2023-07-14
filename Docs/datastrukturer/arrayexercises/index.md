@@ -3,7 +3,7 @@ title: Array övningar
 permalink: datastrukturer/arrayexercises/index
 nav_order: 2
 parent: Datastrukturer
-grand_parent: Home
+grand_parent: Hem
 author: Marcus Medina
 date: 2023-07-04
 layout: default
