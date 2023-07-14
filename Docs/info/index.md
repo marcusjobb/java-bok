@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Info
 permalink: info/index
 nav_order: 150
 parent: Home
@@ -13,7 +13,7 @@ id: b6e4b7c4-c866-47a4-bbff-a2ddd5c7b750
 school: https://campus.molndal.se/yh
 ---
 
-# Index
+# Info
 
 Här kommer jag att posta information om sidan, som t.ex. versionshistorik, användarvillkor, hur man använder den mm.
 

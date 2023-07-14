@@ -16,8 +16,9 @@ school: https://campus.molndal.se/yh
 # Om sidan
 
 Denna sidan skapades för att kunna samla alla dokument på en plats, för att göra det enklare för studenter att hitta material från lektioner och annat.
+
 Skicka gärna in förslag på förbättringar eller nya dokument till mig.
 
-Ni hittar mig på Discord eller skolans mail.
+Ni hittar mig på [Discord](https://discord.com/users/mrmarcus1337) eller [skolans mail](marcus.medina-ramirez@molndal.se).
 
 /Marcus
