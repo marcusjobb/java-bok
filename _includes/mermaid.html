@@ -14,17 +14,15 @@ $(document).ready(function() {
 
   function renderMermaidDiagrams() {
     // Get all elements with class "mermaid"
-    var mermaidDivs = document.querySelectorAll('.mermaid');
+    var mermaidDivs = $('.mermaid');
 
     // Loop through each element and render the Mermaid diagram
-    mermaidDivs.forEach(function(mermaidDiv) {
-      var code = mermaidDiv.innerText || mermaidDiv.textContent;
+    mermaidDivs.each(function(index, mermaidDiv) {
+      var code = $(mermaidDiv).text();
 
-      // Replace special characters using regular expressions
-      code = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
       try {
         mermaid.mermaidAPI.render('mermaid-' + Math.random(), code, function(svgCode) {
-          mermaidDiv.innerHTML = svgCode;
+          $(mermaidDiv).html(svgCode);
         });
       } catch (e) {
         console.error('Error rendering Mermaid diagram:', e);
