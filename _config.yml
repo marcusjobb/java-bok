@@ -94,5 +94,4 @@ font_size:
   base: 16px
   headings: 1.25rem
 
-plugins:
-  - jekyll-mermaid
+gems: [jekyll-mermaid]
