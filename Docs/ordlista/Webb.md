@@ -1,16 +1,19 @@
 ---
 title: Webb
+permalink: ordlista/webb
+nav_order: 10
+parent: Ordlista
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
-lang_supported: ["csharp","java"]
-permalink: ordlista/webb
-tags: ["[webb","ordlista"]
-categories: ["[Ordlista","Ordlista"]
 layout: default
-isverified: true
-nav_order: 6
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 8bf48128-a8b0-47b0-9e69-aff30e458866
+school: https://campus.molndal.se/yh
 ---
-## Webb
+
+# Webb
 
 | Ord | Förklaring |
 | --- | --- |

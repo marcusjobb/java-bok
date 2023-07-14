@@ -1,16 +1,19 @@
 ---
 title: Programmering
+permalink: ordlista/programmering
+nav_order: 4
+parent: Ordlista
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
-lang_supported: ["csharp","java"]
-permalink: ordlista/programmering
-tags: ["[programmering","ordlista"]
-categories: ["[Ordlista","Ordlista"]
 layout: default
-isverified: true
-nav_order: 2
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 14f4554d-47d2-4cbf-af40-51b99cc1956d
+school: https://campus.molndal.se/yh
 ---
-## Programmering
+
+# Programmering
 
 | Ord | Förklaring |
 | --- | --- |
