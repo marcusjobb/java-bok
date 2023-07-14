@@ -28,6 +28,3 @@ Java har en enkel och lättförståelig syntax som gör det till ett idealiskt s
 En av de stora fördelarna med Java är dess stora ekosystem av bibliotek och ramverk. Det finns ett brett utbud av bibliotek för att hjälpa till med allt från grafisk användargränssnittsutveckling till databashantering och nätverksprogrammering. Ramverk som Spring och Hibernate förenklar utvecklingsprocessen och främjar goda designmönster.
 
 Java används inom en mängd olika områden, inklusive webbutveckling, mobilapputveckling, spelutveckling och företagsapplikationer. Det är ett mångsidigt språk som ger utvecklare möjlighet att skapa kraftfulla och skalbara program.
-
-<footer>
-</footer>
