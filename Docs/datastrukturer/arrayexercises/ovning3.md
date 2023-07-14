@@ -34,15 +34,15 @@ Skriv en metod som tar emot en array av strängar och inverterar ordningen på e
 
 ```java
 public class Main {
-public static String[] reverseArray(String[] words) {
-// Implementera kod här
+    public static String[] reverseArray(String[] words) {
+        // Implementera kod här
+    }
+    public static void main(String[] args) {
+        String[] words = { "Katt", "Hund", "Kanin", "Capybara" };
+        String[] reversed = reverseArray(words);
+        System.out.println(String.join(", ", reversed));
+    }
 }
-public static void main(String[] args) {
-String[] words = { "Katt", "Hund", "Kanin", "Capybara" };
-String[] reversed = reverseArray(words);
-System.out.println(String.join(", ", reversed));
-}
-
 ```
 
 ## Förväntad output
@@ -54,14 +54,17 @@ Capybara, Kanin, Hund, Katt
 <details><summary>Klicka här för att se facit</summary>
 
 ```java
-String[] reversed = new String[words.length];
-int index = 0;
-for (int i = words.length - 1; i >= 0; i--) {
-reversed[index] = words[i];
-index++;
+public static String[] reverseArray(String[] words) {
+    String[] reversed = new String[words.length];
+    int index = 0;
+    for (int i = words.length - 1; i >= 0; i--) {
+        reversed[index] = words[i];
+        index++;
+    }
+    return reversed;
 }
-return reversed;
 ```
+
 OBS! Detta kan också lösas med hjälp av metoden `reverse()` i klassen `Collections`:
 
 ```java
@@ -74,9 +77,10 @@ I Java kan du också använda `Arrays`-klassen för att arbeta med arrayer. I de
 
 ```java
 public static String[] reverseArray(String[] words) {
-return Arrays.stream(words)
-.reversed()
-.toArray(String[]::new);
+    return Arrays.stream(words)
+        .reversed()
+        .toArray(String[]::new);
 }
 ```
+
 </details>

@@ -35,15 +35,15 @@ Det är bra om du kan lösa uppgiften utan att använda LINQ. Om du vill kan du 
 
 ```java
 public class Main {
-public static int sumArray(int[] numbers) {
-// Implementera kod här
+    public static int sumArray(int[] numbers) {
+        // Implementera kod här
+    }
+    public static void main(String[] args) {
+        int[] numbers = { 1, 2, 3, 4, 5 };
+        int sum = sumArray(numbers);
+        System.out.println(sum);
+    }
 }
-public static void main(String[] args) {
-int[] numbers = { 1, 2, 3, 4, 5 };
-int sum = sumArray(numbers);
-System.out.println(sum);
-}
-
 ```
 
 #### Förväntad output
@@ -59,7 +59,7 @@ System.out.println(sum);
 ```java
 int sum = 0;
 for (int i = 0; i < numbers.length; i++) {
-sum += numbers[i];
+    sum += numbers[i];
 }
 return sum;
 ```

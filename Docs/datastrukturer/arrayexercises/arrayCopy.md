@@ -33,29 +33,29 @@ I detta exempel visar vi hur du kan plocka ut en del av en array och skapa en ny
 
 ```java
 public class MainClass {
-public static void main(String[] args) {
-// Skapa en array med 10 heltal
-int[] heltal = { 5, 2, 7, 1, 9, 3, 8, 4, 6, 10 };
+    public static void main(String[] args) {
+        // Skapa en array med 10 heltal
+        int[] heltal = { 5, 2, 7, 1, 9, 3, 8, 4, 6, 10 };
 
-// Skriv ut den ursprungliga arrayen
-System.out.print("Siffror: ");
-printArray(heltal);
+        // Skriv ut den ursprungliga arrayen
+        System.out.print("Siffror: ");
+        printArray(heltal);
 
-// Skapa en ny array som innehåller de fem första talen i den ursprungliga arrayen
-int[] femForsta = new int[5];
-System.arraycopy(heltal, 0, femForsta, 0, 5);
+        // Skapa en ny array som innehåller de fem första talen i den ursprungliga arrayen
+        int[] femForsta = new int[5];
+        System.arraycopy(heltal, 0, femForsta, 0, 5);
 
-// Skriv ut den nya arrayen
-System.out.print("De fem första talen: ");
-printArray(femForsta);
-}
-
-private static void printArray(int[] array) {
-for (int num : array) {
-System.out.print(num + " ");
-}
-System.out.println();
-}
+        // Skriv ut den nya arrayen
+        System.out.print("De fem första talen: ");
+            printArray(femForsta);
+        
+        System.out.println();
+        }
+    private static void printArray(int[] array) {
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+    }
 }
 ```
 

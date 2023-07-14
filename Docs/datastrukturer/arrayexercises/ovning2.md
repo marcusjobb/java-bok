@@ -24,13 +24,12 @@ Det är bra om du kan lösa uppgiften utan att använda LINQ. Om du vill kan du 
 
 ```java
 public static int findLargestElement(int[] numbers) {
-// Implementera kod här
+    // Implementera kod här
 }
 // Exempelanvändning
 int[] numbers = { 5, 8, 2, 11, 3 };
 int largest = findLargestElement(numbers);
 System.out.println(largest);
-
 ```
 
 ## Förväntad output
@@ -46,9 +45,9 @@ System.out.println(largest);
 ```java
 int largest = numbers[0];
 for (int i = 1; i < numbers.length; i++) {
-if (numbers[i] > largest) {
-largest = numbers[i];
-}
+    if (numbers[i] > largest) {
+        largest = numbers[i];
+    }
 }
 return largest;
 ```

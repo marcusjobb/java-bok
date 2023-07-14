@@ -44,6 +44,7 @@ int[] numbers = {1, 2, 3, 4, 5};
 Skapa en array med namnet `fruits` som kan hålla 3 fruktnamn. Tilldela värdena "äpple", "banan" och "apelsin" till arrayen.
 
 <details><summary markdown="span">Lösning</summary>
+
 ```java
 String[] fruits = {"äpple", "banan", "apelsin"};
 ```
@@ -74,7 +75,7 @@ Använd en `for`-loop för att skriva ut varje frukt i arrayen `fruits`.
 
 ```java
 for (int i = 0; i < fruits.length; i++) {
-System.out.println(fruits[i]);
+    System.out.println(fruits[i]);
 }
 ```
 
@@ -102,9 +103,9 @@ Skapa en tvådimensionell array med namnet `matrix` som har 3 rader och 3 kolumn
 
 ```java
 int[][] matrix = {
-{1, 2, 3},
-{4, 5, 6},
-{7, 8, 9}};
+    {1, 2, 3},
+    {4, 5, 6},
+    {7, 8, 9}};
 ```
 
 </details>
@@ -117,12 +118,12 @@ Skriv en metod med namnet `containsValue` som tar emot en array av heltal och et
 
 ```java
 public static boolean containsValue(int[] array, int value) {
-for (int i = 0; i < array.length; i++) {
-if (array[i] == value) {
-return true;
-}
-}
-return false;
+    for (int i = 0; i < array.length; i++) {
+        if (array[i] == value) {
+            return true;
+        }
+    }
+    return false;
 }
 ```
 
@@ -136,7 +137,7 @@ Skriv en metod med namnet `sortArray` som tar emot en array av heltal och sorter
 
 ```java
 public static void sortArray(int[] array) {
-Arrays.sort(array);
+    Arrays.sort(array);
 }
 ```
 
@@ -150,9 +151,9 @@ Skriv en metod med namnet `sumArray` som tar emot en array av heltal och returne
 
 ```java
 public static int sumArray(int[] array) {
-int sum = 0;
-sum += array[i];
-return sum;
+    int sum = 0;
+    sum += array[i];
+    return sum;
 }
 ```
 
