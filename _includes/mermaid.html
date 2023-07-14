@@ -3,30 +3,33 @@
 </script>
 <script>
 $(document).ready(function() {
-  function fixMermaid() {
-    // Hämta alla element med class "mermaid"
-    var mermaidDivs = document.querySelectorAll('div.mermaid');
+  mermaid.initialize({
+    startOnLoad: true,
+    htmlLabels: true,
+    flowchart: { htmlLabels: true },
+    sequence: { htmlLabels: true },
+    gantt: { htmlLabels: true },
+    class: { htmlLabels: true },
+    git: { htmlLabels: true },
+  });
 
-    // Loopa genom varje element
+  function renderMermaidDiagrams() {
+    // Get all elements with class "mermaid"
+    var mermaidDivs = document.querySelectorAll('.mermaid');
+
+    // Loop through each element and render the Mermaid diagram
     mermaidDivs.forEach(function(mermaidDiv) {
-      // Hämta innehållet i elementet
-      var content = mermaidDiv.innerHTML;
-
-      // Utför ersättningar
-      content = content.replace(/&amp;gt;/g, '>');
-      content = content.replace(/&amp;lt;/g, '<');
-      content = content.replace(/&gt;/g, '>');
-      content = content.replace(/&lt;/g, '<');
-
-      // Uppdatera innehållet i elementet
-      mermaidDiv.innerHTML = content;  
+      var code = mermaidDiv.innerText || mermaidDiv.textContent;
+      try {
+        mermaid.mermaidAPI.render('mermaid-' + Math.random(), code, function(svgCode) {
+          mermaidDiv.innerHTML = svgCode;
+        });
+      } catch (e) {
+        console.error('Error rendering Mermaid diagram:', e);
+      }
     });
   }
 
-  fixMermaid();
-
-  mermaid.initialize({
-    // Mermaid-initialiseringsalternativ här
-  });
+  renderMermaidDiagrams();
 });
 </Script>
