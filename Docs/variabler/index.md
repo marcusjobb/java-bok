@@ -13,6 +13,7 @@ enhance: false
 has_children: true
 id: 7ce3b430-4fa5-4f60-9692-e72bd32370f9
 school: https://campus.molndal.se/yh
+mermaid: true
 ---
 
 # Variabler
