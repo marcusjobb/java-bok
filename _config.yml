@@ -27,11 +27,12 @@ search_enabled: true
 aux_links_new_tab: true
 
 # Navigation
-nav_sort: case_insensitive # Capital letters sorted before lowercase
+# nav_sort: case_insensitive # Capital letters sorted before lowercase
+nav_sort: natural # natural or asc or desc
 nav_depth: 10
 
 # Navbar footer
-navbar_footer_text: "© 2021 Campus Molndal Education"
+navbar_footer_text: "© 2023 Marcus Medina, Campus Molndal Education"
 
 # Table of contents heading
 toc_heading: Innehåll  
@@ -40,6 +41,7 @@ toc_depth: 10
 # back to top
 back_to_top: true
 back_to_top_text: "Till toppen</a><br><div id=\"google_translate_element\"></div><script type=\"text/javascript\">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'sv'},'google_translate_element');} </script> <script type=\"text/javascript\" src=\"https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script><a>"
+
 # TOC
 toc:
   title: Undersidor
@@ -91,3 +93,6 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 font_size:
   base: 16px
   headings: 1.25rem
+
+plugins:
+  - jekyll-mermaid

@@ -12,3 +12,4 @@ gem "jekyll-sitemap"
 # gem "jekyll-feed"
 gem "jekyll-include-cache"
 #gem "jekyll-paginate"
+gem 'jekyll-mermaid'
