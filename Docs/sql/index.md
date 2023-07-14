@@ -1,16 +1,19 @@
 ---
 title: SQL
+permalink: sql/index
+nav_order: 6
+parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: sql
-tags: ["[sql","sql"]
-categories: ["[Sql","Sql"]
 layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+codelanguage: SQL
 has_children: true
-isverified: true
-nav_order: 5
+id: 7cc43e08-c1d6-47f2-8ff2-4fb589bdb620
+school: https://campus.molndal.se/yh
 ---
+
 # SQL
 
 SQL står för Structured Query Language och är ett språk som används för att kommunicera med databaser. Det är ett av de mest använda språken i världen.

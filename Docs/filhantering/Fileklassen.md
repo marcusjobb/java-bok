@@ -1,23 +1,23 @@
 ---
-author: Marcus Medina
 title: File klassen
+permalink: filhantering/Fileklassen
 nav_order: 4
 parent: Filhantering
 grand_parent: Java
-permalink: filhantering/Fileklassen
+author: Marcus Medina
 date: 2022-11-20 03:49
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: C#
-school: https://campus.molndal.se/yh
 enhance: false
 id: 6d679594-e712-4a30-851e-db2adace5100
-author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
 ---
 
 File-klassen i Java tillhör paketet java.io och erbjuder en mängd användbara metoder för att hantera filer. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Exempel på några av de vanligaste metoderna inkluderar append, copy, delete, exists och read. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program.
 
-## Beskrivning
+# File klassen
 
 File-klassen innehåller ett brett utbud av användbara metoder för filhantering. Här är några av de vanligaste metoderna och deras funktioner:
 
@@ -46,7 +46,7 @@ File-klassen innehåller ett brett utbud av användbara metoder för filhanterin
 - **Files.writeAllBytes**: Skriver en byte-array till en fil.
 - **Files.writeAllLines**: Skriver en array av strängar till en textfil, en sträng per rad.
 - **Files.writeAllText**: Skriver en sträng till en textfil.
-  Dessa metoder ger oss flexibilitet att utföra olika åtgärder på filer, inklusive skapande, läsning, skrivning, flyttning och radering.
+Dessa metoder ger oss flexibilitet att utföra olika åtgärder på filer, inklusive skapande, läsning, skrivning, flyttning och radering.
 
 ## Exempel
 
@@ -59,24 +59,24 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 public class Main {
-    public static void main(String[] args) {
-        String file = "C:\\Temp\\test.txt";
-        // Skapar en fil
-        try {
-            if (!Files.exists(Paths.get(file))) {
-                Files.createFile(Paths.get(file));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        // Skriver till en fil
-            Files.write(Paths.get(file), "Hello World!".getBytes());
-        // Läser innehållet i en fil
-            String text = Files.readString(Paths.get(file));
-            System.out.println(text);
-        // Tar bort en fil
-            Files.delete(Paths.get(file));
-    }
+public static void main(String[] args) {
+String file = "C:\\Temp\\test.txt";
+// Skapar en fil
+try {
+if (!Files.exists(Paths.get(file))) {
+Files.createFile(Paths.get(file));
+}
+} catch (IOException e) {
+e.printStackTrace();
+}
+// Skriver till en fil
+Files.write(Paths.get(file), "Hello World!".getBytes());
+// Läser innehållet i en fil
+String text = Files.readString(Paths.get(file));
+System.out.println(text);
+// Tar bort en fil
+Files.delete(Paths.get(file));
+}
 }
 ```
 

@@ -1,18 +1,18 @@
 ---
-author: Marcus Medina
 title: Json
+permalink: filhantering/Json
 nav_order: 6
 parent: Filhantering
 grand_parent: Java
-permalink: filhantering/Json
+author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: C#
-school: https://campus.molndal.se/yh
 enhance: false
 id: d17a2df2-5ed0-4df7-9c1c-5d5cdc74bde4
-author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
 ---
 
 JSON är ett textbaserat filformat som används för att lagra och överföra data på ett strukturerat sätt. Det är enklare att läsa och skriva än XML och används ofta inom webbapplikationer. JSON används för att representera data i form av objekt och arrayer, och det är ett populärt filformat som har stöd i olika programmeringsspråk och plattformar.
@@ -22,11 +22,11 @@ För att använda Gson-biblioteket behöver du lägga till beroendet i ditt proj
 
 ```xml
 <dependencies>
-    <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-        <version>2.8.7</version>
-    </dependency>
+<dependency>
+<groupId>com.google.code.gson</groupId>
+<artifactId>gson</artifactId>
+<version>2.8.7</version>
+</dependency>
 </dependencies>
 
 ```
@@ -36,30 +36,30 @@ När du har lagt till beroendet kan du använda Gson för att serialisera och de
 ```java
 import com.google.gson.Gson;
 public class Main {
-    public static void main(String[] args) {
-        // Skapa en instans av Gson
-        Gson gson = new Gson();
-        // Serialisera ett Java-objekt till en JSON-sträng
-        Person person = new Person("John Doe", 30);
-        String json = gson.toJson(person);
-        System.out.println(json); // {"name":"John Doe","age":30}
-        // Deserialisera en JSON-sträng till ett Java-objekt
-        String json2 = "{\"name\":\"Jane Smith\",\"age\":25}";
-        Person person2 = gson.fromJson(json2, Person.class);
-        System.out.println(person2.getName()); // Jane Smith
-        System.out.println(person2.getAge()); // 25
-    }
+public static void main(String[] args) {
+// Skapa en instans av Gson
+Gson gson = new Gson();
+// Serialisera ett Java-objekt till en JSON-sträng
+Person person = new Person("John Doe", 30);
+String json = gson.toJson(person);
+System.out.println(json); // {"name":"John Doe","age":30}
+// Deserialisera en JSON-sträng till ett Java-objekt
+String json2 = "{\"name\":\"Jane Smith\",\"age\":25}";
+Person person2 = gson.fromJson(json2, Person.class);
+System.out.println(person2.getName()); // Jane Smith
+System.out.println(person2.getAge()); // 25
+}
 }
 
 class Person {
-    private String name;
-    private int age;
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    public String getName() { return name; }
-    public int getAge() { return age; }
-    }
+private String name;
+private int age;
+public Person(String name, int age) {
+this.name = name;
+this.age = age;
+public String getName() { return name; }
+public int getAge() { return age; }
+}
 }
 ```
 
@@ -68,11 +68,11 @@ JSON är ett kraftfullt verktyg för att hantera data på ett strukturerat sätt
 
 ```xml
 <dependencies>
-    <dependency>
-        <groupId>fasterxml.jackson.core</groupId>
-        <artifactId>jackson-databind</artifactId>
-        <version>2.12.5</version>
-    </dependency>
+<dependency>
+<groupId>fasterxml.jackson.core</groupId>
+<artifactId>jackson-databind</artifactId>
+<version>2.12.5</version>
+</dependency>
 </dependencies>
 ```
 
@@ -94,26 +94,26 @@ Objekt objekt = objectMapper.readValue(json, Objekt.class);
 - Steg 2: Vi skapar en instans av ObjectMapper-klassen. Detta objekt kommer att användas för att utföra serialisering och deserialisering av JSON-data.
 - Steg 3: Vi använder writeValueAsString() metoden för att konvertera ett objekt till JSON. Vi passerar objektet som parameter och metoden returnerar en JSON-sträng.
 - Steg 4: Vi använder readValue() metoden för att konvertera en JSON-sträng till ett objekt. Vi passerar JSON-strängen och den önskade klassen som parameter, och metoden returnerar ett objekt av den klassen.
-  I exemplet ovan använder vi Jackson för att serialisera ett objekt till en JSON-sträng och deserialisera en JSON-sträng till ett objekt. Jackson använder Java Reflection för att konvertera objekt mellan Java och JSON och det gör det enkelt att hantera komplexa datastrukturer.,
-  JSON är ett kraftfullt verktyg för att hantera data på ett strukturerat sätt och det kan vara till stor hjälp i Java-programmering. Med Jackson-biblioteket kan du enkelt arbeta med JSON-data i dina Java-applikationer och utbyta data med externa system som använder JSON som filformat.
+I exemplet ovan använder vi Jackson för att serialisera ett objekt till en JSON-sträng och deserialisera en JSON-sträng till ett objekt. Jackson använder Java Reflection för att konvertera objekt mellan Java och JSON och det gör det enkelt att hantera komplexa datastrukturer.,
+JSON är ett kraftfullt verktyg för att hantera data på ett strukturerat sätt och det kan vara till stor hjälp i Java-programmering. Med Jackson-biblioteket kan du enkelt arbeta med JSON-data i dina Java-applikationer och utbyta data med externa system som använder JSON som filformat.
 
-#### Serialisera JSON-data
+# Json
 
 Först ska vi titta på hur vi kan konvertera Java-objekt till JSON-format (serialisera). Anta att vi har en Java-klass som representerar en Star Wars-karaktär:
 
 ```java
 public class Karaktär {
-    private String namn;
-    private int ålder;
-    private String kön;
+private String namn;
+private int ålder;
+private String kön;
 
-    // Getter och setter-metoder för att få tillgång till variablerna
-    public String getNamn() { return namn; }
-    public int getÅlder() { return ålder; }
-    public String getKön() { return kön; }
-    public void setNamn(String namn) { this.namn = namn; }
-    public void setÅlder(int ålder) { this.ålder = ålder; }
-    public void setKön(String kön) { this.kön = kön; }
+// Getter och setter-metoder för att få tillgång till variablerna
+public String getNamn() { return namn; }
+public int getÅlder() { return ålder; }
+public String getKön() { return kön; }
+public void setNamn(String namn) { this.namn = namn; }
+public void setÅlder(int ålder) { this.ålder = ålder; }
+public void setKön(String kön) { this.kön = kön; }
 }
 ```
 
@@ -132,9 +132,9 @@ Strängen json kommer nu att innehålla följande:
 
 ```json
 {
-  "namn": "Luke Skywalker",
-  "ålder": 25,
-  "kön": "Manlig"
+"namn": "Luke Skywalker",
+"ålder": 25,
+"kön": "Manlig"
 }
 ```
 
@@ -146,9 +146,9 @@ Nästa steg är att titta på hur vi kan konvertera JSON-data till Java-objekt (
 
 ```java
 String json = "{
-  \"namn\": \"Leia Organa\",
-  \"ålder\": 23,
-  \"kön\": \"Kvinnlig\"
+\"namn\": \"Leia Organa\",
+\"ålder\": 23,
+\"kön\": \"Kvinnlig\"
 }";
 ```
 

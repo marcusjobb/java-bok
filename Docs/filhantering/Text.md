@@ -1,29 +1,28 @@
 ---
-author: Marcus Medina
 title: Text
+permalink: filhantering/Text
 nav_order: 12
 parent: Filhantering
 grand_parent: Java
-permalink: filhantering/Text
+author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default
 author_github: https://github.com/marcusjobb
-id: e42c5e7f-dcb8-451f-9026-2ac28dedeb39
 author_url: https://marcusmedina.pro
-school: https://campus.molndal.se/yh
 codelanguage: C#
+id: e42c5e7f-dcb8-451f-9026-2ac28dedeb39
+school: https://campus.molndal.se/yh
 ---
 
-# Textfiler
+# Text
 
 Textfiler är en vanlig filtyp som används för att lagra text. Det är ett textbaserat filformat som används för att lagra data av olika slag.
 
-
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 1. Innehållsförteckning
 {:toc}
 </details>
@@ -37,13 +36,13 @@ String contents = "God morgon Mr Bond! Jag har ett meddelande till dig.";
 String fileName = "Message.txt";
 
 try {
-    FileWriter fileWriter = new FileWriter(fileName);
-    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-    bufferedWriter.write(contents);
-    bufferedWriter.close();
-    System.out.println("Textfilen har skapats.");
+FileWriter fileWriter = new FileWriter(fileName);
+BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+bufferedWriter.write(contents);
+bufferedWriter.close();
+System.out.println("Textfilen har skapats.");
 } catch (IOException e) {
-    System.out.println("Ett fel inträffade vid skapandet av textfilen.");
+System.out.println("Ett fel inträffade vid skapandet av textfilen.");
 }
 ```
 
@@ -53,15 +52,15 @@ För att läsa innehållet i en textfil kan följande kod användas:
 
 ```java
 try {
-    File file = new File("Message.txt");
-    Scanner scanner = new Scanner(file);
-    while (scanner.hasNextLine()) {
-        String contents = scanner.nextLine();
-        System.out.println(contents);
-    }
-    scanner.close();
+File file = new File("Message.txt");
+Scanner scanner = new Scanner(file);
+while (scanner.hasNextLine()) {
+String contents = scanner.nextLine();
+System.out.println(contents);
+}
+scanner.close();
 } catch (FileNotFoundException e) {
-    System.out.println("Textfilen kunde inte hittas.");
+System.out.println("Textfilen kunde inte hittas.");
 }
 ```
 
@@ -78,16 +77,16 @@ names.add("Sisko");
 names.add("Archer");
 
 try {
-    FileWriter fileWriter = new FileWriter("names.txt");
-    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-    for (String name : names) {
-        bufferedWriter.write(name);
-        bufferedWriter.newLine();
-    }
-    bufferedWriter.close();
-    System.out.println("Listan har sparats i textfilen.");
+FileWriter fileWriter = new FileWriter("names.txt");
+BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+for (String name : names) {
+bufferedWriter.write(name);
+bufferedWriter.newLine();
+}
+bufferedWriter.close();
+System.out.println("Listan har sparats i textfilen.");
 } catch (IOException e) {
-    System.out.println("Ett fel inträffade vid sparandet av listan i textfilen.");
+System.out.println("Ett fel inträffade vid sparandet av listan i textfilen.");
 }
 ```
 
@@ -99,15 +98,15 @@ För att läsa innehållet från en textfil och spara det i en lista kan följan
 List<String> names = new ArrayList<>();
 
 try {
-    File file = new File("names.txt");
-    Scanner scanner = new Scanner(file);
-    while (scanner.hasNextLine()) {
-        String name = scanner.nextLine();
-        names.add(name);
-    }
-    scanner.close();
+File file = new File("names.txt");
+Scanner scanner = new Scanner(file);
+while (scanner.hasNextLine()) {
+String name = scanner.nextLine();
+names.add(name);
+}
+scanner.close();
 } catch (FileNotFoundException e) {
-    System.out.println("Textfilen kunde inte hittas.");
+System.out.println("Textfilen kunde inte hittas.");
 }
 ```
 
@@ -126,14 +125,14 @@ String contents = "James Bond, din uppgift är enkel men avgörande: Sök upp de
 String fileName = "Message.txt";
 
 try {
-    FileWriter fileWriter = new FileWriter(fileName, true);
-    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-    bufferedWriter.newLine();
-    bufferedWriter.write(contents);
-    bufferedWriter.close();
-    System.out.println("Texten har lagts till i textfilen.");
+FileWriter fileWriter = new FileWriter(fileName, true);
+BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+bufferedWriter.newLine();
+bufferedWriter.write(contents);
+bufferedWriter.close();
+System.out.println("Texten har lagts till i textfilen.");
 } catch (IOException e) {
-    System.out.println("Ett fel inträffade vid tillägg av texten i textfilen.");
+System.out.println("Ett fel inträffade vid tillägg av texten i textfilen.");
 }
 ```
 
@@ -148,13 +147,13 @@ String message = "Message deducted.";
 String fileName = "Message.txt";
 
 try {
-    FileWriter fileWriter = new FileWriter(fileName);
-    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-    bufferedWriter.write(message);
-    bufferedWriter.close();
-    System.out.println("Textfilen har skrivits över.");
+FileWriter fileWriter = new FileWriter(fileName);
+BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+bufferedWriter.write(message);
+bufferedWriter.close();
+System.out.println("Textfilen har skrivits över.");
 } catch (IOException e) {
-    System.out.println("Ett fel inträffade vid skrivning över textfilen.");
+System.out.println("Ett fel inträffade vid skrivning över textfilen.");
 }
 ```
 
@@ -166,14 +165,14 @@ För att radera en textfil kan följande kod användas:
 String fileName = "Message.txt";
 
 try {
-    File file = new File(fileName);
-    if (file.delete()) {
-        System.out.println("Textfilen har raderats.");
-    } else {
-        System.out.println("Kunde inte radera textfilen.");
-    }
+File file = new File(fileName);
+if (file.delete()) {
+System.out.println("Textfilen har raderats.");
+} else {
+System.out.println("Kunde inte radera textfilen.");
+}
 } catch (Exception e) {
-    System.out.println("Ett fel inträffade vid radering av textfilen.");
+System.out.println("Ett fel inträffade vid radering av textfilen.");
 }
 ```
 
@@ -183,15 +182,15 @@ För att läsa innehållet i en textfil från en URL kan följande kod användas
 
 ```java
 try {
-    URL url = new URL("https://minwebbsida/text.txt");
-    Scanner scanner = new Scanner(url.openStream());
-    while (scanner.hasNextLine()) {
-        String contents = scanner.nextLine();
-        System.out.println(contents);
-    }
-    scanner.close();
+URL url = new URL("https://minwebbsida/text.txt");
+Scanner scanner = new Scanner(url.openStream());
+while (scanner.hasNextLine()) {
+String contents = scanner.nextLine();
+System.out.println(contents);
+}
+scanner.close();
 } catch (IOException e) {
-    System.out.println("Ett fel inträffade vid läsning av textfilen.");
+System.out.println("Ett fel inträffade vid läsning av textfilen.");
 }
 ```
 
@@ -199,12 +198,12 @@ try {
 
 ```
 try {
-    URL url = new URL("https://minwebbsida/text.txt");
-    InputStream inputStream = url.openStream();
-    Files.copy(inputStream, Paths.get("text.txt"), StandardCopyOption.REPLACE_EXISTING);
-    System.out.println("Textfilen har sparats.");
+URL url = new URL("https://minwebbsida/text.txt");
+InputStream inputStream = url.openStream();
+Files.copy(inputStream, Paths.get("text.txt"), StandardCopyOption.REPLACE_EXISTING);
+System.out.println("Textfilen har sparats.");
 } catch (IOException e) {
-    System.out.println("Ett fel inträffade vid sparande av textfilen.");
+System.out.println("Ett fel inträffade vid sparande av textfilen.");
 }
 ```
 

@@ -1,15 +1,18 @@
 ---
 title: Git installation
+permalink: verktyg/installation/Gitinstallation
+nav_order: 4
+parent: Installation
+grand_parent: Verktyg
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: verktyg/installation/gitinstallation
-tags: ["[git","installation"]
-categories: ["[Installation","Installation","Verktyg"]
 layout: default
-isverified: true
-nav_order: 4
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 8ef98c0c-108c-4ede-ac37-e2a13c120c53
+school: https://campus.molndal.se/yh
 ---
+
 # Git installation
 
 [Installera Git](https://git-scm.com/){: .btn }

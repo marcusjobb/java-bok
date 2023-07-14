@@ -1,18 +1,17 @@
 ---
-author: Marcus Medina
 title: Datastrukturer
-nav_order: 14
-parent: Java
-grand_parent: Home
 permalink: datastrukturer/index
+nav_order: 16
+parent: Java
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-has_children: true
-codelanguage: C#
 author_github: https://github.com/marcusjobb
-available: Java Java
 author_url: https://marcusmedina.pro
+available: Java Java
+codelanguage: C#
 enhance: false
+has_children: true
 id: 5369652b-3134-4966-a7bd-5509534e0d7a
 school: https://campus.molndal.se/yh
 ---
@@ -20,10 +19,10 @@ school: https://campus.molndal.se/yh
 # Datastrukturer
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 1. TOC
 {:toc}
 </details>
@@ -100,13 +99,13 @@ En HashSet är en datastruktur som lagrar unika element utan någon specifik ord
 ```java
 import java.util.HashSet;
 public class Main {
-    public static void main(String[] args) {
-        HashSet<String> villains = new HashSet<String>();
-        villains.add("Joker");
-        villains.add("Loki");
-        villains.add("Green Goblin");
-        System.out.println(villains.size());  // Output: 3
-    }
+public static void main(String[] args) {
+HashSet<String> villains = new HashSet<String>();
+villains.add("Joker");
+villains.add("Loki");
+villains.add("Green Goblin");
+System.out.println(villains.size());  // Output: 3
+}
 }
 ```
 
@@ -129,7 +128,7 @@ Exemplen ovan är inte alla datastrukturer som finns. Artikeln fokuserar på nå
 - Set: En datastruktur som lagrar unika element utan någon specifik ordning. Set kan användas för att utföra olika mängdoperationer som union, snitt och differens.
 - Stack: En datastruktur som följer principen "last in, first out" (LIFO), vilket innebär att det senast tillagda elementet är det första som tas bort. Stackar används ofta för att hantera återuppringningsinformation i funktioner eller för att utvärdera uttryck i matematiska uttryck.
 - Queue: En datastruktur som följer principen "first in, first out" (FIFO), vilket innebär att det första tillagda elementet är det första som tas bort. Köer används ofta för att hantera processer och trådar eller för att implementera buffertar i kommunikationssystem.
-  Dessa är bara några exempel på datastrukturer som du kan lära dig mer om. Varje datastruktur har sina egna unika egenskaper och användningsområden, och det kan vara värdefullt att utforska dem för att utöka din kunskap om datastrukturer och deras tillämpningar.
+Dessa är bara några exempel på datastrukturer som du kan lära dig mer om. Varje datastruktur har sina egna unika egenskaper och användningsområden, och det kan vara värdefullt att utforska dem för att utöka din kunskap om datastrukturer och deras tillämpningar.
 
 ## Referenser
 

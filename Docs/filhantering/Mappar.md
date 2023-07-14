@@ -1,21 +1,21 @@
 ---
-author: Marcus Medina
 title: Mappar
+permalink: filhantering/Mappar
 nav_order: 8
 parent: Filhantering
 grand_parent: Java
-permalink: filhantering/Mappar
+author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: C#
-school: https://campus.molndal.se/yh
 enhance: false
 id: d9b6691e-809d-4120-a82c-9519704a9b13
-author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
 ---
 
-## Mappar
+# Mappar
 
 I detta kodexempel använder vi klassen `File` från `java.io`-paketet för att kontrollera, skapa och radera mappar i Java-programmet.
 
@@ -23,40 +23,40 @@ I detta kodexempel använder vi klassen `File` från `java.io`-paketet för att 
 import java.io.File;
 
 public class MapparExempel {
-    public static void main(String[] args) {
-        // Kontrollera om en mapp finns
-        String mappSokvag = "C:\\exempel\\mapp";
-        File mapp = new File(mappSokvag);
-        if (mapp.exists()) {
-            System.out.println("Mappen finns.");
-        } else {
-            System.out.println("Mappen finns inte.");
-        }
+public static void main(String[] args) {
+// Kontrollera om en mapp finns
+String mappSokvag = "C:\\exempel\\mapp";
+File mapp = new File(mappSokvag);
+if (mapp.exists()) {
+System.out.println("Mappen finns.");
+} else {
+System.out.println("Mappen finns inte.");
+}
 
-        // Skapa en mapp
-        String nyMappSokvag = "C:\\exempel\\ny_mapp";
-        File nyMapp = new File(nyMappSokvag);
-        if (!nyMapp.exists()) {
-            if (nyMapp.mkdir()) {
-                System.out.println("Mappen har skapats.");
-            } else {
-                System.out.println("Kunde inte skapa mappen.");
-            }
-        } else {
-            System.out.println("Mappen finns redan.");
-        }
+// Skapa en mapp
+String nyMappSokvag = "C:\\exempel\\ny_mapp";
+File nyMapp = new File(nyMappSokvag);
+if (!nyMapp.exists()) {
+if (nyMapp.mkdir()) {
+System.out.println("Mappen har skapats.");
+} else {
+System.out.println("Kunde inte skapa mappen.");
+}
+} else {
+System.out.println("Mappen finns redan.");
+}
 
-        // Radera en mapp
-        String raderaMappSokvag = "C:\\exempel\\att_radera";
-        File raderaMapp = new File(raderaMappSokvag);
-        if (raderaMapp.exists()) {
-            if (raderaMapp.delete()) {
-                System.out.println("Mappen har raderats.");
-            } else {
-                System.out.println("Kunde inte radera mappen.");
-            }
-        }
-    }
+// Radera en mapp
+String raderaMappSokvag = "C:\\exempel\\att_radera";
+File raderaMapp = new File(raderaMappSokvag);
+if (raderaMapp.exists()) {
+if (raderaMapp.delete()) {
+System.out.println("Mappen har raderats.");
+} else {
+System.out.println("Kunde inte radera mappen.");
+}
+}
+}
 }
 ```
 

@@ -1,22 +1,26 @@
 ---
 title: Databaser
+permalink: sql/Databas
+nav_order: 4
+parent: SQL
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: sql/databas
-tags: ["[databas","databaser"]
-categories: ["[Databas","Sql"]
 layout: default
-isverified: true
-nav_order: 7
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+codelanguage: SQL
+id: 746d40c2-7cab-4bca-8dc7-4c2448016690
+school: https://campus.molndal.se/yh
 ---
-## Databaser
+
+# Databaser
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 
 1. TOC
 {:toc}

@@ -1,29 +1,29 @@
 ---
-author: Marcus Medina
 title: Private
-nav_order: 2
-parent: Åtkomstmodifikatorer i Java
-grand_parent: Objektorienterad programmering (OOP)
 permalink: oop/atkomstmoderator/private
+nav_order: 2
+parent: Åtkomstmoderator
+grand_parent: Objektorienterad programmering (OOP)
+author: Marcus Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
-available: Java Java
 author_url: https://marcusmedina.pro
-id: 0877ab58-f979-45b5-b917-1d358745b609
+available: Java Java
 codelanguage: C#
+id: 0877ab58-f979-45b5-b917-1d358745b609
 school: https://campus.molndal.se/yh
 ---
 
-## Privat
+# Private
 
 Privat är en åtkomstmodifikator som gör att en klassmedlem endast är tillgänglig för den klass där den är deklarerad.
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 1. TOC
 {:toc}
 </details>
@@ -38,8 +38,8 @@ Låt oss titta på ett exempel där vi använder privat för att göra en klassm
 
 ```java
 public class Person {
-    private String name;
-    private int age;
+private String name;
+private int age;
 }
 ```
 

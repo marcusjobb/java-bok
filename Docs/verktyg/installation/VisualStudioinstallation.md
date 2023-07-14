@@ -1,15 +1,18 @@
 ---
 title: Visual Studio installation
+permalink: verktyg/installation/VisualStudioinstallation
+nav_order: 2
+parent: Installation
+grand_parent: Verktyg
 author: Marcus Medina
 date: 2022-11-16 08:32
-lang_supported: ["csharp","java"]
-permalink: verktyg/installation/visualstudioinstallation
-tags: ["[visual","installation","microsoft","studio"]
-categories: ["[Installation","Installation","Verktyg"]
 layout: default
-isverified: true
-nav_order: 3
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 4df02d53-838d-4d34-91fb-c4d6bcc4aefe
+school: https://campus.molndal.se/yh
 ---
+
 # Visual Studio installation
 
 [Installera Visual Studio](https://visualstudio.microsoft.com/){: .btn }

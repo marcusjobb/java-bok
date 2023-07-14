@@ -1,18 +1,18 @@
 ---
-author: Marcus Medina
 title: Polymorfism
+permalink: oop/polymorfism/index
 nav_order: 10
 parent: Objektorienterad programmering (OOP)
-grand_parent: Java
-permalink: oop/polymorfism/index
+grand_parent: Home
+author: Marcus Medina
 date: 2022-11-19 02:33
 layout: default
-id: 64110526-2c7e-468c-adcc-d695a8c14dc7
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
-has_children: true
-codelanguage: C#
 author_url: https://marcusmedina.pro
+codelanguage: C#
+has_children: true
+id: 64110526-2c7e-468c-adcc-d695a8c14dc7
+school: https://campus.molndal.se/yh
 ---
 
 # Polymorfism
@@ -20,10 +20,10 @@ author_url: https://marcusmedina.pro
 Polymorfism kommer från grekiskans poly = många och morphe = form. Det är en av de viktigaste egenskaperna i objektorienterad programmering.
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 1. TOC
 {:toc}
 </details>

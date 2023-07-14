@@ -1,31 +1,31 @@
 ---
-author: Marcus Medina
 title: Loopar i C#
+permalink: loopar/OmLoopar
 nav_order: 4
 parent: Loopar
 grand_parent: Java
-permalink: loopar/OmLoopar
+author: Marcus Medina
 date: 2023-07-02
-layout: default
 language: Svenska
-enhance: false
-school: https://campus.molndal.se/yh
-has_children: true
-codelanguage: C#
+layout: default
 author_github: https://github.com/marcusjobb
-id: a04361e4-591b-4d7b-b9ba-8f6975cf1170
 author_url: https://marcusmedina.pro
+codelanguage: C#
+enhance: false
+has_children: true
+id: a04361e4-591b-4d7b-b9ba-8f6975cf1170
+school: https://campus.molndal.se/yh
 ---
 
-# Loopar i Java
+# Loopar i C#
 
 Loopar är ett mycket användbart verktyg inom Java-programmering för att automatisera processer, förbättra prestanda och lösa komplexa problem. Genom att använda lämpliga loopar kan vi iterera över listor, utföra beräkningar och hantera användarinmatning. Det är viktigt att vara medveten om begränsningarna och utmaningarna vid användning av loopar och implementera dem korrekt för att undvika potentiella problem.
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 1. TOC
 {:toc}
 </details>

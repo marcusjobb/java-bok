@@ -1,18 +1,18 @@
 ---
-author: Marcus Medina
 title: Plugins
+permalink: oop/polymorfism/interfaces/plugins
 nav_order: 2
 parent: Interfaces
 grand_parent: Polymorfism
-permalink: oop/polymorfism/interfaces/plugins
+author: Marcus Medina
 date: 2022-11-20
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: C#
-school: https://campus.molndal.se/yh
 enhance: false
 id: c0155fa9-1c24-4fe8-a452-221be5b112a8
-author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
 ---
 
 # Plugins
@@ -41,7 +41,7 @@ Vi börjar med att definiera ett gränssnitt (interface) som beskriver den gemen
 
 ```java
 public interface Plugin {
-    void run();
+void run();
 }
 ```
 
@@ -53,27 +53,27 @@ Nästa steg är att implementera olika plugins genom att skapa klasser som imple
 
 ```java
 public class MarvelPlugin implements Plugin {
-    @Override
-    public void run() {
-        System.out.println("Kör Marvel-pluginet...");
-        // Implementera Marvel-specifik funktionalitet här
-    }
+@Override
+public void run() {
+System.out.println("Kör Marvel-pluginet...");
+// Implementera Marvel-specifik funktionalitet här
+}
 }
 
 public class DCPlugin implements Plugin {
-    @Override
-    public void run() {
-        System.out.println("Kör DC-pluginet...");
-        // Implementera DC-specifik funktionalitet här
-    }
+@Override
+public void run() {
+System.out.println("Kör DC-pluginet...");
+// Implementera DC-specifik funktionalitet här
+}
 }
 
 public class StarWarsPlugin implements Plugin {
-    @Override
-    public void run() {
-        System.out.println("Kör Star Wars-pluginet...");
-        // Implementera Star Wars-specifik funktionalitet här
-    }
+@Override
+public void run() {
+System.out.println("Kör Star Wars-pluginet...");
+// Implementera Star Wars-specifik funktionalitet här
+}
 }
 ```
 
@@ -88,31 +88,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Application {
-    private List<Plugin> plugins;
+private List<Plugin> plugins;
 
-    public Application() {
-        plugins = new ArrayList<>();
-    }
+public Application() {
+plugins = new ArrayList<>();
+}
 
-    public void loadPlugins() {
-        // Ladda alla plugins från en viss mapp eller konfiguration
-        // Till exempel kan vi lägga till MarvelPlugin, DCPlugin och StarWarsPlugin i plugins-listan
-        plugins.add(new MarvelPlugin());
-        plugins.add(new DCPlugin());
-        plugins.add(new StarWarsPlugin());
-    }
+public void loadPlugins() {
+// Ladda alla plugins från en viss mapp eller konfiguration
+// Till exempel kan vi lägga till MarvelPlugin, DCPlugin och StarWarsPlugin i plugins-listan
+plugins.add(new MarvelPlugin());
+plugins.add(new DCPlugin());
+plugins.add(new StarWarsPlugin());
+}
 
-    public void runPlugins() {
-        for (Plugin plugin : plugins) {
-            plugin.run();
-        }
-    }
+public void runPlugins() {
+for (Plugin plugin : plugins) {
+plugin.run();
+}
+}
 
-    public static void main(String[] args) {
-        Application app = new Application();
-        app.loadPlugins();
-        app.runPlugins();
-    }
+public static void main(String[] args) {
+Application app = new Application();
+app.loadPlugins();
+app.runPlugins();
+}
 }
 ```
 

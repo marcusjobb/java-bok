@@ -1,16 +1,16 @@
 ---
-author: Marcus Medina
 title: Komposition över arv
+permalink: oop/compbeforeinherit
 nav_order: 12
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
-permalink: oop/compbeforeinherit
+author: Marcus Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
-enhance: false
-codelanguage: C#
 author_url: https://marcusmedina.pro
+codelanguage: C#
+enhance: false
 id: 4cf54a57-e5a6-4d7b-8139-cb22ebe9a554
 school: https://campus.molndal.se/yh
 ---
@@ -21,21 +21,21 @@ För att förstå hur man implementerar "Komposition över Arv" i praktiken, lå
 
 ```java
 public class Character {
-    private String name;
-    private Weapon weapon;
-    
-    public Character(String name, Weapon weapon) {
-        this.name = name;
-        this.weapon = weapon;
-    }
-    
-    public void attack() {
-        if (weapon != null) {
-            weapon.use();
-        } else {
-            System.out.println(name + " has no weapon.");
-        }
-    }
+private String name;
+private Weapon weapon;
+
+public Character(String name, Weapon weapon) {
+this.name = name;
+this.weapon = weapon;
+}
+
+public void attack() {
+if (weapon != null) {
+weapon.use();
+} else {
+System.out.println(name + " has no weapon.");
+}
+}
 }
 
 ```
@@ -46,21 +46,21 @@ Nu ska vi skapa vapen.
 
 ```java
 public interface Weapon {
-    void use();
+void use();
 }
 
 public class Lightsaber implements Weapon {
-    @Override
-    public void use() {
-        System.out.println("Swinging lightsaber!");
-    }
+@Override
+public void use() {
+System.out.println("Swinging lightsaber!");
+}
 }
 
 public class Blaster implements Weapon {
-    @Override
-    public void use() {
-        System.out.println("Shooting blaster!");
-    }
+@Override
+public void use() {
+System.out.println("Shooting blaster!");
+}
 }
 ```
 
@@ -74,18 +74,18 @@ För att använda detta i vår applikation kan vi skapa instanser av `Character`
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        Weapon lightsaber = new Lightsaber();
-        Character jedi = new Character("Luke Skywalker", lightsaber);
-        jedi.attack(); // Output: Swinging lightsaber!
-        
-        Weapon blaster = new Blaster();
-        Character bountyHunter = new Character("Boba Fett", blaster);
-        bountyHunter.attack(); // Output: Shooting blaster!
-        
-        Character padawan = new Character("Ahsoka Tano", null);
-        padawan.attack(); // Output: Ahsoka Tano has no weapon.
-    }
+public static void main(String[] args) {
+Weapon lightsaber = new Lightsaber();
+Character jedi = new Character("Luke Skywalker", lightsaber);
+jedi.attack(); // Output: Swinging lightsaber!
+
+Weapon blaster = new Blaster();
+Character bountyHunter = new Character("Boba Fett", blaster);
+bountyHunter.attack(); // Output: Shooting blaster!
+
+Character padawan = new Character("Ahsoka Tano", null);
+padawan.attack(); // Output: Ahsoka Tano has no weapon.
+}
 }
 ```
 

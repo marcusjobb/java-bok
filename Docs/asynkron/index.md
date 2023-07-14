@@ -1,20 +1,19 @@
 ---
-author: Marcus Medina
 title: Asynkron
+permalink: asynkron/index
 nav_order: 24
 parent: Java
-grand_parent: Home
-permalink: asynkron/index
+author: Marcus Medina
 date: 2022-11-28 10:23
 layout: home
 author_github: https://github.com/marcusjobb
-id: 1e86d3a3-ce3e-4d5e-a261-143930f38baf
-available: Java Java
-has_children: true
-codelanguage: C#
-school: https://campus.molndal.se/yh
 author_url: https://marcusmedina.pro
+available: Java Java
+codelanguage: C#
 enhance: false
+has_children: true
+id: 1e86d3a3-ce3e-4d5e-a261-143930f38baf
+school: https://campus.molndal.se/yh
 ---
 
 # Asynkron
@@ -89,30 +88,30 @@ Här är ett exempel på hur man kan använda asynkrona metoder i Java:
 
 ```java
 public static CompletableFuture<String> getAsync(String url) {
-    return CompletableFuture.supplyAsync(() -> {
-        try {
-            URL website = new URL(url);
-            URLConnection connection = website.openConnection();
-            BufferedReader in = new BufferedReader(
-                           new InputStreamReader(
-                           connection.getInputStream()));
-            StringBuilder response = new StringBuilder();
+return CompletableFuture.supplyAsync(() -> {
+try {
+URL website = new URL(url);
+URLConnection connection = website.openConnection();
+BufferedReader in = new BufferedReader(
+new InputStreamReader(
+connection.getInputStream()));
+StringBuilder response = new StringBuilder();
 
-            String inputLine;
-            while ((inputLine = in.readLine()) != null)
-               response.append(inputLine);
-            in.close();
-            return response.toString();
-       } catch (IOException e) {
-           e.printStackTrace();
-           return null;
-       }
-    });
+String inputLine;
+while ((inputLine = in.readLine()) != null)
+response.append(inputLine);
+in.close();
+return response.toString();
+} catch (IOException e) {
+e.printStackTrace();
+return null;
+}
+});
 }
 
 public static void main(String[] args) {
-    CompletableFuture<String> result = getAsync("https://www.google.com");
-    System.out.println(result.get());
+CompletableFuture<String> result = getAsync("https://www.google.com");
+System.out.println(result.get());
 ```
 
 I exemplet ovan definieras en asynkron metod `getAsync` som hämtar data från en given URL. Metoden använder `CompletableFuture` för att göra ett asynkront HTTP-anrop och returnerar innehållet som en sträng.

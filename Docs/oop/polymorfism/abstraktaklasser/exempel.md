@@ -1,30 +1,30 @@
 ---
-author: Marcus Medina
 title: Exempel
+permalink: oop/polymorfism/abstraktaklasser/exempel
 nav_order: 2
 parent: Abstrakta klasser
 grand_parent: Polymorfism
-permalink: oop/polymorfism/abstraktaklasser/exempel
+author: Marcus Medina
 date: 2022-11-20 01:27
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: Java
-school: https://campus.molndal.se/yh
 enhance: false
 id: 7b2a61ca-28e9-4efe-9104-3c808ba4b9f1
-author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
 ---
 
-# Exempel - Webscraping
+# Exempel
 
 I den här artikeln ska vi titta på hur man skapar en abstrakt klass med abstrakta och virtuella metoder i Java.
 
 För detta behöver vi Maven libraryn JSOUP 1.14.3 eller nyare.
 
 <dependency>
-    <groupId>org.jsoup</groupId>
-    <artifactId>jsoup</artifactId>
-    <version>1.14.3</version>
+<groupId>org.jsoup</groupId>
+<artifactId>jsoup</artifactId>
+<version>1.14.3</version>
 </dependency>
 
 ## Beskrivning
@@ -71,118 +71,118 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class WebScraper {
-    private String url = "";
-    private String title = "";
-    private String description = "";
-    private String tags = "";
-    private Document htmlDocument = null;
+private String url = "";
+private String title = "";
+private String description = "";
+private String tags = "";
+private Document htmlDocument = null;
 
-    public String getUrl() {
-        return url;
-    }
+public String getUrl() {
+return url;
+}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+public void setUrl(String url) {
+this.url = url;
+}
 
-    public String getTitle() {
-        return title;
-    }
+public String getTitle() {
+return title;
+}
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
+public void setTitle(String title) {
+this.title = title;
+}
 
-    public String getDescription() {
-        return description;
-    }
+public String getDescription() {
+return description;
+}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+public void setDescription(String description) {
+this.description = description;
+}
 
-    public String getTags() {
-        return tags;
-    }
+public String getTags() {
+return tags;
+}
 
-    public void setTags(String tags) {
-        this.tags = tags;
-    }
+public void setTags(String tags) {
+this.tags = tags;
+}
 
-    public Document getHtmlDocument() {
-        return htmlDocument;
-    }
+public Document getHtmlDocument() {
+return htmlDocument;
+}
 
-    public void setHtmlDocument(Document htmlDocument) {
-        this.htmlDocument = htmlDocument;
-    }
+public void setHtmlDocument(Document htmlDocument) {
+this.htmlDocument = htmlDocument;
+}
 
-    public String getHtml() {
-        return htmlDocument != null ? htmlDocument.outerHtml() :;
-    }
+public String getHtml() {
+return htmlDocument != null ? htmlDocument.outerHtml() :;
+}
 
-    public String getText() {
-        return htmlDocument != null ? htmlDocument.text() :;
-    }
+public String getText() {
+return htmlDocument != null ? htmlDocument.text() :;
+}
 
-    public String getHtmlDocument(String url) {
-        setUrl(url);
-        try {
-            htmlDocument = Jsoup.connect(url).get();
-            title = htmlDocument.title();
-            description = htmlDocument.select("meta[name=description]").attr("content");
-            tags = htmlDocument.select("meta[name=keywords]").attr("content");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return getHtml();
-    }
+public String getHtmlDocument(String url) {
+setUrl(url);
+try {
+htmlDocument = Jsoup.connect(url).get();
+title = htmlDocument.title();
+description = htmlDocument.select("meta[name=description]").attr("content");
+tags = htmlDocument.select("meta[name=keywords]").attr("content");
+} catch (IOException e) {
+e.printStackTrace();
+}
+return getHtml();
+}
 
-    public String getDivById(String id) {
-        Element div = htmlDocument != null ? htmlDocument.getElementById(id) : null;
-        return div != null ? div.outerHtml() :;
-    }
+public String getDivById(String id) {
+Element div = htmlDocument != null ? htmlDocument.getElementById(id) : null;
+return div != null ? div.outerHtml() :;
+}
 
-    public List<String> getDivByClass(String className) {
-        Elements divs = htmlDocument != null ? htmlDocument.getElementsByClass(className) : null;
-        List<String> divHtmlList = new ArrayList<>();
-        if (divs != null) {
-            for (Element div : divs) {
-                divHtmlList.add(div.outerHtml());
-            }
-        }
-        return divHtmlList;
-    }
+public List<String> getDivByClass(String className) {
+Elements divs = htmlDocument != null ? htmlDocument.getElementsByClass(className) : null;
+List<String> divHtmlList = new ArrayList<>();
+if (divs != null) {
+for (Element div : divs) {
+divHtmlList.add(div.outerHtml());
+}
+}
+return divHtmlList;
+}
 
-    public List<String> getElementByClass(String element, String className) {
-        Elements elements = htmlDocument != null ? htmlDocument.select(element + "." + className) : null;
-        List<String> elementHtmlList = new ArrayList<>();
-        if (elements != null) {
-            for (Element el : elements) {
-                elementHtmlList.add(el.outerHtml());
-            }
-        }
-        return elementHtmlList;
-    }
+public List<String> getElementByClass(String element, String className) {
+Elements elements = htmlDocument != null ? htmlDocument.select(element + "." + className) : null;
+List<String> elementHtmlList = new ArrayList<>();
+if (elements != null) {
+for (Element el : elements) {
+elementHtmlList.add(el.outerHtml());
+}
+}
+return elementHtmlList;
+}
 
-    public List<String> getImages() {
-        List<String> imageUrls = new ArrayList<>();
-        if (htmlDocument != null) {
-            Elements images = htmlDocument.select("img");
-            for (Element image : images) {
-                String imageUrl = image.attr("src");
-                if (imageUrl.endsWith(".jpg") || imageUrl.endsWith(".png")) {
-                    if (!imageUrl.startsWith("http:") && !imageUrl.startsWith("https:")) {
-                        imageUrl = url.trim() + imageUrl;
-                    }
-                    imageUrls.add(imageUrl);
-                }
-            }
-        }
-        return imageUrls;
-    }
+public List<String> getImages() {
+List<String> imageUrls = new ArrayList<>();
+if (htmlDocument != null) {
+Elements images = htmlDocument.select("img");
+for (Element image : images) {
+String imageUrl = image.attr("src");
+if (imageUrl.endsWith(".jpg") || imageUrl.endsWith(".png")) {
+if (!imageUrl.startsWith("http:") && !imageUrl.startsWith("https:")) {
+imageUrl = url.trim() + imageUrl;
+}
+imageUrls.add(imageUrl);
+}
+}
+}
+return imageUrls;
+}
 
-    public abstract void scrape(String url);
+public abstract void scrape(String url);
 }
 ```
 
@@ -198,70 +198,70 @@ import java.io.IOException;
 import java.util.List;
 
 public class GetKittens extends WebScraper {
-    public String
+public String
 
- downloadKitten() {
-        scrape("https://www.pinterest.com/katesaidy/cute-kitten-pics/");
-        String imgFolder = System.getProperty("user.home") + "/Pictures";
-        String filename = imgFolder + "/Daily kitten.jpg";
-        File file = new File(filename);
-        if (file.exists()) {
-            return filename;
-        } else {
-            return "";
-        }
-    }
+downloadKitten() {
+scrape("https://www.pinterest.com/katesaidy/cute-kitten-pics/");
+String imgFolder = System.getProperty("user.home") + "/Pictures";
+String filename = imgFolder + "/Daily kitten.jpg";
+File file = new File(filename);
+if (file.exists()) {
+return filename;
+} else {
+return "";
+}
+}
 
-    @Override
-    public List<String> getImages() {
-        List<String> imageUrls = super.getImages();
+@Override
+public List<String> getImages() {
+List<String> imageUrls = super.getImages();
 
-        // IMG SRC fungerade inte på Pinterest så vi söker med regex istället
-        // För att göra det mer genomskinnligt så överridar vi bara GetImages
-        if (getHtmlDocument() != null) {
-            String html = getHtml();
-            String regex = "(['\"])([^'\"]+\\.(jpg|png|bmp|gif))\\1";
-            Pattern pattern = Pattern.compile(regex);
-            Matcher matcher = pattern.matcher(html);
-            while (matcher.find()) {
-                System.out.println(matcher.group(2));
-                imageUrls.add(matcher.group(2));
-            }
-        }
-        return imageUrls;
-    }
+// IMG SRC fungerade inte på Pinterest så vi söker med regex istället
+// För att göra det mer genomskinnligt så överridar vi bara GetImages
+if (getHtmlDocument() != null) {
+String html = getHtml();
+String regex = "(['\"])([^'\"]+\\.(jpg|png|bmp|gif))\\1";
+Pattern pattern = Pattern.compile(regex);
+Matcher matcher = pattern.matcher(html);
+while (matcher.find()) {
+System.out.println(matcher.group(2));
+imageUrls.add(matcher.group(2));
+}
+}
+return imageUrls;
+}
 
-    // Här är scrape-metoden som vi måste implementera
-    @Override
-    public void scrape(String url) {
-        System.out.println("Downloading page");
-        getHtmlDocument(url);
-        System.out.println("Getting image list");
-        List<String> images = getImages();
-        System.out.println("Removing crap images");
-        images.removeIf(pic -> pic.contains("/images/user/"));
-        if (images.isEmpty()) {
-            return;
-        }
+// Här är scrape-metoden som vi måste implementera
+@Override
+public void scrape(String url) {
+System.out.println("Downloading page");
+getHtmlDocument(url);
+System.out.println("Getting image list");
+List<String> images = getImages();
+System.out.println("Removing crap images");
+images.removeIf(pic -> pic.contains("/images/user/"));
+if (images.isEmpty()) {
+return;
+}
 
-        // Hämtar en slumpmässig bild från listan
-        Random random = new Random();
-        System.out.println("Selecting random image");
-        String randomImage = images.get(random.nextInt(images.size()));
-        System.out.println("Downloading image");
-        System.out.println(randomImage);
-        try {
-            URL imageUrl = new URL(randomImage);
-            BufferedImage image = ImageIO.read(imageUrl);
-            System.out.println("Saving image");
-            String imgFolder = System.getProperty("user.home") + "/Pictures";
-            String filename = imgFolder + "/Daily kitten.jpg";
-            File file = new File(filename);
-            ImageIO.write(image, "jpg", file);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+// Hämtar en slumpmässig bild från listan
+Random random = new Random();
+System.out.println("Selecting random image");
+String randomImage = images.get(random.nextInt(images.size()));
+System.out.println("Downloading image");
+System.out.println(randomImage);
+try {
+URL imageUrl = new URL(randomImage);
+BufferedImage image = ImageIO.read(imageUrl);
+System.out.println("Saving image");
+String imgFolder = System.getProperty("user.home") + "/Pictures";
+String filename = imgFolder + "/Daily kitten.jpg";
+File file = new File(filename);
+ImageIO.write(image, "jpg", file);
+} catch (IOException e) {
+e.printStackTrace();
+}
+}
 }
 ```
 

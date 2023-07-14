@@ -1,16 +1,19 @@
 ---
 title: Git
+permalink: ordlista/git
+nav_order: 2
+parent: Ordlista
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
-lang_supported: ["csharp","java"]
-permalink: ordlista/git
-tags: ["[git","ordlista"]
-categories: ["[Ordlista","Ordlista"]
 layout: default
-isverified: true
-nav_order: 1
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 90d65009-9179-46c9-b795-48b5be103ad0
+school: https://campus.molndal.se/yh
 ---
-# Git Ordlista
+
+# Git
 
 | Ord | Förklaring |
 | --- | --- |

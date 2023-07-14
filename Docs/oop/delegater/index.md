@@ -1,16 +1,17 @@
 ---
-author: Marcus Medina
 title: delegater
+permalink: oop/delegater/index
 nav_order: 18
 parent: Objektorienterad programmering (OOP)
-grand_parent: Java
-permalink: oop/delegater/index
+grand_parent: Home
+author: Marcus Medina
 date: 2023-07-13
 layout: default
-has_children: true
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
 author_url: https://marcusmedina.pro
+has_children: true
 id: 2f5a6f86-fb9f-4eb0-ac93-8fe618b8e185
+school: https://campus.molndal.se/yh
 ---
 
+# delegater

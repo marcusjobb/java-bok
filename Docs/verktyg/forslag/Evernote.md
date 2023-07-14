@@ -1,15 +1,18 @@
 ---
 title: Evernote
+permalink: verktyg/forslag/Evernote
+nav_order: 2
+parent: Förslag
+grand_parent: Verktyg
 author: Marcus Medina
 date: 2022-11-16 08:56
-lang_supported: ["csharp","java"]
-permalink: verktyg/forslag/evernote
-tags: ["[evernote","forslag","verktyg"]
-categories: ["[Evernote","Forslag","Verktyg"]
 layout: default
-isverified: true
-nav_order: 1
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: b1036b80-001c-48fc-a1c5-daa3a2cbc39d
+school: https://campus.molndal.se/yh
 ---
+
 # Evernote
 
 [Installera Evernote](https://evernote.com/intl/sv/download/){: .btn .btn-blue }

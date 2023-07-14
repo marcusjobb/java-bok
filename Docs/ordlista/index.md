@@ -1,16 +1,18 @@
 ---
 title: Ordlista
+permalink: ordlista/index
+nav_order: 8
+parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
-lang_supported: ["csharp","java"]
-permalink: ordlista
-tags: ["[ordlista","ordlista"]
-categories: ["[Ordlista","Ordlista"]
 layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 has_children: true
-isverified: true
-nav_order: 6
+id: 8bfe7a7b-a67c-4f95-bf2a-23ea90aae4da
+school: https://campus.molndal.se/yh
 ---
+
 # Ordlista
 
 Här finns några ordlistor med vanliga ord och uttryck som används inom IT världen, med korta förklaringar.

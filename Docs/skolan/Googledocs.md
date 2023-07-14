@@ -1,15 +1,18 @@
 ---
 title: Google docs
+permalink: skolan/Googledocs
+nav_order: 8
+parent: Skolan
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: skolan/googledocs
-tags: ["[google","docs"]
-categories: ["[Google Docs","Skolan"]
 layout: default
-isverified: true
-nav_order: 4
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: bace3074-fa3c-4ce7-b37f-2ab883273522
+school: https://campus.molndal.se/yh
 ---
+
 # Google docs
 
 [Öppna Google Documents](https://docs.google.com/){: .btn .btn-blue }

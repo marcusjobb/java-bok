@@ -1,15 +1,18 @@
 ---
 title: Skolportalen
+permalink: skolan/Skolportalen
+nav_order: 2
+parent: Skolan
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 02:01
-lang_supported: ["csharp","java"]
-permalink: skolan/skolportalen
-tags: ["[skolportalen","skolan"]
-categories: ["[Skolportalen","Skolan"]
 layout: default
-isverified: true
-nav_order: 1
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 071218cd-6982-4706-828c-b20a70c73199
+school: https://campus.molndal.se/yh
 ---
+
 # Skolportalen
 
 [Öppna skolportalen](https://www.molndal.se/skolportal?authmech=Personal%20och%20elever){: .btn .btn-blue }

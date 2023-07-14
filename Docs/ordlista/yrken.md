@@ -1,16 +1,19 @@
 ---
 title: Yrken
+permalink: ordlista/yrken
+nav_order: 6
+parent: Ordlista
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
-lang_supported: ["csharp","java"]
-permalink: ordlista/yrken
-tags: ["[yrken","ordlista"]
-categories: ["[Ordlista","Ordlista"]
 layout: default
-isverified: true
-nav_order: 3
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: e3d62df3-1d50-4e7d-a330-49c8ee517211
+school: https://campus.molndal.se/yh
 ---
-## IT Yrken
+
+# Yrken
 
 | Ord | Förklaring |
 | --- | --- |

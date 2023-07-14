@@ -1,16 +1,19 @@
 ---
 title: Förslag
+permalink: verktyg/forslag/index
+nav_order: 4
+parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:56
-lang_supported: ["csharp","java"]
-permalink: verktyg/forslag
-tags: ["[förslag","forslag","verktyg"]
-categories: ["[Förslag","Forslag","Verktyg"]
 layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 has_children: true
-isverified: true
-nav_order: 4
+id: 2c885418-2733-470f-a0a3-d2893e2b943a
+school: https://campus.molndal.se/yh
 ---
+
 # Förslag
 
 Här finns förslag på andra program som kan vara bra att använda under studietiden.

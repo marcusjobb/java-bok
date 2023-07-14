@@ -1,15 +1,18 @@
 ---
 title: VS Code installation
+permalink: verktyg/installation/VSCodeinstallation
+nav_order: 8
+parent: Installation
+grand_parent: Verktyg
 author: Marcus Medina
 date: 2022-11-16 08:32
-lang_supported: ["csharp","java"]
-permalink: verktyg/installation/vscodeinstallation
-tags: ["[vs","code","installation","microsoft"]
-categories: ["[Installation","Installation","Verktyg"]
 layout: default
-isverified: true
-nav_order: 5
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 38ea073b-9ef9-47ac-a087-8146f4ff0b0c
+school: https://campus.molndal.se/yh
 ---
+
 # VS Code installation
 
 [Installera Visual Studio Code](https://code.visualstudio.com/){: .btn }

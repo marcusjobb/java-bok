@@ -1,30 +1,30 @@
 ---
-author: Marcus Medina
 title: Public
-nav_order: 6
-parent: Åtkomstmodifikatorer i Java
-grand_parent: Objektorienterad programmering (OOP)
 permalink: oop/atkomstmoderator/public
+nav_order: 6
+parent: Åtkomstmoderator
+grand_parent: Objektorienterad programmering (OOP)
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-author_url: https://marcusmedina.pro
-codelanguage: C#
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
 available: Java Java
+codelanguage: C#
 id: d2bb99cc-1fe2-44cf-a659-e5803b1a1d72
+school: https://campus.molndal.se/yh
 ---
 
 # Public
 Public is an access modifier that allows a class, method, or property to be accessible to all classes.
 
 <details open markdown="block">
-  <summary>
-    Table of Contents
-  </summary>
-  {: .text-delta }
+<summary>
+Table of Contents
+</summary>
+{: .text-delta }
 1. TOC
-   {:toc}
+{:toc}
 </details>
 
 ## Beskrivning
@@ -33,11 +33,10 @@ Med public kan vi göra en klass, metod eller egenskap tillgänglig för alla kl
 
 ## Exempel
 
-
 ```java
 public class Person {
-    public String name;
-    public int age;
+public String name;
+public int age;
 }
 
 ```

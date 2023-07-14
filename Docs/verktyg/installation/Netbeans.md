@@ -1,15 +1,15 @@
 ---
-author: Marcus Medina
 title: NetBeans installation
+permalink: verktyg/installation/Netbeans
 nav_order: 12
 parent: Installation
 grand_parent: Verktyg
-permalink: verktyg/installation/Netbeans
+author: Marcus Medina
 layout: default
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
-id: 869c253f-561f-41b2-859d-734bca59e504
 author_url: https://marcusmedina.pro
+id: 869c253f-561f-41b2-859d-734bca59e504
+school: https://campus.molndal.se/yh
 ---
 
 Här är den begärda artikeln, omformulerad för NetBeans:

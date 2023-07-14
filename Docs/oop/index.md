@@ -1,18 +1,17 @@
 ---
-author: Marcus Medina
 title: Objektorienterad programmering (OOP)
-nav_order: 16
-parent: Java
-grand_parent: Home
 permalink: oop/index
+nav_order: 18
+parent: Java
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-id: de0512ef-23c1-4252-b793-13b46f7ad50d
-codelanguage: C#
-author_url: https://marcusmedina.pro
 author_github: https://github.com/marcusjobb
-has_children: true
+author_url: https://marcusmedina.pro
+codelanguage: C#
 enhance: false
+has_children: true
+id: de0512ef-23c1-4252-b793-13b46f7ad50d
 school: https://campus.molndal.se/yh
 ---
 
@@ -76,27 +75,27 @@ Nu ska vi titta på ett konkret exempel för att se OOP i aktion! Vi ska skapa e
 
 ```java
 public class Bil {
-    private String märke;
-    private String modell;
-    private int årsmodell;
-    public Bil(String märke, String modell, int årsmodell) {
-        this.märke = märke;
-        this.modell = modell;
-        this.årsmodell = årsmodell;
-    }
-    public String getMärke() {
-        return märke;
-    public void setMärke(String märke) {
-    public String getModell() {
-        return modell;
-    public void setModell(String modell) {
-    public int getÅrsmodell() {
-        return årsmodell;
-    public void setÅrsmodell(int årsmodell) {
-    public void köra() {
-        System.out.println("Bilen kör.");
-    public void stanna() {
-        System.out.println("Bilen stannar.");
+private String märke;
+private String modell;
+private int årsmodell;
+public Bil(String märke, String modell, int årsmodell) {
+this.märke = märke;
+this.modell = modell;
+this.årsmodell = årsmodell;
+}
+public String getMärke() {
+return märke;
+public void setMärke(String märke) {
+public String getModell() {
+return modell;
+public void setModell(String modell) {
+public int getÅrsmodell() {
+return årsmodell;
+public void setÅrsmodell(int årsmodell) {
+public void köra() {
+System.out.println("Bilen kör.");
+public void stanna() {
+System.out.println("Bilen stannar.");
 }
 
 ```
@@ -109,14 +108,14 @@ Nu kan vi skapa objekt av klassen "Bil" och använda dess metoder:
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        Bil bil = new Bil("Volvo", "V70", 2022);
-        System.out.println("Märke: " + bil.getMärke());
-        System.out.println("Modell: " + bil.getModell());
-        System.out.println("Årsmodell: " + bil.getÅrsmodell());
-        bil.köra();
-        bil.stanna();
-    }
+public static void main(String[] args) {
+Bil bil = new Bil("Volvo", "V70", 2022);
+System.out.println("Märke: " + bil.getMärke());
+System.out.println("Modell: " + bil.getModell());
+System.out.println("Årsmodell: " + bil.getÅrsmodell());
+bil.köra();
+bil.stanna();
+}
 }
 ```
 
@@ -124,31 +123,31 @@ I detta exempel skapar vi en instans av klassen "Bil" med hjälp av konstruktorn
 
 ```java
 public class Car {
-    private String brand;
-    private String color;
-    private int speed;
-    public Car(String brand, String color) {
-        this.brand = brand;
-        this.color = color;
-        this.speed = 0;
-        public void accelerate(int value) {
-            speed += value;
-        }
-        public void brake(int value) {
-            speed -= value;
-        }
-        public int getSpeed() {
-            return speed;
-        }
+private String brand;
+private String color;
+private int speed;
+public Car(String brand, String color) {
+this.brand = brand;
+this.color = color;
+this.speed = 0;
+public void accelerate(int value) {
+speed += value;
+}
+public void brake(int value) {
+speed -= value;
+}
+public int getSpeed() {
+return speed;
+}
 
 public class Main {
-    public static void main(String[] args) {
-        Car myCar = new Car("Volvo", "blå");
-        myCar.accelerate(20);
-        System.out.println(myCar.getSpeed()); // Output: 20
-        myCar.brake(10);
-        System.out.println(myCar.getSpeed()); // Output: 10
-    }
+public static void main(String[] args) {
+Car myCar = new Car("Volvo", "blå");
+myCar.accelerate(20);
+System.out.println(myCar.getSpeed()); // Output: 20
+myCar.brake(10);
+System.out.println(myCar.getSpeed()); // Output: 10
+}
 }
 ```
 

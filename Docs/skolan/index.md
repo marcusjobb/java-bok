@@ -1,16 +1,18 @@
 ---
 title: Skolan
+permalink: skolan/index
+nav_order: 2
+parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: skolan
-tags: ["[skolan","skolan"]
-categories: ["[Skolan","Skolan"]
 layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 has_children: true
-isverified: true
-nav_order: 2
+id: a0613b9c-e4ce-4eb1-923f-740811acff02
+school: https://campus.molndal.se/yh
 ---
+
 # Skolan
 
 Här är en lista på webbtjänster vi använder i skolan.

@@ -1,16 +1,16 @@
 ---
-author: Marcus Medina
 title: Klasskomposition
+permalink: oop/klasskomposition
 nav_order: 4
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
-permalink: oop/klasskomposition
+author: Marcus Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
-enhance: false
-codelanguage: C#
 author_url: https://marcusmedina.pro
+codelanguage: C#
+enhance: false
 id: d9de5f37-89b7-493a-a6bf-48a06da3e643
 school: https://campus.molndal.se/yh
 ---
@@ -57,38 +57,38 @@ Låt oss nu titta på ett kodexempel för att förstå hur klasskomposition kan 
 
 ```java
 public class Address {
-    private String street;
-    private String city;
-    private String state;
-    private String zipCode;
+private String street;
+private String city;
+private String state;
+private String zipCode;
 
-    public Address(String street, String city, String state, String zipCode) {
-        this.street = street;
-        this.city = city;
-        this.state = state;
-        this.zipCode = zipCode;
-    }
+public Address(String street, String city, String state, String zipCode) {
+this.street = street;
+this.city = city;
+this.state = state;
+this.zipCode = zipCode;
+}
 
-    // Getters and setters
+// Getters and setters
 
-    public String getStreet() {return street;}
-    public String getCity() {return city;}
-    public String getState() {return state;}
-    public String getZipCode() {return zipCode;}
-    public void setStreet(String street) {this.street = street;}
-    public void setCity(String city) {this.city = city;}
-    public void setState(String state) {this.state = state;}
-    public void setZipCode(String zipCode) {this.zipCode = zipCode;}
+public String getStreet() {return street;}
+public String getCity() {return city;}
+public String getState() {return state;}
+public String getZipCode() {return zipCode;}
+public void setStreet(String street) {this.street = street;}
+public void setCity(String city) {this.city = city;}
+public void setState(String state) {this.state = state;}
+public void setZipCode(String zipCode) {this.zipCode = zipCode;}
 
-    @Override
-    public String toString() {
-        return "Address{" +
-                "street='" + street + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", zipCode='" + zipCode + '\'' +
-                '}';
-    }
+@Override
+public String toString() {
+return "Address{" +
+"street='" + street + '\'' +
+", city='" + city + '\'' +
+", state='" + state + '\'' +
+", zipCode='" + zipCode + '\'' +
+'}';
+}
 }
 ```
 
@@ -96,19 +96,19 @@ Nu har vi en klass som reprenterar en adress. Den innehåller attribut för gatu
 
 ```java
 public class Person {
-    private String name;
-    private int age;
-    private Address address;
+private String name;
+private int age;
+private Address address;
 
-    public Person(String name, int age, Address address) {
-        this.name = name;
-        this.age = age;
-        this.address = address;
-    }
+public Person(String name, int age, Address address) {
+this.name = name;
+this.age = age;
+this.address = address;
+}
 
-    public String getAddressDetails() {
-        return "Address: " + address.getStreet() + ", " + address.getCity() + ", " + address.getState() + ", " + address.getZipCode();
-    }
+public String getAddressDetails() {
+return "Address: " + address.getStreet() + ", " + address.getCity() + ", " + address.getState() + ", " + address.getZipCode();
+}
 }
 ```	
 

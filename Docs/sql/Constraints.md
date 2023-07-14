@@ -1,23 +1,27 @@
 ---
 title: Constraints
+permalink: sql/Constraints
+nav_order: 6
+parent: SQL
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: sql/constraints
-tags: ["[constraints","sql"]
-categories: ["[Constraints","Sql"]
 layout: default
-isverified: true
-nav_order: 7
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+codelanguage: SQL
+id: b8ce043d-e688-4b96-95be-1bf57592b5ad
+school: https://campus.molndal.se/yh
 ---
+
 # Constraints
 
 SQL-Constraints är ett sätt att begränsa datan i en tabell. Det finns två typer av constraints, primary key och foreign key. Primary key är en constraint som gör att en kolumn i en tabell kan ha unika värden. Foreign key är en constraint som gör att en kolumn i en tabell kan ha värden som finns i en annan tabell.
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 
 1. TOC
 {:toc}
@@ -37,19 +41,19 @@ Foreign key är ett värde som finns i en tabell som är kopplat till ett värde
 
 ```sql
 CREATE TABLE Person (
-    PersonID int NOT NULL PRIMARY KEY,
-    LastName varchar(255) NOT NULL,
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255),
-    PRIMARY KEY (PersonID)
+PersonID int NOT NULL PRIMARY KEY,
+LastName varchar(255) NOT NULL,
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255),
+PRIMARY KEY (PersonID)
 );
 CREATE TABLE Orders (
-    OrderID int NOT NULL PRIMARY KEY,
-    OrderDate date NOT NULL,
-    PersonID int NOT NULL,
-    PRIMARY KEY (OrderID),
-    FOREIGN KEY (PersonID) REFERENCES Person(PersonID)
+OrderID int NOT NULL PRIMARY KEY,
+OrderDate date NOT NULL,
+PersonID int NOT NULL,
+PRIMARY KEY (OrderID),
+FOREIGN KEY (PersonID) REFERENCES Person(PersonID)
 );
 ```
 

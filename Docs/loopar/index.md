@@ -1,19 +1,18 @@
 ---
-author: Marcus Medina
 title: Loopar
-nav_order: 12
-parent: Java
-grand_parent: Home
 permalink: loopar/index
+nav_order: 14
+parent: Java
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-id: 6dcdd3eb-9705-4329-a68f-cf26522ac4c0
 author_github: https://github.com/marcusjobb
-codelanguage: C#
 author_url: https://marcusmedina.pro
-school: https://campus.molndal.se/yh
+codelanguage: C#
 enhance: false
 has_children: true
+id: 6dcdd3eb-9705-4329-a68f-cf26522ac4c0
+school: https://campus.molndal.se/yh
 ---
 
 # Loopar
@@ -31,7 +30,7 @@ En for-loop används när vi vill upprepa en uppsättning instruktioner ett kän
 
 ```java
 for (initialisering; villkor; iteration) {
-    // Kod som ska upprepas
+// Kod som ska upprepas
 }
 ```
 
@@ -40,13 +39,13 @@ Här är en förklaring av de olika delarna i en for-loop:
 - `initialisering`: Här initieras en räknare eller en variabel som används för att kontrollera antalet iterationer. Detta görs vanligtvis genom att tilldela ett startvärde till räknaren.
 - `villkor`: Här definieras villkoret som kontrollerar om loopen ska fortsätta att upprepas eller avslutas. Om villkoret är sant, fortsätter loopen att köras. Om villkoret är falskt, avslutas loopen och programmet fortsätter med koden efter loopen.
 - `iteration`: Här specificeras hur räknaren eller variabeln ska ändras vid varje iteration. Vanligtvis ökar eller minskar man värdet på räknaren med ett visst steg.
-  Här är ett exempel på en for-loop som skriver ut talen 1 till 5:
+Här är ett exempel på en for-loop som skriver ut talen 1 till 5:
 
 ```java
 int i = 1;
 do {
-    System.out.println(i);
-    i++;
+System.out.println(i);
+i++;
 } while (i <= 5);
 ```
 
@@ -87,9 +86,9 @@ Här är ett exempel på en foreach-loop som skriver ut varje element i en lista
 
 ```java
 
-  List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
-  for (int number : numbers) {
-  System.out.println(number);
+List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+for (int number : numbers) {
+System.out.println(number);
 ```
 
 Resultatet av koden ovan kommer att vara:
@@ -140,8 +139,8 @@ Här är ett exempel på en while-loop:
 ```java
 int i = 0;
 while (i < 5) {
-    i++;
-    System.out.println(i);
+i++;
+System.out.println(i);
 }
 ```
 
@@ -200,17 +199,17 @@ I Java finns det också några loopkontrollsatser som kan användas för att sty
 
 - `break`: Används för att avsluta en loop omedelbart och fortsätta med koden efter loopen.
 - `continue`: Används för att hoppa över återstående instruktioner i den aktuella iterationen och fortsätta med nästa iteration av loopen.
-  Dessa satser kan vara användbara när du vill hoppa över vissa iterationer eller avsluta loopen tidigt baserat på vissa villkor.
-  Det finns många andra avancerade koncept och tekniker som kan användas i samband med loopar, till exempel nästlade loopar, flerdimensionella loopar, rekursion (en funktion som anropar sig själv), och mycket mer. Loopar är en viktig del av programmering och genom att förstå och använda dem på rätt sätt kan du skapa effektiv och strukturerad kod.
+Dessa satser kan vara användbara när du vill hoppa över vissa iterationer eller avsluta loopen tidigt baserat på vissa villkor.
+Det finns många andra avancerade koncept och tekniker som kan användas i samband med loopar, till exempel nästlade loopar, flerdimensionella loopar, rekursion (en funktion som anropar sig själv), och mycket mer. Loopar är en viktig del av programmering och genom att förstå och använda dem på rätt sätt kan du skapa effektiv och strukturerad kod.
 
 ### 10. Foreach-loop
 
 Enforeach-loop, används för att iterera över elementen i en samling eller en array. Den är användbar när du vill bearbeta varje element i en samling utan att behöva hantera indexer eller loopvariabler. Syntaxen för en for-each är följande:
 
 ```java
-    foreach (element : samling) {
-    // Kod som bearbetar varje element
-    }
+foreach (element : samling) {
+// Kod som bearbetar varje element
+}
 ```
 
 Här är ett exempel på en foreach loop som itererar över elementen i en lista av heltal:
@@ -218,7 +217,7 @@ Här är ett exempel på en foreach loop som itererar över elementen i en lista
 ```java
 for (var number : numbers) {
 
-    System.out.println(number);
+System.out.println(number);
 }
 ```
 
@@ -232,9 +231,9 @@ En nästlad loop är en loop som finns inuti en annan loop. Genom att använda n
 
 ```java
 for (int i = 1; i <= 5; i++) {
-    for (int j = 1; j <= i; j++) {
-        System.out.print(j + " ");
-    System.out.println();
+for (int j = 1; j <= i; j++) {
+System.out.print(j + " ");
+System.out.println();
 ```
 
 ```java
@@ -252,10 +251,10 @@ Rekursion är en teknik där en funktion kallar sig själv för att utföra en u
 
 ```java
 int Fibonacci(int n) {
-    if (n <= 1)
-        return n;
-    else
-        return Fibonacci(n - 1) + Fibonacci(n - 2);
+if (n <= 1)
+return n;
+else
+return Fibonacci(n - 1) + Fibonacci(n - 2);
 ```
 
 Du kan sedan anropa funktionen med önskat värde för att få det motsvarande Fibonacci-talet:
@@ -270,15 +269,15 @@ Här är ett exempel på rekursion i Java:
 
 ```java
 public class RekursionExempel {
-    public static void main(String[] args) {
-        int resultat = summera(5);
-        System.out.println("Summan är: " + resultat);
-    public static int summera(int n) {
-        if (n == 1) {
-            return 1;
-        } else {
-            return n + summera(n - 1);
-        }
+public static void main(String[] args) {
+int resultat = summera(5);
+System.out.println("Summan är: " + resultat);
+public static int summera(int n) {
+if (n == 1) {
+return 1;
+} else {
+return n + summera(n - 1);
+}
 ```
 
 I det här exemplet använder vi en rekursiv funktion `summera` för att beräkna summan av alla heltal från 1 till det givna talet `n`. Funktionen har en stoppvillkor som säger att om `n` är lika med 1, returnera 1. Annars anropar funktionen sig själv med `n-1` och lägger till `n` i resultatet.

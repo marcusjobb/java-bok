@@ -1,23 +1,23 @@
 ---
-author: Marcus Medina
 title: Åtkomstmoderator
+permalink: oop/atkomstmoderator/index
 nav_order: 6
 parent: Objektorienterad programmering (OOP)
-grand_parent: Java
-permalink: oop/atkomstmoderator/index
+grand_parent: Home
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
-available: Java Java
-id: 07de5481-b270-41bc-a1aa-454cb9158e19
-enhance: false
 author_url: https://marcusmedina.pro
+available: Java Java
 codelanguage: C#
+enhance: false
 has_children: true
+id: 07de5481-b270-41bc-a1aa-454cb9158e19
+school: https://campus.molndal.se/yh
 ---
 
-# Åtkomstmodifikatorer i Java
+# Åtkomstmoderator
 
 En åtkomstmodifikator är en modifierare som används för att definiera åtkomsten till en klassmedlem. Detta innebär att du kan bestämma vilka klassmedlemmar som ska vara tillgängliga för andra klasser och vilka som ska vara privata för klassen.
 
@@ -41,10 +41,10 @@ Exempel:
 
 ```java
 public class Person {
-    public String name; // Tillgänglig från alla klasser
-    private int age; // Endast tillgänglig från Person-klassen
-    protected String address; // Tillgänglig från Person-klassen och dess underklasser
-    String phoneNumber; // Endast tillgänglig inom samma paket som Person-klassen
+public String name; // Tillgänglig från alla klasser
+private int age; // Endast tillgänglig från Person-klassen
+protected String address; // Tillgänglig från Person-klassen och dess underklasser
+String phoneNumber; // Endast tillgänglig inom samma paket som Person-klassen
 }
 
 ```

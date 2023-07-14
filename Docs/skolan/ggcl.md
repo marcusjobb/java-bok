@@ -1,15 +1,18 @@
 ---
 title: Google Classroom
+permalink: skolan/ggcl
+nav_order: 4
+parent: Skolan
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: skolan/ggcl
-tags: ["[google","classroom"]
-categories: ["[Google Classroom","Skolan"]
 layout: default
-isverified: true
-nav_order: 2
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: eb488b11-6eab-4692-b244-6beaba1f3452
+school: https://campus.molndal.se/yh
 ---
+
 # Google Classroom
 
 [Öppna Google Classroom](https://classroom.google.com/){: .btn .btn-blue }

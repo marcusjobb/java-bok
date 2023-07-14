@@ -1,16 +1,16 @@
 ---
-author: Marcus Medina
 title: Arv
+permalink: oop/arv
 nav_order: 8
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
-permalink: oop/arv
+author: Marcus Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
-enhance: false
-codelanguage: C#
 author_url: https://marcusmedina.pro
+codelanguage: C#
+enhance: false
 id: c0155dc7-5531-4970-9ff3-938fc8e797a9
 school: https://campus.molndal.se/yh
 ---
@@ -32,8 +32,7 @@ school: https://campus.molndal.se/yh
 // - Det är också viktigt att vara medveten om eventuell kodupprepning i klasshierarkin och undvika det genom att extrahera gemensam funktionalitet till separata metoder eller klasser.
 // - Slutligen är det alltid bra att dokumentera klasshierarkin och dess relationer för att underlätta förståelsen och underhållningen av koden.
 // Med dessa rekommendationer kan arv vara en kraftfull teknik för att organisera och strukturera kod inom OOP.
-## Användningsområden för arv
-
+# Arv
 
 Arv kan tillämpas i olika situationer och användningsområden inom programmering. Här är några exempel:
 1. Skapa en hierarki av klasser där varje klass representerar en mer specialiserad version av den överordnade klassen. Till exempel kan vi ha en superklass "Djur" och subklasser som "Hund", "Katt" och "Fågel" som ärver och utökar funktionaliteten från "Djur".
@@ -43,39 +42,38 @@ Arv kan tillämpas i olika situationer och användningsområden inom programmeri
 Det finns många andra användningsområden för arv beroende på de specifika kraven och designen av programmet. Det är viktigt att noggrant planera och designa hierarkin för att få ut det bästa av arv och undvika problem eller överdriven komplexitet.
 ## Kodexempel: Arv i Java
 
-
 Låt oss nu titta på ett kodexempel som visar hur arv kan användas i Java. Vi kommer att använda exemplet med hierarkin av fordon som nämndes tidigare.
 
 ```
 
 // Superklassen "Fordon"
 class Fordon {
-    private int hastighet;
-    private String färg;
-    public Fordon(int hastighet, String färg) {
-        this.hastighet = hastighet;
-        this.färg = färg;
-    }
-    public int getHastighet() {
-        return hastighet;
-    public String getFärg() {
-        return färg;
+private int hastighet;
+private String färg;
+public Fordon(int hastighet, String färg) {
+this.hastighet = hastighet;
+this.färg = färg;
+}
+public int getHastighet() {
+return hastighet;
+public String getFärg() {
+return färg;
 }
 // Subklassen "Bil" ärver från "Fordon"
 class Bil extends Fordon {
-    private int antalDörrar;
-    public Bil(int hastighet, String färg, int antalDörrar) {
-        super(hastighet, färg);
-        this.antalDörrar = antalDörrar;
-    public int getAntalDörrar() {
-        return antalDörrar;
+private int antalDörrar;
+public Bil(int hastighet, String färg, int antalDörrar) {
+super(hastighet, färg);
+this.antalDörrar = antalDörrar;
+public int getAntalDörrar() {
+return antalDörrar;
 // Subklassen "Motorcykel" ärver från "Fordon"
 class Motorcykel extends Fordon {
-    private String typAvMotor;
-    public Motorcykel(int hastighet, String färg, String typAvMotor) {
-        this.typAvMotor = typAvMotor;
-    public String getTypAvMotor() {
-        return typAvMotor;
+private String typAvMotor;
+public Motorcykel(int hastighet, String färg, String typAvMotor) {
+this.typAvMotor = typAvMotor;
+public String getTypAvMotor() {
+return typAvMotor;
 // Genom arv kan en hierarki av klasser skapas där gemensamma egenskaper och beteenden
 // placeras i överordnade klasser och specialiserade egenskaper och beteenden läggs till
 // i de nedärvande klasserna. Detta möjliggör återanvändning av kod och effektivisering av
@@ -121,55 +119,54 @@ class Motorcykel extends Fordon {
 För att visa hur arv fungerar i Java kan vi använda följande kodexempel:
 // En överordnad klass "Karaktär" som representerar en generell spelkaraktär.
 class Karaktär {
-    String namn;
-    int hälsa;
-    public Karaktär(String namn, int hälsa) {
-        this.namn = namn;
-        this.hälsa = hälsa;
-    public void attack() {
-        System.out.println(namn + " attackerar!");
+String namn;
+int hälsa;
+public Karaktär(String namn, int hälsa) {
+this.namn = namn;
+this.hälsa = hälsa;
+public void attack() {
+System.out.println(namn + " attackerar!");
 // En nedärvande klass "Fiende" som specialiserar funktionaliteten för en fiende i spelet.
 class Fiende extends Karaktär {
-    int styrka;
-    public Fiende(String namn, int hälsa, int styrka) {
-        super(namn, hälsa);
-        this.styrka = styrka;
-        System.out.println(namn + " attackerar med styrka " + styrka + "!");
+int styrka;
+public Fiende(String namn, int hälsa, int styrka) {
+super(namn, hälsa);
+this.styrka = styrka;
+System.out.println(namn + " attackerar med styrka " + styrka + "!");
 // En nedärvande klass "Spelare" som specialiserar funktionaliteten för spelaren i spelet.
 class Spelare extends Karaktär {
-    int nivå;
-    public Spelare(String namn, int hälsa, int nivå) {
-        this.nivå = nivå;
-        System.out.println(namn + " attackerar med nivå " + nivå + "!");
+int nivå;
+public Spelare(String namn, int hälsa, int nivå) {
+this.nivå = nivå;
+System.out.println(namn + " attackerar med nivå " + nivå + "!");
 public class ArvExempel {
-    public static void main(String[] args) {
-        // Skapar en fiende och en spelare.
-        Fiende fiende = new Fiende("Ondskans mästare", 100, 10);
-        Spelare spelare = new Spelare("Hjälten", 100, 5);
-        // Anropar attack-metoden för fienden och spelaren.
-        fiende.attack();
-        spelare.attack();
+public static void main(String[] args) {
+// Skapar en fiende och en spelare.
+Fiende fiende = new Fiende("Ondskans mästare", 100, 10);
+Spelare spelare = new Spelare("Hjälten", 100, 5);
+// Anropar attack-metoden för fienden och spelaren.
+fiende.attack();
+spelare.attack();
 I detta kodexempel används arv för att skapa en hierarki av spelkaraktärer. Den överordnade klassen "Karaktär" innehåller gemensamma egenskaper och beteenden för alla spelkaraktärer, medan nedärvande klasser som "Fiende" och "Spelare" specialiserar funktionaliteten för specifika spelkaraktärer. Båda nedärvande klasserna har en egen implementation av attack-metoden som anropas när de attackerar.
 När vi kör programmet skapar vi en instans av Fiende och en instans av Spelare och anropar---
 3. **Databashanterare**: I en databashanterare kan arv användas för att skapa en hierarki av databasobjekt. Till exempel kan en överordnad klass "DatabaseObject" innehålla generella funktioner för att hantera databasoperationer, medan nedärvande klasser som "Table" (Tabell) och "Query" (Fråga) specialiserar funktionaliteten för specifika databasentiteter.
 Detta är bara några exempel på användningsområden där arv kan tillämpas inom programmering. Principen om arv kan vara användbar i olika typer av program och system, oavsett om det är grafiska användargränssnitt, spel eller databashantering.
 ## Exempelkod - Arv i en berättelse
 
-
 För att bättre förstå arv kan vi titta på ett kodexempel som illustrerar användningen av arv genom en berättelse.
 Anta att vi bygger ett spel där vi har olika typer av karaktärer, inklusive fiender och hjältar. Vi kan använda arv för att skapa en hierarki av karaktärsklasser.
 // Definiera överordnad klass Karaktär
 public class Karaktär {
-    public String Namn;
-    public int Hälsa;
+public String Namn;
+public int Hälsa;
 // Definiera nedärvande klass Fiende
 public class Fiende extends Karaktär {
-    public void Attackera() {
-        // Implementera attacklogik för fiender
+public void Attackera() {
+// Implementera attacklogik för fiender
 // Definiera nedärvande klass Hjälte
 public class Hjälte extends Karaktär {
-    public void Försvara() {
-        // Implementera försvarlogik för hjältar
+public void Försvara() {
+// Implementera försvarlogik för hjältar
 // Användning av arv i spellogik
 Fiende fiende = new Fiende();
 fiende.Namn = "Ond skurk";
@@ -184,12 +181,10 @@ I spellogiken skapar vi en instans av `Fiende` och sätter dess egenskaper (`Nam
 Genom att använda arv kan vi enkelt skapa en hierarki av karaktärsklasser och använda deras specifika metoder och egenskaper baserat på deras roll i spelet.I detta kodexempel har vi en överordnad klass `Karaktär` som innehåller gemensamma egenskaper för både fiender och hjältar. Genom att ärva från `Karaktär` kan vi definiera specialiserad funktionalitet för fiender och hjältar i deras respektive nedärvande klasser `Fiende` och `Hjälte`. Vi kan sedan skapa instanser av dessa klasser och använda deras unika funktioner, som `Attackera()` för fiender och `Försvara()` för hjältar.
 ### Utdata
 
-
 (fiende.Attackera() skriver ut något här)
 (hjälte.Försvara() skriver ut något här)
 Detta är bara ett enkelt exempel som visar hur arv kan användas för att skapa hierarkier av klasser och dela funktionalitet mellan dem. I praktiken kan arv vara mycket mer kraftfullt och komplext i sina tillämpningar.
 ## Slutsats
-
 
 Arv är en viktig princip inom objektorienterad programmering som möjliggör återanvändning av kod och skapar hierarkier av klasser. Genom att använda arv kan vi strukturera och organisera vår kod på ett modulärt sätt, vilket förbättrar underhållbarheten och läsbarheten.
 I denna artikel har vi utforskat arvets fördelar, inklusive kodåteranvändning, modulär design och strukturerad kod. Vi har också diskuterat dess begränsningar och utmaningar, såsom tät koppling och ökad komplexitet.
@@ -197,20 +192,19 @@ Arv kan tillämpas inom olika områden inom programmering, från grafiska använ
 För att fördjupa dina kunskaper rekommenderar vi att du fortsätter läsa om arv, utforskar mer avancerade koncept som abstrakt arv och gränssnitt och experimenterar med att använda arv i dina egna programmeringsprojekt.
 ## TL;DRArv i Java:
 
-
 Arv i Java är en princip som möjliggör att en klass kan ärva egenskaper och beteenden från en annan klass. Detta möjliggör kodåteranvändning och skapar en hierarki av klasser. 
 För att implementera arv i Java används nyckelordet "extends". En klass kan ärva från en annan klass genom att använda extends-nyckelordet och ange namnet på den överordnade klassen. Klassen som ärver kallas subklassen och den överordnade klassen kallas superklassen.
 Här är ett exempel som visar hur arv fungerar i Java:
 // Superklass
 class Djur {
-    public void sägLjud() {
-        System.out.println("Djuret säger ljudet");
+public void sägLjud() {
+System.out.println("Djuret säger ljudet");
 // Subklass som ärver från superklassen Djur
 class Hund extends Djur {
-        System.out.println("Hunden säger voff");
+System.out.println("Hunden säger voff");
 public class Main {
-        Hund hund = new Hund();
-        hund.sägLjud(); // Output: Hunden säger voff
+Hund hund = new Hund();
+hund.sägLjud(); // Output: Hunden säger voff
 I exemplet ovan har vi en superklass "Djur" och en subklass "Hund". Subklassen "Hund" ärver egenskaper och beteenden från superklassen "Djur". Subklassen kan också överlagra metoder från superklassen för att ändra deras beteende.
 I main-metoden skapar vi en instans av subklassen "Hund" och anropar metoden "sägLjud()". Eftersom subklassen har överlagrat metoden, kommer den att visa det specifika ljudet för hundar.
 Arv möjliggör också flera nivåer av hierarkier. En subklass kan i sin tur fungera som superklass för en annan subklass. På så sätt kan vi bygga mer komplexa strukturer av klasser och utnyttja arvets fördelar.

@@ -1,24 +1,24 @@
 ---
-author: Marcus Medina
 title: IntelliJinstallation
-nav_order: 4
+permalink: verktyg/installation/IntelliJ
+nav_order: 6
 parent: Installation
 grand_parent: Verktyg
-permalink: verktyg/installation/IntelliJ
+author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default
-order: 9999
-updated: 2023-06-17 12:56:23
 author_github: https://github.com/marcusjobb
-id: 7d9f59cd-9036-4fe1-b7e2-e8c884c8b8f2
-codelanguage: Java
-company: Campus Mölndal
 author_url: https://marcusmedina.pro
 category: ["installation"]
+codelanguage: Java
+company: Campus Mölndal
+id: 7d9f59cd-9036-4fe1-b7e2-e8c884c8b8f2
+order: 9999
 school: https://campus.molndal.se/yh
+updated: 2023-06-17 12:56:23
 ---
 
-# IntelliJ installation
+# IntelliJinstallation
 
 [Installera JetBrains IntelliJ](https://www.jetbrains.com/idea/){: .btn }
 

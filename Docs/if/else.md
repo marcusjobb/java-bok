@@ -1,27 +1,27 @@
 ---
-author: Marcus Medina
 title: Else
+permalink: if/else
 nav_order: 2
 parent: If
 grand_parent: Java
-permalink: if/else
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-enhance: false
-codelanguage: C#
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
+codelanguage: C#
+enhance: false
 id: 657e61c6-5301-47d1-bd1a-5469496ae2b6
+school: https://campus.molndal.se/yh
 ---
 
 # Else
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 
 1. TOC
 {:toc}
@@ -41,9 +41,9 @@ Här är ett exempel som visar hur "annars" kan användas för att kontrollera o
 ```java
 int ålder = 18;
 if (ålder >= 18) {
-    System.out.println("Du är myndig");
+System.out.println("Du är myndig");
 } else {
-    System.out.println("Du är inte myndig");
+System.out.println("Du är inte myndig");
 }
 
 ```

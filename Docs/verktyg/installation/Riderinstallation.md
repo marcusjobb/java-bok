@@ -1,15 +1,18 @@
 ---
 title: Rider installation
+permalink: verktyg/installation/Riderinstallation
+nav_order: 10
+parent: Installation
+grand_parent: Verktyg
 author: Marcus Medina
 date: 2022-11-16 08:32
-lang_supported: ["csharp","java"]
-permalink: verktyg/installation/riderinstallation
-tags: ["[rider","installation","jetbrains"]
-categories: ["[Installation","Installation","Verktyg"]
 layout: default
-isverified: true
-nav_order: 6
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: fada25cb-61e1-4287-881d-66d175532668
+school: https://campus.molndal.se/yh
 ---
+
 # Rider installation
 
 [Installera Jetbrains Rider](https://www.jetbrains.com/rider/){: .btn }

@@ -1,15 +1,15 @@
 ---
-author: Marcus Medina
 title: Inkapsling
+permalink: oop/inkapsling
 nav_order: 16
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
-permalink: oop/inkapsling
+author: Marcus Medina
 layout: default
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
-id: 57a431a6-a21a-4b1d-81c9-eacf51b07d9c
 author_url: https://marcusmedina.pro
+id: 57a431a6-a21a-4b1d-81c9-eacf51b07d9c
+school: https://campus.molndal.se/yh
 ---
 
 Absolut! Här är hela artikeln om inkapsling i Java:
@@ -36,10 +36,10 @@ codelanguage: Java
 Inkapsling är en viktig princip inom objektorienterad programmering som handlar om att kombinera data och metoder inom en klass och kontrollera åtkomsten till dem. Det främjar säkerhet, moduläritet, återanvändbarhet och kodunderhåll. Inkapsling kan tillämpas i dataklasser, API-design och användas tillsammans med arv och polymorfism.
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 1. Innehållsförteckning
 {:toc}
 </details>
@@ -82,40 +82,39 @@ För att ge en bättre förståelse för inkapsling i Java kan vi titta på ett 
 
 ```java
 public class BankAccount {
-    private double balance;
+private double balance;
 
-    public BankAccount(double initialBalance) {
-        balance = initialBalance;
-    }
+public BankAccount(double initialBalance) {
+balance = initialBalance;
+}
 
-    public void deposit(double amount) {
-        balance += amount;
-    }
+public void deposit(double amount) {
+balance += amount;
+}
 
-    public void withdraw(double amount) {
-        if (amount <= balance) {
-            balance -= amount;
-        } else {
-            System.out.println("Otillräckliga medel.");
-        }
-    }
+public void withdraw(double amount) {
+if (amount <= balance) {
+balance -= amount;
+} else {
+System.out.println("Otillräckliga medel.");
+}
+}
 
-    public double getBalance() {
-        return balance;
-    }
+public double getBalance() {
+return balance;
+}
 }
 
 public class Main {
-    public static void main(String[] args) {
-       
+public static void main(String[] args) {
 
- BankAccount account = new BankAccount(1000);
-        System.out.println("Nuvarande saldo: " + account.getBalance());
-        account.deposit(500);
-        System.out.println("Efter insättning: " + account.getBalance());
-        account.withdraw(200);
-        System.out.println("Efter uttag: " + account.getBalance());
-    }
+BankAccount account = new BankAccount(1000);
+System.out.println("Nuvarande saldo: " + account.getBalance());
+account.deposit(500);
+System.out.println("Efter insättning: " + account.getBalance());
+account.withdraw(200);
+System.out.println("Efter uttag: " + account.getBalance());
+}
 }
 ```
 
@@ -129,51 +128,51 @@ Vi kan också titta på ett annat exempel på inkapsling i Java:
 
 ```java
 public class Superhero {
-    private String name;    // Privat medlemsvariabel för superhjältens namn
-    private String powers;  // Privat medlemsvariabel för superhjältens krafter
+private String name;    // Privat medlemsvariabel för superhjältens namn
+private String powers;  // Privat medlemsvariabel för superhjältens krafter
 
-    // Konstruktor för att skapa en instans av Superhero med namn och krafter
-    public Superhero(String name, String powers) {
-        this.name = name;
-        this.powers = powers;
-    }
+// Konstruktor för att skapa en instans av Superhero med namn och krafter
+public Superhero(String name, String powers) {
+this.name = name;
+this.powers = powers;
+}
 
-    // Getter-metod för att hämta superhjältens namn
-    public String getName() {
-        return name;
-    }
+// Getter-metod för att hämta superhjältens namn
+public String getName() {
+return name;
+}
 
-    // Getter-metod för att hämta superhjältens krafter
-    public String getPowers() {
-        return powers;
-    }
+// Getter-metod för att hämta superhjältens krafter
+public String getPowers() {
+return powers;
+}
 
-    // Setter-metod för att sätta superhjältens krafter
-    public void setPowers(String powers) {
-        this.powers = powers;
-    }
+// Setter-metod för att sätta superhjältens krafter
+public void setPowers(String powers) {
+this.powers = powers;
+}
 
-    // Metod för att visa superhjältens namn och krafter
-    public void displaySuperhero() {
-        System.out.println("Namn: " + name);
-        System.out.println("Krafter: " + powers);
-    }
+// Metod för att visa superhjältens namn och krafter
+public void displaySuperhero() {
+System.out.println("Namn: " + name);
+System.out.println("Krafter: " + powers);
+}
 }
 
 public class Main {
-    public static void main(String[] args) {
-        // Skapa en instans av Superhero med namnet "Spider-Man" och krafterna "Wall-crawling, superhuman strength"
-        Superhero superhero = new Superhero("Spider-Man", "Wall-crawling, superhuman strength");
-        
-        // Visa superhjältens namn och krafter med hjälp av displaySuperhero-metoden
-        superhero.displaySuperhero();
-        
-        // Uppdatera superhjältens krafter med hjälp av setPowers-metoden
-        superhero.setPowers("Web-slinging, spider-sense");
-        
-        // Visa superhjältens uppdaterade krafter med hjälp av getPowers-metoden
-        System.out.println("Uppdaterade krafter: " + superhero.getPowers());
-    }
+public static void main(String[] args) {
+// Skapa en instans av Superhero med namnet "Spider-Man" och krafterna "Wall-crawling, superhuman strength"
+Superhero superhero = new Superhero("Spider-Man", "Wall-crawling, superhuman strength");
+
+// Visa superhjältens namn och krafter med hjälp av displaySuperhero-metoden
+superhero.displaySuperhero();
+
+// Uppdatera superhjältens krafter med hjälp av setPowers-metoden
+superhero.setPowers("Web-slinging, spider-sense");
+
+// Visa superhjältens uppdaterade krafter med hjälp av getPowers-metoden
+System.out.println("Uppdaterade krafter: " + superhero.getPowers());
+}
 }
 ```
 

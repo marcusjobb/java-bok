@@ -1,18 +1,18 @@
 ---
-author: Marcus Medina
 title: Else if
+permalink: if/elseif
 nav_order: 4
 parent: If
 grand_parent: Java
-permalink: if/elseif
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-enhance: false
-codelanguage: C#
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
+codelanguage: C#
+enhance: false
 id: 1974ec3c-7ac9-47e6-8ec8-6cbaab55be08
+school: https://campus.molndal.se/yh
 ---
 
 # Else if
@@ -37,15 +37,15 @@ Här är några kodexempel som visar användningen av Else if i Java:
 ```java
 int poäng = 75;
 if (poäng >= 90) {
-    System.out.println("A");
+System.out.println("A");
 } else if (poäng >= 80) {
-    System.out.println("B");
+System.out.println("B");
 } else if (poäng >= 70) {
-    System.out.println("C");
+System.out.println("C");
 } else if (poäng >= 60) {
-    System.out.println("D");
+System.out.println("D");
 } else {
-    System.out.println("F");
+System.out.println("F");
 }
 ```
 
@@ -59,30 +59,30 @@ Här utvärderar vi input från användaren
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Vänligen ange din ålder:");
-        int age = scanner.nextInt();
+System.out.println("Vänligen ange din ålder:");
+int age = scanner.nextInt();
 
-        if (age < 0) {
-            System.out.println("Åldern kan inte vara negativ.");
-        } else if (age < 3) {
-            System.out.println("Barnrumpa, du är för söt!");
-        } else if (age < 18) {
-            System.out.println("Ung och full av energi!");
-        } else if (age < 40) {
-            System.out.println("Medelålders och i sin bästa form!");
-        } else if (age < 60) {
-            System.out.println("Gamling, men fortfarande aktiv!");
-        } else if (age < 100) {
-            System.out.println("Jisses, du är gammal!");
-        } else {
-            System.out.println("Du är uråldrig! Respekt!");
-        }
+if (age < 0) {
+System.out.println("Åldern kan inte vara negativ.");
+} else if (age < 3) {
+System.out.println("Barnrumpa, du är för söt!");
+} else if (age < 18) {
+System.out.println("Ung och full av energi!");
+} else if (age < 40) {
+System.out.println("Medelålders och i sin bästa form!");
+} else if (age < 60) {
+System.out.println("Gamling, men fortfarande aktiv!");
+} else if (age < 100) {
+System.out.println("Jisses, du är gammal!");
+} else {
+System.out.println("Du är uråldrig! Respekt!");
+}
 
-        scanner.close();
-    }
+scanner.close();
+}
 }
 ```
 
@@ -95,13 +95,13 @@ System.out.println("2. Gör en insättning");
 System.out.println("3. Gör ett uttag");
 int val = Integer.parseInt(System.console().readLine());
 if (val == 1) {
-    // Visa saldo
+// Visa saldo
 } else if (val == 2) {
-    // Gör en insättning
+// Gör en insättning
 } else if (val == 3) {
-    // Gör ett uttag
+// Gör ett uttag
 } else {
-    System.out.println("Ogiltigt val");
+System.out.println("Ogiltigt val");
 }
 ```
 
@@ -114,11 +114,11 @@ import java.time.LocalTime;
 
 LocalTime nu = LocalTime.now();
 if (nu.getHour() < 12) {
-    System.out.println("God morgon!");
+System.out.println("God morgon!");
 } else if (nu.getHour() < 18) {
-    System.out.println("God eftermiddag!");
+System.out.println("God eftermiddag!");
 } else {
-    System.out.println("God kväll!");
+System.out.println("God kväll!");
 }
 ```
 

@@ -1,16 +1,16 @@
 ---
-author: Marcus Medina
 title: Miro Board
-nav_order: 8
-parent: Notion
-grand_parent: Verktyg
 permalink: verktyg/forslag/miro
+nav_order: 8
+parent: Förslag
+grand_parent: Verktyg
+author: Marcus Medina
 date: 2023-07-06
 layout: default
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
-id: 693a5479-0a24-45bd-98ba-ff4297507d86
 author_url: https://marcusmedina.pro
+id: 693a5479-0a24-45bd-98ba-ff4297507d86
+school: https://campus.molndal.se/yh
 ---
 
 # Miro Board

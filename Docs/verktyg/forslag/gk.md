@@ -1,15 +1,18 @@
 ---
 title: Google Keep
+permalink: verktyg/forslag/gk
+nav_order: 6
+parent: Förslag
+grand_parent: Verktyg
 author: Marcus Medina
 date: 2022-11-17 11:01
-lang_supported: ["csharp","java"]
-permalink: verktyg/forslag/gk
-tags: ["[google","keep"]
-categories: ["[Förslag","Forslag","Verktyg"]
 layout: default
-isverified: true
-nav_order: 3
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 0f8187dc-6f75-452f-b579-b0a2206739b1
+school: https://campus.molndal.se/yh
 ---
+
 # Google Keep
 
 [Installera Google Keep](https://keep.google.com/){: .btn }

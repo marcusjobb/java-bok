@@ -1,15 +1,18 @@
 ---
 title: Notion
+permalink: verktyg/forslag/Notion
+nav_order: 4
+parent: Förslag
+grand_parent: Verktyg
 author: Marcus Medina
 date: 2022-11-16 08:56
-lang_supported: ["csharp","java"]
-permalink: verktyg/forslag/notion
-tags: ["[notion","forslag","verktyg"]
-categories: ["[Notion","Forslag","Verktyg"]
 layout: default
-isverified: true
-nav_order: 2
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 4e115aad-4341-4792-96f0-7cdbb501fb8a
+school: https://campus.molndal.se/yh
 ---
+
 # Notion
 
 [Öppna Notion](https://www.notion.so/){: .btn .btn-blue }

@@ -1,19 +1,18 @@
 ---
-author: Marcus Medina
 title: If
-nav_order: 10
-parent: Java
-grand_parent: Home
 permalink: if/index
+nav_order: 12
+parent: Java
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-author_url: https://marcusmedina.pro
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
-id: 5b760e63-a63c-4011-983c-e2bef4f658d2
-enhance: false
+author_url: https://marcusmedina.pro
 codelanguage: C#
+enhance: false
 has_children: true
+id: 5b760e63-a63c-4011-983c-e2bef4f658d2
+school: https://campus.molndal.se/yh
 ---
 
 # If
@@ -31,7 +30,7 @@ Här är ett exempel på hur man använder if i Java:
 ```java
 int ålder = 18;
 if (ålder >= 18) {
-    System.out.println("Du är myndig");
+System.out.println("Du är myndig");
 }
 
 ```

@@ -1,20 +1,21 @@
 ---
-author: Marcus Medina
 title: Exempel
+permalink: oop/delegater/exempel
 nav_order: 2
 parent: delegater
 grand_parent: Objektorienterad programmering (OOP)
-permalink: oop/delegater/exempel
+author: Marcus Medina
 date: 2022-11-20 02:59
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: C#
-school: https://campus.molndal.se/yh
 enhance: false
 id: e2a625a1-45b1-4d4c-b88b-b868ce6dc947
-author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
 ---
 
+# Exempel
 klass som innehåller en metod för att utföra en beräkning med hjälp av delegater. |
 | Addera      | En metod som tar två heltal som parametrar och returnerar deras summa.        |
 | Subtrahera  | En metod som tar två heltal som parametrar och returnerar deras differens.    |
@@ -29,18 +30,18 @@ Här är ett exempel på hur man använder en delegat i C#:
 delegate void CalcParams(int a, int b);
 
 public class Calculator {
-    // Metod som utför en beräkning med hjälp av delegaten CalcParams.
-    public void PerformCalculation(int a, int b, CalcParams calculation) {
-        calculation(a, b);
+// Metod som utför en beräkning med hjälp av delegaten CalcParams.
+public void PerformCalculation(int a, int b, CalcParams calculation) {
+calculation(a, b);
 
-    public static void main(String[] args) {
-        // Skapa en instans av Calculator-klassen.
-        Calculator calculator = new Calculator();
-        // Skapa en instans av delegaten CalcParams som refererar till metoden Addera.
-        CalcParams addDelegate = new CalcParams(calculator.Addera);
-        // Anropa PerformCalculation-metoden och skicka med delegaten Addera.
-        calculator.PerformCalculation(5, 3, addDelegate);
-    }
+public static void main(String[] args) {
+// Skapa en instans av Calculator-klassen.
+Calculator calculator = new Calculator();
+// Skapa en instans av delegaten CalcParams som refererar till metoden Addera.
+CalcParams addDelegate = new CalcParams(calculator.Addera);
+// Anropa PerformCalculation-metoden och skicka med delegaten Addera.
+calculator.PerformCalculation(5, 3, addDelegate);
+}
 }
 ```
 
@@ -52,23 +53,23 @@ Detta är ett exempel på hur man använder en delegat i C#. I Java kan man anv�
 ```java
 // Definiera ett gränssnitt med namnet CalcParams som har en metod som tar två heltal som parametrar och returnerar inget.
 interface CalcParams {
-    void calculate(int a, int b);
+void calculate(int a, int b);
 
 public class Calculator {
-    // Metod som utför en beräkning med hjälp av gränssnittet CalcParams.
-    public void performCalculation(int a, int b, CalcParams calculation) {
-        calculation.calculate(a, b);
+// Metod som utför en beräkning med hjälp av gränssnittet CalcParams.
+public void performCalculation(int a, int b, CalcParams calculation) {
+calculation.calculate(a, b);
 
 public class Main {
-    public static void main(String[] args) {
-        // Skapa en lambda-uttryck som implementerar gränssnittet CalcParams och adderar två heltal.
-        CalcParams addLambda = (int a, int b) -> {
-            int sum = a + b;
-            System.out.println("Summan av " + a + " och " + b + " är " + sum);
-        };
-        // Anropa performCalculation-metoden och skicka med lambda-uttrycket.
-        calculator.performCalculation(5, 3, addLambda);
-    }
+public static void main(String[] args) {
+// Skapa en lambda-uttryck som implementerar gränssnittet CalcParams och adderar två heltal.
+CalcParams addLambda = (int a, int b) -> {
+int sum = a + b;
+System.out.println("Summan av " + a + " och " + b + " är " + sum);
+};
+// Anropa performCalculation-metoden och skicka med lambda-uttrycket.
+calculator.performCalculation(5, 3, addLambda);
+}
 }
 ```
 

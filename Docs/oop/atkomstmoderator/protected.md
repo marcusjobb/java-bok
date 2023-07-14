@@ -1,18 +1,18 @@
 ---
-author: Marcus Medina
 title: Protected
-nav_order: 4
-parent: Åtkomstmodifikatorer i Java
-grand_parent: Objektorienterad programmering (OOP)
 permalink: oop/atkomstmoderator/protected
+nav_order: 4
+parent: Åtkomstmoderator
+grand_parent: Objektorienterad programmering (OOP)
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-author_url: https://marcusmedina.pro
-codelanguage: C#
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
 available: Java Java
+codelanguage: C#
 id: 91c193e4-c32c-4d30-9925-48c5f654a67f
+school: https://campus.molndal.se/yh
 ---
 
 # Protected
@@ -20,12 +20,12 @@ id: 91c193e4-c32c-4d30-9925-48c5f654a67f
 Protected är en åtkomstmodifierare som gör att en klass, metod eller egenskap är tillgänglig för klassen den är deklarerad i och alla klasser som ärver från den.
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 1. TOC
-   {:toc}
+{:toc}
 </details>
 
 ## Beskrivning
@@ -37,14 +37,14 @@ Protected är som private för alla klasser, utom den som ärver. Klasser kan in
 
 ```java 
 public class Person {
-    protected String name;
+protected String name;
 }
 public class Student extends Person {
-    public Student(String name) {
-        this.name = name;
-    }
-    public void printInfo() {
-        System.out.println("Student Info: " + name);
+public Student(String name) {
+this.name = name;
+}
+public void printInfo() {
+System.out.println("Student Info: " + name);
 ```
 
 ## Förklaring

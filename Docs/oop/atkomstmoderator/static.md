@@ -1,18 +1,18 @@
 ---
-author: Marcus Medina
 title: Static
-nav_order: 8
-parent: Åtkomstmodifikatorer i Java
-grand_parent: Objektorienterad programmering (OOP)
 permalink: oop/atkomstmoderator/static
+nav_order: 8
+parent: Åtkomstmoderator
+grand_parent: Objektorienterad programmering (OOP)
+author: Marcus Medina
 date: 2023-07-02
 layout: default
-author_url: https://marcusmedina.pro
-codelanguage: C#
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
 available: Java Java
+codelanguage: C#
 id: 507a847c-b7af-4357-9946-7bc110f26aeb
+school: https://campus.molndal.se/yh
 ---
 
 # Static
@@ -20,13 +20,13 @@ id: 507a847c-b7af-4357-9946-7bc110f26aeb
 En static är en åtkomstmodifikator som gör att en klassmedlem tillhör klassen och inte objektet.
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 </details>
 
@@ -38,13 +38,13 @@ När koden kompileras kommer alla statiska medlemmar att tilldelas ett gemensamt
 
 ```mermaid
 mindmap
-  root((Minnet))
-    Instanser av klasser
-        Instansvariabler
-        Instansmetoder
-    Statiskt
-        Statiska variabler
-        Statiska metoder
+root((Minnet))
+Instanser av klasser
+Instansvariabler
+Instansmetoder
+Statiskt
+Statiska variabler
+Statiska metoder
 ```
 
 I detta diagram representerar "Minne" den allmänna minnesplatsen där programmet körs.
@@ -60,9 +60,9 @@ Hoppas att detta diagram hjälper till att illustrera hur en statisk metod lägg
 
 ```java
 public class UserSettings {
-    public static String UserName;
-    public static int Password;
-    public static boolean DarkMode = true;
+public static String UserName;
+public static int Password;
+public static boolean DarkMode = true;
 }
 ```
 

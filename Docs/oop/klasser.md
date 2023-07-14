@@ -1,16 +1,16 @@
 ---
-author: Marcus Medina
 title: Klasser och Objekt inom programmering med Java
+permalink: oop/klasser
 nav_order: 2
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
-permalink: oop/klasser
+author: Marcus Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
-enhance: false
-codelanguage: Java
 author_url: https://marcusmedina.pro
+codelanguage: Java
+enhance: false
 id: 3f523dea-f2e6-451b-8966-c79399f2c147
 school: https://campus.molndal.se/yh
 ---
@@ -20,10 +20,10 @@ school: https://campus.molndal.se/yh
 En artikel som utforskar ämnet Klasser och Objekt inom programmering med Java.
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 
 1. TOC
 {:toc}
@@ -130,21 +130,21 @@ För att illustrera användningen av Klasser och Objekt, låt oss tänka oss att
 
 ```java
 public class Book {
-    private String title;
-    private String author;
-    private int year;
+private String title;
+private String author;
+private int year;
 
-    public Book(String title, String author, int year) {
-        this.title = title;
-        this.author = author;
-        this.year = year;
-    }
+public Book(String title, String author, int year) {
+this.title = title;
+this.author = author;
+this.year = year;
+}
 
-    public void displayInfo() {
-        System.out.println("Title: " + title);
-        System.out.println("Author: " + author);
-        System.out.println("Year: " + year);
-    }
+public void displayInfo() {
+System.out.println("Title: " + title);
+System.out.println("Author: " + author);
+System.out.println("Year: " + year);
+}
 }
 ```
 
@@ -152,28 +152,28 @@ Nu har vi skapat en klass för böcker som innehåller information om titel, fö
 
 ```java
 public class Member {
-    private String name;
-    private int age;
-    private List<Book> borrowedBooks;
+private String name;
+private int age;
+private List<Book> borrowedBooks;
 
-    public Member(String name, int age) {
-        this.name = name;
-        this.age = age;
-        this.borrowedBooks = new ArrayList<>();
-    }
+public Member(String name, int age) {
+this.name = name;
+this.age = age;
+this.borrowedBooks = new ArrayList<>();
+}
 
-    public void borrowBook(Book book) {
-        borrowedBooks.add(book);
-    }
+public void borrowBook(Book book) {
+borrowedBooks.add(book);
+}
 
-    public void displayInfo() {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("Borrowed Books:");
-        for (Book book : borrowedBooks) {
-            System.out.println("- " + book.getTitle());
-        }
-    }
+public void displayInfo() {
+System.out.println("Name: " + name);
+System.out.println("Age: " + age);
+System.out.println("Borrowed Books:");
+for (Book book : borrowedBooks) {
+System.out.println("- " + book.getTitle());
+}
+}
 }
 ```
 

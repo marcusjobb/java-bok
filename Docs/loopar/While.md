@@ -1,21 +1,21 @@
 ---
-author: Marcus Medina
 title: While
+permalink: loopar/While
 nav_order: 6
 parent: Loopar
 grand_parent: Java
-permalink: loopar/While
+author: Marcus Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: C#
-school: https://campus.molndal.se/yh
 enhance: false
 id: 3b122b09-74c2-4831-801f-20a874f4f368
-author_url: https://marcusmedina.pro
+school: https://campus.molndal.se/yh
 ---
 
-## Beskrivning
+# While
 
 While-loopar är en typ av loop inom programmering som används för att upprepa en kodsekvens så länge ett visst villkor är sant. Det är en grundläggande kontrollstruktur som tillåter oss att utföra repeterade handlingar utan att behöva skriva samma kod flera gånger. I en while-loop utvärderas villkoret före varje iteration, och om det är sant körs loopen och kodblocket inuti utförs. När villkoret blir falskt avslutas loopen och programmet fortsätter med den efterföljande koden.
 
@@ -61,13 +61,13 @@ Här är ett exempel som visar hur man använder en while-loop i Java:
 
 ```java
 public class WhileExample {
-    public static void main(String[] args) {
-        int count = 0;
-        while (count < 5) {
-            System.out.println("Count: " + count);
-            count++;
-        }
-    }
+public static void main(String[] args) {
+int count = 0;
+while (count < 5) {
+System.out.println("Count: " + count);
+count++;
+}
+}
 }
 ```
 

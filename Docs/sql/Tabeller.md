@@ -1,25 +1,29 @@
 ---
 title: Tabeller
+permalink: sql/Tabeller
+nav_order: 2
+parent: SQL
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
-lang_supported: ["csharp","java"]
-permalink: sql/tabeller
-tags: ["[tabell","tabeller"]
-categories: ["[Databas","Sql"]
 layout: default
-isverified: true
-nav_order: 3
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+codelanguage: SQL
+id: 720735fc-ab44-42e9-a855-8628dd323964
+school: https://campus.molndal.se/yh
 ---
-## Tabeller
+
+# Tabeller
 
 Tabeller är som ett rutnät av data som lagras i en databas. Varje tabell har en eller flera kolumner, och varje rad i tabellen är en post. Varje post har en värde för varje kolumn. En tabell kan ha en primärnyckel, som är en kolumn som är unik för varje post. En tabell kan också ha en eller flera främmande nycklar, som är en kolumn som är kopplad till en annan tabell. 
 Exemplen här nedanför är för MySQL. Det kan skilja på andra servrar {: warning}
 
 <details open markdown="block">
-  <summary>
-    Innehållsförteckning
-  </summary>
-  {: .text-delta }
+<summary>
+Innehållsförteckning
+</summary>
+{: .text-delta }
 
 1. TOC
 {:toc}
@@ -33,9 +37,9 @@ Här skapar vi en tabell med namnet `users` och tre kolumner: `id`, `name` och `
 
 ```sql
 CREATE TABLE IF NOT EXISTS users (
-  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  name VARCHAR(30) NOT NULL,
-  email VARCHAR(50)
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(30) NOT NULL,
+email VARCHAR(50)
 );
 ```
 
@@ -76,11 +80,11 @@ users_ibfk_1 är den första ForeignKey som finns i tabellen users.
 
 ```sql
 CREATE TABLE IF NOT EXISTS cars (
-  CarId INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  Model VARCHAR(30) NOT NULL,
-  Brand VARCHAR(50),
-  UserId INT(6) UNSIGNED,
-  FOREIGN KEY (UserId) REFERENCES users(id)
+CarId INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+Model VARCHAR(30) NOT NULL,
+Brand VARCHAR(50),
+UserId INT(6) UNSIGNED,
+FOREIGN KEY (UserId) REFERENCES users(id)
 );
 ```
 
@@ -88,12 +92,12 @@ CREATE TABLE IF NOT EXISTS cars (
 
 ```sql
 CREATE TABLE IF NOT EXISTS cars (
-  CarId INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  Model VARCHAR(30) NOT NULL,
-  Brand VARCHAR(50),
-  UserId INT(6) UNSIGNED,
-  PRIMARY KEY (CarId, UserId),
-  FOREIGN KEY (UserId) REFERENCES users(id)
+CarId INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+Model VARCHAR(30) NOT NULL,
+Brand VARCHAR(50),
+UserId INT(6) UNSIGNED,
+PRIMARY KEY (CarId, UserId),
+FOREIGN KEY (UserId) REFERENCES users(id)
 );
 ```
 

@@ -1,16 +1,16 @@
 ---
-author: Marcus Medina
 title: Interfaces
+permalink: oop/polymorfism/interfaces/index
 nav_order: 4
 parent: Polymorfism
-grand_parent: Objektorienterad programmering (OOP)
-permalink: oop/polymorfism/interfaces/index
+grand_parent: Java
+author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+has_children: true
 id: 6f44637f-d8ef-45c4-89bd-685337996e05
 school: https://campus.molndal.se/yh
-has_children: true
-author_url: https://marcusmedina.pro
 ---
 
 Här är den korrigerade och förbättrade versionen av artikeln med kommentarer:
@@ -48,10 +48,10 @@ Låt oss titta på ett exempel där vi skapar ett gränssnitt som heter `Animal`
 
 ```java
 interface Animal {
-    String getName();
-    void eat();
-    void sleep();
-    void shit();
+String getName();
+void eat();
+void sleep();
+void shit();
 }
 ```
 
@@ -59,27 +59,27 @@ I detta exempel har vi ett gränssnitt som heter `Animal`. Vi har också tre met
 
 ```java
 class Cat implements Animal {
-    private String name;
+private String name;
 
-    public Cat(String name) {
-        this.name = name;
-    }
+public Cat(String name) {
+this.name = name;
+}
 
-    public String getName() {
-        return name;
-    }
+public String getName() {
+return name;
+}
 
-    public void eat() {
-        System.out.println(name + " is eating.");
-    }
+public void eat() {
+System.out.println(name + " is eating.");
+}
 
-    public void sleep() {
-        System.out.println(name + " is sleeping.");
-    }
+public void sleep() {
+System.out.println(name + " is sleeping.");
+}
 
-    public void shit() {
-        System.out.println(name + " is taking a shit.");
-    }
+public void shit() {
+System.out.println(name + " is taking a shit.");
+}
 }
 ```
 
@@ -89,12 +89,12 @@ Nu kan vi skapa en instans av katten och använda dess metoder:
 
 ```java
 public class Main {
-    public static void main(String[] args) {
-        Cat cat = new Cat("Whiskers");
-        cat.eat();
-        cat.sleep();
-        cat.shit();
-    }
+public static void main(String[] args) {
+Cat cat = new Cat("Whiskers");
+cat.eat();
+cat.sleep();
+cat.shit();
+}
 }
 ```
 

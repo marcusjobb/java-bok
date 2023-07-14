@@ -1,15 +1,18 @@
 ---
 title: Discord
+permalink: skolan/Discord
+nav_order: 6
+parent: Skolan
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 12:47
-lang_supported: ["csharp","java"]
-permalink: skolan/discord
-tags: ["[discord","skolan"]
-categories: ["[Discord","Skolan"]
 layout: default
-isverified: true
-nav_order: 3
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: ba861e65-6afd-4394-8fb7-d2843bf4b45d
+school: https://campus.molndal.se/yh
 ---
+
 # Discord
 
 [Installera Discord](https://discord.com/download){: .btn .btn-blue }
