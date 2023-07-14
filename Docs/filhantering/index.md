@@ -22,21 +22,36 @@ Vi ska skapa en klass och spara den i hårddisken, sedan ska vi läsa in den.
 
 ```java
 class Person{
-String namn;
-int ålder;
-public Person(String namn, int ålder){
-this.namn = namn;
-this.ålder = ålder;
+    String namn;
+    int ålder;
+    
+    public Person(String namn, int ålder){
+        this.namn = namn;
+        this.ålder = ålder;
+    }
+    
+    public String toString(){
+        return "Namn: " + namn + " Ålder:" + ålder;
+    }
+    
+    public String getNamn(){
+        return namn;
+    }
+    
+    public int getÅlder(){
+        return ålder;
+    }
+    
+    public void setNamn(String namn){
+        this.namn = namn;
+    }
+    
+    public void setÅlder(int ålder){
+        this.ålder = ålder;
+    }
 }
-
-public String toString(){ return "Namn: " + namn + " Ålder:" + ålder;}
-public String getNamn(){ return namn;}
-public int getÅlder(){ return ålder;}
-public void setNamn(String namn){ this.namn = namn;}
-public void setÅlder(int ålder){ this.ålder = ålder;}
-}
-
 ```
+
 ## Läsa en textfil
 
 För att läsa en textfil, använder vi `FileReader`-klassen. Vi skapar ett nytt objekt av klassen och ger den filnamnet som argument. Sedan kan vi använda `readLine()`-metoden för att läsa in rader från filen.
@@ -45,8 +60,8 @@ För att läsa en textfil, använder vi `FileReader`-klassen. Vi skapar ett nytt
 FileReader fr = new FileReader("filnamn.txt");
 String rad = fr.readLine();
 while(rad != null){
-System.out.println(rad);
-rad = fr.readLine();
+    System.out.println(rad);
+    rad = fr.readLine();
 }
 ```
 
@@ -86,14 +101,13 @@ Lägg till Gson-biblioteket i Maven:
 
 ```xml
 <dependency>
-<groupId>com.google.code.gson</groupId>
-<artifactId>gson</artifactId>
-<version>2.8.9</version>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.9</version>
 </dependency>
 ```
 
 ```java
-
 // Skapa en person
 Person p = new Person("Leia Skywalker", 23);
 
@@ -143,7 +157,6 @@ För att läsa och skriva binära filer med Base64, använder vi `Base64`-klasse
 
 ```java
 // Skapa en person
-
 Person p = new Person("Chewbacca", 53);
 
 // Serialisera personen
@@ -177,7 +190,7 @@ ObjectOutputStream oos = new ObjectOutputStream(baos);
 oos.writeObject(p);
 
 // Skapa en ny fil och skriv personen till den
-FileOutputStream fos = new FileOutpu|tStream("person.gzis");
+FileOutputStream fos = new FileOutputStream("person.gzis");
 GZIPOutputStream gzos = new GZIPOutputStream(fos);
 gos.write(Base64.getEncoder().encode(baos.toByteArray()));
 gos.close();
@@ -197,7 +210,7 @@ System.out.println(p2);
 ```java
 File f = new File("person.txt");
 if(f.exists()){
-System.out.println("Filen finns");
+    System.out.println("Filen finns");
 }
 ```
 
@@ -206,7 +219,7 @@ System.out.println("Filen finns");
 ```java
 File f = new File("person.txt");
 if(!f.exists()){
-f.createNewFile();
+    f.createNewFile();
 }
 ```
 
@@ -215,7 +228,7 @@ f.createNewFile();
 ```java
 File f = new File("mapp");
 if(!f.exists()){
-f.mkdir();
+    f.mkdir();
 }
 ```
 
@@ -224,7 +237,7 @@ f.mkdir();
 ```java
 File f = new File("person.txt");
 if(f.exists()){
-f.delete();
+    f.delete();
 }
 ```
 
@@ -233,8 +246,8 @@ f.delete();
 ```java
 File f = new File("mapp");
 if(f.exists()){
-if (f.isDirectory() && f.list().length == 0)
-f.delete();
+    if (f.isDirectory() && f.list().length == 0)
+        f.delete();
 }
 ```
 
@@ -243,7 +256,7 @@ f.delete();
 ```java
 File f = new File("person.txt");
 if(f.exists()){
-f.renameTo(new File("person2.txt"));
+    f.renameTo(new File("person2.txt"));
 }
 ```
 
@@ -252,10 +265,10 @@ f.renameTo(new File("person2.txt"));
 ```java
 File f = new File("mapp");
 if(f.exists()){
-File[] files = f.listFiles();
-for(File file : files){
-System.out.println(file.getName());
-}
+    File[] files = f.listFiles();
+    for(File file : files){
+        System.out.println(file.getName());
+    }
 }
 ```
 
@@ -265,17 +278,17 @@ System.out.println(file.getName());
 File f = new File("mapp");
 
 if(f.exists()){
-File[] files = f.listFiles();
-for(File file : files){
-if(file.isDirectory()){
-File[] subFiles = file.listFiles();
-for(File subFile : subFiles){
-System.out.println(subFile.getName());
-}
-}else{
-System.out.println(file.getName());
-}
-}
+    File[] files = f.listFiles();
+    for(File file : files){
+        if(file.isDirectory()){
+            File[] subFiles = file.listFiles();
+            for(File subFile : subFiles){
+                System.out.println(subFile.getName());
+            }
+        }else{
+            System.out.println(file.getName());
+        }
+    }
 }
 ```
 
@@ -284,12 +297,12 @@ System.out.println(file.getName());
 ```java
 File f = new File("mapp");
 if(f.exists()){
-File[] files = f.listFiles();
-for(File file : files){
-if(file.getName().contains("Katt")){
-System.out.println(file.getName());
-}
-}
+    File[] files = f.listFiles();
+    for(File file : files){
+        if(file.getName().contains("Katt")){
+            System.out.println(file.getName());
+        }
+    }
 }
 ```
 
@@ -298,12 +311,12 @@ System.out.println(file.getName());
 ```java
 File f = new File("mapp");
 if(f.exists()){
-File[] files = f.listFiles();
-for(File file : files){
-if(file.getName().contains("Hemlighet")){
-file.delete();
-}
-}
+    File[] files = f.listFiles();
+    for(File file : files){
+        if(file.getName().contains("Hemlighet")){
+            file.delete();
+        }
+    }
 }
 ```
 
@@ -313,19 +326,19 @@ file.delete();
 File f = new File("mapp");
 
 if(f.exists()){
-File[] files = f.listFiles();
-for(File file : files){
-if(file.isFile()){
-FileReader fr = new FileReader(file);
-String rad = fr.readLine();
-while(rad != null){
-if(rad.contains("Lösenord")){
-System.out.println(file.getName());
-}
-rad = fr.readLine();
-}
-}
-}
+    File[] files = f.listFiles();
+    for(File file : files){
+        if(file.isFile()){
+            FileReader fr = new FileReader(file);
+            String rad = fr.readLine();
+            while(rad != null){
+                if(rad.contains("Lösenord")){
+                    System.out.println(file.getName());
+                }
+                rad = fr.readLine();
+            }
+        }
+    }
 }
 ```
 
@@ -335,19 +348,19 @@ rad = fr.readLine();
 File f = new File("person.txt");
 
 if(f.exists()){
-System.out.println("Filnamn: " + f.getName());
-System.out.println("Filtyp: " + f.getType());
-System.out.println("Mapp: " + f.getParent());
-System.out.println("Sökväg: " + f.getAbsolutePath());
-System.out.println("Storlek: " + f.length());
-System.out.println("Senast ändrad: " + f.lastModified());
-System.out.println("Är fil: " + f.isFile());
-System.out.println("Är mapp: " + f.isDirectory());
-System.out.println("Är dold: " + f.isHidden());
-System.out.println("Är läsbar: " + f.canRead());
-System.out.println("Är skrivbar: " + f.canWrite());
-System.out.println("Är exekverbar: " + f.canExecute());
-System.out.println("Är samma fil: " + f.equals(new File("person.txt")));
+    System.out.println("Filnamn: " + f.getName());
+    System.out.println("Filtyp: " + f.getType());
+    System.out.println("Mapp: " + f.getParent());
+    System.out.println("Sökväg: " + f.getAbsolutePath());
+    System.out.println("Storlek: " + f.length());
+    System.out.println("Senast ändrad: " + f.lastModified());
+    System.out.println("Är fil: " + f.isFile());
+    System.out.println("Är mapp: " + f.isDirectory());
+    System.out.println("Är dold: " + f.isHidden());
+    System.out.println("Är läsbar: " + f.canRead());
+    System.out.println("Är skrivbar: " + f.canWrite());
+    System.out.println("Är exekverbar: " + f.canExecute());
+    System.out.println("Är samma fil: " + f.equals(new File("person.txt")));
 }
 ```
 
@@ -406,4 +419,4 @@ Här följer termer som använts i denna artikel och deras förklaringar.
 
 ## Sammanfattning
 
-Det finns många olika sätt att spara information på, välj den som känns trevligas för dig helt enkelt.
+Det finns många olika sätt att spara information på, välj den som känns trevligast för dig helt enkelt.

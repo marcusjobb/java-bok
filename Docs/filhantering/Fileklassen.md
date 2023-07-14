@@ -19,15 +19,18 @@ school: https://campus.molndal.se/yh
 File-klassen i Java, som tillhör paketet `java.io`, erbjuder en mängd användbara metoder för att hantera filer. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Exempel på några av de vanligaste metoderna inkluderar `createNewFile`, `delete`, `exists` och `read`. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program.
 
 <details open markdown="block">
-<summary>Innehållsförteckning</summary>
+<summary>
+Innehållsförteckning
+</summary>
 {: .text-delta }
-1. [Beskrivning](#beskrivning)
-2. [Exempel](#exempel)
-3. [Slutsats](#slutsats)
-4. [Termer](#termer)
-5. [TL;DR-sammanfattning](#tldr-sammanfattning)
-6. [Källor](#källor)
+
+1. TOC
+{:toc}
 </details>
+
+## TL;DR
+
+File-klassen i Java, som tillhör paketet `java.io`, erbjuder användbara metoder för filhantering. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Några av de vanligaste metoderna inkluderar `createNewFile`, `delete`, `exists` och `renameTo`. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program.
 
 ## Beskrivning
 
@@ -73,46 +76,44 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Main {
-public static void main(String[] args) {
-String file = "C:\\Temp\\test.txt";
+    public static void main(String[] args) {
+        String file = "C:\\Temp\\test.txt";
 
-// Skapar en fil
-try {
-if (!Files.exists(Paths.get(file))) {
-Files.createFile(Paths.get(file));
-}
-} catch (IOException e) {
-e.printStackTrace();
-}
+        // Skapar en fil
+        try {
+            if (!Files.exists(Paths.get(file))) {
+                Files.createFile(Paths.get(file));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-// Skriver till en fil
-try {
-Files.write(Paths.get(file), "Hello World!".getBytes());
-} catch (IOException e) {
-e.printStackTrace();
+        // Skriver till en fil
+        try {
+            Files.write(Paths.get(file), "Hello World!".getBytes());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-}
+        // Läser innehållet i en fil
+        try {
+            String text = Files.readString(Paths.get(file));
+            System.out.println(text);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-// Läser innehållet i en fil
-try {
-String text = Files.readString(Paths.get(file));
-System.out.println(text);
-} catch (IOException e) {
-e.printStackTrace();
-}
-
-// Tar bort en fil
-try {
-Files.delete(Paths.get(file));
-} catch (IOException e) {
-e.printStackTrace();
-}
-}
+        // Tar bort en fil
+        try {
+            Files.delete(Paths.get(file));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
 ```
 
-I detta exempel skapar vi en fil på sökvägen "C:\\Temp\\test.txt" om den inte redan finns. Sedan använder vi metoden `Files.write` för att skriva texten "Hello World!" till filen. Vi använder `Files.readString` för att läsa in
-innehållet i filen och skriva ut det till konsolen. Slutligen tar vi bort filen med `Files.delete`.
+I detta exempel skapar vi en fil på sökvägen "C:\\Temp\\test.txt" om den inte redan finns. Sedan använder vi metoden `Files.write` för att skriva texten "Hello World!" till filen. Vi använder `Files.readString` för att läsa in innehållet i filen och skriva ut det till konsolen. Slutligen tar vi bort filen med `Files.delete`.
 
 Det finns många fler metoder i File-klassen som kan vara användbara beroende på dina specifika behov. Genom att utforska dokumentationen för File-klassen kan du lära dig mer om var och en av metoderna och hur de kan användas.
 
@@ -134,13 +135,10 @@ File-klassen i Java erbjuder enkla och kraftfulla metoder för att hantera filer
 - **openText**: Det finns ingen direkt motsvarighet till File-klassens `OpenText`-metod i Java. Istället kan du använda `FileReader`-klassen för att öppna en befintlig textfil för läsning.
 - **openWrite**: En metod i Java File-klassen som öppnar en fil för skrivning med hjälp av `FileOutputStream`.
 - **readAllBytes**: En metod i Java File-klassen som läser innehållet i en binär fil som en byte-array med hjälp av `FileInputStream`.
-- **readAllLines**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en lista av strängar. Du kan använda `BufferedReader`-klassen tillsammans med `FileReader`-klassen för att uppnå detta.
+- **readAllLines**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en array av strängar. Du kan använda `BufferedReader`-klassen tillsammans med `FileReader`-klassen för att uppnå detta.
 - **readAllText**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en sträng med hjälp av `FileReader`.
 - **readLines**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en uppräkningsbar sekvens av strängar med hjälp av `BufferedReader` och `FileReader`.
 - **writeAllBytes**: En metod i Java File-klassen som skriver en byte-array till en fil med hjälp av `FileOutputStream`.
 - **writeAllLines**: En metod i Java File-klassen som skriver en lista av strängar till en textfil, en sträng per rad. Du kan använda `BufferedWriter` tillsammans med `FileWriter`-klassen för att uppnå detta.
-- **writeAllText**: En metod i Java File-klassen som skriver en sträng till en textfil med hjälp av `FileWriter`.
+- **writeAllText**: En metod i Java File-klassen som skriver en sträng till en textfil.
 
-## TL;DR-sammanfattning
-
-File-klassen i Java, som tillhör paketet `java.io`, erbjuder användbara metoder för filhantering. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Några av de vanligaste metoderna inkluderar `createNewFile`, `delete`, `exists` och `renameTo`. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program

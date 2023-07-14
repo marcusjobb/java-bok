@@ -1,21 +1,4 @@
 ---
-title: Path klassen
-permalink: filhantering/pathklassen
-nav_order: 10
-parent: Filhantering
-author: Marcus Medina
-date: 2022-11-20 03:49
-layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-id: b907f3be-d890-404d-8133-486e55ab91cc
-school: https://campus.molndal.se/yh
----
-
-Det följande är en uppdaterad och rensad version av artikeln:
-
----
 author: Marcus Medina
 title: Path-klassen
 nav_order: 18
@@ -39,24 +22,29 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class PathExample {
-public static void main(String[] args) {
-// Skapa en sökväg till en fil
-Path filePath = Paths.get("C:\\Users\\User\\Documents\\file.txt");
-// Slå ihop sökvägar
-Path combinedPath = filePath.resolve("subfolder\\file2.txt");
-// Extrahera filnamn
-String fileName = filePath.getFileName().toString();
-// Byta filändelse
-Path newFilePath = filePath.resolveSibling(fileName.replace(".txt", ".csv"));
-// Kontrollera om sökvägen har en filändelse
-boolean hasExtension = filePath.toString().contains(".");
-// Skriv ut sökvägarna
-System.out.println("File Path: " + filePath);
-System.out.println("Combined Path: " + combinedPath);
-System.out.println("File Name: " + fileName);
-System.out.println("New File Path: " + newFilePath);
-System.out.println("Has Extension: " + hasExtension);
-}
+    public static void main(String[] args) {
+        // Skapa en sökväg till en fil
+        Path filePath = Paths.get("C:\\Users\\User\\Documents\\file.txt");
+
+        // Slå ihop sökvägar
+        Path combinedPath = filePath.resolve("subfolder\\file2.txt");
+
+        // Extrahera filnamn
+        String fileName = filePath.getFileName().toString();
+
+        // Byta filändelse
+        Path newFilePath = filePath.resolveSibling(fileName.replace(".txt", ".csv"));
+
+        // Kontrollera om sökvägen har en filändelse
+        boolean hasExtension = filePath.toString().contains(".");
+
+        // Skriv ut sökvägarna
+        System.out.println("File Path: " + filePath);
+        System.out.println("Combined Path: " + combinedPath);
+        System.out.println("File Name: " + fileName);
+        System.out.println("New File Path: " + newFilePath);
+        System.out.println("Has Extension: " + hasExtension);
+    }
 }
 ```
 
@@ -79,3 +67,5 @@ Oavsett om du behöver slå ihop sökvägar, extrahera information om filer och 
 # Path klassen
 
 - [Java Path Documentation](https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html)
+- [Java Path Tutorial](https://www.baeldung.com/java-nio-2-path)
+- 
