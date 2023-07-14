@@ -3,7 +3,6 @@ title: Path klassen
 permalink: filhantering/Pathklassen
 nav_order: 10
 parent: Filhantering
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 03:49
 layout: default

@@ -3,7 +3,6 @@ title: Google docs
 permalink: skolan/Googledocs
 nav_order: 8
 parent: Skolan
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

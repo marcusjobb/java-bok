@@ -3,7 +3,7 @@ title: Evernote
 permalink: verktyg/forslag/Evernote
 nav_order: 2
 parent: Förslag
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:56
 layout: default

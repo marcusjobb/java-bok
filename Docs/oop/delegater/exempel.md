@@ -3,7 +3,7 @@ title: Exempel
 permalink: oop/delegater/exempel
 nav_order: 2
 parent: delegater
-grand_parent: Objektorienterad programmering (OOP)
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-20 02:59
 layout: default

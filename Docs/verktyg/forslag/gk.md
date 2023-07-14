@@ -3,7 +3,7 @@ title: Google Keep
 permalink: verktyg/forslag/gk
 nav_order: 6
 parent: Förslag
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-17 11:01
 layout: default

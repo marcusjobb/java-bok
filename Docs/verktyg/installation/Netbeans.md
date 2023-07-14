@@ -3,7 +3,7 @@ title: NetBeans installation
 permalink: verktyg/installation/Netbeans
 nav_order: 12
 parent: Installation
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

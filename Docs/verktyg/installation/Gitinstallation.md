@@ -3,7 +3,7 @@ title: Git installation
 permalink: verktyg/installation/Gitinstallation
 nav_order: 4
 parent: Installation
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

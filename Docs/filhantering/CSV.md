@@ -3,7 +3,6 @@ title: CSV
 permalink: filhantering/CSV
 nav_order: 2
 parent: Filhantering
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

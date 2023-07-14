@@ -3,7 +3,6 @@ title: Do While
 permalink: loopar/DoWhile
 nav_order: 2
 parent: Loopar
-grand_parent: Java
 author: Marcus Medina
 date: 2023-07-02
 layout: default

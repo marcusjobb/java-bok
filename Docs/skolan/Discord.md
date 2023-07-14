@@ -3,7 +3,6 @@ title: Discord
 permalink: skolan/Discord
 nav_order: 6
 parent: Skolan
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 12:47
 layout: default

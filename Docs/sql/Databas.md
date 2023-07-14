@@ -3,7 +3,6 @@ title: Databaser
 permalink: sql/Databas
 nav_order: 4
 parent: SQL
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

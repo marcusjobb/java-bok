@@ -3,7 +3,7 @@ title: Hitta det största elementet i en array
 permalink: datastrukturer/arrayexercises/ovning2
 nav_order: 6
 parent: Array övningar
-grand_parent: Datastrukturer
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-05
 layout: default

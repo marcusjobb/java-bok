@@ -3,7 +3,7 @@ title: Visual Studio installation
 permalink: verktyg/installation/VisualStudioinstallation
 nav_order: 2
 parent: Installation
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:32
 layout: default

@@ -3,7 +3,6 @@ title: Skolportalen
 permalink: skolan/Skolportalen
 nav_order: 2
 parent: Skolan
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 02:01
 layout: default

@@ -3,7 +3,7 @@ title: IntelliJinstallation
 permalink: verktyg/installation/IntelliJ
 nav_order: 6
 parent: Installation
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default

@@ -2,7 +2,7 @@
 title: Java
 permalink: /index
 nav_order: 2
-parent: Hem
+parent: Home
 author: Marcus Medina
 date: 2023-07-02
 layout: default

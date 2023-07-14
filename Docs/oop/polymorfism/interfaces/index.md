@@ -3,7 +3,6 @@ title: Interfaces
 permalink: oop/polymorfism/interfaces/index
 nav_order: 4
 parent: Polymorfism
-grand_parent: Java
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

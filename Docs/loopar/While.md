@@ -3,7 +3,6 @@ title: While
 permalink: loopar/While
 nav_order: 6
 parent: Loopar
-grand_parent: Java
 author: Marcus Medina
 date: 2023-07-02
 layout: default

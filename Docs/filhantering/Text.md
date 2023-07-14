@@ -3,7 +3,6 @@ title: Text
 permalink: filhantering/Text
 nav_order: 12
 parent: Filhantering
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

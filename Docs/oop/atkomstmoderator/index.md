@@ -3,7 +3,6 @@ title: Åtkomstmoderator
 permalink: oop/atkomstmoderator/index
 nav_order: 6
 parent: Objektorienterad programmering (OOP)
-grand_parent: Hem
 author: Marcus Medina
 date: 2023-07-02
 layout: default

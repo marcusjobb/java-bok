@@ -3,7 +3,7 @@ title: Invertera en array
 permalink: datastrukturer/arrayexercises/ovning3
 nav_order: 8
 parent: Array övningar
-grand_parent: Datastrukturer
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-05
 layout: default

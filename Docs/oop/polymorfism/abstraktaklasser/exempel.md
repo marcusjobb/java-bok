@@ -3,7 +3,7 @@ title: Exempel
 permalink: oop/polymorfism/abstraktaklasser/exempel
 nav_order: 2
 parent: Abstrakta klasser
-grand_parent: Polymorfism
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 01:27
 layout: default

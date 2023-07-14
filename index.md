@@ -9,11 +9,11 @@ nav_order: 1
 parent: 
 permalink: /
 tags: ["JIN23", "Java"]
-title: Hem
+title: Home
 updated: 2023-06-17 23:23:26
 ---
 
-# Hem
+# Home
 
 ## Välkommen
 

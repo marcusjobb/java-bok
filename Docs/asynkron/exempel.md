@@ -3,7 +3,6 @@ title: Exempel
 permalink: asynkron/exempel
 nav_order: 2
 parent: Asynkron
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-28 10:23
 layout: default

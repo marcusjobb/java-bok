@@ -3,7 +3,6 @@ title: Arv
 permalink: oop/arv
 nav_order: 8
 parent: Objektorienterad programmering (OOP)
-grand_parent: Java
 author: Marcus Medina
 date: 2023-07-02
 layout: default

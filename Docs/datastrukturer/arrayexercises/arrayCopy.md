@@ -3,7 +3,7 @@ title: Plocka ut en del av en array och skapa en ny array av det.
 permalink: datastrukturer/arrayexercises/arrayCopy
 nav_order: 2
 parent: Array övningar
-grand_parent: Datastrukturer
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-04
 layout: default

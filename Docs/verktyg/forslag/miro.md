@@ -3,7 +3,7 @@ title: Miro Board
 permalink: verktyg/forslag/miro
 nav_order: 8
 parent: Förslag
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-06
 layout: default

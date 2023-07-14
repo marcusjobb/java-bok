@@ -3,7 +3,6 @@ title: Ternary if
 permalink: if/ternaryif
 nav_order: 6
 parent: If
-grand_parent: Java
 author: Marcus Medina
 date: 2023-07-02
 layout: default

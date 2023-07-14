@@ -3,7 +3,7 @@ title: Notion
 permalink: verktyg/forslag/Notion
 nav_order: 4
 parent: Förslag
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:56
 layout: default

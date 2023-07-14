@@ -3,7 +3,7 @@ title: Plugins
 permalink: oop/polymorfism/interfaces/plugins
 nav_order: 2
 parent: Interfaces
-grand_parent: Polymorfism
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20
 layout: default

@@ -3,7 +3,7 @@ title: Rider installation
 permalink: verktyg/installation/Riderinstallation
 nav_order: 10
 parent: Installation
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:32
 layout: default

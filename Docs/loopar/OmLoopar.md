@@ -3,7 +3,6 @@ title: Loopar i C#
 permalink: loopar/OmLoopar
 nav_order: 4
 parent: Loopar
-grand_parent: Java
 author: Marcus Medina
 date: 2023-07-02
 language: Svenska

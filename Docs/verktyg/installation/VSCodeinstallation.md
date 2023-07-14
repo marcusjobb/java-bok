@@ -3,7 +3,7 @@ title: VS Code installation
 permalink: verktyg/installation/VSCodeinstallation
 nav_order: 8
 parent: Installation
-grand_parent: Verktyg
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:32
 layout: default
