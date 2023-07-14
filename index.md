@@ -1,15 +1,17 @@
 ---
+title: Home
+permalink: /
+nav_order: 2
 author: Marcus Medina
-categories: ["JIN23"]
+date: 2023-06-17 23:23:25
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: Java
 company: Campus Mölndal
-date: 2023-06-17 23:23:25
 has_children: true
-nav_order: 1
-parent: 
-permalink: /
-tags: ["JIN23", "Java"]
-title: Home
+id: 2c5e4466-f978-429e-8a20-270cbf28d831
+school: https://campus.molndal.se/yh
 updated: 2023-06-17 23:23:26
 ---
 
