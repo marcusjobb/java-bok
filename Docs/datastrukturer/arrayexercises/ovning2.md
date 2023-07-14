@@ -1,7 +1,7 @@
 ---
 title: Hitta det största elementet i en array
 permalink: datastrukturer/arrayexercises/ovning2
-nav_order: 10
+nav_order: 8
 parent: Array övningar
 grand_parent: Datastrukturer
 author: Marcus Medina

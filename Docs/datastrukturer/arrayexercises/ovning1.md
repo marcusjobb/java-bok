@@ -1,7 +1,7 @@
 ---
 title: Summera element i en array
 permalink: datastrukturer/arrayexercises/ovning1
-nav_order: 6
+nav_order: 4
 parent: Array övningar
 grand_parent: Datastrukturer
 author: Marcus Medina
