@@ -1,18 +1,20 @@
 ---
+author: Marcus Medina
 title: Git
-permalink: ordlista/git
 nav_order: 2
 parent: Ordlista
-author: Marcus Medina
+grand_parent: Home
+permalink: ordlista/Git
 date: 2022-11-20 02:40
 layout: default
-author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-id: 90d65009-9179-46c9-b795-48b5be103ad0
+id: cde58042-4d8d-4596-bf4f-8a1b2a0a93cc
+author_github: https://github.com/marcusjobb
 school: https://campus.molndal.se/yh
+codelanguage: C#
 ---
 
-# Git
+# Git Ordlista
 
 | Ord | Förklaring |
 | --- | --- |
@@ -34,5 +36,3 @@ school: https://campus.molndal.se/yh
 | Upstream | Det vanligaste namnet på en remote som inte är din. |
 | Fork | Att kopiera ett repo till din github. |
 | Pull request | Att be servern merga två brancher. |
-
-*Filen editerades senast 2022-12-09*

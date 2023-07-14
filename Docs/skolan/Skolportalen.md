@@ -1,15 +1,21 @@
 ---
-title: Skolportalen
-permalink: skolan/skolportalen
-nav_order: 2
-parent: Skolan
 author: Marcus Medina
-date: 2022-11-16 02:01
+title: Skolportalen
+nav_order: 8
+parent: Skolan
+grand_parent: Home
+permalink: skolan/Skolportalen
+date: 2023-06-17 12:56:23
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 071218cd-6982-4706-828c-b20a70c73199
+id: ebde3120-1ff9-4cea-add4-f3db4521a59b
 school: https://campus.molndal.se/yh
+author_github: https://github.com/marcusjobb
+company: Campus Mölndal
+order: 9999
+category: ["skolan"]
+codelanguage: CSharp
+author_url: https://marcusmedina.pro
+updated: 2023-06-17 12:56:23
 ---
 
 # Skolportalen
@@ -17,5 +23,3 @@ school: https://campus.molndal.se/yh
 [Öppna skolportalen](https://www.molndal.se/skolportal?authmech=Personal%20och%20elever){: .btn .btn-blue }
 
 Skolportalen är din ingång till skolan och dina kurser. Här kan du se dina betyg, läsa om dina kurser och se dina scheman. Här finns även länkar till Google Classroom och Google Drive. Plus en massa annat.
-
-*Filen editerades senast 2022-12-09*

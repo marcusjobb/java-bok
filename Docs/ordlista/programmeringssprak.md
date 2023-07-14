@@ -1,18 +1,20 @@
 ---
-title: Programmeringsspråk
-permalink: ordlista/programmeringssprak
-nav_order: 8
-parent: Ordlista
 author: Marcus Medina
+title: Programmeringsspråk
+nav_order: 6
+parent: Ordlista
+grand_parent: Home
+permalink: ordlista/programmeringssprak
 date: 2022-11-20 02:40
 layout: default
-author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-id: 4a368450-a10a-4516-93ce-4b702d60b4d4
+id: f020d8ad-561a-49c9-a99e-53b0641f4b11
+author_github: https://github.com/marcusjobb
 school: https://campus.molndal.se/yh
+codelanguage: C#
 ---
 
-# Programmeringsspråk
+## Programmeringspråk
 
 | --- | --- |
 | Angular | Ett JavaScript-bibliotek. |
@@ -46,5 +48,3 @@ school: https://campus.molndal.se/yh
 | XML | Extensible Markup Language. |
 | YAML | Yet Another Markup Language. |
 | Yarn | Ett pakethanteringsverktyg. |
-
-*Filen editerades senast 2022-12-09*

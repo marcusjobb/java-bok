@@ -1,18 +1,20 @@
 ---
-title: Webb
-permalink: ordlista/webb
-nav_order: 10
-parent: Ordlista
 author: Marcus Medina
+title: Webb
+nav_order: 8
+parent: Ordlista
+grand_parent: Home
+permalink: ordlista/Webb
 date: 2022-11-20 02:40
 layout: default
-author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-id: 8bf48128-a8b0-47b0-9e69-aff30e458866
+id: e944cb28-cb54-4ec2-a200-8011d1dc23c7
+author_github: https://github.com/marcusjobb
 school: https://campus.molndal.se/yh
+codelanguage: C#
 ---
 
-# Webb
+## Webb
 
 | Ord | Förklaring |
 | --- | --- |
@@ -34,5 +36,3 @@ school: https://campus.molndal.se/yh
 | URL | Uniform Resource Locator. |
 | VPN | Virtual Private Network. |
 | VPS | Virtual Private Server. |
-
-*Filen editerades senast 2022-12-09*

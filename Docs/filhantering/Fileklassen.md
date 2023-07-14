@@ -1,50 +1,66 @@
 ---
-title: File klassen
-permalink: filhantering/fileklassen
+title: File-klassen
+permalink: java/filhantering/fileklassen
 nav_order: 4
 parent: Filhantering
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-20 03:49
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-codelanguage: C#
+codelanguage: Java
 enhance: false
 id: 6d679594-e712-4a30-851e-db2adace5100
 school: https://campus.molndal.se/yh
 ---
 
-File-klassen i Java tillhör paketet java.io och erbjuder en mängd användbara metoder för att hantera filer. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Exempel på några av de vanligaste metoderna inkluderar append, copy, delete, exists och read. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program.
+# File-klassen
 
-# File klassen
+File-klassen i Java, som tillhör paketet `java.io`, erbjuder en mängd användbara metoder för att hantera filer. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Exempel på några av de vanligaste metoderna inkluderar `createNewFile`, `delete`, `exists` och `read`. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program.
+
+<details open markdown="block">
+<summary>Innehållsförteckning</summary>
+{: .text-delta }
+1. [Beskrivning](#beskrivning)
+2. [Exempel](#exempel)
+3. [Slutsats](#slutsats)
+4. [Termer](#termer)
+5. [TL;DR-sammanfattning](#tldr-sammanfattning)
+6. [Källor](#källor)
+</details>
+
+## Beskrivning
 
 File-klassen innehåller ett brett utbud av användbara metoder för filhantering. Här är några av de vanligaste metoderna och deras funktioner:
 
-- **createNewFile**: Skapar en ny fil på den angivna sökvägen.
-- **delete**: Tar bort en befintlig fil.
-- **exists**: Kontrollerar om en fil existerar.
-- **renameTo**: Byter namn på en fil.
-- **length**: Returnerar storleken på en fil i bytes.
-- **canRead**: Kontrollerar om en fil kan läsas.
-- **canWrite**: Kontrollerar om en fil kan skrivas till.
-- **canExecute**: Kontrollerar om en fil kan köras som ett program.
-- **isFile**: Kontrollerar om en fil är en vanlig fil.
-- **isDirectory**: Kontrollerar om en fil är en mapp.
-- **getParent**: Returnerar sökvägen till filens överordnade mapp.
-- **getName**: Returnerar filens namn.
-- **getPath**: Returnerar filens sökväg.
-- **lastModified**: Returnerar tidpunkten för senaste ändring av en fil.
-- **list**: Returnerar en array av filer och mappar i en mapp.
-- **mkdir**: Skapar en ny mapp på den angivna sökvägen.
-- **listFiles**: Returnerar en array av File-objekt som representerar filer och mappar i en mapp.- **FileReader**: Öppnar en befintlig textfil för läsning.
-- **FileWriter**: Öppnar en fil för skrivning.
-- **Files.readAllBytes**: Läser innehållet i en binär fil som en byte-array.
-- **Files.readAllLines**: Läser innehållet i en textfil och returnerar det som en array av strängar.
-- **Files.readAllText**: Läser innehållet i en textfil och returnerar det som en sträng.
-- **Files.lines**: Läser innehållet i en textfil och returnerar det som en uppräkningsbar sekvens av strängar.
-- **Files.writeAllBytes**: Skriver en byte-array till en fil.
-- **Files.writeAllLines**: Skriver en array av strängar till en textfil, en sträng per rad.
-- **Files.writeAllText**: Skriver en sträng till en textfil.
+- `createNewFile`: Skapar en ny fil på den angivna sökvägen.
+- `delete`: Tar bort en befintlig fil.
+- `exists`: Kontrollerar om en fil existerar.
+- `renameTo`: Byter namn på en fil.
+- `length`: Returnerar storleken på en fil i bytes.
+- `canRead`: Kontrollerar om en fil kan läsas.
+- `canWrite`: Kontrollerar om en fil kan skrivas till.
+- `canExecute`: Kontrollerar om en fil kan köras som ett program.
+- `isFile`: Kontrollerar om en fil är en vanlig fil.
+- `isDirectory`: Kontrollerar om en fil är en mapp.
+- `getParent`: Returnerar sökvägen till filens överordnade mapp.
+- `getName`: Returnerar filens namn.
+- `getPath`: Returnerar filens sökväg.
+- `lastModified`: Returnerar tidpunkten för senaste ändring av en fil.
+- `list`: Returnerar en array av filer och mappar i en mapp.
+- `mkdir`: Skapar en ny mapp på den angivna sökvägen.
+- `listFiles`: Returnerar en array av `File`-objekt som representerar filer och mappar i en mapp.
+- `FileReader`: Öppnar en befintlig textfil för läsning.
+- `FileWriter`: Öppnar en fil för skrivning.
+- `Files.readAllBytes`: Läser innehållet i en binär fil som en byte-array.
+- `Files.readAllLines`: Läser innehållet i en textfil och returnerar det som en array av strängar.
+- `Files.readAllText`: Läser innehållet i en textfil och returnerar det som en sträng.
+- `Files.lines`: Läser innehållet i en textfil och returnerar det som en uppräkningsbar sekvens av strängar.
+- `Files.writeAllBytes`: Skriver en byte-array till en fil.
+- `Files.writeAllLines`: Skriver en array av strängar till en textfil, en sträng per rad.
+- `Files.writeAllText`: Skriver en sträng till en textfil.
+
 Dessa metoder ger oss flexibilitet att utföra olika åtgärder på filer, inklusive skapande, läsning, skrivning, flyttning och radering.
 
 ## Exempel
@@ -56,62 +72,77 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
+
 public class Main {
-public static void main(String[] args) {
-String file = "C:\\Temp\\test.txt";
-// Skapar en fil
-try {
-if (!Files.exists(Paths.get(file))) {
-Files.createFile(Paths.get(file));
-}
-} catch (IOException e) {
-e.printStackTrace();
-}
-// Skriver till en fil
-Files.write(Paths.get(file), "Hello World!".getBytes());
-// Läser innehållet i en fil
-String text = Files.readString(Paths.get(file));
-System.out.println(text);
-// Tar bort en fil
-Files.delete(Paths.get(file));
-}
+    public static void main(String[] args) {
+        String file = "C:\\Temp\\test.txt";
+
+        // Skapar en fil
+        try {
+            if (!Files.exists(Paths.get(file))) {
+                Files.createFile(Paths.get(file));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Skriver till en fil
+        try {
+            Files.write(Paths.get(file), "Hello World!".getBytes());
+        } catch (IOException e) {
+            e.printStackTrace();
+
+
+        }
+
+        // Läser innehållet i en fil
+        try {
+            String text = Files.readString(Paths.get(file));
+            System.out.println(text);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Tar bort en fil
+        try {
+            Files.delete(Paths.get(file));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
 ```
 
-I detta exempel skapar vi en fil på sökvägen "C:\\Temp\\test.txt" om den inte redan finns. Sedan använder vi metoden `File.WriteAllText` för att skriva texten "Hello World!" till filen. Vi använder `File.ReadAllText` för att läsa in
-nehållet i filen och skriva ut det till konsolen. Slutligen tar vi bort filen med `File.Delete`.
+I detta exempel skapar vi en fil på sökvägen "C:\\Temp\\test.txt" om den inte redan finns. Sedan använder vi metoden `Files.write` för att skriva texten "Hello World!" till filen. Vi använder `Files.readString` för att läsa in
+innehållet i filen och skriva ut det till konsolen. Slutligen tar vi bort filen med `Files.delete`.
 
 Det finns många fler metoder i File-klassen som kan vara användbara beroende på dina specifika behov. Genom att utforska dokumentationen för File-klassen kan du lära dig mer om var och en av metoderna och hur de kan användas.
 
 ## Slutsats
 
-File-klassen i Java erbjuder enkla och kraftfulla metoder för att hantera filer. Oavsett om du behöver skapa, skriva, läsa eller ta bort filer, finns det en metod i File-klassen som kan hjälpa dig. Genom att använda de olika metoderna kan du effektivt arbeta med filsystemet i dina Java-applikationer.
+File-klassen i Java erbjuder enkla och kraftfulla metoder för att hantera filer. Oavsett om du behöver skapa, skriva, läsa eller ta bort filer finns det en metod i File-klassen som kan hjälpa dig. Genom att använda de olika metoderna kan du effektivt arbeta med filsystemet i dina Java-applikationer.
 
 ## Termer
 
-- **File**: En klass i java.io-paketet som innehåller metoder för att hantera filer.
+- **File**: En klass i `java.io`-paketet som innehåller metoder för att hantera filer.
 - **appendText**: En metod i File-klassen som öppnar en befintlig fil för skrivning och lägger till text i slutet av filen.
 - **copy**: En metod i File-klassen som kopierar en fil till en ny plats.
 - **create**: En metod i File-klassen som skapar en ny fil.
 - **delete**: En metod i File-klassen som tar bort en befintlig fil.
 - **exists**: En metod i File-klassen som kontrollerar om en fil existerar.
-- **move**: En metod i File-klassen som flyttar en fil till en ny plats.- **open**: En metod i Java File-klassen som öppnar en fil i en FileInputStream.
-- **openRead**: Det finns ingen direkt motsvarighet till File-klassens OpenRead-metod i Java. Istället kan du använda FileInputStream-klassen för att öppna en fil för läsning.
-- **openText**: Det finns ingen direkt motsvarighet till File-klassens OpenText-metod i Java. Istället kan du använda FileReader-klassen för att öppna en befintlig textfil för läsning.
-- **openWrite**: En metod i Java File-klassen som öppnar en fil för skrivning med hjälp av FileOutputStream.
-- **readAllBytes**: En metod i Java File-klassen som läser innehållet i en binär fil som en byte-array med hjälp av FileInputStream.
-- **readAllLines**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en lista av strängar. Du kan använda BufferedReader-klassen tillsammans med FileReader-klassen för att uppnå detta.
-- **readAllText**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en sträng med hjälp av FileReader.
-- **readLines**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en uppräkningsbar sekvens av strängar med hjälp av BufferedReader och FileReader.
-- **writeAllBytes**: En metod i Java File-klassen som skriver en byte-array till en fil med hjälp av FileOutputStream.
-- **writeAllLines**: En metod i Java File-klassen som skriver en lista av strängar till en textfil, en sträng per rad. Du kan använda BufferedWriter tillsammans med FileWriter-klassen för att uppnå detta.
-- **writeAllText**: En metod i Java File-klassen som skriver en sträng till en textfil med hjälp av FileWriter.
+- **move**: En metod i File-klassen som flyttar en fil till en ny plats.
+- **open**: En metod i Java File-klassen som öppnar en fil i en `FileInputStream`.
+- **openRead**: Det finns ingen direkt motsvarighet till File-klassens `OpenRead`-metod i Java. Istället kan du använda `FileInputStream`-klassen för att öppna en fil för läsning.
+- **openText**: Det finns ingen direkt motsvarighet till File-klassens `OpenText`-metod i Java. Istället kan du använda `FileReader`-klassen för att öppna en befintlig textfil för läsning.
+- **openWrite**: En metod i Java File-klassen som öppnar en fil för skrivning med hjälp av `FileOutputStream`.
+- **readAllBytes**: En metod i Java File-klassen som läser innehållet i en binär fil som en byte-array med hjälp av `FileInputStream`.
+- **readAllLines**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en lista av strängar. Du kan använda `BufferedReader`-klassen tillsammans med `FileReader`-klassen för att uppnå detta.
+- **readAllText**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en sträng med hjälp av `FileReader`.
+- **readLines**: En metod i Java File-klassen som läser innehållet i en textfil och returnerar det som en uppräkningsbar sekvens av strängar med hjälp av `BufferedReader` och `FileReader`.
+- **writeAllBytes**: En metod i Java File-klassen som skriver en byte-array till en fil med hjälp av `FileOutputStream`.
+- **writeAllLines**: En metod i Java File-klassen som skriver en lista av strängar till en textfil, en sträng per rad. Du kan använda `BufferedWriter` tillsammans med `FileWriter`-klassen för att uppnå detta.
+- **writeAllText**: En metod i Java File-klassen som skriver en sträng till en textfil med hjälp av `FileWriter`.
 
 ## TL;DR-sammanfattning
 
-File-klassen i Java tillhör paketet java.io och erbjuder användbara metoder för filhantering. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Några av de vanligaste metoderna inkluderar append, delete, exists och renameTo. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program.
-
-## Källor
-
-- Oracle Java Dokumentation: [File Class](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/io/File.html)
+File-klassen i Java, som tillhör paketet `java.io`, erbjuder användbara metoder för filhantering. Du kan använda dessa metoder för att skapa, skriva, läsa och ta bort filer. Några av de vanligaste metoderna inkluderar `createNewFile`, `delete`, `exists` och `renameTo`. Genom att använda File-klassen kan du enkelt utföra filrelaterade operationer i dina Java-program

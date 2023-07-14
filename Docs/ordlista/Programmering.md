@@ -1,18 +1,20 @@
 ---
+author: Marcus Medina
 title: Programmering
-permalink: ordlista/programmering
 nav_order: 4
 parent: Ordlista
-author: Marcus Medina
+grand_parent: Home
+permalink: ordlista/Programmering
 date: 2022-11-20 02:40
 layout: default
-author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-id: 14f4554d-47d2-4cbf-af40-51b99cc1956d
+id: 93d6092c-3060-400e-9f6a-1c38cf417263
+author_github: https://github.com/marcusjobb
 school: https://campus.molndal.se/yh
+codelanguage: C#
 ---
 
-# Programmering
+## Programmering
 
 | Ord | Förklaring |
 | --- | --- |
@@ -37,5 +39,3 @@ school: https://campus.molndal.se/yh
 | Set | En metod som sätter en variabel. |
 | Static | En modifierare som gör att en variabel tillhör klassen och inte objektet. |
 | using static | Att använda en klass som namespace och dess statiska metoder. |
-
-*Filen editerades senast 2022-12-09*
