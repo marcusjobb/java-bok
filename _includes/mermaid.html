@@ -4,11 +4,12 @@ $(document).ready(function() {
   mermaid.initialize({
     startOnLoad: true,
     htmlLabels: true,
+    theme: 'forest',
     flowchart: { htmlLabels: true },
     sequence: { htmlLabels: true },
     gantt: { htmlLabels: true },
     class: { htmlLabels: true },
-    git: { htmlLabels: true },
+    git: { htmlLabels: true }
   });
 
   function renderMermaidDiagrams() {
