@@ -21,7 +21,7 @@ $(document).ready(function() {
 
       // Replace special characters using regular expressions
       code = code.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
-
+      code += "\n";
       try {
         mermaid.mermaidAPI.render('mermaid-' + Math.random(), code, function(svgCode) {
           mermaidDiv.innerHTML = svgCode;
