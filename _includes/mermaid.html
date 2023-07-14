@@ -9,6 +9,7 @@ $(document).ready(function() {
     gantt: { htmlLabels: true },
     class: { htmlLabels: true },
     git: { htmlLabels: true },
+    theme: 'forest',
   });
 
   function renderMermaidDiagrams() {
@@ -21,9 +22,6 @@ $(document).ready(function() {
 
       // Replace special characters using regular expressions
       code = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-      code+"\n// Hello Dolly"
-
       try {
         mermaid.mermaidAPI.render('mermaid-' + Math.random(), code, function(svgCode) {
           mermaidDiv.innerHTML = svgCode;
