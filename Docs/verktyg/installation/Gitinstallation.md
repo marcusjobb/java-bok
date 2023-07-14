@@ -1,6 +1,6 @@
 ---
 title: Git installation
-permalink: verktyg/installation/Gitinstallation
+permalink: verktyg/installation/gitinstallation
 nav_order: 4
 parent: Installation
 grand_parent: Home

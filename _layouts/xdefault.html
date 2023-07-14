@@ -1,0 +1,33 @@
+{% if site.main_navigation %}
+  <nav class="sidebar__navigation" aria-label="Main Navigation">
+    <ul class="sidebar__nav">
+        {% for item in site.pages %}
+        {% if item.title == "Kodning för CLO22" %}
+          <li class="sidebar__nav-item">
+            <a href="{{ item.url | relative_url }}" class="sidebar__nav-link">{{ item.title }}</a>
+            {% if item.children %}
+              <ul class="sidebar__sub-nav">
+                {% for child in item.children %}
+                  <li class="sidebar__sub-nav-item">
+                    <a href="{{ child.url | relative_url }}" class="sidebar__sub-nav-link">{{ child.title }}</a>
+                    {% if child.children %}
+                      <ul class="sidebar__sub-sub-nav">
+                        {% for grandchild in child.children %}
+                          <li class="sidebar__sub-sub-nav-item">
+                            <a href="{{ grandchild.url | relative_url }}" class="sidebar__sub-sub-nav-link">{{ grandchild.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul>
+  </nav>
+{% endif %}
+<br>

@@ -1,7 +1,7 @@
 ---
 title: Abstrakta klasser
 permalink: oop/polymorfism/abstraktaklasser/index
-nav_order: 2
+nav_order: 6
 parent: Polymorfism
 author: Marcus Medina
 date: 2022-11-19 08:17

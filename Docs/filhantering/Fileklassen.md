@@ -1,6 +1,6 @@
 ---
 title: File klassen
-permalink: filhantering/Fileklassen
+permalink: filhantering/fileklassen
 nav_order: 4
 parent: Filhantering
 author: Marcus Medina

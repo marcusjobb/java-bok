@@ -1,6 +1,6 @@
 ---
 title: Plocka ut en del av en array och skapa en ny array av det.
-permalink: datastrukturer/arrayexercises/arrayCopy
+permalink: datastrukturer/arrayexercises/arraycopy
 nav_order: 2
 parent: Array övningar
 grand_parent: Home

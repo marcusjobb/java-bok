@@ -1,6 +1,6 @@
 ---
 title: Databaser
-permalink: sql/Databas
+permalink: sql/databas
 nav_order: 4
 parent: SQL
 author: Marcus Medina

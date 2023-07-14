@@ -1,7 +1,7 @@
 ---
 title: Klasser och Objekt inom programmering med Java
 permalink: oop/klasser
-nav_order: 2
+nav_order: 18
 parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 date: 2023-07-02

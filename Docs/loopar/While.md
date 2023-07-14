@@ -1,6 +1,6 @@
 ---
 title: While
-permalink: loopar/While
+permalink: loopar/while
 nav_order: 6
 parent: Loopar
 author: Marcus Medina

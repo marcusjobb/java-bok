@@ -1,7 +1,7 @@
 ---
 title: Skolan
 permalink: skolan/index
-nav_order: 2
+nav_order: 106
 parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38

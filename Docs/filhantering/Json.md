@@ -1,6 +1,6 @@
 ---
 title: Json
-permalink: filhantering/Json
+permalink: filhantering/json
 nav_order: 6
 parent: Filhantering
 author: Marcus Medina

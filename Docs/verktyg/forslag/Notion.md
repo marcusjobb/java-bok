@@ -1,6 +1,6 @@
 ---
 title: Notion
-permalink: verktyg/forslag/Notion
+permalink: verktyg/forslag/notion
 nav_order: 4
 parent: Förslag
 grand_parent: Home

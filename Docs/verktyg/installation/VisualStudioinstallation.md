@@ -1,6 +1,6 @@
 ---
 title: Visual Studio installation
-permalink: verktyg/installation/VisualStudioinstallation
+permalink: verktyg/installation/visualstudioinstallation
 nav_order: 2
 parent: Installation
 grand_parent: Home

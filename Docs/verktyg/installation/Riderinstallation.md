@@ -1,6 +1,6 @@
 ---
 title: Rider installation
-permalink: verktyg/installation/Riderinstallation
+permalink: verktyg/installation/riderinstallation
 nav_order: 10
 parent: Installation
 grand_parent: Home

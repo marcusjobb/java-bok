@@ -1,6 +1,6 @@
 ---
 title: Loopar i C#
-permalink: loopar/OmLoopar
+permalink: loopar/omloopar
 nav_order: 4
 parent: Loopar
 author: Marcus Medina

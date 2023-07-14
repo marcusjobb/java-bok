@@ -1,6 +1,6 @@
 ---
 title: Skolportalen
-permalink: skolan/Skolportalen
+permalink: skolan/skolportalen
 nav_order: 2
 parent: Skolan
 author: Marcus Medina

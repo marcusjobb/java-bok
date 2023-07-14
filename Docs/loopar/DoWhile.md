@@ -1,6 +1,6 @@
 ---
 title: Do While
-permalink: loopar/DoWhile
+permalink: loopar/dowhile
 nav_order: 2
 parent: Loopar
 author: Marcus Medina

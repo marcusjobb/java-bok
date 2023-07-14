@@ -1,6 +1,6 @@
 ---
 title: Evernote
-permalink: verktyg/forslag/Evernote
+permalink: verktyg/forslag/evernote
 nav_order: 2
 parent: Förslag
 grand_parent: Home

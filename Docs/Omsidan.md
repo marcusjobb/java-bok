@@ -1,7 +1,7 @@
 ---
 title: Om sidan
-permalink: /Omsidan
-nav_order: 26
+permalink: /omsidan
+nav_order: 130
 parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:32

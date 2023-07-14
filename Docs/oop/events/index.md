@@ -1,7 +1,7 @@
 ---
 title: Events
 permalink: oop/events/index
-nav_order: 14
+nav_order: 30
 parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 date: 2022-11-20 02:59

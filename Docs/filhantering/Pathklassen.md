@@ -1,6 +1,6 @@
 ---
 title: Path klassen
-permalink: filhantering/Pathklassen
+permalink: filhantering/pathklassen
 nav_order: 10
 parent: Filhantering
 author: Marcus Medina

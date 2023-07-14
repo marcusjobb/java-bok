@@ -1,7 +1,7 @@
 ---
 title: Polymorfism
 permalink: oop/polymorfism/index
-nav_order: 10
+nav_order: 26
 parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 date: 2022-11-19 02:33

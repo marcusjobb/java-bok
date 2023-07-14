@@ -1,6 +1,6 @@
 ---
 title: Constraints
-permalink: sql/Constraints
+permalink: sql/constraints
 nav_order: 6
 parent: SQL
 author: Marcus Medina

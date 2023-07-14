@@ -1,6 +1,6 @@
 ---
 title: Mappar
-permalink: filhantering/Mappar
+permalink: filhantering/mappar
 nav_order: 8
 parent: Filhantering
 author: Marcus Medina

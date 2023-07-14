@@ -1,6 +1,6 @@
 ---
 title: CSV
-permalink: filhantering/CSV
+permalink: filhantering/csv
 nav_order: 2
 parent: Filhantering
 author: Marcus Medina

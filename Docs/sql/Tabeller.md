@@ -1,6 +1,6 @@
 ---
 title: Tabeller
-permalink: sql/Tabeller
+permalink: sql/tabeller
 nav_order: 2
 parent: SQL
 author: Marcus Medina

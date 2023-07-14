@@ -1,6 +1,6 @@
 ---
 title: Google docs
-permalink: skolan/Googledocs
+permalink: skolan/googledocs
 nav_order: 8
 parent: Skolan
 author: Marcus Medina

@@ -1,6 +1,6 @@
 ---
 title: Discord
-permalink: skolan/Discord
+permalink: skolan/discord
 nav_order: 6
 parent: Skolan
 author: Marcus Medina

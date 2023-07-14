@@ -1,6 +1,6 @@
 ---
 title: NetBeans installation
-permalink: verktyg/installation/Netbeans
+permalink: verktyg/installation/netbeans
 nav_order: 12
 parent: Installation
 grand_parent: Home

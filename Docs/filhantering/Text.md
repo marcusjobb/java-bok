@@ -1,6 +1,6 @@
 ---
 title: Text
-permalink: filhantering/Text
+permalink: filhantering/text
 nav_order: 12
 parent: Filhantering
 author: Marcus Medina

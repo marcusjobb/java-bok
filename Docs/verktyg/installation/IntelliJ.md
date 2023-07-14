@@ -1,6 +1,6 @@
 ---
 title: IntelliJinstallation
-permalink: verktyg/installation/IntelliJ
+permalink: verktyg/installation/intellij
 nav_order: 6
 parent: Installation
 grand_parent: Home

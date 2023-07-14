@@ -1,7 +1,7 @@
 ---
 title: Installation
 permalink: verktyg/installation/index
-nav_order: 2
+nav_order: 22
 parent: Verktyg
 author: Marcus Medina
 date: 2022-11-16 08:32

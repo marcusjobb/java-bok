@@ -1,7 +1,7 @@
 ---
 title: Inkapsling
 permalink: oop/inkapsling
-nav_order: 16
+nav_order: 32
 parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 layout: default

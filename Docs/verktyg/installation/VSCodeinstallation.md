@@ -1,6 +1,6 @@
 ---
 title: VS Code installation
-permalink: verktyg/installation/VSCodeinstallation
+permalink: verktyg/installation/vscodeinstallation
 nav_order: 8
 parent: Installation
 grand_parent: Home
