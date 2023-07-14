@@ -4,7 +4,6 @@ $(document).ready(function() {
   mermaid.initialize({
     startOnLoad: true,
     htmlLabels: true,
-    theme: 'forest',
     flowchart: { htmlLabels: true },
     sequence: { htmlLabels: true },
     gantt: { htmlLabels: true },
@@ -14,15 +13,18 @@ $(document).ready(function() {
 
   function renderMermaidDiagrams() {
     // Get all elements with class "mermaid"
-    var mermaidDivs = $('.mermaid');
+    var mermaidDivs = document.querySelectorAll('.mermaid');
 
     // Loop through each element and render the Mermaid diagram
-    mermaidDivs.each(function(index, mermaidDiv) {
-      var code = $(mermaidDiv).text();
+    mermaidDivs.forEach(function(mermaidDiv) {
+      var code = mermaidDiv.innerText || mermaidDiv.textContent;
+
+      // Replace special characters using regular expressions
+      code = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
       try {
         mermaid.mermaidAPI.render('mermaid-' + Math.random(), code, function(svgCode) {
-          $(mermaidDiv).html(svgCode);
+          mermaidDiv.innerHTML = svgCode;
         });
       } catch (e) {
         console.error('Error rendering Mermaid diagram:', e);
