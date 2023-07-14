@@ -94,4 +94,10 @@ font_size:
   base: 16px
   headings: 1.25rem
 
-# gems: [jekyll-mermaid]
+plugins:
+#  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-mermaid
+  #- jekyll-spaceship
