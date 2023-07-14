@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+haschildren: true
 ---
 
 Välkommen JIN23are.
