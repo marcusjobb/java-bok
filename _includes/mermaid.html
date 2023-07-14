@@ -1,6 +1,4 @@
-<script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js">
-</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js"></script>
 <script>
 $(document).ready(function() {
   mermaid.initialize({
@@ -20,6 +18,10 @@ $(document).ready(function() {
     // Loop through each element and render the Mermaid diagram
     mermaidDivs.forEach(function(mermaidDiv) {
       var code = mermaidDiv.innerText || mermaidDiv.textContent;
+
+      // Replace special characters using regular expressions
+      code = code.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
       try {
         mermaid.mermaidAPI.render('mermaid-' + Math.random(), code, function(svgCode) {
           mermaidDiv.innerHTML = svgCode;
@@ -32,4 +34,4 @@ $(document).ready(function() {
 
   renderMermaidDiagrams();
 });
-</Script>
+</script>
