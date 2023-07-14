@@ -40,9 +40,9 @@ Här är ett exempel som visar hur "annars" kan användas för att kontrollera o
 ```java
 int ålder = 18;
 if (ålder >= 18) {
-System.out.println("Du är myndig");
+    System.out.println("Du är myndig");
 } else {
-System.out.println("Du är inte myndig");
+    System.out.println("Du är inte myndig");
 }
 
 ```

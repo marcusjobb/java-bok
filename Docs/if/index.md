@@ -30,9 +30,8 @@ Här är ett exempel på hur man använder if i Java:
 ```java
 int ålder = 18;
 if (ålder >= 18) {
-System.out.println("Du är myndig");
+    System.out.println("Du är myndig");
 }
-
 ```
 
 I exemplet ovan kontrollerar vi om åldern är större eller lika med 18. Om det är sant skrivs meddelandet "Du är myndig" ut i konsolfönstret. Om åldern är mindre än 18 kommer koden efter if att hoppas över.
