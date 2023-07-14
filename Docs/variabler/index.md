@@ -21,8 +21,8 @@ En variabel är en behållare som används för att lagra data. I Java måste al
 
 ```mermaid
 graph LR
-A[Variabel] --> B[Deklarera]
-B --> C[Initiera]
+    A[Variabel] --> B[Deklarera]
+    B --> C[Initiera]
 ```
 
 ## Exempel
