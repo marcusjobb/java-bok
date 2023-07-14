@@ -3,7 +3,6 @@ title: Webb
 permalink: ordlista/webb
 nav_order: 10
 parent: Ordlista
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default

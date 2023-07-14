@@ -3,7 +3,6 @@ title: Yrken
 permalink: ordlista/yrken
 nav_order: 6
 parent: Ordlista
-grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default
