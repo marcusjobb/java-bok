@@ -19,13 +19,13 @@ school: https://campus.molndal.se/yh
 
 En variabel är en behållare som används för att lagra data. I Java måste alla variabler deklareras innan de kan användas. Detta innebär att du måste ange vilken typ av data som variabeln kommer att lagra.
 
-<div class="mermaid">
 ```mermaid
+<div class="mermaid">
 graph LR
     A[Variabel] --> B[Deklarera]
     B --> C[Initiera]
-```
 </div>
+```
 
 ## Exempel
 
