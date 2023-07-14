@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function() {
   
   function renderMermaidDiagrams() {
@@ -35,4 +34,3 @@ $(document).ready(function() {
     git: { htmlLabels: true },
   });
 });
-</script>
