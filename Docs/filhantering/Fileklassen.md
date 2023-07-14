@@ -1,9 +1,8 @@
 ---
 title: File-klassen
-permalink: java/filhantering/fileklassen
+permalink: filhantering/fileklassen
 nav_order: 4
 parent: Filhantering
-grand_parent: Home
 author: Marcus Medina
 date: 2022-11-20 03:49
 layout: default
@@ -74,42 +73,41 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Main {
-    public static void main(String[] args) {
-        String file = "C:\\Temp\\test.txt";
+public static void main(String[] args) {
+String file = "C:\\Temp\\test.txt";
 
-        // Skapar en fil
-        try {
-            if (!Files.exists(Paths.get(file))) {
-                Files.createFile(Paths.get(file));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+// Skapar en fil
+try {
+if (!Files.exists(Paths.get(file))) {
+Files.createFile(Paths.get(file));
+}
+} catch (IOException e) {
+e.printStackTrace();
+}
 
-        // Skriver till en fil
-        try {
-            Files.write(Paths.get(file), "Hello World!".getBytes());
-        } catch (IOException e) {
-            e.printStackTrace();
+// Skriver till en fil
+try {
+Files.write(Paths.get(file), "Hello World!".getBytes());
+} catch (IOException e) {
+e.printStackTrace();
 
+}
 
-        }
+// Läser innehållet i en fil
+try {
+String text = Files.readString(Paths.get(file));
+System.out.println(text);
+} catch (IOException e) {
+e.printStackTrace();
+}
 
-        // Läser innehållet i en fil
-        try {
-            String text = Files.readString(Paths.get(file));
-            System.out.println(text);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        // Tar bort en fil
-        try {
-            Files.delete(Paths.get(file));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+// Tar bort en fil
+try {
+Files.delete(Paths.get(file));
+} catch (IOException e) {
+e.printStackTrace();
+}
+}
 }
 ```
 

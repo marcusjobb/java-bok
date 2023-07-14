@@ -1,20 +1,19 @@
 ---
-author: Marcus Medina
 title: Programmering
+permalink: ordlista/programmering
 nav_order: 4
 parent: Ordlista
-grand_parent: Home
-permalink: ordlista/Programmering
+author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default
-author_url: https://marcusmedina.pro
-id: 93d6092c-3060-400e-9f6a-1c38cf417263
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
 codelanguage: C#
+id: 93d6092c-3060-400e-9f6a-1c38cf417263
+school: https://campus.molndal.se/yh
 ---
 
-## Programmering
+# Programmering
 
 | Ord | Förklaring |
 | --- | --- |

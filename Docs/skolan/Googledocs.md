@@ -1,24 +1,23 @@
 ---
-author: Marcus Medina
 title: Googledocs
+permalink: skolan/googledocs
 nav_order: 6
 parent: Skolan
-grand_parent: Home
-permalink: skolan/Googledocs
+author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default
 author_github: https://github.com/marcusjobb
-category: ["skolan"]
-school: https://campus.molndal.se/yh
-company: Campus Mölndal
-order: 9999
-id: 0a5867fe-6238-4f33-a303-ac9cbdbf1a38
-codelanguage: CSharp
 author_url: https://marcusmedina.pro
+category: ["skolan"]
+codelanguage: CSharp
+company: Campus Mölndal
+id: 0a5867fe-6238-4f33-a303-ac9cbdbf1a38
+order: 9999
+school: https://campus.molndal.se/yh
 updated: 2023-06-17 12:56:23
 ---
 
-# Google docs
+# Googledocs
 
 [Öppna Google Documents](https://docs.google.com/){: .btn .btn-blue }
 

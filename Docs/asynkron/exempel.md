@@ -41,67 +41,67 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
-        // Create a new instance of the DirReader class
-        DirReader dir = new DirReader();
+public static void main(String[] args) throws Exception {
+// Create a new instance of the DirReader class
+DirReader dir = new DirReader();
 
-        // Get the user's home directory
-        String profile = System.getProperty("user.home");
+// Get the user's home directory
+String profile = System.getProperty("user.home");
 
-        // Define the source directory path
-        String source = Paths.get(profile, "source").toString();
+// Define the source directory path
+String source = Paths.get(profile, "source").toString();
 
-        // Search for all.java files in the source directory asynchronously
-        List<String> result = dir.searchFilesAsync(source, "*.java", "asynkron").get();
+// Search for all.java files in the source directory asynchronously
+List<String> result = dir.searchFilesAsync(source, "*.java", "asynkron").get();
 
-        // Print the results to the console
-        System.out.println(String.join(System.lineSeparator(), result));
-    }
+// Print the results to the console
+System.out.println(String.join(System.lineSeparator(), result));
+}
 }
 
 class DirReader {
-    // Search for all files in a directory that match a given pattern and contain a given text
-    public CompletableFuture<List<String>> searchFilesAsync(String path, String searchPattern, String searchText) {
-        try (Stream<Path> paths = Files.walk(Paths.get(path))) {
-            // Create a list of tasks to search each file asynchronously
-            List<CompletableFuture<String>> tasks = paths
-                   .filter(Files::isRegularFile) // Only consider regular files
-                   .filter(p -> p.getFileName().toString().endsWith(searchPattern)) // Only consider files that match the search pattern
-                   .map(p -> searchFileAsync(p.toString(), searchText)) // Search each file asynchronously
-                   .collect(Collectors.toList());
+// Search for all files in a directory that match a given pattern and contain a given text
+public CompletableFuture<List<String>> searchFilesAsync(String path, String searchPattern, String searchText) {
+try (Stream<Path> paths = Files.walk(Paths.get(path))) {
+// Create a list of tasks to search each file asynchronously
+List<CompletableFuture<String>> tasks = paths
+.filter(Files::isRegularFile) // Only consider regular files
+.filter(p -> p.getFileName().toString().endsWith(searchPattern)) // Only consider files that match the search pattern
+.map(p -> searchFileAsync(p.toString(), searchText)) // Search each file asynchronously
+.collect(Collectors.toList());
 
-            // Wait for all tasks to complete and collect the results
-            CompletableFuture<Void> allTasks = CompletableFuture.allOf(tasks.toArray(new CompletableFuture[tasks.size()]));
-            return allTasks.thenApply(v -> tasks.stream()
-                   .map(CompletableFuture::join)
-                   .filter(x -> x!= null)
-                   .collect(Collectors.toList()));
-        } catch (IOException e) {
-            // If an error occurs, return a failed future with the exception
-            e.printStackTrace();
-            return CompletableFuture.failedFuture(e);
-        }
-    }
+// Wait for all tasks to complete and collect the results
+CompletableFuture<Void> allTasks = CompletableFuture.allOf(tasks.toArray(new CompletableFuture[tasks.size()]));
+return allTasks.thenApply(v -> tasks.stream()
+.map(CompletableFuture::join)
+.filter(x -> x!= null)
+.collect(Collectors.toList()));
+} catch (IOException e) {
+// If an error occurs, return a failed future with the exception
+e.printStackTrace();
+return CompletableFuture.failedFuture(e);
+}
+}
 
-    // Search a single file for a given text and return the result
-    public CompletableFuture<String> searchFileAsync(String path, String searchText) {
-        return CompletableFuture.supplyAsync(() -> {
-            try {
-                // Read all lines in the file
-                List<String> lines = Files.readAllLines(Paths.get(path));
+// Search a single file for a given text and return the result
+public CompletableFuture<String> searchFileAsync(String path, String searchText) {
+return CompletableFuture.supplyAsync(() -> {
+try {
+// Read all lines in the file
+List<String> lines = Files.readAllLines(Paths.get(path));
 
-                // Search for the text in the file
-                int index = lines.indexOf(searchText);
+// Search for the text in the file
+int index = lines.indexOf(searchText);
 
-                // If the text is found, return the file path and line number
-                return index >= 0? path + " - " + index : null;
-            } catch (IOException e) {
-                // If an error occurs, return null
-                e.printStackTrace();
-                return null;
-            }
-        });
-    }
+// If the text is found, return the file path and line number
+return index >= 0? path + " - " + index : null;
+} catch (IOException e) {
+// If an error occurs, return null
+e.printStackTrace();
+return null;
+}
+});
+}
 }
 ```
 
@@ -124,7 +124,7 @@ class DirReader {
 17. Slutligen har vi vår `Main`-metod där vi skapar en instans av `DirReader` och definierar sökvägen till vår mapp.
 18. Vi kör metoden `SearchFilesAsync` och sparar resultatet i en variabel.
 19. Till sist skriver vi ut alla resultat i konsolen.
-    Wow! Nu kan vi söka igenom filer asynkront och få en lista med de filer som innehåller vår sökta text. Det är riktigt coolt att kunna köra flera metoder samtidigt och på så sätt förbättra vår effektivitet. Fortsätt det fantastiska arbetet!
+Wow! Nu kan vi söka igenom filer asynkront och få en lista med de filer som innehåller vår sökta text. Det är riktigt coolt att kunna köra flera metoder samtidigt och på så sätt förbättra vår effektivitet. Fortsätt det fantastiska arbetet!
 
 ## Slutsats
 

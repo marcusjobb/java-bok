@@ -1,24 +1,23 @@
 ---
-author: Marcus Medina
 title: ggcl
+permalink: skolan/ggcl
 nav_order: 4
 parent: Skolan
-grand_parent: Home
-permalink: skolan/ggcl
+author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default
-id: 01e4ed37-c99b-4685-973f-8e661e829d77
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
-company: Campus Mölndal
-order: 9999
+author_url: https://marcusmedina.pro
 category: ["skolan"]
 codelanguage: CSharp
-author_url: https://marcusmedina.pro
+company: Campus Mölndal
+id: 01e4ed37-c99b-4685-973f-8e661e829d77
+order: 9999
+school: https://campus.molndal.se/yh
 updated: 2023-06-17 12:56:23
 ---
 
-# Google Classroom
+# ggcl
 
 [Öppna Google Classroom](https://classroom.google.com/){: .btn .btn-blue }
 

@@ -1,20 +1,19 @@
 ---
-author: Marcus Medina
 title: Git
+permalink: ordlista/git
 nav_order: 2
 parent: Ordlista
-grand_parent: Home
-permalink: ordlista/Git
+author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default
-author_url: https://marcusmedina.pro
-id: cde58042-4d8d-4596-bf4f-8a1b2a0a93cc
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
 codelanguage: C#
+id: cde58042-4d8d-4596-bf4f-8a1b2a0a93cc
+school: https://campus.molndal.se/yh
 ---
 
-# Git Ordlista
+# Git
 
 | Ord | Förklaring |
 | --- | --- |

@@ -1,18 +1,17 @@
 ---
-author: Marcus Medina
 title: Typer
+permalink: variabler/typer
 nav_order: 2
 parent: Variabler
-grand_parent: Home
-permalink: variabler/typer
+author: Marcus Medina
 date: 2023-07-02
 layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
 codelanguage: Java
 enhance: false
-author_url: https://marcusmedina.pro
-author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
 id: f6747b40-af22-4703-b891-37384d95e99e
+school: https://campus.molndal.se/yh
 ---
 
 # Typer

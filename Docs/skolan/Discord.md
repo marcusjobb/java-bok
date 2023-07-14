@@ -1,20 +1,19 @@
 ---
-author: Marcus Medina
 title: Discord
+permalink: skolan/discord
 nav_order: 2
 parent: Skolan
-grand_parent: Home
-permalink: skolan/Discord
+author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default
-id: 9a1ca4fc-1d0a-4b3f-aeab-8152d95fc966
-school: https://campus.molndal.se/yh
 author_github: https://github.com/marcusjobb
-company: Campus Mölndal
-order: 9999
+author_url: https://marcusmedina.pro
 category: ["skolan"]
 codelanguage: CSharp
-author_url: https://marcusmedina.pro
+company: Campus Mölndal
+id: 9a1ca4fc-1d0a-4b3f-aeab-8152d95fc966
+order: 9999
+school: https://campus.molndal.se/yh
 updated: 2023-06-17 12:56:23
 ---
 

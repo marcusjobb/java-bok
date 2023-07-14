@@ -1,20 +1,19 @@
 ---
-author: Marcus Medina
 title: Webb
+permalink: ordlista/webb
 nav_order: 8
 parent: Ordlista
-grand_parent: Home
-permalink: ordlista/Webb
+author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default
-author_url: https://marcusmedina.pro
-id: e944cb28-cb54-4ec2-a200-8011d1dc23c7
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
 codelanguage: C#
+id: e944cb28-cb54-4ec2-a200-8011d1dc23c7
+school: https://campus.molndal.se/yh
 ---
 
-## Webb
+# Webb
 
 | Ord | Förklaring |
 | --- | --- |

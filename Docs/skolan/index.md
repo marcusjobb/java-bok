@@ -1,21 +1,21 @@
 ---
-author: Marcus Medina
 title: Skolan
-nav_order: 2
-parent: Home
 permalink: skolan/index
+nav_order: 28
+parent: Home
+author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default
-school: https://campus.molndal.se/yh
-order: 0
-updated: 2023-06-17 12:56:23
-company: Campus Mölndal
-id: 9183020b-a472-43ca-96e9-b7bb56583b1d
-category: ["skolan"]
-has_children: true
-codelanguage: CSharp
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
+category: ["skolan"]
+codelanguage: CSharp
+company: Campus Mölndal
+has_children: true
+id: 9183020b-a472-43ca-96e9-b7bb56583b1d
+order: 0
+school: https://campus.molndal.se/yh
+updated: 2023-06-17 12:56:23
 ---
 
 # Skolan

@@ -1,20 +1,19 @@
 ---
-author: Marcus Medina
 title: Programmeringsspråk
+permalink: ordlista/programmeringssprak
 nav_order: 6
 parent: Ordlista
-grand_parent: Home
-permalink: ordlista/programmeringssprak
+author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default
-author_url: https://marcusmedina.pro
-id: f020d8ad-561a-49c9-a99e-53b0641f4b11
 author_github: https://github.com/marcusjobb
-school: https://campus.molndal.se/yh
+author_url: https://marcusmedina.pro
 codelanguage: C#
+id: f020d8ad-561a-49c9-a99e-53b0641f4b11
+school: https://campus.molndal.se/yh
 ---
 
-## Programmeringspråk
+# Programmeringsspråk
 
 | --- | --- |
 | Angular | Ett JavaScript-bibliotek. |
