@@ -2,6 +2,27 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.4/mermaid.min.js">
 </script>
 <script>
+
+function fixMermaid() {
+  // Hämta elementet med class "mermaid"
+  var mermaidDiv = document.querySelector('div.mermaid');
+
+  // Kontrollera om elementet finns
+  if (mermaidDiv) {
+    // Hämta innehållet i elementet
+    var content = mermaidDiv.innerHTML;
+
+    // Utför ersättningar
+    content = content.replace(/&gt;/g, '>');
+    content = content.replace(/&lt;/g, '<');
+
+    // Uppdatera innehållet i elementet
+    mermaidDiv.innerHTML = content;
+  }
+}
+
+window.addEventListener('load', fixMermaid);
+
 $(document).ready(function() {
     mermaid.initialize({
     });
