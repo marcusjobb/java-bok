@@ -6,6 +6,8 @@ url: https://campusmolndaleducation.github.io/JIN23
 remote_theme: just-the-docs/just-the-docs
 permalink: /pretty
 
+color_scheme: dark
+
 paginate: 10
 paginate_path: /page:num/
 
