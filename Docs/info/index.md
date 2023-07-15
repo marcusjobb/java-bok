@@ -1,7 +1,7 @@
 ---
 title: Info
 permalink: info/index
-nav_order: 150
+nav_order: 168
 parent: Home
 author: Marcus Medina
 layout: default

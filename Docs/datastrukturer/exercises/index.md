@@ -1,7 +1,7 @@
 ---
 title: exercises
 permalink: datastrukturer/exercises/index
-nav_order: 20
+nav_order: 24
 parent: Datastrukturer
 author: Marcus Medina
 date: 2023-07-14

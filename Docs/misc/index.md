@@ -1,7 +1,7 @@
 ---
 title: Övrigt
 permalink: misc/index
-nav_order: 142
+nav_order: 160
 parent: Home
 author: Marcus Medina
 date: 2023-07-04
