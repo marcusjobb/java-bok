@@ -1,7 +1,7 @@
 ---
 title: README
 permalink: /
-nav_order: 84
+nav_order: 2
 parent: Home
 author: Marcus Medina
 layout: default

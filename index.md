@@ -1,7 +1,7 @@
 ---
 title: Home
 permalink: /
-nav_order: 2
+nav_order: 1
 author: Marcus Medina
 date: 2023-06-17 23:23:25
 layout: default
