@@ -2,7 +2,7 @@
 title: Om sidan
 permalink: info/omsidan
 nav_order: 2
-parent: Index
+parent: Info
 author: Marcus Medina
 date: 2022-11-16 08:32
 layout: default

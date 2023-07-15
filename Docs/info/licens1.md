@@ -2,7 +2,7 @@
 title: MIT-licens för Just the docs
 permalink: info/licens1
 nav_order: 4
-parent: Index
+parent: Info
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

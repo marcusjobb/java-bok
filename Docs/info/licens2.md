@@ -2,7 +2,7 @@
 title: Licens för materialet på denna webbsida
 permalink: info/licens2
 nav_order: 6
-parent: Index
+parent: Info
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb
@@ -30,11 +30,10 @@ Vänligen observera att licensvalet är noggrant genomtänkt för att uppnå de 
 
 ## Enkelt förklarat
 
-**Du får:** 
+**Du får:**
 + Använda koden för icke-kommersiella ändamål, under förutsättning att du anger källan.
 + Använda koden i ett projekt och dela det under samma licens.
 
-**Du får inte:** 
-+ Kopiera koden eller artiklarna för spridning. 
+**Du får inte:**
++ Kopiera koden eller artiklarna för spridning.
 + Använda koden eller artiklar i kommersiella syften av andra utbildningscenter/företag än Campus Mölndal.
-
