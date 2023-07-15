@@ -1,12 +1,13 @@
 title: JIN23
 description: Kod och annat
 baseurl: "/JIN23" # the subpath of your site, e.g. /blog
-url: https://campusmolndaleducation.github.io/JIN23
+url: https://campusmolndaleducation.github.io/JIN23/
 # theme: just-the-docs
-remote_theme: just-the-docs/just-the-docs
-permalink: /pretty
 
 color_scheme: dark
+
+remote_theme: just-the-docs/just-the-docs
+permalink: /pretty
 
 paginate: 10
 paginate_path: /page:num/
@@ -16,7 +17,7 @@ encoding: utf-8
 # Handling Reading
 safe                : false
 include             : [".htaccess"]
-exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/","_todo"]
 keep_files          : [".git", ".svn"]
 encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
@@ -27,8 +28,7 @@ search_enabled: true
 aux_links_new_tab: true
 
 # Navigation
-# nav_sort: case_insensitive # Capital letters sorted before lowercase
-nav_sort: natural # natural or asc or desc
+nav_sort: case_insensitive # Capital letters sorted before lowercase
 nav_depth: 10
 
 # Navbar footer
@@ -41,7 +41,6 @@ toc_depth: 10
 # back to top
 back_to_top: true
 back_to_top_text: "Till toppen</a><br><div id=\"google_translate_element\"></div><script type=\"text/javascript\">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'sv'},'google_translate_element');} </script> <script type=\"text/javascript\" src=\"https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script><a>"
-
 # TOC
 toc:
   title: Undersidor
@@ -93,11 +92,3 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 font_size:
   base: 16px
   headings: 1.25rem
-
-plugins:
-#  - jekyll-feed
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-mermaid
-  #- jekyll-spaceship
