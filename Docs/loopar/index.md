@@ -1,7 +1,7 @@
 ---
 title: Loopar
 permalink: loopar/index
-nav_order: 152
+nav_order: 7
 parent: Home
 author: Marcus Medina
 date: 2023-07-02
