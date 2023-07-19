@@ -44,9 +44,11 @@ back_to_top_text: "<center>Till toppen</a><br><div id=\"google_translate_element
 
 # TOC
 toc:
-  title: Undersidor
-  icon: fas fa-list
-  depth: 10
+ min_level: 1
+ max_level: 10
+ list_class: toc
+ list_class: toc__list
+ sublist_class: toc__sublist
 
 # children
 children:
