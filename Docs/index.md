@@ -6,7 +6,6 @@ parent: Home
 author: Marcus Medina
 date: 2023-07-02
 layout: default
-nav_exclude: true
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
 enhance: false
