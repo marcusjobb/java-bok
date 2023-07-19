@@ -9,6 +9,7 @@ author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
 id: 3eafd158-cbc2-4b04-bd9d-e1c1bcd2defa
 school: https://campus.molndal.se/yh
+nav_exclude: true
 ---
 
 # README
