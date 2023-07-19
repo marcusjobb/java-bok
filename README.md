@@ -1,6 +1,6 @@
 ---
 title: README
-permalink: /
+permalink: JIN23/readme
 nav_order: 2
 parent: Home
 author: Marcus Medina
