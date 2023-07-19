@@ -1,7 +1,7 @@
 ---
 title: Discord
 permalink: School/discord
-nav_order: 8
+nav_order: 10
 parent: Skolan
 grand_parent: Home
 author: Marcus Medina

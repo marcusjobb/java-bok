@@ -1,7 +1,7 @@
 ---
-title: Googledocs
+title: Google Documents
 permalink: School/googledocs
-nav_order: 6
+nav_order: 8
 parent: Skolan
 grand_parent: Home
 author: Marcus Medina
@@ -18,7 +18,7 @@ school: https://campus.molndal.se/yh
 updated: 2023-06-17 12:56:23
 ---
 
-# Googledocs
+# Google Documents
 
 [Öppna Google Documents](https://docs.google.com/){: .btn .btn-blue }
 

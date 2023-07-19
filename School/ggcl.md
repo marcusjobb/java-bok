@@ -1,5 +1,5 @@
 ---
-title: ggcl
+title: Google Classroom
 permalink: School/ggcl
 nav_order: 4
 parent: Skolan
@@ -18,7 +18,7 @@ school: https://campus.molndal.se/yh
 updated: 2023-06-17 12:56:23
 ---
 
-# ggcl
+# Google Classroom
 
 [Öppna Google Classroom](https://classroom.google.com/){: .btn .btn-blue }
 
