@@ -1,7 +1,7 @@
 ---
 title: Klasskomposition
 permalink: oop/klasskomposition
-nav_order: 12
+nav_order: 4
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
 author: Marcus Medina

@@ -2,8 +2,7 @@
 title: Skolan
 permalink: School/index
 nav_order: 2
-parent: Java
-grand_parent: Home
+parent: Home
 author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default

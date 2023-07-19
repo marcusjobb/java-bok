@@ -2,8 +2,7 @@
 title: Ordlista
 permalink: ordlista/index
 nav_order: 26
-parent: Java
-grand_parent: Home
+parent: Home
 author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default

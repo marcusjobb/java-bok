@@ -1,7 +1,7 @@
 ---
 title: delegater
 permalink: oop/delegater/index
-nav_order: 8
+nav_order: 16
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
 author: Marcus Medina

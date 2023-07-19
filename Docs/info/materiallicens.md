@@ -1,7 +1,7 @@
 ---
 title: Licens för materialet på denna webbsida
 permalink: Info/materiallicens
-nav_order: 6
+nav_order: 4
 parent: Info
 grand_parent: Java
 author: Marcus Medina

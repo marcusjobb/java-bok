@@ -1,7 +1,7 @@
 ---
 title: MIT-licens för Just the docs
 permalink: Info/justthedocslicens
-nav_order: 8
+nav_order: 6
 parent: Info
 grand_parent: Java
 author: Marcus Medina

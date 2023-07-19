@@ -1,7 +1,7 @@
 ---
 title: Komposition över arv
 permalink: oop/compbeforeinherit
-nav_order: 18
+nav_order: 10
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
 author: Marcus Medina
@@ -51,7 +51,7 @@ Man skulle förenkla det hela med att säga att vi simulerar "arv av flera klass
 
 ## Exempel 1
 
-Känns det rörigt? Lugnt, vi kollar på ett exempel... Vi har faktiskt använt detta innan... 
+Känns det rörigt? Lugnt, vi kollar på ett exempel... Vi har faktiskt använt detta innan...
 
 kolla koden nedan
 
@@ -138,7 +138,7 @@ class Family
     public void setMother(HumanPet mother){ this.mother = mother; }
     public void setChild(HumanPet child){ this.child = child; }
     public void setFamilyPets(Pet[] familyPets){ this.familyPets = familyPets; }
-}   
+}
 ```
 
 Nu kan vi skapa en familj där alla har var sitt husdjur.

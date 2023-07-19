@@ -1,7 +1,7 @@
 ---
 title: Events
 permalink: oop/events/index
-nav_order: 10
+nav_order: 18
 parent: Objektorienterad programmering (OOP)
 grand_parent: Java
 author: Marcus Medina
