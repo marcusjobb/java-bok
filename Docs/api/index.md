@@ -2,7 +2,8 @@
 title: API
 permalink: api/index
 nav_order: 20
-parent: Home
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-23 12:27
 layout: default

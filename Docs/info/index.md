@@ -2,7 +2,8 @@
 title: Info
 permalink: Info/index
 nav_order: 4
-parent: Home
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

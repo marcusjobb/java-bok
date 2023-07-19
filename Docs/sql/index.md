@@ -2,7 +2,8 @@
 title: SQL
 permalink: sql/index
 nav_order: 24
-parent: Home
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default
