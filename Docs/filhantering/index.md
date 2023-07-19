@@ -1,8 +1,9 @@
 ---
 title: Filhantering
 permalink: filhantering/index
-nav_order: 158
-parent: Home
+nav_order: 16
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

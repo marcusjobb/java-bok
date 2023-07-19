@@ -1,8 +1,9 @@
 ---
 title: If
 permalink: if/index
-nav_order: 5
-parent: Home
+nav_order: 6
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-02
 layout: default

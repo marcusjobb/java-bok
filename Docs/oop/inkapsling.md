@@ -1,8 +1,9 @@
 ---
 title: Inkapsling
 permalink: oop/inkapsling
-nav_order: 32
+nav_order: 14
 parent: Objektorienterad programmering (OOP)
+grand_parent: Java
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

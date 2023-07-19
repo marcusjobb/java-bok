@@ -1,8 +1,9 @@
 ---
 title: SQL
 permalink: sql/index
-nav_order: 146
-parent: Home
+nav_order: 24
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

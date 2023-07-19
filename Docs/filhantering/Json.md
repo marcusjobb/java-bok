@@ -3,6 +3,7 @@ title: Json
 permalink: filhantering/json
 nav_order: 6
 parent: Filhantering
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

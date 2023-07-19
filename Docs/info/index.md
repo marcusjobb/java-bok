@@ -1,8 +1,9 @@
 ---
 title: Info
-permalink: info/index
-nav_order: 168
-parent: Home
+permalink: Info/index
+nav_order: 4
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

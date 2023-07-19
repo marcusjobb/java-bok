@@ -3,6 +3,7 @@ title: Git
 permalink: ordlista/git
 nav_order: 2
 parent: Ordlista
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default

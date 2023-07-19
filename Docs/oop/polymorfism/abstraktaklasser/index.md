@@ -1,8 +1,9 @@
 ---
 title: Abstrakta klasser
 permalink: oop/polymorfism/abstraktaklasser/index
-nav_order: 6
+nav_order: 4
 parent: Polymorfism
+grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 date: 2022-11-19 08:17
 layout: default

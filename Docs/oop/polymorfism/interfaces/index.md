@@ -1,8 +1,9 @@
 ---
 title: Interfaces
 permalink: oop/polymorfism/interfaces/index
-nav_order: 8
+nav_order: 2
 parent: Polymorfism
+grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

@@ -1,8 +1,9 @@
 ---
 title: Polymorfism
 permalink: oop/polymorfism/index
-nav_order: 26
+nav_order: 6
 parent: Objektorienterad programmering (OOP)
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-19 02:33
 layout: default

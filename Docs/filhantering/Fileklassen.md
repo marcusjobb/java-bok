@@ -3,6 +3,7 @@ title: File-klassen
 permalink: filhantering/fileklassen
 nav_order: 4
 parent: Filhantering
+grand_parent: Java
 author: Marcus Medina
 date: 2022-11-20 03:49
 layout: default

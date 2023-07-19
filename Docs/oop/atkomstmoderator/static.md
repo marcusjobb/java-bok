@@ -3,7 +3,7 @@ title: Static
 permalink: oop/atkomstmoderator/static
 nav_order: 8
 parent: Åtkomstmoderator
-grand_parent: Home
+grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 date: 2023-07-02
 layout: default

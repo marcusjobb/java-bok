@@ -1,8 +1,9 @@
 ---
 title: Åtkomstmoderator
 permalink: oop/atkomstmoderator/index
-nav_order: 22
+nav_order: 4
 parent: Objektorienterad programmering (OOP)
+grand_parent: Java
 author: Marcus Medina
 date: 2023-07-02
 layout: default
