@@ -1,5 +1,5 @@
 ---
-title: Loopar i C#
+title: Loopar i Java
 permalink: loop/omloopar
 nav_order: 2
 parent: Loopar
@@ -17,7 +17,7 @@ id: a04361e4-591b-4d7b-b9ba-8f6975cf1170
 school: https://campus.molndal.se/yh
 ---
 
-# Loopar i C#
+# Loopar i Java
 
 Loopar är ett mycket användbart verktyg inom Java-programmering för att automatisera processer, förbättra prestanda och lösa komplexa problem. Genom att använda lämpliga loopar kan vi iterera över listor, utföra beräkningar och hantera användarinmatning. Det är viktigt att vara medveten om begränsningarna och utmaningarna vid användning av loopar och implementera dem korrekt för att undvika potentiella problem.
 
