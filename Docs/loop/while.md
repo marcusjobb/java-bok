@@ -1,7 +1,7 @@
 ---
 title: While
 permalink: loop/while
-nav_order: 6
+nav_order: 4
 parent: Loopar
 grand_parent: Java
 author: Marcus Medina

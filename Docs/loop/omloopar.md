@@ -1,7 +1,7 @@
 ---
 title: Loopar i C#
 permalink: loop/omloopar
-nav_order: 4
+nav_order: 2
 parent: Loopar
 grand_parent: Java
 author: Marcus Medina

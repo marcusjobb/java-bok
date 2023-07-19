@@ -1,7 +1,7 @@
 ---
 title: Do While
 permalink: loop/dowhile
-nav_order: 2
+nav_order: 6
 parent: Loopar
 grand_parent: Java
 author: Marcus Medina
