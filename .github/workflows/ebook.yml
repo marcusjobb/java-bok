@@ -18,9 +18,18 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install Pandoc
-        run: sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra texlive-lang-english
+      - name: Update Package Lists
+        run: sudo apt-get update
 
+      - name: Install Pandoc and LaTeX Packages
+        run: |
+          sudo apt-get install -y \
+            pandoc \
+            texlive-latex-base \
+            texlive-fonts-recommended \
+            texlive-latex-extra \
+            texlive-lang-english
+    
       - name: Install Dependencies
         run: |
           pip install --upgrade pip
