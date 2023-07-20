@@ -1,0 +1,407 @@
+else
+switch
+case
+default
+break
+continue
+return
+goto
+throw
+if statement
+if sats
+foreach
+while
+until
+for loop
+do loop
+catch
+finally
+throw
+try catch
+try catch finally
+try finally
+try catch throw
+try catch finally throw
+try finally throw
+class
+object
+interface
+inheritance
+polymorphism
+abstraction
+encapsulation
+singleton
+factory
+builder
+prototype
+adapter
+decorator
+observer
+strategy
+template
+string
+float
+double
+decimal
+bool
+char
+byte
+array
+list
+dictionary
+tuple
+public
+private
+protected
+internal
+static
+abstract
+virtual
+override
+async
+await
+try-catch
+error handling
+exception
+stack trace
+debugging
+stack
+queue
+linked list
+array
+tree
+graph
+hash table
+heap
+sorting
+searching
+recursion
+greedy
+dynamic programming
+backtracking
+graph traversal
+unit testing
+integration testing
+test case
+assertion
+mocking
+code coverage
+test-driven development (TDD)
+repository
+commit
+branch
+merge
+conflict
+HTML
+JavaScript
+REST
+JSON
+HTTP
+HTTPS
+AJAX
+responsive design
+frontend
+backend
+SDLC
+requirements
+analysis
+design
+development
+testing
+deployment
+maintenance
+Scrum
+Kanban
+Sprint
+User Story
+Product Backlog
+Sprint Backlog
+Daily Standup
+Retrospective
+clean code
+code refactoring
+code review
+code smell
+design principles
+SOLID
+DRY pattern
+DRY rule
+DRY principle
+optimization
+benchmarking
+profiling
+caching
+load balancing
+scalability
+concurrency
+authentication
+authorization
+encryption
+hashing
+SQL injection
+cross-site scripting (XSS)
+cross-site request forgery (CSRF)
+OWASP Top 10
+cross-site request forgery
+CSRF
+cross-site scripting
+XSS attack
+XSS vulnerability
+XSS exploit
+MVVM
+client-server
+microservices
+RESTful
+event-driven
+layered architecture
+deployment
+server
+cloud
+containers
+DevOps
+continuous integration (CI)
+continuous deployment (CD)
+comment
+documentation
+Javadoc
+XML documentation
+README
+API documentation
+algorithm
+argument
+authentication
+build
+cache
+code
+compilation
+component
+configuration
+console
+container
+database
+debugging
+dependency
+framework
+library
+method
+module
+namespace
+object-oriented
+package
+parameter
+performance
+platform
+project
+refactoring
+repository
+resource
+script
+source code
+syntax
+test
+thread
+variable
+version
+workflow
+agile
+modularity
+scalability
+reliability
+efficiency
+usability
+maintainability
+portability
+interoperability
+testability
+consistency
+simplicity
+extensibility
+security
+waterfall
+spiral
+iterative
+incremental
+RAD (Rapid Application Development)
+unit testing
+integration testing
+system testing
+acceptance testing
+black-box testing
+white-box testing
+gray-box testing
+automated testing
+manual testing
+test plan
+test case
+test suite
+test script
+test coverage
+test environment
+test data
+lines of code (LOC)
+cyclomatic complexity
+code coverage
+technical debt
+defect density
+maintainability index
+code churn
+code duplication
+coupling
+cohesion
+text editor
+version control system
+debugger
+build automation
+continuous integration (CI)
+continuous delivery (CD)
+issue tracking system
+project management tools
+procedural programming
+object-oriented programming
+functional programming
+imperative programming
+declarative programming
+event-driven programming
+aspect-oriented programming
+service-oriented architecture
+model-driven development
+DRY (Don't Repeat Yourself)
+KISS (Keep It Simple, Stupid)
+YAGNI (You Ain't Gonna Need It)
+SOLID (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion)
+GRASP (General Responsibility Assignment Software Patterns)
+LoD (Law of Demeter)
+build pipeline
+version control integration
+automated testing
+code quality analysis
+artifact repository
+environment provisioning
+deployment automation
+rolling updates
+blue-green deployment
+canary release
+feature toggles
+IaaS (Infrastructure as a Service)
+PaaS (Platform as a Service)
+SaaS (Software as a Service)
+IaaS
+PaaS
+SaaS
+Infrastructure as a Service
+Platform as a Service
+Software as a Service
+serverless computing
+elastic scalability
+multi-tenancy
+auto scaling
+supervised learning
+unsupervised learning
+reinforcement learning
+classification
+regression
+clustering
+dimensionality reduction
+feature extraction
+neural networks
+deep learning
+decision trees
+support vector machines
+k-nearest neighbors
+random forests
+gradient boosting
+natural language processing
+computer vision
+expert systems
+knowledge representation
+inference engines
+machine reasoning
+symbolic AI
+genetic algorithms
+fuzzy logic
+sensors
+actuators
+connectivity
+data analytics
+smart home
+wearables
+smart cities
+industrial automation
+edge computing
+IoT security
+data processing
+data storage
+data analysis
+data visualization
+data mining
+data warehousing
+Hadoop
+Apache Spark
+NoSQL
+MapReduce
+user research
+user personas
+user journey mapping
+wireframing
+prototyping
+information architecture
+usability testing
+interaction design
+visual design
+accessibility
+user-centered design
+responsive design
+vulnerability
+penetration testing
+firewall
+intrusion detection system (IDS)
+intrusion prevention system (IPS)
+security audit
+security incident
+malware
+phishing
+ransomware
+encryption
+public key infrastructure (PKI)
+identity management
+collaboration
+automation
+continuous integration (CI)
+continuous delivery (CD)
+continuous deployment
+configuration management
+containerization
+orchestration
+monitoring
+log management
+infrastructure as code (IaC)
+microservices architecture
+scope
+timeline
+budget
+stakeholder
+project plan
+project manager
+resource management
+risk management
+agile project management
+waterfall project management
+scrum master
+Kanban board
+Gantt chart
+critical path
+milestone
+deliverable
+communication
+teamwork
+leadership
+problem-solving
+critical thinking
+time management
+adaptability
+creativity
+emotional intelligence
+negotiation
+presentation skills
+decision-making
+API
