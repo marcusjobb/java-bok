@@ -1,0 +1,44 @@
+name: Convert to Ebook
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pandoc
+
+      - name: Export Google Docs
+        run: |
+          pandoc index.md -f markdown -t html -s -o output.html
+
+      - name: Convert to Ebook
+        run: |
+          pandoc output.html -o Jin23Java_CampusMölndal_ByMarcusMedina.pdf
+
+      - name: Upload Ebook Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ebook
+          path: Jin23Java_CampusMölndal_ByMarcusMedina.pdf
+
+      - name: Deploy Ebook to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: ./
