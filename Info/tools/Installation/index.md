@@ -1,7 +1,7 @@
 ---
 title: Installation
 permalink: Installation/index
-nav_order: 2
+nav_order: 1
 parent: Verktyg
 grand_parent: Info
 author: Marcus Medina

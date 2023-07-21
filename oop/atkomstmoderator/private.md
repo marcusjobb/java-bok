@@ -1,7 +1,7 @@
 ---
 title: Private
 permalink: atkomstmoderator/private
-nav_order: 2
+nav_order: 1
 parent: Åtkomstmoderator
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina

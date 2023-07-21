@@ -1,7 +1,7 @@
 ---
 title: Loop kontroller
 permalink: loop/loopcontrol
-nav_order: 18
+nav_order: 17
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

@@ -1,7 +1,7 @@
 ---
 title: Visual Studio installation
 permalink: Installation/visualstudioinstallation
-nav_order: 4
+nav_order: 3
 parent: Installation
 grand_parent: Verktyg
 author: Marcus Medina

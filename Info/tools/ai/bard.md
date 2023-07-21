@@ -1,7 +1,7 @@
 ---
 title: Bard
 permalink: ai/bard
-nav_order: 12
+nav_order: 11
 parent: ai
 grand_parent: Verktyg
 author: Marcus Medina

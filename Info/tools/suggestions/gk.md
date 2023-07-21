@@ -1,7 +1,7 @@
 ---
 title: Google Keep
 permalink: suggestions/gk
-nav_order: 6
+nav_order: 5
 parent: Förslag
 grand_parent: Verktyg
 author: Marcus Medina

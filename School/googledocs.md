@@ -1,7 +1,7 @@
 ---
 title: Google Documents
 permalink: School/googledocs
-nav_order: 8
+nav_order: 7
 parent: Skolan
 grand_parent: Home
 author: Marcus Medina

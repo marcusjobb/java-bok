@@ -1,7 +1,7 @@
 ---
 title: Rider installation
 permalink: Installation/riderinstallation
-nav_order: 12
+nav_order: 11
 parent: Installation
 grand_parent: Verktyg
 author: Marcus Medina

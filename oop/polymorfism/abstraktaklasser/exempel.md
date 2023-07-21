@@ -1,7 +1,7 @@
 ---
 title: Exempel
 permalink: abstraktaklasser/exempel
-nav_order: 2
+nav_order: 1
 parent: Abstrakta klasser
 grand_parent: Polymorfism
 author: Marcus Medina

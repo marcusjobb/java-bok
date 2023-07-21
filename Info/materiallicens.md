@@ -1,7 +1,7 @@
 ---
 title: Licens för materialet på denna webbsida
 permalink: Info/materiallicens
-nav_order: 4
+nav_order: 3
 parent: Info
 grand_parent: Home
 author: Marcus Medina
@@ -14,7 +14,7 @@ school: https://campus.molndal.se/yh
 
 # Licens för materialet på denna webbsida
 
-Materialet på denna webbsida är licensierat under en [Creative Commons BY-NC-SA (Attribution-NonCommercial-ShareAlike)](https://creativecommons.org/licenses/by-nc-sa/) licens. Det innebär att du fritt får använda materialet för **icke-kommersiella ändamål**, under förutsättning att du **anger källan** och delar **ditt material under samma licens**.
+Materialet på denna webbsida är licensierat under en [Creative Commons BY-NC-SA (Attribution-NonCommercial-ShareAlike)](https://creativecommons.org/licenses/by-nc-sa/4.0/) licens. Det innebär att du fritt får använda materialet för **icke-kommersiella ändamål**, under förutsättning att du **anger källan** och delar **ditt material under samma licens**.
 
 Denna licens har valts för att ge studenterna friheten att använda koden på det sätt de önskar, samtidigt som materialet inte tillåts kopieras eller användas i kommersiella syften av andra utbildningscenter än Campus Mölndal.
 

@@ -1,7 +1,7 @@
 ---
 title: NetBeans installation
 permalink: Installation/netbeans
-nav_order: 10
+nav_order: 9
 parent: Installation
 grand_parent: Verktyg
 author: Marcus Medina

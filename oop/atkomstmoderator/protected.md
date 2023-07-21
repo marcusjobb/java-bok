@@ -1,7 +1,7 @@
 ---
 title: Protected
 permalink: atkomstmoderator/protected
-nav_order: 4
+nav_order: 3
 parent: Åtkomstmoderator
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina

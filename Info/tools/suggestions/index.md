@@ -1,7 +1,7 @@
 ---
 title: Förslag
 permalink: suggestions/index
-nav_order: 4
+nav_order: 3
 parent: Verktyg
 grand_parent: Info
 author: Marcus Medina

@@ -1,7 +1,7 @@
 ---
 title: Do While
 permalink: loop/dowhile
-nav_order: 12
+nav_order: 11
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

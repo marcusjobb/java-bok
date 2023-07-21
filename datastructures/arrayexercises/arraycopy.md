@@ -1,7 +1,7 @@
 ---
 title: Plocka ut en del av en array och skapa en ny array av det.
 permalink: arrayexercises/arraycopy
-nav_order: 2
+nav_order: 1
 parent: Array övningar
 grand_parent: Datastrukturer
 author: Marcus Medina

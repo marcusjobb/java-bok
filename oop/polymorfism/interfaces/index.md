@@ -1,7 +1,7 @@
 ---
 title: Interfaces
 permalink: interfaces/index
-nav_order: 2
+nav_order: 1
 parent: Polymorfism
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina

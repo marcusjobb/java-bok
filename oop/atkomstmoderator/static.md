@@ -1,7 +1,7 @@
 ---
 title: Static
 permalink: atkomstmoderator/static
-nav_order: 8
+nav_order: 7
 parent: Åtkomstmoderator
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina

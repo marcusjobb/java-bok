@@ -1,7 +1,7 @@
 ---
 title: Info
 permalink: Info/index
-nav_order: 6
+nav_order: 5
 parent: Home
 author: Marcus Medina
 layout: default
@@ -15,11 +15,11 @@ school: https://campus.molndal.se/yh
 
 # Info
 
-Här kommer jag att posta information om sidan, som t.ex. versionshistorik, användarvillkor, hur man använder den mm.
+Här kommer jag att posta information om sidan, som t.ex. versionshistorik, användarvillkor, hur man använder den mm. Denna sidan är baserad på [CLO22](https://campusmolndaleducation.github.io/CLO22/) som är en sida som jag skapat för att samla information om C# och .NET. All information "översattes" till Java.
 
 # Versionshistorik
 
-| Version | Datum | Beskrivning |
-| --- | --- | --- |
-| 1.0.1 | 2022-12-09 | Uppdatering av sidan. Mermaid funkar inte, diagrammen syns inte 😞|
-| 1.0.0 | 2022-12-09 | Första publicering. Första publicering, denna sidan är baserad på [CLO22](https://campusmolndaleducation.github.io/CLO22/) som är en sida som jag skapat för att samla information om C# och .NET. All information "översattes" till Java.
+| Version | Datum      | Beskrivning                                                        |
+| ------- | ---------- | ------------------------------------------------------------------ |
+| 1.0.1   | 2022-12-09 | Uppdatering av sidan. Mermaid funkar inte, diagrammen syns inte 😞 |
+| 1.0.0   | 2022-12-09 | Första publicering. Första publicering,                            |

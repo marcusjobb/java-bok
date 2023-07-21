@@ -1,7 +1,7 @@
 ---
 title: Rekursiva loopar
 permalink: loop/recursion
-nav_order: 14
+nav_order: 13
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

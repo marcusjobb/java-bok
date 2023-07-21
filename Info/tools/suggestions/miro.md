@@ -1,7 +1,7 @@
 ---
 title: Miro Board
 permalink: suggestions/miro
-nav_order: 8
+nav_order: 7
 parent: Förslag
 grand_parent: Verktyg
 author: Marcus Medina

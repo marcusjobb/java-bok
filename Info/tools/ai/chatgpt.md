@@ -1,7 +1,7 @@
 ---
 title: Chatgpt
 permalink: ai/chatgpt
-nav_order: 10
+nav_order: 9
 parent: ai
 grand_parent: Verktyg
 author: Marcus Medina

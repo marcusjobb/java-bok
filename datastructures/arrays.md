@@ -1,7 +1,7 @@
 ---
 title: Arrayer
 permalink: datastructures/arrays
-nav_order: 6
+nav_order: 3
 parent: Datastrukturer
 grand_parent: Home
 author: Marcus Medina

@@ -1,7 +1,7 @@
 ---
 title: Array övningar
 permalink: arrayexercises/index
-nav_order: 2
+nav_order: 1
 parent: Datastrukturer
 grand_parent: Home
 author: Marcus Medina

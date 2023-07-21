@@ -1,7 +1,7 @@
 ---
 title: Loopar i Java
 permalink: loop/omloopar
-nav_order: 2
+nav_order: 1
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

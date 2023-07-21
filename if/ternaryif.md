@@ -1,7 +1,7 @@
 ---
 title: Ternary if
 permalink: if/ternaryif
-nav_order: 6
+nav_order: 5
 parent: If
 grand_parent: Home
 author: Marcus Medina

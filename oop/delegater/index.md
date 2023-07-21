@@ -1,7 +1,7 @@
 ---
 title: delegater
 permalink: delegater/index
-nav_order: 16
+nav_order: 15
 parent: Objektorienterad programmering (OOP)
 grand_parent: Home
 author: Marcus Medina

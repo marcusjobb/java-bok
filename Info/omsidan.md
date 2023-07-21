@@ -1,7 +1,7 @@
 ---
 title: Om sidan
 permalink: Info/omsidan
-nav_order: 2
+nav_order: 1
 parent: Info
 grand_parent: Home
 author: Marcus Medina

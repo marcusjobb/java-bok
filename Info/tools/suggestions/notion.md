@@ -1,7 +1,7 @@
 ---
 title: Notion
 permalink: suggestions/notion
-nav_order: 10
+nav_order: 9
 parent: Förslag
 grand_parent: Verktyg
 author: Marcus Medina

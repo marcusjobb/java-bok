@@ -1,7 +1,7 @@
 ---
 title: Filhantering
 permalink: filhantering/index
-nav_order: 18
+nav_order: 17
 parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38

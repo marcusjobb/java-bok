@@ -1,7 +1,7 @@
 ---
 title: Githubstudent
 permalink: suggestions/githubstudent
-nav_order: 4
+nav_order: 3
 parent: Förslag
 grand_parent: Verktyg
 author: Marcus Medina

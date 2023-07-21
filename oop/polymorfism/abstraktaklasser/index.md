@@ -1,7 +1,7 @@
 ---
 title: Abstrakta klasser
 permalink: abstraktaklasser/index
-nav_order: 4
+nav_order: 3
 parent: Polymorfism
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina

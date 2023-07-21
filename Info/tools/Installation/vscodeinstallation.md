@@ -1,7 +1,7 @@
 ---
 title: VS Code installation
 permalink: Installation/vscodeinstallation
-nav_order: 6
+nav_order: 5
 parent: Installation
 grand_parent: Verktyg
 author: Marcus Medina

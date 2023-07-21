@@ -1,7 +1,7 @@
 ---
 title: Komposition över arv
 permalink: oop/compbeforeinherit
-nav_order: 10
+nav_order: 9
 parent: Objektorienterad programmering (OOP)
 grand_parent: Home
 author: Marcus Medina

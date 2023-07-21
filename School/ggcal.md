@@ -1,7 +1,7 @@
 ---
 title: Google Calendar
 permalink: School/ggcal
-nav_order: 6
+nav_order: 5
 parent: Skolan
 grand_parent: Home
 author: Marcus Medina

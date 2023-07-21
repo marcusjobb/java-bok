@@ -1,7 +1,7 @@
 ---
 title: Nästlade loopar
 permalink: loop/nestedloop
-nav_order: 8
+nav_order: 7
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

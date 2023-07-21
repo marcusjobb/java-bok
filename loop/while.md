@@ -1,7 +1,7 @@
 ---
 title: While
 permalink: loop/while
-nav_order: 10
+nav_order: 9
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

@@ -1,7 +1,7 @@
 ---
 title: Microsoft-tools
 permalink: ai/microsoft-tools
-nav_order: 4
+nav_order: 3
 parent: ai
 grand_parent: Verktyg
 author: Marcus Medina

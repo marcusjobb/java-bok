@@ -1,7 +1,7 @@
 ---
 title: Exempel
 permalink: asynkron/exempel
-nav_order: 2
+nav_order: 1
 parent: Asynkron
 grand_parent: Home
 author: Marcus Medina

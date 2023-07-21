@@ -1,7 +1,7 @@
 ---
 title: Path-klassen
 permalink: filhantering/pathklassen
-nav_order: 12
+nav_order: 11
 parent: Filhantering
 grand_parent: Home
 author: Marcus Medina

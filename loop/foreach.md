@@ -1,7 +1,7 @@
 ---
 title: Foreach-loop
 permalink: loop/foreach
-nav_order: 6
+nav_order: 5
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

@@ -1,7 +1,7 @@
 ---
 title: For loopar
 permalink: loop/for
-nav_order: 4
+nav_order: 3
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

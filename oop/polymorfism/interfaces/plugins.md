@@ -1,7 +1,7 @@
 ---
 title: Plugins
 permalink: interfaces/plugins
-nav_order: 2
+nav_order: 1
 parent: Interfaces
 grand_parent: Polymorfism
 author: Marcus Medina

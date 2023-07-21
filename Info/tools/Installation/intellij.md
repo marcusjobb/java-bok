@@ -1,7 +1,7 @@
 ---
 title: IntelliJinstallation
 permalink: Installation/intellij
-nav_order: 8
+nav_order: 7
 parent: Installation
 grand_parent: Verktyg
 author: Marcus Medina

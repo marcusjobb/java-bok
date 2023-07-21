@@ -1,7 +1,7 @@
 ---
 title: Google Classroom
 permalink: School/ggcl
-nav_order: 4
+nav_order: 3
 parent: Skolan
 grand_parent: Home
 author: Marcus Medina

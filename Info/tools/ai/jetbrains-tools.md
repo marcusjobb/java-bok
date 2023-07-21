@@ -1,7 +1,7 @@
 ---
 title: Jetbrains-tools
 permalink: ai/jetbrains-tools
-nav_order: 2
+nav_order: 1
 parent: ai
 grand_parent: Verktyg
 author: Marcus Medina

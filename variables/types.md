@@ -1,7 +1,7 @@
 ---
 title: Typer
 permalink: variables/types
-nav_order: 2
+nav_order: 1
 parent: Variabler
 grand_parent: Home
 author: Marcus Medina

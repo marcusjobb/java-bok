@@ -1,7 +1,7 @@
 ---
 title: Invertera en array
 permalink: arrayexercises/ovning3
-nav_order: 8
+nav_order: 7
 parent: Array övningar
 grand_parent: Datastrukturer
 author: Marcus Medina

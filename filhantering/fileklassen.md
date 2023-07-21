@@ -1,7 +1,7 @@
 ---
 title: File-klassen
 permalink: filhantering/fileklassen
-nav_order: 4
+nav_order: 3
 parent: Filhantering
 grand_parent: Home
 author: Marcus Medina

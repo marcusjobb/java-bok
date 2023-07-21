@@ -1,7 +1,7 @@
 ---
 title: ai
 permalink: ai/index
-nav_order: 6
+nav_order: 5
 parent: Verktyg
 grand_parent: Info
 author: Marcus Medina

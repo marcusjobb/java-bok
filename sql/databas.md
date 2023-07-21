@@ -1,7 +1,7 @@
 ---
 title: Databaser
 permalink: sql/databas
-nav_order: 4
+nav_order: 3
 parent: SQL
 grand_parent: Home
 author: Marcus Medina

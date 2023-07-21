@@ -1,7 +1,7 @@
 ---
 title: Text
 permalink: filhantering/text
-nav_order: 10
+nav_order: 9
 parent: Filhantering
 grand_parent: Home
 author: Marcus Medina

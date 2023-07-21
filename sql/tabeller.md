@@ -1,7 +1,7 @@
 ---
 title: Tabeller
 permalink: sql/tabeller
-nav_order: 2
+nav_order: 1
 parent: SQL
 grand_parent: Home
 author: Marcus Medina

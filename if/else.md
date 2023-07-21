@@ -1,7 +1,7 @@
 ---
 title: Else
 permalink: if/else
-nav_order: 2
+nav_order: 1
 parent: If
 grand_parent: Home
 author: Marcus Medina

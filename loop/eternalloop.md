@@ -1,7 +1,7 @@
 ---
 title: Evig loop
 permalink: loop/eternalloop
-nav_order: 16
+nav_order: 15
 parent: Loopar
 grand_parent: Home
 author: Marcus Medina

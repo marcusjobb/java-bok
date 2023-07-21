@@ -1,7 +1,7 @@
 ---
 title: CSV
 permalink: filhantering/csv
-nav_order: 2
+nav_order: 1
 parent: Filhantering
 grand_parent: Home
 author: Marcus Medina

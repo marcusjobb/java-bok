@@ -1,7 +1,7 @@
 ---
 title: Github Copilot
 permalink: ai/copilot
-nav_order: 6
+nav_order: 5
 parent: ai
 grand_parent: Verktyg
 author: Marcus Medina

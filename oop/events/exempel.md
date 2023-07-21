@@ -1,7 +1,7 @@
 ---
 title: Exempel
 permalink: events/exempel
-nav_order: 2
+nav_order: 1
 parent: Events
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina

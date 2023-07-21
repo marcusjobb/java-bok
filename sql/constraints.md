@@ -1,7 +1,7 @@
 ---
 title: Constraints
 permalink: sql/constraints
-nav_order: 6
+nav_order: 5
 parent: SQL
 grand_parent: Home
 author: Marcus Medina

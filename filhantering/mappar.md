@@ -1,7 +1,7 @@
 ---
 title: Mappar
 permalink: filhantering/mappar
-nav_order: 8
+nav_order: 7
 parent: Filhantering
 grand_parent: Home
 author: Marcus Medina

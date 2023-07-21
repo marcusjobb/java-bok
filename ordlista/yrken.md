@@ -1,7 +1,7 @@
 ---
 title: Yrken
 permalink: ordlista/yrken
-nav_order: 10
+nav_order: 9
 parent: Ordlista
 grand_parent: Home
 author: Marcus Medina

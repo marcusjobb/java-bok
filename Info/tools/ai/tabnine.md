@@ -1,7 +1,7 @@
 ---
 title: Tabnine
 permalink: ai/tabnine
-nav_order: 8
+nav_order: 7
 parent: ai
 grand_parent: Verktyg
 author: Marcus Medina

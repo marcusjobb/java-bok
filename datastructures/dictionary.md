@@ -1,7 +1,7 @@
 ---
 title: Dictionary (Hashmap)
 permalink: datastructures/dictionary
-nav_order: 8
+nav_order: 5
 parent: Datastrukturer
 grand_parent: Home
 author: Marcus Medina

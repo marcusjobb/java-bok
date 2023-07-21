@@ -1,7 +1,7 @@
 ---
 title: Evernote
 permalink: suggestions/evernote
-nav_order: 2
+nav_order: 1
 parent: Förslag
 grand_parent: Verktyg
 author: Marcus Medina
