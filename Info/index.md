@@ -19,7 +19,7 @@ Här kommer jag att posta information om sidan, som t.ex. versionshistorik, anv�
 
 # Versionshistorik
 
-| Version | Datum      | Beskrivning                                                        |
-| ------- | ---------- | ------------------------------------------------------------------ |
-| 1.0.1   | 2022-12-09 | Uppdatering av sidan. Mermaid funkar inte, diagrammen syns inte 😞 |
-| 1.0.0   | 2022-12-09 | Första publicering. Första publicering,                            |
+| Version | Datum      | Beskrivning                                                         |
+| ------- | ---------- | ------------------------------------------------------------------- |
+| 1.0.1   | 2022-12-09 | Uppdatering av sidan. Mermaid funkar inte, diagrammen syns inte :'( |
+| 1.0.0   | 2022-12-09 | Första publicering. Första publicering,                             |
