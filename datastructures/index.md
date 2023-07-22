@@ -1,7 +1,7 @@
 ---
 title: Datastrukturer
 permalink: datastructures/index
-nav_order: 11
+nav_order: 9
 parent: Home
 author: Marcus Medina
 date: 2023-07-02

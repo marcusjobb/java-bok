@@ -1,7 +1,7 @@
 ---
 title: If
 permalink: if/index
-nav_order: 7
+nav_order: 5
 parent: Home
 author: Marcus Medina
 date: 2023-07-02
@@ -16,10 +16,6 @@ school: https://campus.molndal.se/yh
 ---
 
 # If
-
-En introduktion till ämnet If på språket 'Svenska' och kodspråk 'Java'.
-
-## Introduktion
 
 If är en kontrollstruktur som används inom Java för att ställa logiska frågor. Svaren på dessa frågor kan vara antingen sant eller falskt. Baserat på svaret kommer Java att utföra olika handlingar. Om svaret är sant kommer koden efter if att exekveras. Om svaret är falskt kommer Java att hoppa över koden efter if och fortsätta med resten av programmet.
 

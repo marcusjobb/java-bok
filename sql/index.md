@@ -1,7 +1,7 @@
 ---
 title: SQL
 permalink: sql/index
-nav_order: 25
+nav_order: 23
 parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38
