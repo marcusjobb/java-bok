@@ -13,111 +13,103 @@ id: 6f44637f-d8ef-45c4-89bd-685337996e05
 school: https://campus.molndal.se/yh
 ---
 
-Här är den korrigerade och förbättrade versionen av artikeln med kommentarer:
-
-```markdown
----
-author: Marcus Medina
-title: Interfaces
-nav_order: 4
-parent: Polymorfism
-grand_parent: Objektorienterad programmering (OOP)
-permalink: oop/polymorfism/interfaces/index
-date: 2023-07-02
-layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: e4f8c413-c548-426a-9da6-85288ce48a6b
-codelanguage: Java
-school: https://campus.molndal.se/yh
-enhance: false
-has_children: true
----
-
 # Interfaces
 
-Gränssnitt är ett kraftfullt verktyg i Java som ger oss möjlighet att skapa flexibla och återanvändbara komponenter i våra program. Genom att använda gränssnitt kan vi implementera polymorfism och separera implementation och användning av komponenter.
+Skapa Flexibla och Återanvändbara Komponenter i Java!
+
+## Introduktion
+
+I den här övningen kommer vi att utforska Interfacets kraft och hur det ger oss möjligheten att skapa flexibla och återanvändbara komponenter i våra program. Interface är som ett kontrakt som definierar vilka metoder och egenskaper en klass måste implementera för att följa ett visst beteende. Genom att använda Interface kan vi implementera polymorfism och separera implementation och användning av komponenter. Låt oss börja vår resa genom att dyka in i beskrivningen av Interface!
 
 ## Beskrivning
 
-Ett gränssnitt är en typ som definierar en uppsättning metoder, egenskaper och händelser som en klass kan implementera. En klass som implementerar ett gränssnitt måste implementera alla dess medlemmar. Därför säger man att gränssnitt är ett kontrakt.
+Ett Interface är en kraftfull mekanism i Java som låter oss definiera en uppsättning metoder och egenskaper som en klass måste implementera. Det fungerar som ett kontrakt mellan klassen och Interfaceet, där klassen lovar att tillhandahålla implementationen av alla Interfacets medlemmar. Genom att använda Interface kan vi skapa en gemensam plattform för olika klasser och möjliggöra utbytbarhet och polymorfism.
 
 ## Exempel
 
-Låt oss titta på ett exempel där vi skapar ett gränssnitt som heter `Animal`:
+Låt oss titta på ett exempel där vi skapar ett Interface som heter `Animal`:
 
 ```java
 interface Animal {
-String getName();
-void eat();
-void sleep();
-void shit();
+    String getName();
+    void eat();
+    void sleep();
+    void shit();
 }
 ```
 
-I detta exempel har vi ett gränssnitt som heter `Animal`. Vi har också tre metoder och en egenskap. Observera att gränssnitt inte kan ha fält, men de kan ha egenskaper!
+I detta exempel har vi definierat Interfaceet `Animal`, som har fyra metoder: `getName()`, `eat()`, `sleep()` och `shit()`. Dessa metoder beskriver de grundläggande beteenden som förväntas av alla djur.
+
+Nu ska vi implementera Interfaceet `Animal` i en klass som heter `Cat`:
 
 ```java
 class Cat implements Animal {
-private String name;
+    private String name;
 
-public Cat(String name) {
-this.name = name;
-}
+    public Cat(String name) {
+        this.name = name;
+    }
 
-public String getName() {
-return name;
-}
+    public String getName() {
+        return name;
+    }
 
-public void eat() {
-System.out.println(name + " is eating.");
-}
+    public void eat() {
+        System.out.println(name + " is eating.");
+    }
 
-public void sleep() {
-System.out.println(name + " is sleeping.");
-}
+    public void sleep() {
+        System.out.println(name + " is sleeping.");
+    }
 
-public void shit() {
-System.out.println(name + " is taking a shit.");
-}
+    public void shit() {
+        System.out.println(name + " is taking a shit.");
+    }
 }
 ```
 
-I detta exempel har vi en klass som heter `Cat` och den implementerar gränssnittet `Animal`. Vi har en privat egenskap för namnet på katten och en konstruktor för att sätta namnet. Vi implementerar också alla metoder från gränssnittet `Animal`.
+I `Cat`-klassen implementerar vi nu alla metoderna från Interfaceet `Animal`. Vi har också en privat egenskap för namnet på katten och en konstruktor för att sätta namnet.
 
 Nu kan vi skapa en instans av katten och använda dess metoder:
 
 ```java
 public class Main {
-public static void main(String[] args) {
-Cat cat = new Cat("Whiskers");
-cat.eat();
-cat.sleep();
-cat.shit();
-}
+    public static void main(String[] args) {
+        Cat cat = new Cat("Whiskers");
+        cat.eat();
+        cat.sleep();
+        cat.shit();
+    }
 }
 ```
 
 Output:
+
 ```
 Whiskers is eating.
 Whiskers is sleeping.
 Whiskers is taking a shit.
 ```
 
-I detta exempel skapar vi en instans av katten med namnet "Whiskers" och använder sedan dess metoder för att få katten att äta, sova och göra sina behov. Resultatet skrivs ut i konsolen.
+I detta exempel skapar vi en katt med namnet "Whiskers" och använder sedan dess metoder för att simulera kattens beteende. Resultatet skrivs ut i konsolen.
 
-Detta är ett grundläggande exempel på hur gränssnitt kan användas för att implementera polymorfism och separera implementationen av komponenter från deras användning. Genom att använda gränssnitt kan vi skapa flexibla och återanvändbara komponenter i våra program.
+*Tja... det är en katts liv... äta skita, sova...*
 
-Gränssnitt är ett viktigt koncept inom objektorienterad programmering och ger oss möjlighet att skapa en enhetlig och modulär kodstruktur. Genom att definiera gränssnitt kan vi även underlätta samarbete mellan olika utvecklare genom att specificera vilka metoder som förväntas implementeras.
+## Termer
 
-Användningen av gränssnitt är vanligt förekommande i Java och är en viktig del av språkets design. Genom att använda gränssnitt kan vi skapa mer flexibla och underhållbara program.
+Här finns en lista på termer som används i övningen:
 
-Kommentarer:
-- `Animal`: Gränssnittet `Animal` definierar fyra metoder: `getName()`, `eat()`, `sleep()` och `shit()`. Dessa metoder måste implementeras av alla klasser som implementerar gränssnittet `Animal`.
-- `Cat`: Klassen `Cat` implementerar gränssnittet `Animal` och tillhandahåller implementationen av de fyra metoderna. Den har också en privat egenskap `name` för att lagra namnet på katten.
-- `Main`: Huvudklassen `Main` skapar en instans av `Cat` med namnet "Whiskers" och använder sedan kattens metoder för att simulera kattens beteende.
+| Term         | Förklaring                                                                                                           |
+| ------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Gränssnitt   | Svensk översättning av Interface                                                                                     |
+| Interface    | Ett kontrakt som definierar en uppsättning metoder och egenskaper som en klass måste implementera.                   |
+| Polymorfism  | Förmågan hos objekt att uppvisa olika beteenden baserat på deras typ.                                                |
+| Implementera | Att skapa en klass som följer Interfacets kontrakt genom att tillhandahålla implementationen av alla dess medlemmar. |
+| Katt | Ett djur som äter, sover och skiter. |
 
-Genom att använda gränssnitt kan vi skapa en gemensam plattform för olika klasser och möjliggöra utbytbarhet och polymorfism. Gränssnitt ger oss flexibilitet och en tydlig struktur i vår kod.
 
-Detta var en introduktion till gränssnitt i Java. Förhoppningsvis har du fått en grundläggande förståelse för hur man skapar och använder gränssnitt i dina Java-program. Fortsätt utforska och experimentera med gränssnitt för att bygga mer flexibla och återanvändbara komponenter i dina program!
+## Slutsats
+
+Interface är ett kraftfullt verktyg i Java som ger oss möjligheten att skapa flexibla och återanvändbara komponenter. Genom att använda Interface kan vi definiera gemensamma beteenden för olika klasser och möjliggöra polymorfism. Detta underlättar samarbete mellan olika utvecklare och bidrar till en enhetlig och modulär kodstruktur.
+
+Fortsätt utforska och experimentera med Interface för att bygga mer flexibla och återanvändbara komponenter i dina Java-program. Du har nu en värdefull kunskap om Interface och dess kraft inom objektorienterad programmering. Fortsätt att inspireras och ha kul med programmering! Du är fantastisk och har kapaciteten att lära och skapa otroliga saker! Keep up the great work! <3
