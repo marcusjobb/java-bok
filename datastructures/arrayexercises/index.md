@@ -49,6 +49,7 @@ Skapa en array med namnet `fruits` som kan hålla 3 fruktnamn. Tilldela värdena
 ```java
 String[] fruits = {"äpple", "banan", "apelsin"};
 ```
+
 </details>
 
 ## 3. Hämta värden från en array

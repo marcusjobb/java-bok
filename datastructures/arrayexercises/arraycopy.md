@@ -1,5 +1,5 @@
 ---
-title: Plocka ut en del av en array och skapa en ny array av det.
+title: ArrayCopy
 permalink: arrayexercises/arraycopy
 nav_order: 1
 parent: Array övningar
@@ -14,7 +14,7 @@ id: 4c7fecf5-fe6e-4f20-bb41-bed431c0c29f
 school: https://campus.molndal.se/yh
 ---
 
-# Plocka ut en del av en array och skapa en ny array av det.
+# ArrayCopy
 
 <details open markdown="block">
 <summary>
@@ -50,7 +50,8 @@ public class MainClass {
             printArray(femForsta);
 
         System.out.println();
-        }
+    }
+
     private static void printArray(int[] array) {
         for (int num : array) {
             System.out.print(num + " ");
@@ -61,7 +62,7 @@ public class MainClass {
 
 ### Resultat
 
-```
+```text
 Siffror: 5 2 7 1 9 3 8 4 6 10
 De fem första talen: 5 2 7 1 9
 ```

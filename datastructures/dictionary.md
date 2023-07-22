@@ -89,6 +89,8 @@ För att lära dig mer om Hashmap och hur den kan användas i Java-programmering
 En Hashmap är en datastruktur som låter oss lagra och hämta värden baserat på nycklar. Den ger snabb åtkomst och effektiva sökningar, vilket gör den till ett kraftfullt verktyg inom programmering.
 
 Obligatorisk dad-joke: Varför älskar programmerare att använda dictionaries? För att de alltid vill ha en "key" till framgång!
+
 ```
 
 Jag har rättat formateringen och justerat några delar av din artikel. Var noga med att dubbelkolla innehållet och ändra tillbaka eventuella delar som inte stämmer överens med din ursprungliga avsikt.
+```

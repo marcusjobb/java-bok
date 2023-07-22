@@ -17,7 +17,7 @@ school: https://campus.molndal.se/yh
 
 Microsoft erbjuder två olika IDE:er (integrerade utvecklingsmiljöer) för programutveckling: Visual Studio Community och Visual Studio Code.
 
-* **Visual Studio Community** är ett fullfjädrad IDE som främst används för .NET-utveckling, men det kan också användas för att utveckla i andra språk, till exempel Python och C++.
+- **Visual Studio Community** är ett fullfjädrad IDE som främst används för .NET-utveckling, men det kan också användas för att utveckla i andra språk, till exempel Python och C++.
 * **Visual Studio Code** är en lättviktig texteditor som kan anpassas för att användas med en mängd olika språk, inklusive .NET, Python, JavaScript, TypeScript, C++, C#, Java, PHP, Go och Rust.
 * SQL Server Management Studio (SSMS) är en IDE för SQL Server. Den kan användas för att utveckla och administrera SQL Server-databaser.
 

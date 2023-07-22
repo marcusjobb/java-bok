@@ -368,54 +368,54 @@ if(f.exists()){
 
 Här följer termer som använts i denna artikel och deras förklaringar.
 
-| Term | Förklaring |
-| --- | --- |
-| `FileReader` | En klass som används för att läsa textfiler. |
-| `FileWriter` | En klass som används för att skriva till textfiler. |
-| `Gson` | En klass som används för att läsa och skriva till Json-filer. |
-| `Base64` | En klass som används för att läsa och skriva binära filer. |
-| `GZIPOutputStream` | En klass som används för att läsa och skriva binära filer med Base64 och GZIP. |
-| `ObjectOutputStream` | En klass som används för att läsa och skriva binära filer. |
-| `ObjectInputStream` | En klass som används för att läsa och skriva binära filer. |
-| `ByteArrayOutputStream` | En klass som används för att läsa och skriva binära filer. |
-| `FileInputStream` | En klass som används för att läsa och skriva binära filer. |
-| `FileOutputStream` | En klass som används för att läsa och skriva binära filer. |
-| `GZIPInputStream` | En klass som används för att läsa och skriva binära filer med Base64 och GZIP. |
-| `readLine()` | En metod som används för att läsa en rad från en textfil. |
-| `write()` | En metod som används för att skriva till en textfil. |
-| `toJson()` | En metod som används för att skriva till en Json-fil. |
-| `fromJson()` | En metod som används för att läsa från en Json-fil. |
-| `read()` | En metod som används för att läsa från en binär fil. |
-| `write()` | En metod som används för att skriva till en binär fil. |
-| `encode()` | En metod som används för att läsa från en binär fil med Base64. |
-| `decode()` | En metod som används för att skriva till en binär fil med Base64. |
-| `close()` | En metod som används för att stänga en fil. |
-| `split()` | En metod som används för att dela upp en sträng i en array. |
-| `toString()` | En metod som används för att konvertera ett objekt till en sträng. |
-| `getNamn()` | En metod som används för att hämta namnet på en person. |
-| `getÅlder()` | En metod som används för att hämta åldern på en person. |
-| `setNamn()` | En metod som används för att sätta namnet på en person. |
-| `setÅlder()` | En metod som används för att sätta åldern på en person. |
-| `Person` | En klass som används för att representera en person. |
-| `namn` | En variabel som används för att lagra namnet på en person. |
-| `ålder` | En variabel som används för att lagra åldern på en person. |
-| `p` | En variabel som används för att representera en person. |
-| `p2` | En variabel som används för att representera en person. |
-| `rad` | En variabel som används för att representera en rad i en textfil. |
-| `delar` | En variabel som används för att representera en array av strängar. |
-| `fr` | En variabel som används för att representera en textfil. |
-| `fw` | En variabel som används för att representera en textfil. |
-| `gson` | En variabel som används för att representera en Json-fil. |
-| `baos` | En variabel som används för att representera en binär fil. |
-| `oos` | En variabel som används för att representera en binär fil. |
-| `fos` | En variabel som används för att representera en binär fil. |
-| `fis` | En variabel som används för att representera en binär fil. |
-| `gzos` | En variabel som används för att representera en binär fil med Base64 och GZIP. |
-| `gzis` | En variabel som används för att representera en binär fil med Base64 och GZIP. |
-| `ois` | En variabel som används för att representera en binär fil. |
-| `fr` | En variabel som används för att representera en textfil. |
-| Serialize | Att konvertera ett objekt till en sträng. |
-| Deserialize | Att konvertera en sträng till ett objekt. |
+| Term                    | Förklaring                                                                     |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| `FileReader`            | En klass som används för att läsa textfiler.                                   |
+| `FileWriter`            | En klass som används för att skriva till textfiler.                            |
+| `Gson`                  | En klass som används för att läsa och skriva till Json-filer.                  |
+| `Base64`                | En klass som används för att läsa och skriva binära filer.                     |
+| `GZIPOutputStream`      | En klass som används för att läsa och skriva binära filer med Base64 och GZIP. |
+| `ObjectOutputStream`    | En klass som används för att läsa och skriva binära filer.                     |
+| `ObjectInputStream`     | En klass som används för att läsa och skriva binära filer.                     |
+| `ByteArrayOutputStream` | En klass som används för att läsa och skriva binära filer.                     |
+| `FileInputStream`       | En klass som används för att läsa och skriva binära filer.                     |
+| `FileOutputStream`      | En klass som används för att läsa och skriva binära filer.                     |
+| `GZIPInputStream`       | En klass som används för att läsa och skriva binära filer med Base64 och GZIP. |
+| `readLine()`            | En metod som används för att läsa en rad från en textfil.                      |
+| `write()`               | En metod som används för att skriva till en textfil.                           |
+| `toJson()`              | En metod som används för att skriva till en Json-fil.                          |
+| `fromJson()`            | En metod som används för att läsa från en Json-fil.                            |
+| `read()`                | En metod som används för att läsa från en binär fil.                           |
+| `write()`               | En metod som används för att skriva till en binär fil.                         |
+| `encode()`              | En metod som används för att läsa från en binär fil med Base64.                |
+| `decode()`              | En metod som används för att skriva till en binär fil med Base64.              |
+| `close()`               | En metod som används för att stänga en fil.                                    |
+| `split()`               | En metod som används för att dela upp en sträng i en array.                    |
+| `toString()`            | En metod som används för att konvertera ett objekt till en sträng.             |
+| `getNamn()`             | En metod som används för att hämta namnet på en person.                        |
+| `getÅlder()`            | En metod som används för att hämta åldern på en person.                        |
+| `setNamn()`             | En metod som används för att sätta namnet på en person.                        |
+| `setÅlder()`            | En metod som används för att sätta åldern på en person.                        |
+| `Person`                | En klass som används för att representera en person.                           |
+| `namn`                  | En variabel som används för att lagra namnet på en person.                     |
+| `ålder`                 | En variabel som används för att lagra åldern på en person.                     |
+| `p`                     | En variabel som används för att representera en person.                        |
+| `p2`                    | En variabel som används för att representera en person.                        |
+| `rad`                   | En variabel som används för att representera en rad i en textfil.              |
+| `delar`                 | En variabel som används för att representera en array av strängar.             |
+| `fr`                    | En variabel som används för att representera en textfil.                       |
+| `fw`                    | En variabel som används för att representera en textfil.                       |
+| `gson`                  | En variabel som används för att representera en Json-fil.                      |
+| `baos`                  | En variabel som används för att representera en binär fil.                     |
+| `oos`                   | En variabel som används för att representera en binär fil.                     |
+| `fos`                   | En variabel som används för att representera en binär fil.                     |
+| `fis`                   | En variabel som används för att representera en binär fil.                     |
+| `gzos`                  | En variabel som används för att representera en binär fil med Base64 och GZIP. |
+| `gzis`                  | En variabel som används för att representera en binär fil med Base64 och GZIP. |
+| `ois`                   | En variabel som används för att representera en binär fil.                     |
+| `fr`                    | En variabel som används för att representera en textfil.                       |
+| Serialize               | Att konvertera ett objekt till en sträng.                                      |
+| Deserialize             | Att konvertera en sträng till ett objekt.                                      |
 
 ## Sammanfattning
 

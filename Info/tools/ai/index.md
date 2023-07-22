@@ -1,5 +1,5 @@
 ---
-title: ai
+title: Artificiell intelligens
 permalink: ai/index
 nav_order: 5
 parent: Verktyg
@@ -15,9 +15,7 @@ id: ebb72645-d9b4-4bf2-8144-967b82f34a56
 school: https://campus.molndal.se/yh
 ---
 
-Visst, här är en artikel om AI-hjälpmedel som är tillgängliga för studerande:
-
-# ai
+# Artificiell intelligens
 
 Artificiell intelligens (AI) är ett brett fält inom datavetenskap som handlar om att skapa intelligenta agenter. Intelligenta agenter är system som kan tänka, lära sig och agera självständigt. AI används inom en mängd olika områden, bland annat medicin, finans, transport och utbildning.
 
@@ -33,11 +31,11 @@ AI som skapar ny information är ett kraftfullt verktyg som har potential att re
 
 Det finns många olika sätt att använda AI i utbildning. AI kan användas för att:
 
-* Ge personligt stöd till studerande
-* Automatisera uppgifter
-* Skapa nya läromedel
-* Öka studerandenas engagemang
-* Förbättra studerandenas lärande
+- Ge personligt stöd till studerande
+- Automatisera uppgifter
+- Skapa nya läromedel
+- Öka studerandenas engagemang
+- Förbättra studerandenas lärande
 
 ## Begränsningar
 
@@ -47,8 +45,8 @@ AI är fortfarande under utveckling, och det finns vissa begränsningar med AI-h
 
 Om du är studerande är det viktigt att tänka på följande när du använder AI-hjälpmedel:
 
-* Använd AI-hjälpmedel för att stödja ditt lärande, inte för att ersätta det.
-* Var medveten om begränsningarna med AI-hjälpmedel.
-* Använd AI-hjälpmedel för att lära dig på ett sätt som är engagerande och meningsfullt för dig.
+- Använd AI-hjälpmedel för att stödja ditt lärande, inte för att ersätta det.
+- Var medveten om begränsningarna med AI-hjälpmedel.
+- Använd AI-hjälpmedel för att lära dig på ett sätt som är engagerande och meningsfullt för dig.
 
 AI är ett kraftfullt verktyg som kan hjälpa studerande att lära sig mer effektivt. Genom att vara medveten om AI:s begränsningar och fördelar kan studerande använda AI-hjälpmedel för att förbättra sitt lärande.

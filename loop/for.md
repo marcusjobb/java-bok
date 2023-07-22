@@ -23,7 +23,7 @@ En for-loop används när vi vill upprepa en uppsättning instruktioner ett kän
 
 ```java
 for (initialisering; villkor; iteration) {
-// Kod som ska upprepas
+    // Kod som ska upprepas
 }
 ```
 

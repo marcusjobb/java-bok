@@ -47,6 +47,7 @@ do {
 I detta exempel deklarerar vi en variabel `i` och tilldelar den värdet 0. Sedan har vi en Do While-loop som kontrollerar om `i` är mindre än 10. Inuti loopen skriver den ut värdet av `i` och ökar sedan värdet med 1. Loopen fortsätter att köras så länge som `i` är mindre än 10.
 
 Med följande output:
+
 ```text
 0
 1
@@ -70,9 +71,9 @@ Do While är en loopstruktur i Java som körs minst en gång och sedan fortsätt
 
 ## Termer
 
-| Term         | Förklaring                                                                                                      |
-|--------------|----------------------------------------------------------------------------------------------------------------|
-| Do While-loop | En loopstruktur i Java som körs minst en gång och sedan fortsätter att köra så länge som villkoret är sant.       |
-| Loop         | En struktur i programmering som gör att en viss kod kan köras upprepade gånger tills ett visst villkor är uppfyllt. |
-| Iteration    | En enskild körning av kod inuti en loop.                                                                         |
-| Villkor      | Ett uttryck som avgör om en loop ska fortsätta köras eller inte.                                                 |
+| Term          | Förklaring                                                                                                          |
+| ------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Do While-loop | En loopstruktur i Java som körs minst en gång och sedan fortsätter att köra så länge som villkoret är sant.         |
+| Loop          | En struktur i programmering som gör att en viss kod kan köras upprepade gånger tills ett visst villkor är uppfyllt. |
+| Iteration     | En enskild körning av kod inuti en loop.                                                                            |
+| Villkor       | Ett uttryck som avgör om en loop ska fortsätta köras eller inte.                                                    |

@@ -13,8 +13,6 @@ id: b0ecc1f5-3421-4325-89d6-d948d7a09c99
 school: https://campus.molndal.se/yh
 ---
 
-Visst, här är en artikel om Github Student Developer Pack:
-
 # Githubstudent
 
 Github Student Developer Pack är ett gratispaket som ger studenter tillgång till ett brett utbud av verktyg och tjänster för att hjälpa dem att lära sig och utveckla sina kodningskunskaper. Paketet inkluderar:

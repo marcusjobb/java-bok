@@ -26,6 +26,7 @@ Det är bra om du kan lösa uppgiften utan att använda LINQ. Om du vill kan du 
 public static int findLargestElement(int[] numbers) {
     // Implementera kod här
 }
+
 // Exempelanvändning
 int[] numbers = { 5, 8, 2, 11, 3 };
 int largest = findLargestElement(numbers);
