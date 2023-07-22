@@ -8,7 +8,6 @@ date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
-codelanguage: C#
 enhance: false
 has_children: true
 id: 6dcdd3eb-9705-4329-a68f-cf26522ac4c0
@@ -19,6 +18,14 @@ school: https://campus.molndal.se/yh
 
 Loopar är en viktig del av programmering. De används för att upprepa en viss uppsättning instruktioner eller handlingar ett visst antal gånger eller tills ett specifikt villkor uppfylls. Loopar gör det möjligt att automatisera och effektivisera repetitiva uppgifter i koden.
 I denna artikel kommer vi att utforska olika typer av loopar som används inom programmering och fokusera på deras användning i språket Java. Vi kommer att lära oss hur man skapar loopar, vilka villkor som kan användas för att kontrollera loopens beteende och vilka försiktighetsåtgärder man bör ta för att undvika oändliga loopar.
+
+## TL;DR
+
+Loopar är en viktig del av programmering. De används för att upprepa en viss uppsättning instruktioner eller handlingar ett visst antal gånger eller tills ett specifikt villkor uppfylls. Loopar gör det möjligt att automatisera och effektivisera repetitiva uppgifter i koden.
+
+## Vad är en loop?
+
+En loop är en uppsättning instruktioner som upprepas ett visst antal gånger eller tills ett specifikt villkor uppfylls. Loopar används för att automatisera och effektivisera repetitiva uppgifter i koden. De kan också användas för att utföra en uppsättning instruktioner tills ett visst villkor uppfylls.
 
 ## Typer av loopar
 

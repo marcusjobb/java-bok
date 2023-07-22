@@ -28,6 +28,13 @@ Innehållsförteckning
 {:toc}
 </details>
 
+## När du läst detta ska du kunna
+- Förstå vad CSV (Comma Separated Values) är och dess användning för att lagra tabulära data.
+- Diskutera fördelar och begränsningar med CSV som filformat.
+- Identifiera olika användningsområden där CSV-filer kan vara användbara inom programmering.
+- Kunna läsa och skriva CSV-filer med Java-kod.
+- Sammanfatta nyckelinsikter om CSV och dess relevans för datalagring.
+
 ## Fördelar
 
 CSV-filformatet har flera fördelar när det gäller att lagra och hantera data:

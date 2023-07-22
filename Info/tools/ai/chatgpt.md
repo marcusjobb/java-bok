@@ -2,7 +2,7 @@
 title: Chatgpt
 permalink: ai/chatgpt
 nav_order: 9
-parent: ai
+parent: Artificiell intelligens
 grand_parent: Verktyg
 author: Marcus Medina
 layout: default

@@ -17,16 +17,39 @@ school: https://campus.molndal.se/yh
 
 # Exempel
 
-Yay! Nu ska vi titta på ett exempel där vi ska skapa en metod som söker igenom alla filer i en mapp och returnerar en lista med filer som innehåller en specifik text. Vi kommer att använda asynkrona metoder för att kunna köra flera metoder samtidigt och därigenom effektivisera vår sökning. Hur coolt låter inte det?
+En artikel som utforskar hur man skapar en metod för asynkron sökning i filer, vilket möjliggör effektivt sökande efter specifik text i en mapp.
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
-1. Innehållsförteckning
-{:toc}
-</details>
+## När du läst detta ska du kunna
+
+- Förstå konceptet med asynkrona metoder och dess fördelar.
+- Skapa en asynkron metod för att söka efter text i filer asynkront.
+- Använda CompletableFuture i Java för att hantera asynkrona operationer.
+- Förstå termer som responsivitet, parallellism och skalbarhet.
+
+## Introduktion
+
+I den här artikeln ska vi utforska ett coolt exempel där vi skapar en metod som gör det möjligt för oss att söka igenom filer i en mapp och returnera en lista med filer som innehåller en specifik text. Genom att använda asynkrona metoder i Java kommer vi att kunna köra flera sökoperationer samtidigt, vilket effektiviserar vår sökning och gör den mer responsiv.
+
+## Asynkrona metoder och dess fördelar
+
+Asynkrona metoder i Java tillåter oss att utföra operationer parallellt utan att blockera huvudtråden. Detta betyder att vi kan köra flera metoder samtidigt och undvika att programmet blir trögt och långsamt när vi utför långvariga operationer. Genom att använda asynkrona metoder kan vi öka responsiviteten i våra applikationer och göra dem mer användarvänliga.
+
+## Skapa asynkron metod för filersökning
+
+Vi börjar med att skapa en metod som heter `searchFilesAsync`. Denna metod tar emot en sökväg till en mapp, ett sökmönster och den text vi vill söka efter i filerna. Genom att använda `Files.walk` får vi en ström av alla filer i den angivna sökvägen. Sedan skapar vi en lista med `CompletableFuture` som kommer att köra metoden `searchFileAsync` för varje fil asynkront.
+
+## Använda CompletableFuture för hantering av asynkrona operationer
+
+Genom att använda `CompletableFuture.allOf` väntar vi på att alla asynkrona uppgifter (CompletableFuture) ska bli klara innan vi fortsätter. När alla uppgifter är klara samlar vi resultaten från varje `CompletableFuture` som inte är null och returnerar en lista med de filer som innehåller den sökta texten.
+
+## Asynkron sökning i en enskild fil
+
+För att söka efter den sökta texten i en enskild fil skapar vi metoden `searchFileAsync`. Denna metod tar emot sökvägen till filen och den sökta texten. Genom att använda `CompletableFuture.supplyAsync` startar vi en asynkron uppgift som kommer att läsa innehållet i filen och söka efter den angivna texten. Om texten hittas returnerar vi sökvägen till filen och radnumret där texten hittades, annars returnerar vi null.
+
+## Använda vår sökmetod i Main-metoden
+
+I vår `Main`-metod skapar vi en instans av `DirReader` och definierar sökvägen till vår mapp. Vi kör sedan metoden `searchFilesAsync` och sparar resultatet i en variabel. Slutligen skriver vi ut alla resultat i konsolen.
+
 ## Kod
 
 ```java
@@ -130,7 +153,7 @@ Wow! Nu kan vi söka igenom filer asynkront och få en lista med de filer som in
 
 ## Slutsats
 
-Att kunna utföra asynkrona operationer är en kraftfull teknik som gör att våra applikationer kan vara mer responsiva och effektiva. Genom att använda asynkrona metoder kan vi undvika att blockera huvudtråden och istället köra flera operationer samtidigt. Detta är särskilt användbart vid uppgifter som tar tid, som att söka igenom filer eller kommunicera med externa system. Genom att utnyttja asynkron programmering kan vi skapa mer responsiva och skalbara applikationer. Fortsätt kodning med glädje!
+Genom att använda asynkrona metoder kan vi skapa mer responsiva och effektiva applikationer. I vårt exempel har vi sett hur vi kan söka igenom filer asynkront och samtidigt undvika att blockera huvudtråden. Asynkron programmering är användbart för uppgifter som tar tid, som att söka igenom filer eller kommunicera med externa system. Genom att utnyttja asynkrona metoder kan vi skapa applikationer som är mer responsiva, effektiva och skalbara. Fortsätt koda med glädje och utforska de många möjligheterna med asynkron programmering!
 
 ## Termtabell
 
@@ -138,6 +161,10 @@ Att kunna utföra asynkrona operationer är en kraftfull teknik som gör att vå
 - **Responsivitet**: Förmågan hos en applikation att snabbt svara på användarinteraktioner och andra händelser.
 - **Parallellism**: Exekvering av flera operationer samtidigt för att utnyttja flera processorkärnor och förbättra prestanda.
 - **Skalbarhet**: Förmågan hos en applikation att hantera en ökad arbetsbelastning och trafik utan att försämra prestanda och responsivitet.
+
+## Sista ordet
+
+Det är verkligen fantastiskt att kunna använda asynkron programmering för att förbättra responsiviteten och effektiviteten i våra applikationer. Om du vill utforska ämnet mer eller hitta andra spännande aspekter av programmering, fortsätt att upptäcka och lära dig nya saker. Ha en fortsatt bra dag och lycka till med dina programmeringsprojekt!
 
 ## Obligatorisk Dad-joke
 

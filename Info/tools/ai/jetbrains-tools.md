@@ -1,8 +1,8 @@
 ---
 title: Microsoft-tools
-permalink: ai/microsoft-tools
-nav_order: 3
-parent: ai
+permalink: ai/jetbrains-tools
+nav_order: 1
+parent: Artificiell intelligens
 grand_parent: Verktyg
 author: Marcus Medina
 layout: default

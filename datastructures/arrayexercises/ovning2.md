@@ -16,45 +16,80 @@ school: https://campus.molndal.se/yh
 
 # Hitta det största elementet i en array
 
-Skriv en metod som tar emot en array av heltal och returnerar det största elementet i arrayen.
+## Introduktion
 
-Det är bra om du kan lösa uppgiften utan att använda LINQ. Om du vill kan du också lösa uppgiften med hjälp av LINQ. Det är dock inte ett krav. Men det är alltid bra att vara bekant med LINQ. Även om du helst inte vill använda LINQ i denna uppgift kan det vara bra att lösa uppgiften med hjälp av LINQ också för att se hur det kan göras.
+Nu ska vi lära oss hur vi kan skriva en metod för att hitta det största elementet i en array av heltal. Att hitta det största elementet är en vanlig uppgift inom programmering, och det kan vara användbart i olika scenarier där vi behöver identifiera det mest betydande värdet i en samling av data.
 
-## Kodmall
+## Vad är en array och varför är det viktigt att hitta det största elementet?
+
+En array är en samling av element av samma datatyp, där varje element har ett unikt index som gör det möjligt att åtkomma det. Att hitta det största elementet i en array är viktigt eftersom det ger oss insikter om det största värdet i den givna samlingen. Detta kan vara användbart i olika situationer, till exempel när vi vill hitta det längsta ordet i en lista av ord eller det högsta betyget bland flera provresultat.
+
+## Metod för att hitta det största elementet i en array
+
+För att hitta det största elementet i en array av heltal kan vi använda en enkel algoritm som jämför varje element med det hittills största värdet och uppdaterar det största värdet vid behov. Här är en kodmall för att implementera denna metod:
 
 ```java
 public static int findLargestElement(int[] numbers) {
-    // Implementera kod här
+    int largest = numbers[0];
+    for (int i = 1; i < numbers.length; i++) {
+        if (numbers[i] > largest) {
+            largest = numbers[i];
+        }
+    }
+    return largest;
 }
+```
 
-// Exempelanvändning
+Metoden `findLargestElement` tar emot en array av heltal (`numbers`) och returnerar det största elementet i arrayen. Den börjar genom att initialisera en variabel `largest` med det första elementet i arrayen. Sedan används en `for`-loop för att jämföra varje element i arrayen med `largest`, och om något element är större än `largest`, uppdateras `largest` med det nya största värdet.
+
+## Exempelanvändning
+
+Här är ett exempel på hur du kan använda metoden för att hitta det största elementet i en array:
+
+```java
 int[] numbers = { 5, 8, 2, 11, 3 };
 int largest = findLargestElement(numbers);
 System.out.println(largest);
 ```
 
-## Förväntad output
+## Begränsningar
 
-```
-11
-```
+En begränsning med den här metoden är att den endast fungerar för arrayer av heltal. Om vi behöver hitta det största elementet i en array av andra datatyper, som flyttal eller strängar, måste vi justera metoden för att hantera dessa datatyper.
 
-## Facit
+## Användningsområden
 
-<details><summary>Klicka här för att se lösningen</summary>
+Metoden för att hitta det största elementet i en array kan tillämpas inom olika programmeringsproblem, till exempel:
 
-```java
-int largest = numbers[0];
-for (int i = 1; i < numbers.length; i++) {
-    if (numbers[i] > largest) {
-        largest = numbers[i];
-    }
-}
-return largest;
-```
+- Att hitta den högsta poängen i en lista av provresultat.
+- Att hitta den största produkten i en lista av produktpriser.
+- Att hitta den längsta strängen i en lista av ord.
 
-OBS! Detta kan också lösas med hjälp av det inbyggda metoden `max()` i klassen `Arrays`:
+Genom att använda metoden kan vi snabbt och effektivt identifiera det största värdet i en given samling av data.
 
-```java
-return Arrays.stream(numbers).max().getAsInt();
-```
+## Termer
+
+Här är en lista på termer som används i artikeln:
+
+| Term      | Förklaring                                                                                     |
+| --------- | ---------------------------------------------------------------------------------------------- |
+| Array     | En samling av element av samma datatyp, där varje element har ett unikt index.                 |
+| Index     | Ett numeriskt värde som identifierar ett element i en array.                                    |
+| Algoritm  | En steg-för-steg-metod för att lösa ett problem eller utföra en uppgift.                        |
+| Datatyp   | En klassificering av olika typer av data, till exempel heltal, flyttal, strängar, etc.          |
+| For-loop  | En loop som itererar över en sekvens av värden med hjälp av en variabel för att hålla koll på iterationens status. |
+| Variabel  | En plats i minnet som används för att lagra data och vars värde kan ändras under programmets körning. |
+| Metod     | En samling av kod som utför en specifik uppgift och kan återanvändas genom att kallas från olika delar av programmet. |
+
+## Slutsats
+
+Att kunna hitta det största elementet i en array är en viktig färdighet inom programmering, och det kan vara användbart i olika situationer där vi behöver identifiera det största värdet i en samling av data. Genom att använda en enkel algoritm kan vi snabbt och effektivt lösa detta problem. I artikeln har vi diskuterat hur vi kan implementera en metod för att hitta det största elementet i en array av heltal. För att utöka dina programmeringskunskaper och förstå hur man kan använda detta koncept i olika sammanhang, är det viktigt att fortsätta lära sig och utforska olika programmeringstekniker och verktyg.
+
+## TL;DR
+
+I den här artikeln har vi diskuterat hur man skriver en metod för att hitta det största elementet i en array av heltal. Vi har använt en enkel algoritm som jämför varje element med det hittills största värdet och uppdaterar det största värdet vid behov. Detta kan vara användbart för att snabbt identifiera det största värdet i en given samling av data. Att kunna hitta det största elementet är en viktig färdighet inom programmering och kan tillämpas i olika problem och scenarier. Genom att fortsätta lära oss och utforska olika programmeringstekniker kan vi stärka våra färdigheter och bli mer effektiva programmerare.
+
+## Obligatorisk dad joke:
+
+Varför ville programmeraren gå till rymden?
+
+För att utforska det okända... och fixa några buggar i gravitationen! 😄

@@ -16,56 +16,99 @@ school: https://campus.molndal.se/yh
 
 # Summera element i en array
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
+Hur summerar man element i en array i Java? I denna artikel kommer vi att undersöka olika sätt att lösa denna uppgift och diskutera deras för- och nackdelar.
 
-1. TOC
-{:toc}
-</details>
+## När du läst detta ska du kunna
 
-## Beskrivning av övningen
+- Förstå och förklara hur man kan summera element i en array av heltal.
+- Implementera en metod för att utföra summeringen.
+- Använda en loop eller inbyggda metoder för att beräkna summan.
+- Diskutera olika tillvägagångssätt för att lösa problemet.
+- Förstå och tolka kodexempel som utför summeringen av array-elementen.
 
-Skriv en metod som tar emot en array av heltal och summerar alla element i arrayen. Returnera den resulterande summan.
-Det är bra om du kan lösa uppgiften utan att använda LINQ. Om du vill kan du också lösa uppgiften med hjälp av LINQ. Det är dock inte ett krav. Men det är alltid bra att vara bekant med LINQ. Även om du helst inte vill använda LINQ i denna uppgift kan det vara bra att lösa uppgiften med hjälp av LINQ också för att se hur det kan göras.
+## Introduktion
 
-## Kodmall
+Att summera element i en array är en vanlig uppgift inom programmering. Det innebär att vi tar en array av heltal och beräknar den totala summan av dess element. I den här artikeln kommer vi att undersöka olika sätt att lösa denna uppgift och diskutera deras för- och nackdelar.
+
+## Vad är en array och hur fungerar den?
+
+Innan vi dyker in i summeringsprocessen måste vi förstå vad en array är. En array är en datastruktur som kan hålla flera värden av samma datatyp i en enda variabel. Elementen i en array är indexerade, vilket innebär att varje element har en unik position som vi kan använda för att komma åt det.
+
+## Metoder för att summera element i en array
+
+Det finns olika sätt att summera elementen i en array. Vi ska undersöka två vanliga tillvägagångssätt: genom att använda en loop och genom att använda den inbyggda metoden `sum` i klassen `Arrays`.
+
+### 1. Summering med hjälp av en loop
+
+En enkel och grundläggande metod för att summera element i en array är att använda en loop. Här är en metod som utför summeringen med hjälp av en loop:
 
 ```java
-public class Main {
-    public static int sumArray(int[] numbers) {
-        // Implementera kod här
+public static int sumArray(int[] numbers) {
+    int sum = 0;
+    for (int i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
     }
-    public static void main(String[] args) {
-        int[] numbers = { 1, 2, 3, 4, 5 };
-        int sum = sumArray(numbers);
-        System.out.println(sum);
-    }
+    return sum;
 }
 ```
 
-#### Förväntad output
+I denna metod använder vi en variabel `sum` för att hålla den ackumulerade summan. Vi använder sedan en `for`-loop för att iterera över varje element i arrayen `numbers` och lägger till dess värde i variabeln `sum`. Till slut returnerar vi den beräknade summan.
+
+### 2. Summering med hjälp av inbyggd metod
+
+En mer kompakt och kortfattad metod för att summera element i en array är att använda den inbyggda metoden `sum` i klassen `Arrays`:
 
 ```java
-15
-```
+import java.util.Arrays;
 
-#### Facit
-
-<details><summary>Klicka här för att se facit</summary>
-
-```java
-int sum = 0;
-for (int i = 0; i < numbers.length; i++) {
-    sum += numbers[i];
+public static int sumArray(int[] numbers) {
+    return Arrays.stream(numbers).sum();
 }
-return sum;
 ```
 
-OBS! Detta kan också lösas med hjälp av den inbyggda metoden `sum` i klassen `Arrays`:
+I denna metod använder vi `Arrays.stream(numbers)` för att skapa en ström av heltal från arrayen `numbers`, och sedan anropar vi `sum()` för att beräkna summan av elementen i strömmen. Slutligen returnerar vi den beräknade summan.
+
+## Exempelkod - Summera element i en array i en berättelse
+
+Låt oss nu se hur vår metod `sumArray` kan tillämpas för att lösa ett konkret problem. Anta att vi har följande array av heltal:
 
 ```java
-return Arrays.stream(numbers).sum();
+int[] numbers = { 1, 2, 3, 4, 5 };
 ```
+
+Vi vill beräkna summan av elementen i denna array och skriva ut resultatet. Genom att använda vår `sumArray`-metod kan vi enkelt uppnå detta:
+
+```java
+public static void main(String[] args) {
+    int[] numbers = { 1, 2, 3, 4, 5 };
+    int sum = sumArray(numbers);
+    System.out.println(sum); // Förväntad output: 15
+}
+```
+
+Här har vi anropat vår `sumArray`-metod med arrayen `numbers` som argument och sparat den returnerade summan i variabeln `sum`. Sedan skriver vi ut summan till konsolen.
+
+## Termer
+
+Här finns en lista på termer som används i artikeln:
+
+| Term    | Förklaring                                                  |
+| ------- | ----------------------------------------------------------- |
+| array   | En datastruktur som kan hålla flera värden av samma datatyp |
+| loop    | En programmeringsstruktur för att iterera över element     |
+| ström   | En sekvens av element som kan bearbetas sekventiellt       |
+| element | Ett enskilt värde i en array                                |
+
+## Slutsats
+
+Att summera element i en array är en vanlig och grundläggande uppgift inom programmering. I den här artikeln har vi undersökt två olika sätt att utföra summeringen: genom att använda en loop och genom att använda den inbyggda metoden `sum` i klassen `Arrays`. Båda metoderna ger oss det önskade resultatet, men valet mellan dem kan bero på faktorer som kodens komplexitet och prestanda. Genom att förstå hur man kan summera element i en array kan programmerare lösa många relaterade problem och förbättra sina färdigheter inom programmering.
+
+## TL;DR
+
+Att summera element i en array är en vanlig uppgift inom programmering. Det finns olika sätt att utföra summeringen, såsom genom att använda en loop eller den inbyggda metoden `sum` i klassen `Arrays`. Genom att förstå hur dessa metoder fungerar kan programmerare effektivt lösa liknande uppgifter och förbättra sina programmeringskunskaper.
+
+## Obligatorisk dad joke:
+
+Varför älskar Java-utvecklare att arbeta på nätterna?
+
+För att de har en `main`-metod!

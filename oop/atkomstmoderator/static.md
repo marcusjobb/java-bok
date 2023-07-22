@@ -16,48 +16,47 @@ mermaid: true
 school: https://campus.molndal.se/yh
 ---
 
-# Static
+# Static - Ett Mäktigt Verktyg i Java-programmering
 
-En static är en åtkomstmodifikator som gör att en klassmedlem tillhör klassen och inte objektet.
+Ordet Statisk betyder "oföränderlig" eller "oföränderlig". I Java är `static` en åtkomstmodifikator som används för att definiera gemensamma egenskaper och metoder som delas av alla instanser av en klass. Genom att använda `static` kan vi dela data mellan olika klasser utan att behöva skapa flera instanser av en klass. Detta sparar minnesutrymme och gör våra program mer effektiva.
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
+Välkommen till denna övning om Java's `static` - en kraftfull åtkomstmodifikator som ger oss möjligheten att göra klassmedlemmar tillhörande själva klassen istället för instanser av klassen. I den här övningen kommer vi att utforska vad `static` innebär och hur det kan användas för att dela data mellan olika klasser utan att behöva skapa flera instanser av en klass. Låt oss dyka in och upptäcka kraften bakom detta mäktiga verktyg i Java-programmering!
 
-1. TOC
-{:toc}
+## TL;DR
 
-</details>
+I denna övning har vi utforskat `static` i Java, en åtkomstmodifikator som låter oss skapa gemensamma klassmedlemmar som delas av alla instanser av klassen. Genom att använda `static` kan vi dela data mellan olika klasser utan att behöva skapa flera instanser av samma klass. Det ger oss större flexibilitet och möjligheter att strukturera våra program på ett effektivt sätt!
 
-## Beskrivning
+## När du läst detta ska du kunna
 
-Vi kan använda static för att göra en klassmedlem tillhör klassen och inte objektet. Detta är användbart om vi vill dela data mellan olika klasser utan att behöva skapa flera instanser av en klass.
+- Förstå och förklara vad `static` är och hur det fungerar i Java-programmering.
+- Använda `static` för att skapa gemensamma klassmedlemmar som delas av alla instanser av en klass.
+- Identifiera situationer där `static` kan vara till nytta för att effektivisera ditt Java-programmeringsprojekt.
 
-När koden kompileras kommer alla statiska medlemmar att tilldelas ett gemensamt minnesutrymme som delas av alla instanser av klassen. Detta gör att vi kan dela data mellan olika klasser utan att behöva skapa flera instanser av en klass. Detta är användbart om vi vill dela data mellan olika klasser utan att behöva skapa flera instanser av en klass.
+## Vad är `static`?
 
-<div class="mermaid">
-mindmap
-    root((Minnet))
-        Instanser av klasser
-            Instansvariabler
-            Instansmetoder
-        Statiskt
-            Statiska variabler
-            Statiska metoder
-</div>
+I Java är `static` en åtkomstmodifikator som används för att definiera gemensamma egenskaper och metoder som delas av alla instanser av en klass. När vi deklarerar en medlem som `static`, tillhör den själva klassen och inte något specifikt objekt som skapas från klassen. Detta innebär att vi kan nå de statiska medlemmarna direkt genom klassnamnet, utan att behöva skapa en instans av klassen först.
 
-I detta diagram representerar "Minne" den allmänna minnesplatsen där programmet körs.
+## Fördelar
 
-- `Instanser av klasser` representerar alla instanser av klasser som skapas under körningen.
-- `Statiskt` representerar alla statiska variabler och metoder som skapas under körningen.
+Användningen av `static` i Java ger oss flera fördelar:
 
-Observera att diagrammet bara visar en förenklad representation av hur en statisk metod och instansvariabler lagras i minnet vid kompileringen. Det kan finnas fler faktorer och detaljer som påverkar minnesorganisationen beroende på den specifika implementationen och miljön där programmet körs.
+1. **Dela data mellan klasser:** Genom att använda `static` kan vi dela data mellan olika klasser utan att behöva skapa flera instanser av en klass. Detta sparar minnesutrymme och gör våra program mer effektiva.
 
-Hoppas att detta diagram hjälper till att illustrera hur en statisk metod läggs i minnet! Låt mig veta om du har fler frågor.
+2. **Skapa gemensamma metoder:** Med `static` kan vi skapa gemensamma metoder som kan användas över hela programmet utan att behöva duplicera kod. Detta förbättrar underhållbarheten och strukturen av vår kodbas.
+
+3. **Lättåtkomliga verktyg:** Genom att använda `static` kan vi skapa hjälputilitys och verktyg som kan nås överallt i vårt program, vilket gör det enklare att använda dem när de behövs.
+
+## Begränsningar
+
+Även om `static` är ett kraftfullt verktyg i Java, bör det användas med omsorg. Här är några saker att tänka på:
+
+1. **Risk för globalt tillstånd:** Eftersom statiska medlemmar delas av alla instanser av en klass, finns risken för globalt tillstånd, vilket kan leda till svårigheter att spåra och felsöka problem i större projekt.
+
+2. **Trådsäkerhet:** Om flera trådar ändrar en statisk variabel samtidigt kan det uppstå trådighetsproblem. Detta kan undvikas genom att använda synkroniseringsmekanismer när det behövs.
 
 ## Exempel
+
+Låt oss utforska ett exempel på hur vi kan använda `static` i Java:
 
 ```java
 public class UserSettings {
@@ -67,9 +66,7 @@ public class UserSettings {
 }
 ```
 
-I detta exempel har vi en klass som heter `UserSettings`. Vi har också tre statiska egenskaper: `UserName`, `Password` och `DarkMode`. Dessa egenskaper är tillgängliga för alla klasser i samma projekt. Men om en annan klass i ett annat projekt länkar till detta projekt kommer de inte att kunna använda `UserSettings`-klassen.
-
-Det är viktigt att notera att i Java kan vi inte ha statiska egenskaper med automatisk implementering som i C#. Istället måste vi använda publika statiska variabler och få tillgång till dem direkt genom klassnamnet.
+I detta exempel har vi en klass som heter `UserSettings`, och vi har definierat tre statiska egenskaper: `UserName`, `Password` och `DarkMode`. Dessa statiska egenskaper är tillgängliga för alla klasser i samma projekt. Men om en annan klass i ett annat projekt länkar till detta projekt kommer de inte att kunna använda `UserSettings`-klassen.
 
 För att använda `UserSettings`-klassen kan vi tilldela värden till de statiska egenskaperna innan vi använder dem:
 
@@ -87,12 +84,17 @@ System.out.println("Lösenord: " + UserSettings.Password);
 System.out.println("Mörkt läge: " + UserSettings.DarkMode);
 ```
 
-Detta ger oss möjligheten att dela data mellan olika klasser utan att behöva skapa flera instanser av `UserSettings`-klassen. Vi kan också ändra värdena i `UserSettings`-klassen och ha tillgång till de uppdaterade värdena överallt där vi använder klassen.
+Genom att använda `static` i detta exempel kan vi dela användarinställningar mellan olika delar av programmet utan att behöva skapa flera instanser av `UserSettings`-klassen.
 
-Detta är bara en av många användningar av `static` i Java. Det kan också användas för att skapa statiska metoder och block, vilket vi kommer att utforska i andra artiklar.
+## Slutsats
+
+Grattis! Du har nu utforskat den spännande världen av `static` i Java-programmering. Vi har lärt oss hur vi kan använda `static` för att skapa gemensamma klassmedlemmar och dela data mellan olika delar av vårt program. Genom att använda `static` på rätt sätt kan vi strukturera våra projekt mer effektivt och skapa lättåtkomliga verktyg som underlättar vår kodning.
+
+Fortsätt utforska Java och dess fantastiska funktioner! Med ditt engagemang och övning kan du bli en mästare på att skapa imponerande program och applikationer. Glöm aldrig att programmering är roligt och att lära sig mer är en spännande resa mot att bli en skicklig utvecklare!
 
 ## Obligatorisk Dad-joke
 
 Varför var den statiska metoden så dålig på att socialisera?
 
-För att den aldrig kunde få någon att "dynamiskt" intressera sig för den! 😔
+För att den aldrig kunde få någon att "dynamiskt" intressera sig för den! 😄
+

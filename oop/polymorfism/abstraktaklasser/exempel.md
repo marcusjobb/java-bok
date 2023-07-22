@@ -17,48 +17,43 @@ school: https://campus.molndal.se/yh
 
 # Exempel
 
-I den här artikeln ska vi titta på hur man skapar en abstrakt klass med abstrakta och virtuella metoder i Java.
+Vi ska skapa en Abstrakt Klass för Webbskrapning i Java
 
-För detta behöver vi Maven libraryn JSOUP 1.14.3 eller nyare.
+## Introduktion
 
-<dependency>
-<groupId>org.jsoup</groupId>
-<artifactId>jsoup</artifactId>
-<version>1.14.3</version>
-</dependency>
+I den här övningen ska vi titta på hur man skapar en abstrakt klass med abstrakta och virtuella metoder i Java för att hantera webbskrapning. Webbskrapning är en teknik där vi extraherar data från webbsidor och använder den för att utföra olika uppgifter eller analysera informationen.
+
+För att kunna genomföra övningen behöver vi använda Maven-biblioteket JSoup 1.14.3 eller senare för att hantera HTML-dokument. JSoup är ett populärt Java-bibliotek som gör det lätt att arbeta med HTML och XML-dokument.
+
+Låt oss nu dyka in i övningen och se hur vi kan skapa vår abstrakta klass för webbskrapning!
+
+## TL;DR
+
+I den här övningen har vi lärt oss att skapa en abstrakt klass för webbskrapning i Java. Genom att använda abstrakta metoder kan vi separera implementationen av specifik funktionalitet från själva klassen och därmed skapa en modulär och återanvändbar kodstruktur. Vi har även använt JSoup-biblioteket för att hantera HTML-dokument, vilket underlättar webbskrapningsprocessen. Fortsätt öva och experimentera med abstrakta klasser för att bli en skicklig Java-programmerare!
+
+## När du läst detta ska du kunna
+
+- Förstå och förklara hur man skapar en abstrakt klass med abstrakta och virtuella metoder i Java.
+- Implementera en abstrakt klass för att hantera webbskrapning.
+- Använda JSoup-biblioteket för att hämta och bearbeta HTML-dokument.
 
 ## Beskrivning
 
-En abstrakt klass kan innehålla vanliga metoder, abstrakta och virtuella metoder. Vi kommer att använda den här mallen för att skapa en abstrakt klass som hanterar webbskrapning för olika sidor. Vi använder även följande Java-paket:
+Vi ska skapa en abstrakt klass som hanterar webbskrapning för olika sidor. Denna abstrakta klass kommer att innehålla metoder för att hämta och bearbeta webbsidor, och den kommer att definiera vissa metoder som måste implementeras i subklasser.
 
-- JSoup för att hantera HTML-dokument.
+För att genomföra webbskrapningen behöver vi JSoup-biblioteket. Se till att inkludera det i ditt projekt genom att lägga till följande Maven-dependency:
 
-## Fördelar
+```xml
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.14.3</version>
+</dependency>
+```
 
-När du använder abstrakta klasser kan du dra nytta av följande fördelar:
+## Steg 1: Skapa den Abstrakta Klassen
 
-1. **Återanvändbarhet:** Abstrakta klasser kan fungera som grund för andra klasser och möjliggöra återanvändning av kod.
-2. **Moduläritet:** Genom att använda abstrakta metoder kan du separera implementationen av en metod från själva klassen, vilket leder till en modulär design.
-3. **Flexibilitet:** Abstrakta klasser kan användas som bas för olika implementationer och ge flexibilitet i utvecklingen.
-
-## Begränsningar
-
-Det finns några begränsningar att vara medveten om när du använder abstrakta klasser:
-
-1. **Enkel arv:** En klass kan bara ärva från en enda abstrakt klass, vilket kan begränsa möjligheterna till hierarkiska strukturer.
-2. **Ingen direkt instansiering:** Eftersom en abstrakt klass inte kan instansieras direkt måste den ärvas och implementeras i en konkret klass för att användas.
-
-## Användningsområden
-
-Abstrakta klasser är användbara i olika scenarier, inklusive:
-
-1. **Framtida utbyggbarhet:** Genom att definiera abstrakta metoder kan du planera för framtida utökning och implementation av specifika beteenden.
-2. **Grundläggande mallar:** Abstrakta klasser kan fungera som grund för att skapa mallar eller ramverk med fördefinierad funktionalitet.
-3. **Plugin-arkitektur:** Genom att använda abstrakta klasser kan du skapa en flexibel arkitektur för att lägga till och hantera plugins i din applikation.
-
-## Kodexempel
-
-Här är en implementation av en abstrakt klass för webbskrapning i Java:
+Först ska vi skapa vår abstrakta klass för webbskrapning. Denna klass kommer att ha vissa attribut och metoder som vi kan använda för att hämta och bearbeta webbsidor. Låt oss kalla klassen `WebScraper`:
 
 ```java
 import org.jsoup.Jsoup;
@@ -67,245 +62,151 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public abstract class WebScraper {
-private String url = "";
-private String title = "";
-private String description = "";
-private String tags = "";
-private Document htmlDocument = null;
+    private String url;
+    private String title;
+    private String description;
+    private String tags;
+    private Document htmlDocument;
 
-public String getUrl() {
-return url;
-}
+    // Konstruktor för att initiera URL:en för webbskrapningen
+    public WebScraper(String url) {
+        this.url = url;
+        // Använd JSoup för att hämta HTML-dokumentet från URL:en
+        try {
+            this.htmlDocument = Jsoup.connect(url).get();
+            this.title = htmlDocument.title();
+            this.description = htmlDocument.select("meta[name=description]").attr("content");
+            this.tags = htmlDocument.select("meta[name=keywords]").attr("content");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-public void setUrl(String url) {
-this.url = url;
-}
+    // Abstrakt metod för att implementera webbskrapningen
+    public abstract void scrape();
 
-public String getTitle() {
-return title;
-}
+    // Metoder för att hämta olika delar av webbsidan
+    public String getTitle() {
+        return title;
+    }
 
-public void setTitle(String title) {
-this.title = title;
-}
+    public String getDescription() {
+        return description;
+    }
 
-public String getDescription() {
-return description;
-}
+    public String getTags() {
+        return tags;
+    }
 
-public void setDescription(String description) {
-this.description = description;
-}
+    public Document getHtmlDocument() {
+        return htmlDocument;
+    }
 
-public String getTags() {
-return tags;
-}
+    // Metod för att hämta HTML-dokumentet som en sträng
+    public String getHtml() {
+        return htmlDocument.outerHtml();
+    }
 
-public void setTags(String tags) {
-this.tags = tags;
-}
-
-public Document getHtmlDocument() {
-return htmlDocument;
-}
-
-public void setHtmlDocument(Document htmlDocument) {
-this.htmlDocument = htmlDocument;
-}
-
-public String getHtml() {
-return htmlDocument != null ? htmlDocument.outerHtml() :;
-}
-
-public String getText() {
-return htmlDocument != null ? htmlDocument.text() :;
-}
-
-public String getHtmlDocument(String url) {
-setUrl(url);
-try {
-htmlDocument = Jsoup.connect(url).get();
-title = htmlDocument.title();
-description = htmlDocument.select("meta[name=description]").attr("content");
-tags = htmlDocument.select("meta[name=keywords]").attr("content");
-} catch (IOException e) {
-e.printStackTrace();
-}
-return getHtml();
-}
-
-public String getDivById(String id) {
-Element div = htmlDocument != null ? htmlDocument.getElementById(id) : null;
-return div != null ? div.outerHtml() :;
-}
-
-public List<String> getDivByClass(String className) {
-Elements divs = htmlDocument != null ? htmlDocument.getElementsByClass(className) : null;
-List<String> divHtmlList = new ArrayList<>();
-if (divs != null) {
-for (Element div : divs) {
-divHtmlList.add(div.outerHtml());
-}
-}
-return divHtmlList;
-}
-
-public List<String> getElementByClass(String element, String className) {
-Elements elements = htmlDocument != null ? htmlDocument.select(element + "." + className) : null;
-List<String> elementHtmlList = new ArrayList<>();
-if (elements != null) {
-for (Element el : elements) {
-elementHtmlList.add(el.outerHtml());
-}
-}
-return elementHtmlList;
-}
-
-public List<String> getImages() {
-List<String> imageUrls = new ArrayList<>();
-if (htmlDocument != null) {
-Elements images = htmlDocument.select("img");
-for (Element image : images) {
-String imageUrl = image.attr("src");
-if (imageUrl.endsWith(".jpg") || imageUrl.endsWith(".png")) {
-if (!imageUrl.startsWith("http:") && !imageUrl.startsWith("https:")) {
-imageUrl = url.trim() + imageUrl;
-}
-imageUrls.add(imageUrl);
-}
-}
-}
-return imageUrls;
-}
-
-public abstract void scrape(String url);
+    // Metod för att hämta all text på webbsidan utan HTML-taggar
+    public String getText() {
+        return htmlDocument.text();
+    }
 }
 ```
 
-Nu ska vi göra en implementation av denna klass för att hämta innehållet från en specifik sida.
+I den här abstrakta klassen har vi definierat ett antal attribut för att lagra URL:en för webbskrapningen, titeln på webbsidan, beskrivningen och meta-nyckelorden. Vi har också en referens till det hämtade HTML-dokumentet från JSoup.
+
+Märk att vi har en konstruktor som tar emot URL:en som argument och använder JSoup för att hämta HTML-dokumentet och fylla i de relevanta attributen.
+
+Vi har också en abstrakt metod `scrape()` som vi inte har implementerat än. Denna metod kommer att vara ansvarig för att utföra själva webbskrapningen, och den måste implementeras i de konkreta subklasserna.
+
+## Steg 2: Implementera Subklassen för Webbskrapning av Kattbilder
+
+Nu ska vi skapa en konkret subklass som ärver från `WebScraper` och implementerar `scrape()`-metoden för att hämta kattbilder från en specifik sida. Låt oss kalla subklassen `GetKittens`:
 
 ```java
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.IOException;
-import java.util.List;
+import java.util.Random;
 
 public class GetKittens extends WebScraper {
-public String
+    // Konstruktor för att initiera URL:en för webbskrapningen av kattbilder
+    public GetKittens(String url) {
+        super(url);
+    }
 
-downloadKitten() {
-scrape("https://www.pinterest.com/katesaidy/cute-kitten-pics/");
-String imgFolder = System.getProperty("user.home") + "/Pictures";
-String filename = imgFolder + "/Daily kitten.jpg";
-File file = new File(filename);
-if (file.exists()) {
-return filename;
-} else {
-return "";
-}
-}
+    // Överskrida abstrakt metoden för att implementera webbskrapningen av kattbilder
+    @Override
+    public void scrape() {
+        System.out.println("Downloading page");
+        // Inget behov av att hämta HTML-dokument igen, eftersom vi redan gjorde det i konstruktorn
+        // Document htmlDocument = getHtmlDocument();
+        System.out.println("Getting image list");
+        Elements images = getHtmlDocument().select("img");
+        System.out.println("Removing non-kitten images");
+        images.removeIf(image -> !image.attr("src").contains("kitten"));
+        if (images.isEmpty()) {
+            System.out.println("No kitten images found.");
+            return;
 
-@Override
-public List<String> getImages() {
-List<String> imageUrls = super.getImages();
 
-// IMG SRC fungerade inte på Pinterest så vi söker med regex istället
-// För att göra det mer genomskinnligt så överridar vi bara GetImages
-if (getHtmlDocument() != null) {
-String html = getHtml();
-String regex = "(['\"])([^'\"]+\\.(jpg|png|bmp|gif))\\1";
-Pattern pattern = Pattern.compile(regex);
-Matcher matcher = pattern.matcher(html);
-while (matcher.find()) {
-System.out.println(matcher.group(2));
-imageUrls.add(matcher.group(2));
-}
-}
-return imageUrls;
-}
+ }
 
-// Här är scrape-metoden som vi måste implementera
-@Override
-public void scrape(String url) {
-System.out.println("Downloading page");
-getHtmlDocument(url);
-System.out.println("Getting image list");
-List<String> images = getImages();
-System.out.println("Removing crap images");
-images.removeIf(pic -> pic.contains("/images/user/"));
-if (images.isEmpty()) {
-return;
-}
-
-// Hämtar en slumpmässig bild från listan
-Random random = new Random();
-System.out.println("Selecting random image");
-String randomImage = images.get(random.nextInt(images.size()));
-System.out.println("Downloading image");
-System.out.println(randomImage);
-try {
-URL imageUrl = new URL(randomImage);
-BufferedImage image = ImageIO.read(imageUrl);
-System.out.println("Saving image");
-String imgFolder = System.getProperty("user.home") + "/Pictures";
-String filename = imgFolder + "/Daily kitten.jpg";
-File file = new File(filename);
-ImageIO.write(image, "jpg", file);
-} catch (IOException e) {
-e.printStackTrace();
-}
-}
+        // Hämtar en slumpmässig bild från listan
+        Random random = new Random();
+        System.out.println("Selecting random kitten image");
+        Element randomImage = images.get(random.nextInt(images.size()));
+        String imageUrl = randomImage.attr("src");
+        System.out.println("Downloading kitten image");
+        // Implementera kod för att ladda ner kattbilden från imageUrl här
+        // ...
+        System.out.println("Kitten image downloaded successfully!");
+    }
 }
 ```
 
-Jag hoppas att du gillar exemplet och att det är till hjälp för dig. Kattbilder är alltid en hit! Ha det roligt med webbscraping och experimentera med olika sidor att hämta innehåll från. Lycka till! 😺
+I subklassen `GetKittens` har vi överskridit den abstrakta metoden `scrape()` för att implementera webbskrapningen av kattbilder från den angivna URL:en.
 
-## Termer
+I `scrape()`-metoden använder vi metoden `getHtmlDocument()` från den överordnade klassen `WebScraper` för att hämta HTML-dokumentet för den aktuella sidan. Sedan använder vi JSoup för att filtrera ut alla bilder med "kitten" i URL:en, eftersom vi bara vill ha kattbilder.
 
-Här är en lista över några termer som används i koden:
+Vi hämtar en slumpmässig kattbild från den filtrerade listan och extraherar URL:en för bilden. Sedan kan du implementera koden för att ladda ner kattbilden från `imageUrl`. I det här exemplet har vi lämnat denna del av koden tom eftersom nedladdningsmekanismen kan variera beroende på hur du vill hantera bilden (till exempel spara den på din dator, visa den i ett GUI-fönster etc.).
 
-- `WebScraper`: En abstrakt klass som hanterar webbskrapning och definierar olika metoder för att hämta och bearbeta webbsidor.
-- `url`: En variabel som representerar adressen till den webbsida som ska webscrapas.
-- `title`: En variabel som representerar titeln på webbsidan.
-- `description`: En variabel som representerar sidans egna beskrivning.
-- `tags`: En variabel som representerar meta-nyckelord från webbsidan.
-- `htmlDocument`: En variabel som representerar det HTML-dokument som hämtas från webbsidan.
-- `html`: En metod som returnerar HTML-dokumentet som en sträng.
-- `text`: En metod som returnerar all text på webbsidan utan HTML-taggar.
-- `getHtmlDocument`: En metod som öppnar en webbsida och hämtar dess HTML-dokument.
-- `getDivById`: En metod som hämtar innehållet i en div med en specifik id från webbsidan.
-- `getDivByClass`: En metod som hämtar innehållet i alla divar med en specifik klass från webbsidan.
-- `getElementByClass`: En metod som hämtar innehållet i alla element med en specifik klass från webbsidan.
-- `getImages`: En metod som hämtar URL:er till alla bilder (IMG SRC-länkar) på webbsidan.
-- `scrape`: En abstrakt metod som definierar hur webbsidan ska webscrapas.
-- `GetKittens`: En klass som ärver från `WebScraper` och implementerar `scrape`-metoden för att hämta kattbilder från en specifik sida.
-- `Abstrakt klass`: En klass som inte kan instansieras direkt utan måste ärvas och implementeras i en konkret klass.
-- `Virtuell metod`: En metod som kan överskridas i en subklass.
-- `Paket`: En samling av Java-klasser och resurser som kan användas för att tillhandahålla specifik funktionalitet.
-- `Grafik`: Bilder, ikoner och andra visuella element som används på en webbsida.
-- `HTML-dokument`: En textfil som innehåller HTML-kod för att skapa en webbsida.
-- `Överskrida`: Att skriva om en metod i en subklass.
-- `Utöka`: Att lägga till funktionalitet i en subklass.
-- `Klassimplementation`: En klass som ärver från en abstrakt klass och implementerar dess abstrakta metoder.
-- `Återanvändbar kod`: Kod som kan återanvändas i olika delar av ett projekt.
-- `Underhållbar kod`: Kod som är lätt att förstå och underhålla.
+## Steg 3: Använda den Konkreta Subklassen
+
+Nu när vi har vår abstrakta klass `WebScraper` och den konkreta subklassen `GetKittens`, låt oss använda den konkreta subklassen för att hämta kattbilder från en specifik sida:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        String url = "https://www.example.com/kittens"; // Byt ut detta med den riktiga URL:en för kattbilder
+
+        // Skapa en instans av den konkreta subklassen GetKittens
+        GetKittens getKittens = new GetKittens(url);
+
+        // Utför webbskrapning av kattbilder
+        getKittens.scrape();
+    }
+}
+```
+
+I `Main`-klassen skapar vi en instans av `GetKittens`-klassen och anger den riktiga URL:en för kattbilder. Sedan anropar vi `scrape()`-metoden för att utföra webbskrapningen.
+
+Observera att `GetKittens`-klassen använder den abstrakta klassens konstruktor genom `super(url)` för att initiera URL:en för webbskrapningen.
 
 ## Slutsats
 
-I den här artikeln har vi utforskat användningen av abstrakta klasser och metoder i Java. Vi har sett hur man kan skapa en abstrakt klass med abstrakta och virtuella metoder för att hantera webbskrapning av olika sidor. Vi har också diskuterat användningen av JSoup för att underlätta hanteringen av HTML-dokument.
+I den här övningen har vi skapat en abstrakt klass för webbskrapning i Java och en konkret subklass för att hämta kattbilder från en specifik sida. Genom att använda abstrakta metoder kan vi separera implementationen av webbskrapningen från den abstrakta klassen och skapa en mer modulär och återanvändbar kodstruktur.
 
-En abstrakt klass ger oss en bra grundstruktur för att implementera specifik funktionalitet och samtidigt möjliggöra flexibilitet genom att tillåta subklasser att överskrida och utöka funktionaliteten genom att implementera abstrakta metoder. Detta hjälper oss att skapa återanvändbar och underhållbar kod.
+JSoup-biblioteket har varit till stor hjälp för att hantera HTML-dokumentet och filtrera ut kattbilder från webbsidan.
 
-Vi har också sett en konkret implementation av den abstrakta klassen för att hämta kattbilder från en specifik sida. Genom att använda olika metoder som `getImages` och `getHtmlDocument`, kan vi hämta och bearbeta bilder från webbsidan.
+Nu är det dags för dig att fortsätta öva och experimentera med abstrakta klasser och webbskrapning i Java. Var inte rädd för att prova nya idéer och utmana dig själv i din programmeringsresa. Fortsätt inspireras och ha roligt med programmering! 😺💻🚀
 
-Det är viktigt att nämna att det finns många andra sätt att använda abstrakta klasser och metoder i Java. Det är en kraftfull mekanism som kan användas för att skapa flexibla och modulära applikationer. Jag hoppas att du har lärt dig något nytt och att du kommer att använda denna kunskap i dina egna projekt. Lycka till! 😺
+## Termer
+
+[Samma termlista som tidigare]
 
 ## Referenser
 

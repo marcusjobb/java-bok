@@ -17,54 +17,74 @@ school: https://campus.molndal.se/yh
 
 # Else
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
+I programmeringsspråket Java används nyckelordet "Else" för att skapa en alternativ väg i en kodblockstruktur. Det ger möjlighet att utföra en annan sekvens av kod om en "if"-sats utvärderas som falsk. Med andra ord kan "Else" användas för att hantera fall där "if"-villkoret inte är uppfyllt, och programmet kan utföra en annan uppsättning instruktioner istället.
 
-1. TOC
-{:toc}
-</details>
+## När du läst detta ska du kunna
 
-## Beskrivning
+- Förstå och förklara vad "Else" är och dess användning i Java.
+- Identifiera olika användningsområden där "Else" kan vara användbart.
+- Förstå och tolka ett kodexempel som använder "Else" i Java.
+- Göra villkorsbaserade beslut i dina egna program med hjälp av "Else".
 
-"Annars" är ett nyckelord som används i programmeringsspråket Java för att skapa en alternativ väg i en kodblockstruktur. Det ger möjlighet att utföra en annan sekvens av kod om en "om"-sats utvärderas som falsk. Med andra ord kan "annars" användas för att hantera fall där "om"-villkoret inte är uppfyllt, och programmet kan utföra en annan uppsättning instruktioner istället.
-När en "om"-sats utvärderas som sann, utförs de kodinstruktioner som ligger inuti "om"-blocket. Om villkoret i "om"-satsen däremot utvärderas som falskt, kommer programmet att hoppa över kodblocket inom "om" och istället utföra kodblocket inom "annars".
+## TL;DR
 
-För att använda "annars" måste det alltid följas av en "om". Det är också viktigt att notera att "annars" alltid kommer i slutet av en "om"-sats och kan inte användas utanför den.
+I Java används nyckelordet "Else" för att skapa en alternativ kodväg när ett "if"-villkor är falskt. Genom att använda "else" kan programmerare göra olika beslut beroende på olika villkor. Det är viktigt att balansera användningen av "else" för att hålla koden läsbar och förståelig. Användningsområdena för "else" inkluderar bland annat ålderskontroll och betygssystem.
 
-## Exempel
+## Vad är Else?
 
-Här är ett exempel som visar hur "annars" kan användas för att kontrollera om en person är myndig eller inte baserat på deras ålder:
+"Else" är ett nyckelord som används i Java för att definiera ett alternativt kodblock som utförs när det motsatta villkoret av en "if"-sats är sant. Om "if"-villkoret utvärderas som falskt, kommer programmet att hoppa över kodblocket inom "if" och istället utföra kodblocket inom "else".
+
+För att använda "Else" måste det alltid följas av en "if". Det är också viktigt att notera att "Else" alltid kommer i slutet av en "if"-sats och kan inte användas utanför den.
+
+## Fördelar med Else
+
+Här är några fördelar med att använda "Else" i Java:
+
+1. **Beslutsfattande:** "Else" ger programmerare möjlighet att göra beslut i sina program baserat på olika villkor. Detta är särskilt användbart när olika handlingar behövs beroende på ett villkors sanning eller falskhet.
+
+2. **Alternativa vägar:** Genom att använda "Else" kan olika vägar definieras i koden, vilket ökar programmens flexibilitet och funktionalitet.
+
+## Begränsningar med Else
+
+Några saker att vara medveten om när du använder "Else":
+
+1. **Enkelriktat flöde:** "Else" möjliggör bara en alternativ kodväg i relation till "if"-villkoret. Om flera olika vägar behövs, kan det vara nödvändigt att använda flera "if-else" uttalanden.
+
+2. **Komplicerad kod:** Om "if-else" kedjor blir alltför komplicerade kan det vara svårt att förstå flödet i koden. Det är viktigt att balansera användningen av "else" för att hålla koden läsbar.
+
+## Användningsområden för Else
+
+"Else" kan användas i olika situationer där beslut behöver fattas baserat på olika villkor. Här är några exempel på användningsområden för "Else" i Java:
+
+1. **Ålderskontroll:** Som illustrerat i exemplet tidigare kan "Else" användas för att kontrollera om en person är myndig eller inte baserat på deras ålder.
+
+2. **Betygsättningssystem:** I ett betygssystem kan "Else" användas för att bestämma vilket betyg en student får beroende på deras poäng.
+
+## Exempelkod - Else i en berättelse
+
+För att förtydliga användningen av "Else", låt oss gå igenom ett exempel där vi använder "Else" för att bestämma om ett nummer är positivt eller negativt:
 
 ```java
-int ålder = 18;
-if (ålder >= 18) {
-    System.out.println("Du är myndig");
+int nummer = -5;
+if (nummer >= 0) {
+    System.out.println("Numret är positivt");
 } else {
-    System.out.println("Du är inte myndig");
+    System.out.println("Numret är negativt");
 }
-
 ```
 
-I detta exempel är "age" satt till 18. Eftersom 18 är större än eller lika med 18, utvärderas "if"-villkoret som sant, och programmet skriver ut "Du är myndig". Om vi ändrar värdet på "age" till 17 kommer "if"-villkoret att utvärderas som falskt, och programmet skriver ut "Du är inte myndig".
-Med hjälp av "else" kan vi låta programmet välja olika vägar att följa beroende på villkoren.
-
-## Sammanfattning
-
-"Else" är ett viktigt nyckelord inom Java som ger möjlighet att skapa en alternativ väg i kodblocket baserat på ett "if"-villkor. Om "if"-satsen utvärderas som sann utförs de kodinstruktioner som ligger inuti "if"-blocket, och om villkoret utvärderas som falskt utförs istället kodinstruktionerna inom "else"-blocket. Det ger programmerare möjlighet att hantera olika fall och göra beslut i sina program.
+I detta exempel är "nummer" satt till -5. Eftersom -5 är mindre än 0, utvärderas "if"-villkoret som falskt, och programmet skriver ut "Numret är negativt".
 
 ## Termer och förklaringar
 
-| Term      | Förklaring                                                                                                                                            |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ---------- | ----------------------------------------------------------- |
-| Else      | Ett nyckelord i Java som används för att skapa en alternativ väg i kodblocket när "if"-villkoret är falskt.                                           |
-| If        | Ett nyckelord i Java som används för att skapa en villkorsbaserad kodblockstruktur. Om villkoret är sant, utförs kodinstruktionerna inom "if"-blocket |     | Code block | En grupp av kodinstruktioner som är grupperade tillsammans. |
-| Condition | En logisk fråga som kan utvärderas som antingen sann eller falsk.                                                                                     |
+| Term         | Förklaring                                                                                                                                                                  |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Else         | Ett nyckelord i Java som används för att skapa en alternativ väg i kodblocket när "if"-villkoret är falskt.                                                               |
+| If           | Ett nyckelord i Java som används för att skapa en villkorsbaserad kodblockstruktur. Om villkoret är sant, utförs kodinstruktionerna inom "if"-blocket                     |
+| Kodblock     | En grupp av kodinstruktioner som är grupperade tillsammans.                                                                                                                |
+| Villkor      | En logisk fråga som kan utvärderas som antingen sann eller falsk.                                                                                                          |
+| Positivt/negativt | Inom detta sammanhang betyder positivt att ett nummer är större än eller lika med noll och negativt att det är mindre än noll.                                           |
 
-## Obligatorisk dad-joke
+## Slutsats
 
-Varför gillar programmerare att använda "else"?
-
-För att de inte gillar att vara i "if-nite"! 😄
+"Else" är ett viktigt nyckelord inom Java som ger möjlighet att skapa alternativa kodvägar beroende på om ett "if"-villkor är sant eller falskt. Detta ger programmerare möjlighet att hantera olika fall och fatta beslut i sina program. Genom att använda "else" kan programmen bli mer flexibla och kapabla att hantera olika scenarier.

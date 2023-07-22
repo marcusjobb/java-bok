@@ -2,7 +2,7 @@
 title: Tabnine
 permalink: ai/tabnine
 nav_order: 7
-parent: ai
+parent: Artificiell intelligens
 grand_parent: Verktyg
 author: Marcus Medina
 layout: default

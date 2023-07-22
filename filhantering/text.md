@@ -1,5 +1,5 @@
 ---
-title: Text
+title: Textfiler
 permalink: filhantering/text
 nav_order: 9
 parent: Filhantering
@@ -14,22 +14,22 @@ id: e42c5e7f-dcb8-451f-9026-2ac28dedeb39
 school: https://campus.molndal.se/yh
 ---
 
-# Text
+# Textfiler
 
-Textfiler är en vanlig filtyp som används för att lagra text. Det är ett textbaserat filformat som används för att lagra data av olika slag.
+## När du läst detta ska du kunna
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
-1. Innehållsförteckning
-{:toc}
-</details>
+- Förstå och förklara hur man skapar och manipulerar textfiler i Java.
+- Diskutera fördelar och begränsningar med att använda filhantering i Java.
+- Identifiera olika användningsområden där filhantering kan vara användbart.
+- Förstå hur man läser och skriver textfiler i olika situationer.
+
+## Introduktion
+
+Textfiler är en vanlig filtyp som används för att lagra textbaserad data. I Java kan vi använda olika klasser och metoder för att skapa, läsa, skriva över och radera textfiler. I denna artikel kommer vi att utforska hur vi kan hantera textfiler i Java och vilka möjligheter det ger oss.
 
 ## Skapa en textfil
 
-För att skapa en textfil i Java kan följande kod användas:
+För att skapa en textfil i Java använder vi klasserna `FileWriter` och `BufferedWriter`. Följande kod visar hur man skapar en textfil och skriver innehållet till filen:
 
 ```java
 String contents = "God morgon Mr Bond! Jag har ett meddelande till dig.";
@@ -48,7 +48,7 @@ try {
 
 ## Läs in en textfil
 
-För att läsa innehållet i en textfil kan följande kod användas:
+För att läsa innehållet från en textfil använder vi klassen `Scanner`. Här är hur vi kan läsa innehållet från en textfil:
 
 ```java
 try {
@@ -66,7 +66,7 @@ try {
 
 ## Spara en lista i en textfil
 
-För att spara en lista av strängar i en textfil kan följande kod användas:
+Ibland vill vi spara en lista av data i en textfil. Vi kan använda `FileWriter` och `BufferedWriter` för att uppnå detta. Här är ett exempel på hur vi kan spara en lista av strängar i en textfil:
 
 ```java
 List<String> names = new ArrayList<>();
@@ -92,7 +92,7 @@ try {
 
 ## Läs in en lista från en textfil
 
-För att läsa innehållet från en textfil och spara det i en lista kan följande kod användas:
+När vi vill läsa innehållet från en textfil och spara det i en lista, kan vi använda klassen `Scanner` igen. Här är ett exempel på hur vi kan göra det:
 
 ```java
 List<String> names = new ArrayList<>();
@@ -110,15 +110,9 @@ try {
 }
 ```
 
-Detta exempel visar hur man kan skapa, läsa, spara och läsa in textfiler i Java. Genom att använda `FileWriter`, `BufferedWriter`, `FileReader`, `BufferedReader` och `Scanner` kan vi utföra olika operationer på textfiler. Listor kan också enkelt sparas och läsas från textfiler genom att använda dessa metoder.
-
-Det är viktigt att hantera eventuella undantag (exceptions) som kan uppstå vid hantering av filer, till exempel om filen inte hittas eller om det uppstår problem med filåtkomst. Genom att använda try-catch-block kan vi fånga och hantera dessa undantag på ett säkert sätt.
-
-Det är också viktigt att stänga filanslutningar när de inte längre behövs för att frigöra resurser och undvika minnesläckor. I kodexemplen ovan används `close()`-metoden för att stänga anslutningarna efter att de har använts.
-
 ## Lägg till text i en textfil
 
-För att lägga till text i en textfil kan följande kod användas:
+För att lägga till text i en befintlig textfil använder vi `FileWriter` igen. Här är ett exempel på hur man gör det:
 
 ```java
 String contents = "James Bond, din uppgift är enkel men avgörande: Sök upp den fiktiva elakingen och eliminera honom utan nåd. Låt inget stå i vägen för rättvisa och säkerhet. Var din vanliga självsäkra och eleganta själv. Tiden är knapp, agera snabbt och precist. Världen litar på dig, 007. Gör det som behöver göras.";
@@ -136,11 +130,9 @@ try {
 }
 ```
 
-I FileWriter-konstruktorn kan vi ange `true` som andra argument för att lägga till text i en befintlig textfil. Detta gör att vi kan lägga till text i en befintlig textfil utan att skriva över den befintliga texten. Hade vi skrivit false istället för true hade den befintliga texten skrivits över.
-
 ## Skriv över en textfil
 
-För att skriva över en textfil kan följande kod användas:
+Om vi vill skriva över innehållet i en textfil helt och hållet, använder vi `FileWriter` utan att ange `true` som andra argument. Här är hur man skriver över en textfil:
 
 ```java
 String message = "Message deducted.";
@@ -159,7 +151,7 @@ try {
 
 ## Radera en textfil
 
-För att radera en textfil kan följande kod användas:
+För att radera en textfil använder vi klassen `File`. Här är hur vi kan radera en textfil:
 
 ```java
 String fileName = "Message.txt";
@@ -169,9 +161,7 @@ try {
     if (file.delete()) {
         System.out.println("Textfilen har raderats.");
     } else {
-        System.out.println
-
-("Kunde inte radera textfilen.");
+        System.out.println("Kunde inte radera textfilen.");
     }
 } catch (Exception e) {
     System.out.println("Ett fel inträffade vid radering av textfilen.");
@@ -180,7 +170,7 @@ try {
 
 ## Läs in en textfil från en URL
 
-För att läsa innehållet i en textfil från en URL kan följande kod användas:
+För att läsa innehållet i en textfil från en URL, använder vi `URL` och `Scanner`. Här är ett exempel på hur man gör det:
 
 ```java
 try {
@@ -198,7 +188,9 @@ try {
 
 ## Spara en textfil från en URL
 
-För att spara en textfil från en URL kan följande kod användas:
+Om vi vill spara en textfil från en URL, använder vi `URL
+
+`, `InputStream` och `Files`. Här är hur vi kan göra det:
 
 ```java
 try {
@@ -236,4 +228,4 @@ try {
 
 Varför gillar textfiler att gå på fester?
 
-För att de älskar att dra skämt om "line"-dans!
+För att de älskar att dra skämt om "line"-dans! :)

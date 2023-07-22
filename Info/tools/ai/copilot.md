@@ -2,7 +2,7 @@
 title: Github Copilot
 permalink: ai/copilot
 nav_order: 5
-parent: ai
+parent: Artificiell intelligens
 grand_parent: Verktyg
 author: Marcus Medina
 layout: default

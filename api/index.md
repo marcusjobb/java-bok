@@ -17,28 +17,43 @@ school: https://campus.molndal.se/yh
 
 # API
 
-Nu ska vi prata om API, eller Application Programming Interface, som är ett viktigt gränssnitt för att underlätta kommunikationen med webbapplikationer. API:er fungerar som en slags mellanhand mellan två applikationer, vilket gör det möjligt för oss att ställa frågor och få svar från webbapplikationer samt skicka och ta emot data. Genom API:er blir klienten och servern oberoende av varandra och kan enkelt utbyta information.
+En artikel som utforskar Application Programming Interface (API), ett viktigt gränssnitt som underlättar kommunikationen med webbapplikationer.
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
+## När du läst detta ska du kunna
 
-1. TOC
-   {:toc}
+- Förstå och förklara vad en API är och dess relevans inom programmering.
+- Diskutera fördelar och begränsningar med API:er.
+- Identifiera olika användningsområden där API:er kan tillämpas.
+- Förstå och tolka ett kodexempel som använder en API.
+- Sammanfatta viktiga insikter och rekommendationer för vidare läsning.
 
-## TL; DR
+## Introduktion
 
-API:er är ett viktigt gränssnitt för att underlätta kommunikationen med webbapplikationer. De gör det möjligt för oss att ställa frågor och få svar från webbapplikationer samt skicka och ta emot data. Genom API:er blir klienten och servern oberoende av varandra och kan enkelt utbyta information.
+Application Programming Interface, eller API, är en central komponent i modern mjukvaruutveckling som möjliggör interaktion och kommunikation mellan olika applikationer. Genom API:er kan webbapplikationer utbyta data och funktioner med varandra utan att behöva interagera med grafiska gränssnitt. I denna artikel kommer vi att utforska vad en API är och varför den spelar en nyckelroll inom programmering.
 
-## Fördjupning
+## Vad är en API?
 
-API:er gör det möjligt för oss att använda webbapplikationer utan att behöva interagera med deras grafiska gränssnitt (GUI). Istället kan vi kommunicera med applikationen genom att ställa frågor och begära data via en URL. Svaren från API:et kommer vanligtvis i formatet XML eller JSON, vilket gör det lättare att läsa och tolka informationen.
+En Application Programming Interface (API) fungerar som en mellanhand mellan två applikationer, vilket möjliggör kommunikation och datautbyte mellan dem. API:er tillhandahåller ett standardiserat gränssnitt där en klientapplikation kan ställa frågor och begära data från en serverapplikation. Svaren från API:et skickas vanligtvis i formatet XML eller JSON, vilket gör det lättare att läsa och tolka den returnerade informationen.
 
-Genom att använda API:er kan vi skapa mer flexibla och dynamiska applikationer. Vi kan anpassa datautbytet mellan klienten och servern och se till att endast de delar av servern som API:et tillåter blir synliga för klienten. Detta underlättar kommunikationen och ger oss möjlighet att skapa mer effektiva och modulära system.
+## Fördelar
 
-## Exempel
+API:er erbjuder flera fördelar för mjukvaruutvecklingen. Genom att använda API:er blir klientapplikationer och serverapplikationer oberoende av varandra, vilket möjliggör större flexibilitet och skalbarhet i systemet. Detta gör det möjligt för utvecklare att bygga mer dynamiska och effektiva applikationer genom att anpassa datautbytet och funktionaliteten mellan klienten och servern.
+
+En annan fördel är att API:er främjar moduläritet i koden, vilket underlättar underhåll och uppgraderingar. Genom att dela upp en applikation i mindre, återanvändbara delar genom API:er blir det enklare att utveckla och testa varje del separat.
+
+## Begränsningar
+
+Trots fördelarna finns det också vissa begränsningar och utmaningar med API:er. Att skapa och underhålla ett API kan vara en komplex process, särskilt om det ska användas av många olika klientapplikationer. Det är viktigt att utforma API:et på ett sätt som är intuitivt och användarvänligt för att undvika förvirring och svårigheter för utvecklarna som använder det.
+
+Säkerhet är också en viktig aspekt att överväga vid användning av API:er. Eftersom API:er tillåter externa åtkomstpunkter till en applikation kan det vara en potentiell risk för obehörig åtkomst eller dataintrång om säkerheten inte är korrekt implementerad.
+
+## Användningsområden
+
+API:er har ett brett spektrum av användningsområden inom mjukvaruutvecklingen. De används i webbutveckling för att möjliggöra kommunikation mellan webbapplikationer och tjänster, vilket gör det möjligt för applikationer att dra nytta av extern funktionalitet och data.
+
+Inom serverutveckling används API:er för att skapa gränssnitt för externa system att kommunicera med serverapplikationer. API:er används också inom mobilutveckling för att integrera mobila applikationer med externa tjänster och databaser.
+
+## Exempelkod - Använda ett API i Java
 
 Här är ett exempel på hur vi kan använda ett API i Java för att hämta data från The Movie Database (TMDb):
 
@@ -92,24 +107,12 @@ public class TmdbApiExample {
 }
 ```
 
-Koden ovan gör följande:
+Detta Java-exempel visar hur man använder ett API för att kommunicera med The Movie Database (TMDb) och hämta data om en film genom att skicka en GET-begäran.
 
-1. Den skapar en URL för att fråga The Movie Database API efter filmen "Happy Death Day" med hjälp av en API-nyckel.
-2. Den skapar en HTTP-anslutning (HttpURLConnection) till URL:en och specifierar att vi vill göra en GET-begäran.
-3. Den hämtar svarskoden från anslutningen och visar den.
-4. Den läser svaret från anslutningen och sparar det i en sträng.
-5. Den visar svaret på konsolen.
-6. Den stänger anslutningen.
+## Slutsats
 
-## Referenser
+API:er är avgörande för modern mjukvaruutveckling genom att möjliggöra smidig och effektiv kommunikation mellan olika applikationer. Genom API:er blir det enklare att bygga skalbara, modulära och dynamiska system som kan utbyta data och funktionalitet på ett standardiserat sätt. Det är viktigt att överväga API-design och säkerhet noggrant för att säkerställa att API:et är intuitivt och säkert för utvecklare att använda.
 
-- [The Movie Database API](https://www.themoviedb.org/documentation/api)
-- [Oracle - HttpURLConnection](https://docs.oracle.com/en/java/javase/11/docs/api/java.net/java/net/HttpURLConnection.html)
+## TL;DR
 
-Jag hoppas att du har lärt er något nytt om API:er och hur de kan underlätta kommunikationen mellan webbapplikationer. För mer information och djupgående dokumentation rekommenderar jag er att besöka referenserna ovan. Ha en fortsatt bra dag och lycka till med era programmeringsprojekt!
-
-## Obligatorisk Dad-joke
-
-Varför älskar utvecklare att arbeta med APIer?
-
-För att de ger dem en chans att "PUT" sina skämt "GET" ersättningar! 😄
+API:er, eller Application Programming Interfaces, är viktiga gränssnitt som möjliggör kommunikationen mellan webbapplikationer. De fungerar som en mellanhand mellan klientapplikationer och serverapplikationer, vilket gör det möjligt att ställa frågor och få svar samt skicka och ta emot data. Genom API:er blir klienter och servrar oberoende av varandra och kan enkelt utbyta information. API:er erbjuder fördelar som ökad flexibilitet, skalbarhet och moduläritet, men det finns också utmaningar med design och säkerhet som måste hanteras noggrant. API:er har ett brett spektrum av användningsområden inom webb- och mobilutveckling, och de är avgörande för modern mjukvaruutveckling.

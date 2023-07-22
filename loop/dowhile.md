@@ -17,16 +17,13 @@ school: https://campus.molndal.se/yh
 
 # Do While
 
-Do While är en loop som körs minst en gång. Den körs sedan så länge som villkoret är sant.
+En artikel som utforskar Do While-loopen i Java och dess användningsområden för att köra kodblock minst en gång och sedan fortsätta så länge som ett villkor är sant.
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
-1. TOC
-{:toc}
-</details>
+## När du läst detta ska du kunna
+
+- Förstå hur Do While-loopen fungerar och dess skillnad jämfört med andra loopstrukturer.
+- Använda Do While-loopen för att upprepa kod minst en gång innan villkoret kontrolleras.
+- Tillämpa Do While-loopen i praktiska kodexempel.
 
 ## Beskrivning
 
@@ -46,7 +43,7 @@ do {
 
 I detta exempel deklarerar vi en variabel `i` och tilldelar den värdet 0. Sedan har vi en Do While-loop som kontrollerar om `i` är mindre än 10. Inuti loopen skriver den ut värdet av `i` och ökar sedan värdet med 1. Loopen fortsätter att köras så länge som `i` är mindre än 10.
 
-Med följande output:
+Output:
 
 ```text
 0
@@ -77,3 +74,13 @@ Do While är en loopstruktur i Java som körs minst en gång och sedan fortsätt
 | Loop          | En struktur i programmering som gör att en viss kod kan köras upprepade gånger tills ett visst villkor är uppfyllt. |
 | Iteration     | En enskild körning av kod inuti en loop.                                                                            |
 | Villkor       | Ett uttryck som avgör om en loop ska fortsätta köras eller inte.                                                    |
+
+## Obligatorisk Dad-joke
+
+Varför älskar programmerare Do While-loopen?
+
+För att de alltid får ett *bra* resultat - minst en gång! 😄
+
+## Obligatoriskt sista ordet
+
+Do While-loopen är en användbar loopstruktur i Java som låter oss köra kod minst en gång och sedan fortsätta så länge som ett villkor är sant. Genom att förstå hur denna loop fungerar kan du skapa mer dynamiska och effektiva program. Fortsätt experimentera med olika loopstrukturer och fortsätt ha kul med programmering! Ha en fantastisk dag!

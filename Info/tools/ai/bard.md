@@ -2,7 +2,7 @@
 title: Bard
 permalink: ai/bard
 nav_order: 11
-parent: ai
+parent: Artificiell intelligens
 grand_parent: Verktyg
 author: Marcus Medina
 layout: default

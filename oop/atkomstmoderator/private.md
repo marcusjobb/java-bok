@@ -17,24 +17,19 @@ school: https://campus.molndal.se/yh
 
 # Private
 
-Privat är en åtkomstmodifikator som gör att en klassmedlem endast är tillgänglig för den klass där den är deklarerad.
+Håll Dina Hemligheter Säkra i Java!
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
-1. TOC
-{:toc}
-</details>
+## Introduktion
+
+I Java är `private` en åtkomstmodifikator som används för att göra en klassmedlem endast tillgänglig inom den klass där den är deklarerad. Genom att använda `private` kan vi säkerställa att vissa delar av vår klass är dolda för andra klasser och bara kan användas internt i klassen. Detta ger oss en viktig princip inom objektorienterad programmering, känd som "inkapsling," som hjälper oss att skydda och hålla våra klasser organiserade och säkra.
 
 ## Beskrivning
 
-Vi kan använda privat för att göra en klassmedlem endast tillgänglig för den klass där den är deklarerad. Detta är användbart om vi vill att en klassmedlem endast ska vara tillgänglig för den klass där den är deklarerad och inte för någon annan klass.
+Genom att deklarera en klassmedlem som `private` i Java begränsar vi dess synlighet till endast den klass där den är deklarerad. Det innebär att ingen annan klass kan komma åt eller ändra denna medlem direkt. Detta ger oss kontroll över hur vår klass interagerar med andra klasser och skyddar våra interna detaljer från obehörig åtkomst.
 
 ## Exempel
 
-Låt oss titta på ett exempel där vi använder privat för att göra en klassmedlem endast tillgänglig för den klass där den är deklarerad:
+Låt oss ta ett exempel där vi använder `private` för att skydda egenskaper i en klass:
 
 ```java
 public class Person {
@@ -43,9 +38,9 @@ public class Person {
 }
 ```
 
-I detta exempel har vi en klass som heter Person. Vi har också två egenskaper, name och age. Båda är privata, vilket innebär att de endast är tillgängliga för klassen Person. Även om name och age borde vara tillgängliga för alla klasser som länkas till denna, kommer de inte att vara tillgängliga för någon annan klass på grund av att de är privata.
+I detta exempel har vi en klass som heter `Person`. Vi har två egenskaper, `name` och `age`, som är deklarerade som `private`. Detta innebär att `name` och `age` endast är tillgängliga inom `Person`-klassen. Ingen annan klass kan direkt få åtkomst till dessa egenskaper och ändra deras värden.
 
-Detta innebär att vi inte kan använda dem i klassen Person själv heller. Vi kan inte ens använda dem i en konstruktor i Person-klassen. Detta beror på att privata medlemmar endast är tillgängliga för den klass där de är deklarerade.
+För att ge åtkomst till dessa privata egenskaper brukar vi använda s.k. "getter" och "setter" metoder, som är publika metoder i klassen som ger oss möjlighet att läsa och ändra på de privata egenskaperna på ett kontrollerat sätt.
 
 Jaja det är ju bara ett exempel. Det får räcka som Dad-Joke för den här artikeln.
 
@@ -59,3 +54,7 @@ Jaja det är ju bara ett exempel. Det får räcka som Dad-Joke för den här art
  `-------' `-------' `-------'
 
 ```
+
+## Slutsats
+
+`private` är en viktig åtkomstmodifikator i Java som hjälper oss att skydda våra klassers integritet och hålla våra hemligheter säkra. Genom att använda `private` kan vi enkelt definiera interna detaljer i våra klasser och samtidigt erbjuda en kontrollerad åtkomst till dessa detaljer genom "getter" och "setter" metoder. Så nästa gång du skapar en klass, överväg att använda `private` för att hålla dina hemligheter säkra och implementera den viktiga principen om inkapsling i din Java-kod!
