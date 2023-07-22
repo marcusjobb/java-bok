@@ -17,7 +17,6 @@ school: https://campus.molndal.se/yh
 
 [Installera Jetbrains Rider](https://www.jetbrains.com/rider/){: .btn }
 
-*Filen editerades senast 2022-12-09*
 ## Addons till Rider som jag rekommenderar
 
 - [Github Copilot](https://plugins.jetbrains.com/plugin/17718-github-copilot)
