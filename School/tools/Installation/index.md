@@ -3,7 +3,7 @@ title: Installation
 permalink: Installation/index
 nav_order: 1
 parent: Verktyg
-grand_parent: Info
+grand_parent: Skolan
 author: Marcus Medina
 date: 2022-11-16 08:32
 layout: default

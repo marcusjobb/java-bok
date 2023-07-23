@@ -3,7 +3,7 @@ title: Artificiell intelligens
 permalink: ai/index
 nav_order: 5
 parent: Verktyg
-grand_parent: Info
+grand_parent: Skolan
 author: Marcus Medina
 date: 2023-07-15
 layout: default

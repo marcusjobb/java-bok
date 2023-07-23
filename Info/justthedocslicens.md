@@ -1,7 +1,7 @@
 ---
 title: MIT-licens för Just the docs
 permalink: Info/justthedocslicens
-nav_order: 7
+nav_order: 5
 parent: Info
 grand_parent: Home
 author: Marcus Medina

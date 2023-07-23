@@ -1,19 +1,19 @@
 ---
-title: Java - Ett Kraftfullt Programmeringsspråk
-permalink: Info/java
-nav_order: 3
-parent: Info
-grand_parent: Home
+title: Java - Ett Kraftfullt Programmeringsspråk.
+permalink: Java/index
+nav_order: 5
+parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
+codelanguage: Java
 id: a60927b6-6311-4739-bc6b-49f0b3a4a92b
 langspecific: true
 school: https://campus.molndal.se/yh
 ---
 
-# Java - Ett Kraftfullt Programmeringsspråk
+# Java - Ett Kraftfullt Programmeringsspråk.
 
 Java och dess relevans inom programutveckling. Java kan verka gammalt och mögligt, men det är inte fullt med spindelväv än, det faktiskt är fortfarande ett av de mest använda programmeringsspråken i världen. Om du är nyfiken på vad Java är och varför det är så populärt, läs vidare för att lära dig mer.
 

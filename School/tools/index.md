@@ -1,8 +1,8 @@
 ---
 title: Verktyg
 permalink: tools/index
-nav_order: 9
-parent: Info
+nav_order: 11
+parent: Skolan
 grand_parent: Home
 author: Marcus Medina
 date: 2022-11-19 02:33

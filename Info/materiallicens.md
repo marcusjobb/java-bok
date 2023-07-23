@@ -1,7 +1,7 @@
 ---
 title: Licens för materialet på denna webbsida
 permalink: Info/materiallicens
-nav_order: 5
+nav_order: 3
 parent: Info
 grand_parent: Home
 author: Marcus Medina

@@ -1,7 +1,7 @@
 ---
 title: Info
 permalink: Info/index
-nav_order: 5
+nav_order: 1
 parent: Home
 author: Marcus Medina
 layout: default
@@ -21,6 +21,6 @@ Här kommer jag att posta information om sidan, som t.ex. versionshistorik, anv�
 
 | Version | Datum      | Beskrivning                                                         |
 | ------- | ---------- | ------------------------------------------------------------------- |
-| 1.0.2   | 2022-12-09 | PDF fil genereras nu av siten på /pdf                               |
+| 1.0.2   | 2022-12-09 | PDF version finn nu, den kan laddas från /pdf                       |
 | 1.0.1   | 2022-12-09 | Uppdatering av sidan. Mermaid funkar inte, diagrammen syns inte :'( |
 | 1.0.0   | 2022-12-09 | Första publicering. Första publicering,                             |

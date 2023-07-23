@@ -3,7 +3,7 @@ title: Förslag
 permalink: suggestions/index
 nav_order: 3
 parent: Verktyg
-grand_parent: Info
+grand_parent: Skolan
 author: Marcus Medina
 date: 2022-11-16 08:56
 layout: default
