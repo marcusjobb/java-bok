@@ -78,23 +78,23 @@ Bard kan användas som en extra lärare. Till exempel
 
 * **Be Bard om hjälp med dina studier.** Om du stöter på svåra begrepp eller inte förstår ett ämne kan du be Bard om hjälp. Bard kan ge dig en sammanfattning av faktaämnen, och den kan ge dig exempel på hur du kan använda dina kunskaper.
 
-+ "Kan du förklara konceptet [lägg till begrepp eller ämne här] på ett enkelt sätt?"
-+ "Jag behöver hjälp med att förstå [specificera ämnet]. Kan du ge mig en grundläggande förklaring?"
-+ "Kan du ge mig några exempel på [specificera ämnet]?"
-+ "Vad är skillnaden mellan [specificera två begrepp]?"
-+ "Kan du ge mig några tips för att förbättra mina skrivfärdigheter?"
-+ "Jag har ett fel i min kod som jag inte kan hitta, kan du förklara vad som är fel?" (klistra in koden i raden under)
-+ "Jag ska skapa ett projekt om [specificera ämnet], kan du ge mig några idéer?"
-+ "Jag ska skapa ett projekt om [specificera ämnet], kan du hjälpa mig att planera, steg för steg?"
-+ "Jag ska skapa ett projekt om [specificera ämnet], kan du hjälpa mig att göra en utför backlog?"
-+ "Jag fick detta felmeddelande när jag körde min kod: [klistra in felmeddelandet här]. Vad betyder det?"
+- "Kan du förklara konceptet [lägg till begrepp eller ämne här] på ett enkelt sätt?"
+- "Jag behöver hjälp med att förstå [specificera ämnet]. Kan du ge mig en grundläggande förklaring?"
+- "Kan du ge mig några exempel på [specificera ämnet]?"
+- "Vad är skillnaden mellan [specificera två begrepp]?"
+- "Kan du ge mig några tips för att förbättra mina skrivfärdigheter?"
+- "Jag har ett fel i min kod som jag inte kan hitta, kan du förklara vad som är fel?" (klistra in koden i raden under)
+- "Jag ska skapa ett projekt om [specificera ämnet], kan du ge mig några idéer?"
+- "Jag ska skapa ett projekt om [specificera ämnet], kan du hjälpa mig att planera, steg för steg?"
+- "Jag ska skapa ett projekt om [specificera ämnet], kan du hjälpa mig att göra en utför backlog?"
+- "Jag fick detta felmeddelande när jag körde min kod: [klistra in felmeddelandet här]. Vad betyder det?"
 
 Självklart kan du lägga till följdfrågor eller förtydliganden för att få mer specifika svar.
 
-+ "Kan du göra det mer utförligt?"
-+ "Kan du ge mig ett exempel?"
-+ "Kan du ge mig ett annat exempel?"
-+ "Kan du ge mig ett exempel som är mer relevant för [specificera ämnet]?"
+- "Kan du göra det mer utförligt?"
+- "Kan du ge mig ett exempel?"
+- "Kan du ge mig ett annat exempel?"
+- "Kan du ge mig ett exempel som är mer relevant för [specificera ämnet]?"
 
 Dessa prompts kan användas som en startpunkt för att interagera med Bard och få information eller stöd för dina studier. Kom ihåg att vara så specifik som möjligt i dina prompts för att få relevanta och användbara svar.
 
@@ -117,34 +117,34 @@ Här är några tips för att använda Bard mer effektivt som en studerande:
 
 Bard kan anta olika personligheter. Här är några exempel:
 
-+ "Du ska nu agera som en lärare för en studerande som behöver hjälp med att förstå ett ämne. Tänk på att förklara ELI5 och använda enkla ord. "
-+ "Du ska nu agera som en politiker, var så diffus som möjligt och använd många ord för att säga ingenting."
-+ "Du ska nu agera som en poet, var så poetisk som möjligt och använd många metaforer."
-+ "Du ska nu agera som en programmerare, var så teknisk som möjligt och använd många tekniska termer."
-+ "Du ska nu agera som en diplomat, var så diplomatisk som möjligt och använd många ord för att säga ingenting."
-+ "Du ska nu agera som en författare, var så kreativ som möjligt och använd många metaforer."
-+ "Du ska nu agera som en bilförsäljare av begagnade bilar, var så övertygande som möjligt och använd många adjektiv."
-+ "Du ska nu agera som en förälskad tonåring, var så romantisk som möjligt och använd många metaforer."
-+ "Du ska nu agera som en kock, var så kreativ som möjligt och använd många metaforer."
-+ "Du ska nu agera som en advokat, var så övertygande som möjligt och använd många adjektiv."
+- "Du ska nu agera som en lärare för en studerande som behöver hjälp med att förstå ett ämne. Tänk på att förklara ELI5 och använda enkla ord. "
+- "Du ska nu agera som en politiker, var så diffus som möjligt och använd många ord för att säga ingenting."
+- "Du ska nu agera som en poet, var så poetisk som möjligt och använd många metaforer."
+- "Du ska nu agera som en programmerare, var så teknisk som möjligt och använd många tekniska termer."
+- "Du ska nu agera som en diplomat, var så diplomatisk som möjligt och använd många ord för att säga ingenting."
+- "Du ska nu agera som en författare, var så kreativ som möjligt och använd många metaforer."
+- "Du ska nu agera som en bilförsäljare av begagnade bilar, var så övertygande som möjligt och använd många adjektiv."
+- "Du ska nu agera som en förälskad tonåring, var så romantisk som möjligt och använd många metaforer."
+- "Du ska nu agera som en kock, var så kreativ som möjligt och använd många metaforer."
+- "Du ska nu agera som en advokat, var så övertygande som möjligt och använd många adjektiv."
 
 **Känslor**
 
 Bard kan anta olika känslor. Här är några exempel:
 
-+ "Du ska nu agera som en glad person, var så glad som möjligt och använd många utropstecken."
-+ "Du ska nu agera som en ledsen person, var så ledsen som möjligt och använd många utropstecken."
-+ "Du ska nu agera som en arg person, var så arg som möjligt och använd många utropstecken."
+- "Du ska nu agera som en glad person, var så glad som möjligt och använd många utropstecken."
+- "Du ska nu agera som en ledsen person, var så ledsen som möjligt och använd många utropstecken."
+- "Du ska nu agera som en arg person, var så arg som möjligt och använd många utropstecken."
 
 **Tidsperioder**
 
 Bard kan anta olika tidsperioder. Här är några exempel:
 
-+ "Du ska nu agera som en person från medeltiden, var så medeltida som möjligt och använd många medeltida termer."
-+ "Du ska nu agera som en person från framtiden, var så futuristisk som möjligt och använd många futuristiska termer."
-+ "Du ska nu agera som en person från 1800-talet, var så 1800-tal som möjligt och använd många 1800-talstermer."
-+ "Du ska nu agera som en person från 1900-talet, var så 1900-tal som möjligt och använd många 1900-talstermer."
-+ "Du ska nu agera som en person från 1980-talet, var så 2000-tal som möjligt och använd många 1980-talstermer."
-+ "Du ska nu agera som en person från 1960-talet, var så 2000-tal som möjligt och använd många 1960-talstermer."
+- "Du ska nu agera som en person från medeltiden, var så medeltida som möjligt och använd många medeltida termer."
+- "Du ska nu agera som en person från framtiden, var så futuristisk som möjligt och använd många futuristiska termer."
+- "Du ska nu agera som en person från 1800-talet, var så 1800-tal som möjligt och använd många 1800-talstermer."
+- "Du ska nu agera som en person från 1900-talet, var så 1900-tal som möjligt och använd många 1900-talstermer."
+- "Du ska nu agera som en person från 1980-talet, var så 2000-tal som möjligt och använd många 1980-talstermer."
+- "Du ska nu agera som en person från 1960-talet, var så 2000-tal som möjligt och använd många 1960-talstermer."
 
 *Det är bra att tänka på att Bard är ganska ny så man får påminna den om sin roll några gånger innan den går in i det helt*

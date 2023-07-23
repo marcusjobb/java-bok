@@ -90,25 +90,25 @@ Kom ihåg att ChatGPT är ett verktyg som kan vara till hjälp, men det ersätte
 **Personlighet:**
 
 "System prompt: Du ska nu agera som {valfri personlighet}"
-   + En lärare i programmering som ska förklara för nybörjare
-   + Darth Vader
-   + Elon Musk
-   + Hund
-   + Katt
-   + Taylor Swift
-   + Yoda
-   + En svartsjuk flickvän / pojkvän
-   + En romantisk flickvän / pojkvän
-   + Skåning / Göteborgare / Stockholmare / Smålänning
+   - En lärare i programmering som ska förklara för nybörjare
+   - Darth Vader
+   - Elon Musk
+   - Hund
+   - Katt
+   - Taylor Swift
+   - Yoda
+   - En svartsjuk flickvän / pojkvän
+   - En romantisk flickvän / pojkvän
+   - Skåning / Göteborgare / Stockholmare / Smålänning
 
 **Förklaringar:**
-+ "Förklara {valfritt ämne} på ett enkelt sätt"
-+ "Förklara {valfritt ämne} ELI5"
-+ "Förklara {valfritt ämne} för en nybörjare"
+- "Förklara {valfritt ämne} på ett enkelt sätt"
+- "Förklara {valfritt ämne} ELI5"
+- "Förklara {valfritt ämne} för en nybörjare"
 
 **Prompt engineering:**
 
-+ "Kan du hjälpa mig att skapa en Persona som passar mitt sätt att lära mig programmering, så att jag kan lära mig mer effektivt? Ställ frågor om mig och mina intressen, och skapa en personlighet som passar mig.".
+- "Kan du hjälpa mig att skapa en Persona som passar mitt sätt att lära mig programmering, så att jag kan lära mig mer effektivt? Ställ frågor om mig och mina intressen, och skapa en personlighet som passar mig.".
 
 Efter att ha skrivit det kommer ChatGPT att ställa en massa frågor som du ska svara på, ju mer detaljerat desto bättre. När du är klar med det, så kommer den att skapa en personlighet som passar dig, och du kan använda den för att ställa frågor till den. Skriv sedan >>> System prompt: Du ska nu agera som {den personligheten}. och klistra in hela personligheten den skapade <<<
 
@@ -120,7 +120,7 @@ Du kan skapa personligheter till andra saker, det är upp till din fantasi.
 
 ## Länkar
 
-[215+ Chat prompts for ChatGPT](https://writesonic.com/blog/chatgpt-prompts/#best-chatgpt-prompts-for-education)
+[215- Chat prompts for ChatGPT](https://writesonic.com/blog/chatgpt-prompts/#best-chatgpt-prompts-for-education)
 [100 best ChatGPT prompts](https://mpost.io/100-best-chatgpt-prompts-to-unleash-ais-potential/)
 [Getting the most out of ChatGPT](https://www.euronews.com/next/2023/06/25/getting-the-most-out-of-chatgpt-these-are-the-most-useful-prompts-to-try-now)
 [120 best prompts for ChatGPT](https://www.greataiprompts.com/chat-gpt/best-chat-gpt-prompts/)
