@@ -1,7 +1,7 @@
 ---
 title: Java
 permalink: index.md
-nav_order: 1
+nav_order: 6
 parent: Home
 author: Marcus Medina
 date: 2023-07-02
