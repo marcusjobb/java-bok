@@ -117,12 +117,10 @@ fruits.remove("Äpple");
 | Term          | Förklaring                                                                               |
 | ------------- | ---------------------------------------------------------------------------------------- |
 | Array         | En typ för att skapa och hantera arrayer av andra typer.                                 |
-| Boolesk       | En typ med två möjliga värden: `true` och `false`.                                       |
+| Boolean       | En typ med två möjliga värden: `true` och `false`.                                       |
 | Char          | En 16-bitars Unicode-tecken.                                                             |
 | Double        | En 64-bitars flyttal med dubbel precision.                                               |
-| Float
-
- | En 32-bitars flyttal med enkels precision.                                               |
+| Float         | En 32-bitars flyttal med enkels precision.                                               |
 | Int           | En 32-bitars heltalstyp.                                                                 |
 | Interface     | En typ som definierar en samling metoder som en klass kan implementera.                  |
 | Klass         | En mall för att skapa objekt.                                                            |
