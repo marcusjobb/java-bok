@@ -1,7 +1,7 @@
 ---
 title: Tack
 permalink: Slutord/index
-nav_order: 29
+nav_order: 31
 parent: Home
 author: Marcus Medina
 layout: default

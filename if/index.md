@@ -1,7 +1,7 @@
 ---
 title: Villkor
 permalink: if/index
-nav_order: 7
+nav_order: 9
 parent: Home
 author: Marcus Medina
 date: 2023-07-02

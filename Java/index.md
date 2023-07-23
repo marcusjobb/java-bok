@@ -1,7 +1,7 @@
 ---
 title: Java
 permalink: Java/index
-nav_order: 5
+nav_order: 7
 parent: Home
 author: Marcus Medina
 layout: default
@@ -14,7 +14,7 @@ langspecific: true
 school: https://campus.molndal.se/yh
 ---
 
-# Java 
+# Java
 
 Välkommen till Java världen!
 

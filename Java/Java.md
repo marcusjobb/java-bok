@@ -1,8 +1,9 @@
 ---
 title: Java - Ett Kraftfullt Programmeringsspråk.
-permalink: Java/index
-nav_order: 5
-parent: Home
+permalink: Java/java
+nav_order: 1
+parent: Java
+grand_parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb
@@ -17,6 +18,10 @@ school: https://campus.molndal.se/yh
 
 Java och dess relevans inom programutveckling. Java kan verka gammalt och mögligt, men det är inte fullt med spindelväv än, det faktiskt är fortfarande ett av de mest använda programmeringsspråken i världen. Om du är nyfiken på vad Java är och varför det är så populärt, läs vidare för att lära dig mer.
 
+## TL;DR
+
+Java är ett kraftfullt och plattformsoberoende programmeringsspråk som används inom webbutveckling, apputveckling och företagsapplikationer. Dess objektorienterade natur och omfattande standardbibliotek har gjort det till ett av de mest populära språken inom programutveckling.
+
 ## När du läst detta ska du kunna
 
 - Förstå och förklara vad Java är och dess relevans inom programutveckling.
@@ -26,6 +31,10 @@ Java och dess relevans inom programutveckling. Java kan verka gammalt och mögli
 - Sammanfatta viktiga insikter och ge rekommendationer för vidare läsning.
 
 ## Introduktion
+
+Java är ett objektorienterat programmeringsspråk som utvecklades av Sun Microsystems. Det används ofta för att skapa applikationer för olika plattformar. Java är ett modern, flexibel och mångsidig programmeringsspråk som ger utvecklare möjlighet att skapa allt från enkla webbapplikationer till komplexa distribuerade system.
+
+Java har en stark och tydlig syntax som gör det lätt att lära sig och använda. Språket har ett brett utbud av funktioner som hjälper utvecklare att skapa avancerade system. Funktioner som generiska typer, anonyma metoder, lambda-uttryck och parallell programmering gör Java till ett mycket kraftfullt programmeringsspråk. Java stöder också många olika typer av programutveckling, inklusive webbappar, mobilappar, spel och systemprogramvara.
 
 Java är ett kraftfullt programmeringsspråk som introducerades av Sun Microsystems på 1990-talet. Det är känt för sin bärbarhet, vilket betyder att program skrivna i Java kan köras på olika plattformar utan att behöva omkompileras. Java är också ett objektorienterat språk, vilket främjar modulär kod och återanvändning. I denna artikel kommer vi att utforska vad Java är och varför det har blivit en hörnsten inom programutveckling.
 
@@ -76,9 +85,13 @@ I detta exempel skapas en Java-klass med namnet "Calculator". Vi deklarerar två
 
 Java är ett mångsidigt och kraftfullt programmeringsspråk som har haft en enorm inverkan på programutvecklingsvärlden. Dess förmåga att vara plattformsoberoende, objektorienterade egenskaper och omfattande standardbibliotek gör det till ett utmärkt val för en mängd olika applikationer. Trots sina begränsningar har Java stått sig starkt genom åren och fortsätter att vara ett av de mest populära programmeringsspråken som används av utvecklare över hela världen.
 
-## TL;DR
+Och nu är tanken att du ska lära dig Java, och bli en riktig grym kodare och få ett jobb som utvecklare. Har du kommit så långt som till att du läser detta så är du reda på god väg!
 
-Java är ett kraftfullt och plattformsoberoende programmeringsspråk som används inom webbutveckling, apputveckling och företagsapplikationer. Dess objektorienterade natur och omfattande standardbibliotek har gjort det till ett av de mest populära språken inom programutveckling.
+Som Mary Poppins sa "*Well Begun Is Half Done!*".
+
+Ett annat citat från Mary Poppins är "*In every job that must be done there is an element of fun. You find the fun and snap, the job’s a game!*" och det är precis vad vi ska göra här. Vi ska ha kul och lära oss Java samtidigt.
+
+Så låt oss börja!
 
 ## Referenser
 

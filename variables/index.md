@@ -1,7 +1,7 @@
 ---
 title: Variabler
 permalink: variables/index
-nav_order: 9
+nav_order: 11
 parent: Home
 author: Marcus Medina
 date: 2023-07-02

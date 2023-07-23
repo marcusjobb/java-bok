@@ -1,7 +1,7 @@
 ---
 title: Skolan
 permalink: School/index
-nav_order: 31
+nav_order: 3
 parent: Home
 author: Marcus Medina
 date: 2023-06-17 12:56:23
