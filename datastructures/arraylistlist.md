@@ -1,8 +1,8 @@
 ---
 title: Arraylists och Listor
-permalink: variables/arraylistlist
-nav_order: 25
-parent: Variabler
+permalink: datastructures/arraylistlist
+nav_order: 7
+parent: Datastrukturer
 grand_parent: Home
 author: Marcus Medina
 layout: default
