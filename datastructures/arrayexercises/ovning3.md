@@ -50,7 +50,7 @@ public class Main {
 
 Förväntad output efter att metoden `reverseArray` har implementerats korrekt:
 
-```
+```markdown
 Capybara, Kanin, Hund, Katt
 ```
 
