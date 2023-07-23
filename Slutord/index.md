@@ -37,10 +37,10 @@ Tack för att du läst denna e-bok. Jag hoppas att du har lärt dig något nytt 
 
 ## Om mig som skrivit detta
 
-Mitt namn är Marcus Medina, jag utbildade mig inom programmering 1999 och har sedan dess arbetat med 
-php, flash, vb, c++ och en del andra språk. 2008 upptäckte jag C# och det blev min stora passion, 
-2022 fick jag dock skola om mig till Java för att introducera ett gäng förväntansfulla och grymma 
-kodare i Java. De inspirerade mig att skriva denna e-bok om Java, där jag återanvände en del från 
+Mitt namn är Marcus Medina, jag utbildade mig inom programmering 1999 och har sedan dess arbetat med
+php, flash, vb, c++ och en del andra språk. 2008 upptäckte jag C# och det blev min stora passion,
+2022 fick jag dock skola om mig till Java för att introducera ett gäng förväntansfulla och grymma
+kodare i Java. De inspirerade mig att skriva denna e-bok om Java, där jag återanvände en del från
 e-boken jag gjort om C#.
 
 | Jobb                                                  | Privat                                                |
@@ -49,4 +49,3 @@ e-boken jag gjort om C#.
 | [LinkedIn](https://www.linkedin.com/in/marcusmedina/) | [marcusmedina.pro](https://marcusmedina.pro)          |
 | [GitHub](https://github.com/marcusjobb)               | [GitHub](https://github.com/MarcusMedina)             |
 | [Epost](mailto:marcus.medina-ramirez@moldal.se)       | [Epost](mailto:coder@marcusmedina.pro)                |
-

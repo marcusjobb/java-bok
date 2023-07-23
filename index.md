@@ -15,9 +15,28 @@ school: https://campus.molndal.se/yh
 updated: 2023-06-17 23:23:26
 ---
 
+<style>
+    @media print {
+  .hide-on-print {
+    display: none;
+  }
+}
+</style>
+
 # Home
 
-## Välkommen
+<div class="hide-on-print">
+    <div style="text-align: center;">
+        <h1 style="font-family: 'Arial Rounded MT Bold', sans-serif; font-size: 72px; color: #444; text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);">Java för Jin23</h1>
+        <p style="font-family: 'Arial', sans-serif; font-size: 28px; color: #666; margin-top: -20px;">Marcus Medina</p>
+        <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #888;">Publicerad av Campus Mölndal</p>
+        <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #888;">Genom<br><a target="_blank" style="font-weight: bold; text-decoration: none; color: black;" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Attribution-ShareAlike 4.0 International — CC BY-SA 4.0
+        Licens</a></p>
+    </div>
+    <br><br><br><br>
+</div>
+
+# Välkommen
 
 Välkommen till Campus Mölndals fantastiska elektroniska bok för JIN23. Här hittar du allt du behöver för att komma igång med programmering i Java.
 
