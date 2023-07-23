@@ -72,7 +72,7 @@ System.out.println(formattedInfo);
 
 Resultatet blir:
 
-```
+```text
 Ålder: 30, Längd: 1.75 m, Kön: M, Student: true
 ```
 

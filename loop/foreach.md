@@ -101,6 +101,8 @@ Här är en lista på termer som används i artikeln:
 | foreach-loop | En typ av loop som används för att iterera över en samling av objekt eller värden. |
 | element      | En variabel som representerar varje element i samlingen under iterationen.         |
 | samling      | Den samling av objekt eller värden som loopens iteration baseras på.               |
+| iteration    | En iteration är en upprepning av en process.                                       |
+| index        | En index är en position i en samling.                                              |
 
 ## Slutsats
 
