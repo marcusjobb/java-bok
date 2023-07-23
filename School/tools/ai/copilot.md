@@ -17,6 +17,8 @@ school: https://campus.molndal.se/yh
 
 Github Copilot är en AI-assistent för programmerare som är utvecklad av OpenAI och GitHub. Den är baserad på GPT-3, OpenAIs stora språkmodell, och kan hjälpa programmerare att skriva kod snabbare och mer effektivt.
 
+Då Copilot är aktiv medan man skriver kod, så rekommenderas det inte att man använder det förrän man klarat av OOP, då det kan vara svårt att förstå vad som händer i bakgrunden. Copilot kommer att föreslå kod som kan vara mer avancerad än vad man förstår då, och den kan även föreslå felaktig kod, och då gör det inlärningen svårare.
+
 ## Användning
 
 Github Copilot kan användas för att skriva alla typer av kod, inklusive Python, Java, C++, och JavaScript. Den kan användas för att skriva ny kod, eller för att förbättra befintlig kod.

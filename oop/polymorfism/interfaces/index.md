@@ -85,7 +85,7 @@ public class Main {
 
 Output:
 
-```markdown
+```text
 Whiskers is eating.
 Whiskers is sleeping.
 Whiskers is taking a shit.

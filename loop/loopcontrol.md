@@ -43,7 +43,7 @@ for(int i = 0; i < 10; i++) {
 
 Resultatet av koden ovan kommer att vara:
 
-```markdown
+```text
 0
 1
 2
@@ -69,7 +69,7 @@ for(int i = 0; i < 10; i++) {
 
 Resultatet av koden ovan kommer att vara:
 
-```markdown
+```text
 1
 2
 4
@@ -98,7 +98,7 @@ public static void main(String[] args) {
 
 Resultatet av koden ovan kommer att vara:
 
-```markdown
+```text
 0
 1
 2
@@ -126,7 +126,7 @@ public static void main(String[] args) {
 
 Resultatet av koden ovan kommer att vara:
 
-```markdown
+```text
 0
 1
 2

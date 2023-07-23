@@ -45,7 +45,7 @@ I detta exempel deklarerar vi en variabel `i` och tilldelar den värdet 0. Sedan
 
 Output:
 
-```markdown
+```text
 0
 1
 2

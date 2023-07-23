@@ -59,7 +59,7 @@ public class MainClass {
 
 ## Resultat
 
-```markdown
+```text
 Siffror: 5 2 7 1 9 3 8 4 6 10
 De fem första talen: 5 2 7 1 9
 ```

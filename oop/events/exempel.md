@@ -216,7 +216,7 @@ Detta är ett enkelt exempel på hur den tidigare implementerade bankkonto-koden
 
 Outputten kommer att se ut ungefär såhär:
 
-```markdown
+```text
 Insättning: 1000 kr
 Uttag: 500 kr
 Uttag: 600 kr

@@ -46,7 +46,7 @@ Foreach-loopar har flera fördelar jämfört med andra typer av loopar:
 
 3. **Läsbarhet**: Då foreach-loopar eliminerar behovet av manuell hantering blir koden mer läsbar och tydlig, vilket underlättar för andra utvecklare att förstå och underhålla koden.
 
-## Nackdelar med foreach-loopar
+## Begränsningar med foreach-loopar
 
 Även om foreach-loopar har många fördelar finns det också några nackdelar att överväga:
 
@@ -84,7 +84,7 @@ public class ForeachExample {
 
 Resultatet av koden ovan kommer att vara:
 
-```markdown
+```text
 1
 2
 3

@@ -30,7 +30,7 @@ I denna övning ska vi skapa en interaktiv "ordbehandlingsapp" i Java där anvä
 
 ## Exempelkörning
 
-```markdown
+```text
 Välkommen till Text Manipulation-appen!
 
 Ange en textsträng: Hello, World!

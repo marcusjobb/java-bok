@@ -40,7 +40,7 @@ for(int i = 0; i < 3; i++) {
 
 Resultatet blir:
 
-```markdown
+```text
 ABC ABC ABC
 ```
 
@@ -60,7 +60,7 @@ for (int row = 1; row <= 3; row++) {
 
 Resultatet blir:
 
-```markdown
+```text
 Row: 1, Column: 1
 Row: 1, Column: 2
 Row: 1, Column: 3
@@ -102,7 +102,7 @@ for (int row = 0; row < 3; row++) {
 
 Resultatet blir:
 
-```markdown
+```text
 Element på rad 1, kolumn 1: 1
 Element på rad 1, kolumn 2: 2
 Element på rad 1, kolumn 3: 3

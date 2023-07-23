@@ -59,7 +59,7 @@ For-loopar har flera fördelar jämfört med andra typer av loopar:
 - De är effektiva eftersom de inte kräver några extra variabler eller villkor för att kontrollera antalet iterationer.
 - De är säkrare än andra typer av loopar eftersom de inte kräver någon manuell hantering av indexer eller iterationsspecifikationer.
 
-## Nackdelar
+## Begränsningar
 
 For-loopar har också några nackdelar jämfört med andra typer av loopar:
 

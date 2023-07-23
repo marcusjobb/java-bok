@@ -44,7 +44,7 @@ För att ge åtkomst till dessa privata egenskaper brukar vi använda s.k. "gett
 
 Jaja det är ju bara ett exempel. Det får räcka som Dad-Joke för den här artikeln.
 
-```markdown
+```text
  ___       _______   ___
  |   |     |   _   | |   |
  |.  |     |.  |   | |.  |
