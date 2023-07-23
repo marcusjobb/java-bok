@@ -15,7 +15,7 @@ id: 0cabf286-630d-4094-a0ca-3fd8250162b2
 school: https://campus.molndal.se/yh
 ---
 
-# Loopkontroller - Avbryt, Hoppa över och Avsluta
+# Loop kontroller
 
 I den här övningen kommer vi att utforska olika loopkontroller som ger oss mer kontroll över hur loopar beter sig i programmering. Dessa loopkontroller inkluderar `break`, `continue`, `return`, och `yield`.
 

@@ -15,7 +15,7 @@ id: 1974ec3c-7ac9-47e6-8ec8-6cbaab55be08
 school: https://campus.molndal.se/yh
 ---
 
-# Else if i Java - Flexibilitet och Tydlighet för Beslut
+# Else if
 
 ## Introduktion I denna artikel kommer vi att utforska den viktiga
 programmeringskonstruktionen "Else if" i Java. Vi kommer att upptäcka hur denna

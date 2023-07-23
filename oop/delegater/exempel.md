@@ -2,7 +2,7 @@
 title: Exempel
 permalink: delegater/exempel
 nav_order: 1
-parent: delegater
+parent: Delegater
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 date: 2022-11-20 02:59
@@ -14,7 +14,8 @@ enhance: false
 id: e2a625a1-45b1-4d4c-b88b-b868ce6dc947
 school: https://campus.molndal.se/yh
 ---
-# Delegater i Java
+
+# Exempel
 
 Nu ska vi kliva ner i en djup och mörk grotta av kodning och utforska Delegater i Java! Gör dig redo för en helt ny nyvå inom programmering... Utforska Kreativ Programmering... utforska Delegater i Java!
 
@@ -55,9 +56,9 @@ Låt oss utforska hur vi kan skapa och använda en delegat i Java genom ett enke
 
 ```java
 
-// Vi skapar ett interface med namnet Calculation som har en metod calculate 
+// Vi skapar ett interface med namnet Calculation som har en metod calculate
 // som tar två heltal som parametrar och returnerar inget. Den får fungera
-// som mall för vår delegat. 
+// som mall för vår delegat.
 // Det viktiga här är att metoden i interfacet har samma signatur som de
 // metoder vi vill använda med delegaten.
 // Alltså void (namn) (int a, int b)   <--- delegatmallen
@@ -92,7 +93,7 @@ public class Calculator {
     public static void main(String[] args) {
         // Vi instansierar vår Calculator-klass
         Calculator calculator = new Calculator();
-        
+
         // Nu använder vi interface-mallen för att delegater
         Calculation addDelegate = calculator::add; // <--- delegat till add
         Calculation subtractDelegate = calculator::subtract; <--- delegat till subtract

@@ -15,7 +15,7 @@ id: 3f523dea-f2e6-451b-8966-c79399f2c147
 school: https://campus.molndal.se/yh
 ---
 
-# Klasser och Objekt
+# Klasser och Objekt inom programmering med Java
 
 Ett Glatt Äventyr i Programmering med Java
 

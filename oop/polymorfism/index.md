@@ -15,7 +15,7 @@ id: 64110526-2c7e-468c-adcc-d695a8c14dc7
 school: https://campus.molndal.se/yh
 ---
 
-# Polymorfism: Många former inom objektorienterad programmering
+# Polymorfism
 
 ## Introduktion
 

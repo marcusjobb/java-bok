@@ -16,13 +16,13 @@ mermaid: true
 school: https://campus.molndal.se/yh
 ---
 
-# Public: 
+# Public
 
 Öppenheten som Skapar Samarbete!
 
 ## Introduktion
 
-I den här övningen kommer vi att utforska "public", en accessmodifier i Java som öppnar dörrarna för samarbete mellan klasser. Public tillåter oss att göra en klass, metod eller egenskap tillgänglig för alla klasser, vilket är särskilt användbart när vi vill dela kod mellan olika projekt. Låt oss dyka in i detaljerna om hur "public" fungerar och dess fördelar och begränsningar. 
+I den här övningen kommer vi att utforska "public", en accessmodifier i Java som öppnar dörrarna för samarbete mellan klasser. Public tillåter oss att göra en klass, metod eller egenskap tillgänglig för alla klasser, vilket är särskilt användbart när vi vill dela kod mellan olika projekt. Låt oss dyka in i detaljerna om hur "public" fungerar och dess fördelar och begränsningar.
 
 ## TL;DR
 

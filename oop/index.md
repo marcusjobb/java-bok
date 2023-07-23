@@ -15,7 +15,7 @@ id: de0512ef-23c1-4252-b793-13b46f7ad50d
 school: https://campus.molndal.se/yh
 ---
 
-# Arv i Java 
+# Objektorienterad programmering (OOP)
 
 Skapa hierarkier av klasser!
 
@@ -147,4 +147,4 @@ Du har nu upptäckt det fantastiska konceptet arv inom objektorienterad programm
 
 Du har också sett hur vi kan skapa hierarkier av klasser genom exempelkoden med hjältar och skurkar i Java.
 
-Nu är det din tur att bli en mästare på arv och använda det för att skapa fantastiska program! Ge dig själv en high five och kom ihåg, det finns inga gränser för vad du kan åstadkomma med arv i din kod! Fortsätt utforska, lära och skapa magi! Lycka till på ditt programmeringsäventyr! 
+Nu är det din tur att bli en mästare på arv och använda det för att skapa fantastiska program! Ge dig själv en high five och kom ihåg, det finns inga gränser för vad du kan åstadkomma med arv i din kod! Fortsätt utforska, lära och skapa magi! Lycka till på ditt programmeringsäventyr!

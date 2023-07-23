@@ -105,4 +105,3 @@ Här är en lista på termer som används i artikeln:
 ## Slutsats
 
 Foreach-loopar är en kraftfull och användbar konstruktion inom programmering för att enkelt och säkert iterera över samlingar av objekt eller värden. Genom att eliminera behovet av manuell hantering av indexer och iterationsspecifikationer blir koden mer läsbar och mindre benägen att innehålla felaktigheter. Men det är viktigt att komma ihåg att foreach-loopar har vissa begränsningar, som att de inte kan användas för att iterera baklänges och att ändringar i samlingen bör undvikas under iterationen för att undvika oväntade beteenden.
-

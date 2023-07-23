@@ -1,5 +1,5 @@
 ---
-title: Abstrakta Klasser 
+title: Abstrakta Klasser
 permalink: abstraktaklasser/index
 nav_order: 3
 parent: Polymorfism
@@ -15,7 +15,7 @@ id: 41b84e28-8a7e-4b61-a87d-ca4642273d4f
 school: https://campus.molndal.se/yh
 ---
 
-# Abstrakta Klasser 
+# Abstrakta Klasser
 
 Ett Kreativt Vägval i Programmering!
 

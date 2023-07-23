@@ -145,7 +145,6 @@ System.out.println(numbers[2]); // Output: 30
 System.out.println(numbers[4]); // Output: 50
 ```
 
-
 ## Termer
 
 Här finns en lista på termer som används i artikeln:

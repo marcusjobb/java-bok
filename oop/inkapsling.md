@@ -12,7 +12,7 @@ id: 57a431a6-a21a-4b1d-81c9-eacf51b07d9c
 school: https://campus.molndal.se/yh
 ---
 
-# Inkapsling: Utforska Världen av Säker Programmering! 🌟
+# Inkapsling
 
 ## Introduktion
 

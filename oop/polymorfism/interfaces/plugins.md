@@ -15,7 +15,7 @@ id: c0155fa9-1c24-4fe8-a452-221be5b112a8
 school: https://campus.molndal.se/yh
 ---
 
-# Plugins i Java
+# Plugins
 
 Anpassa din Hjälteroll
 
@@ -68,8 +68,6 @@ Vi har nu ett enkelt `Plugin`-gränssnitt med en metod `run()`.
 ### Steg 2: Implementera Olika Plugins
 
 Nästa steg är att skapa olika plugins genom att implementera `Plugin`-gränssnittet. Varje pluginsklass kommer att innehålla sin egen implementation av `run()`-metoden.
-
-
 
 För att skapa vårt pluginsystem börjar vi med att definiera ett gränssnitt som fungerar som en kontrakt för alla plugins. Detta gränssnitt beskriver den gemensamma funktionalitet som alla plugins måste implementera.
 

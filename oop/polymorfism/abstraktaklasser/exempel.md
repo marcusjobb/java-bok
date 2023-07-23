@@ -2,7 +2,7 @@
 title: Exempel
 permalink: abstraktaklasser/exempel
 nav_order: 1
-parent: Abstrakta klasser
+parent: Abstrakta Klasser
 grand_parent: Polymorfism
 author: Marcus Medina
 date: 2022-11-20 01:27
@@ -151,7 +151,6 @@ public class GetKittens extends WebScraper {
         if (images.isEmpty()) {
             System.out.println("No kitten images found.");
             return;
-
 
  }
 

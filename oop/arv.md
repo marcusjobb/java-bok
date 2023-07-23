@@ -14,7 +14,8 @@ enhance: false
 id: c0155dc7-5531-4970-9ff3-938fc8e797a9
 school: https://campus.molndal.se/yh
 ---
-# Arv i Java
+
+# Arv
 
 ## Introduktion
 

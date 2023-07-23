@@ -15,7 +15,7 @@ id: 3b122b09-74c2-4831-801f-20a874f4f368
 school: https://campus.molndal.se/yh
 ---
 
-# While-loopar
+# While
 
 Vi ska nu uppleva Upprepade Äventyr i Programmering. Vi ska utforska While-loopar! Yay! While loopar är superenkla och effektiva att använda, de kräver inte mycket av dig men de hjälper en hel del! Hur bra är inte det!
 
@@ -101,4 +101,3 @@ Count: 4
 ## Sammanfattning
 
 Grattis! Nu har du utforskat spännande möjligheter med while-loopar. Dessa kraftfulla verktyg gör det möjligt för oss att upprepa kodsekvenser och skapa dynamiska och effektiva program. Kom ihåg att vara försiktig med oändliga loopar och se till att uppdatera villkoret på rätt sätt. Fortsätt din programmeringsresa med nyfikenhet och kreativitet - världen av programmering är din att utforska och erövra!
-

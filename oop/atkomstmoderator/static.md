@@ -16,7 +16,7 @@ mermaid: true
 school: https://campus.molndal.se/yh
 ---
 
-# Static - Ett Mäktigt Verktyg i Java-programmering
+# Static
 
 Ordet Statisk betyder "oföränderlig" eller "oföränderlig". I Java är `static` en åtkomstmodifikator som används för att definiera gemensamma egenskaper och metoder som delas av alla instanser av en klass. Genom att använda `static` kan vi dela data mellan olika klasser utan att behöva skapa flera instanser av en klass. Detta sparar minnesutrymme och gör våra program mer effektiva.
 
@@ -97,4 +97,3 @@ Fortsätt utforska Java och dess fantastiska funktioner! Med ditt engagemang och
 Varför var den statiska metoden så dålig på att socialisera?
 
 För att den aldrig kunde få någon att "dynamiskt" intressera sig för den! 😄
-

@@ -1,7 +1,7 @@
 ---
 title: Mappar i Java
 permalink: filhantering/mappar
-nav_order: 7
+nav_order: 5
 parent: Filhantering
 grand_parent: Home
 author: Marcus Medina

@@ -90,7 +90,6 @@ Här är några viktiga termer som används i samband med loopar inom Java:
 
 Loopar är ett ovärderligt verktyg inom Java-programmering för att automatisera processer, lösa komplexa problem och effektivisera kod. Genom att använda olika typer av loopar kan programmerare upprepa kodavsnitt och hantera repetition på ett strukturerat sätt. Det är viktigt att förstå looparnas fördelar och begränsningar för att använda dem korrekt och undvika potentiella problem. Genom att behärska loopar kan man bli en mer effektiv Java-programmerare och skapa mer kraftfulla och användbara program.
 
-
 ## Obligatorisk dad joke
 
 Varför var looparna så bra på att gå på fest?

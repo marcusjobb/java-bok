@@ -1,7 +1,7 @@
 ---
 title: Path-klassen
 permalink: filhantering/pathklassen
-nav_order: 11
+nav_order: 9
 parent: Filhantering
 grand_parent: Home
 author: Marcus Medina
@@ -126,4 +126,3 @@ Här finns en lista på termer som används i artikeln:
 Path-klassen i Java är ett kraftfullt verktyg för att hantera sökvägar till filer och mappar inom dina Java-program. Dess plattformsoberoende och enkla syntax gör det till ett användbart val för
 
  filhantering i olika miljöer. Genom att använda Path-klassen kan du skapa mer robusta och flexibla applikationer som enkelt kan hantera filsystemets utmaningar.
-

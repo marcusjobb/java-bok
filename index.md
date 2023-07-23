@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: /
+permalink: JIN23/index
 nav_order: 1
 author: Marcus Medina
 date: 2023-06-17 23:23:25

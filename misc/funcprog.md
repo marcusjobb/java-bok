@@ -58,7 +58,7 @@ public class NonFunctionalExample {
 
         // Skapa en lista
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
-        
+
         // Skapa en lista för resultatet
         List<Integer> doubledNumbers = new ArrayList<>();
 
@@ -90,7 +90,7 @@ public class FunctionalExample {
 
         // Skapa en lista
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
-        
+
         // Skapa en lista för resultatet och fyll den med dubblerade tal
         List<Integer> doubledNumbers = numbers.stream()
                                               .map(number -> number * 2)
@@ -111,6 +111,6 @@ Funktionell programmering öppnar upp en värld av möjligheter för oss att ska
 
 ## Obligatorisk dad joke:
 
-Varför älskar programmerare funktionell programmering? 
+Varför älskar programmerare funktionell programmering?
 
 För att det alltid är lambda-gott!

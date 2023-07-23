@@ -16,8 +16,8 @@ id: e55062fc-1bb4-4444-9652-67d668e6bb6c
 school: https://campus.molndal.se/yh
 ---
 
-# Hashmap
-Hashmap är en kraftfull datastruktur för snabb åtkomst. Det kallas även för Dictoinary i vissa språk. 
+# Dictionary (Hashmap)
+Hashmap är en kraftfull datastruktur för snabb åtkomst. Det kallas även för Dictoinary i vissa språk.
 
 ## När du läst detta ska du kunna
 

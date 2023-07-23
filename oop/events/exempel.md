@@ -2,7 +2,7 @@
 title: Exempel
 permalink: events/exempel
 nav_order: 1
-parent: Events
+parent: Händelser i Java
 grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Medina
 date: 2022-11-20 02:59
@@ -14,7 +14,8 @@ enhance: false
 id: 8a0093ea-7628-4da9-a1c7-0cc6ccc60314
 school: https://campus.molndal.se/yh
 ---
-# Bankkonto i Java
+
+# Exempel
 
 Ett Äventyr i Finansiell Programmering
 
@@ -54,7 +55,7 @@ import java.util.List;
 
 // Här skapar vi en klass som heter "Account", vilket kommer att vara vårt bankkonto.
 public class Account {
-    // Här skapar vi några variabler som vi kommer att använda för att 
+    // Här skapar vi några variabler som vi kommer att använda för att
     // hålla reda på kontots saldo och olika händelser (events).
     private int balance;
     private List<DepositListener> depositListeners;
@@ -64,13 +65,13 @@ public class Account {
     private List<WithdrawInvalidAmountListener> withdrawInvalidAmountListeners;
     private List<DepositAboveLimitListener> depositAboveLimitListeners;
 
-    // Här är en speciell metod som heter "konstruktor". Den körs när vi 
+    // Här är en speciell metod som heter "konstruktor". Den körs när vi
     // skapar ett nytt bankkonto.
     public Account() {
         // Vi sätter kontots saldo till 0 när vi skapar det för första gången.
         balance = 0;
 
-        // Här skapar vi listor för varje typ av händelselyssnare, det vill säga 
+        // Här skapar vi listor för varje typ av händelselyssnare, det vill säga
         // de som vill veta när något specifikt händer på kontot.
         depositListeners = new ArrayList<>();
         withdrawListeners = new ArrayList<>();
@@ -96,7 +97,7 @@ public class Account {
 
     // Metoden "deposit" används för att sätta in pengar på kontot.
     public void deposit(int amount) {
-        // Om insättningsbeloppet är mindre än eller lika med 0, 
+        // Om insättningsbeloppet är mindre än eller lika med 0,
         // är det inte tillåtet, så vi informerar om att det är ogiltigt.
         if (amount <= 0) {
             for (DepositInvalidAmountListener listener : depositInvalidAmountListeners) {
@@ -105,7 +106,7 @@ public class Account {
             return;
         }
 
-        // Om insättningsbeloppet är större än 15000 kr, säger vi att det är 
+        // Om insättningsbeloppet är större än 15000 kr, säger vi att det är
         // över en speciell gräns och informerar om det.
         if (amount > 15000) {
             for (DepositAboveLimitListener listener : depositAboveLimitListeners) {
@@ -113,7 +114,7 @@ public class Account {
             }
         }
 
-        // Om allt är okej, ökar vi kontots saldo med insättningsbeloppet och 
+        // Om allt är okej, ökar vi kontots saldo med insättningsbeloppet och
         // meddelar alla lyssnare om att en insättning har gjorts.
         balance += amount;
 

@@ -17,7 +17,7 @@ id: 07de5481-b270-41bc-a1aa-454cb9158e19
 school: https://campus.molndal.se/yh
 ---
 
-# Åtkomstmodifikatorer i Java
+# Åtkomstmoderator
 
 Nu ska du få lära dig hur du kontrollerar åtkomsten till dina Klassmedlemmar!
 

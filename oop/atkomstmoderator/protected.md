@@ -15,7 +15,7 @@ id: 91c193e4-c32c-4d30-9925-48c5f654a67f
 school: https://campus.molndal.se/yh
 ---
 
-# Protected 
+# Protected
 
 En Nyckel till Polymorfismens Hemligheter!
 
@@ -95,4 +95,4 @@ Grattis! Du har nu utforskat hemligheterna med "protected" och dess roll inom po
 
 Varför var nyckelordet "protected" så noga med sina privata detaljer?
 
-För att det ville vara "protected" från nyfikna ögon och bara dela sina hemligheter med sina mest nära och kära - dess avledda klasser! 
+För att det ville vara "protected" från nyfikna ögon och bara dela sina hemligheter med sina mest nära och kära - dess avledda klasser!

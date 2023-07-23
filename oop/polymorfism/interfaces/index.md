@@ -107,7 +107,6 @@ Här finns en lista på termer som används i övningen:
 | Implementera | Att skapa en klass som följer Interfacets kontrakt genom att tillhandahålla implementationen av alla dess medlemmar. |
 | Katt | Ett djur som äter, sover och skiter. |
 
-
 ## Slutsats
 
 Interface är ett kraftfullt verktyg i Java som ger oss möjligheten att skapa flexibla och återanvändbara komponenter. Genom att använda Interface kan vi definiera gemensamma beteenden för olika klasser och möjliggöra polymorfism. Detta underlättar samarbete mellan olika utvecklare och bidrar till en enhetlig och modulär kodstruktur.

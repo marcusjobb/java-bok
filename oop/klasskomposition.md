@@ -15,7 +15,7 @@ id: d9de5f37-89b7-493a-a6bf-48a06da3e643
 school: https://campus.molndal.se/yh
 ---
 
-# Klasskomposition: Bygg Fantastiska Programmeringslösningar!
+# Klasskomposition
 
 ## Introduktion
 
