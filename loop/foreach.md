@@ -84,7 +84,7 @@ public class ForeachExample {
 
 Resultatet av koden ovan kommer att vara:
 
-```text
+```markdown
 1
 2
 3

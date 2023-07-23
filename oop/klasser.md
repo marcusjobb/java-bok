@@ -137,7 +137,7 @@ I detta glada kodexempel har vi skapat en klass som beskriver en glad magiker. M
 
 ### Output
 
-```
+```markdown
 Hello, I am the Happy Magician!
 My magical name is Sparkle.
 I am 100 years old.

@@ -100,7 +100,7 @@ public class PathExample {
 
 Resultatet av körningen av detta program är:
 
-```text
+```markdown
 File Path: C:\Users\User\Documents\file.txt
 Combined Path: C:\Users\User\Documents\subfolder\file2.txt
 File Name: file.txt

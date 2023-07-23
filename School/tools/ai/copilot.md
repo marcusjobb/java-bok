@@ -35,7 +35,7 @@ Efter att ha skrivit in prompten trycker du ENTER och väntar på att den ska bl
 
 ### Exempel
 
-```
+```java
 // Skapa en metod som rekursivt räknar ut Fibonacci-talen för ett givet tal.
 ```
 
@@ -49,7 +49,9 @@ public static int fibonacci(int n) {
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
 ```
+
 Glöm inte att kommentera vart du har fått koden ifrån. I detta fall är det från Github Copilot.
+
 ```java
 // Genererad av Github Copilot
 ```
