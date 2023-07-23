@@ -17,7 +17,7 @@ encoding: utf-8
 # Handling Reading
 safe                : false
 include             : [".htaccess"]
-exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "_book"]
 keep_files          : [".git", ".svn"]
 encoding            : "utf-8"
 markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
@@ -103,3 +103,15 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "9.1.3"
+
+author:
+  name: Marcus Medina
+  email: marcus.medina-ramirez@molndal.se
+
+aux_links:
+  "Jin23 Github":
+    - "https://github.com/Campus-Molndal-JIN23/"
+  "Classroom"
+    - "https://classroom.google.com/"
+  "PDF":
+    - "https://campusmolndaleducation.github.io/JIN23/pdf"
