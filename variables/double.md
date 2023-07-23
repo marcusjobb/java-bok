@@ -1,5 +1,15 @@
 ---
-title:Double
+title: Double
+permalink: variables/double
+nav_order: 13
+parent: Variabler
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 44ad6e6f-58cd-45af-96c6-07dd18889fb7
+school: https://campus.molndal.se/yh
 ---
 
 # Double
@@ -86,7 +96,7 @@ Double och double i Java ger dig möjlighet att välja mellan funktionalitet och
 
 ## Obligatorisk dad joke:
 
-Varför programmerar inte programmerare på stranden? 
+Varför programmerar inte programmerare på stranden?
 
 För att de inte gillar "sandboxar"!
 
