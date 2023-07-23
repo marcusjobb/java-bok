@@ -1,7 +1,18 @@
 ---
 title: var
+permalink: variables/var
+nav_order: 5
+parent: Variabler
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: c2205349-063a-46ae-9d7e-3245e0db5e50
+school: https://campus.molndal.se/yh
 ---
-# Var 
+
+# var
 
 Var är ett nyckelord som introducerades i Java 10. Det används för att deklarera lokala variabler med hjälp av typinferens. Det innebär att du inte längre behöver explicit ange datatypen för variabeln när du deklarerar den, eftersom Java kommer att "gissa" typen baserat på värdet du tilldelar till variabeln.
 
@@ -82,10 +93,10 @@ Javas variant av var är inte som javascriptens variant, där var är en global 
 
 Variabler är en nyckelkomponent i Java-programmering. Med introduktionen av "var" i Java 10 har vi fått möjlighet att använda typinferens för att deklarera variabler på ett mer kompakt och flexibelt sätt. Genom att använda "var" på ett klokt sätt kan du skriva effektivare och mer läsbar kod. Kom ihåg att använda det med måtta och tänka på läsbarheten hos din kod. Nu är det dags att utforska Java-världen ytterligare och fortsätta att skapa fantastiska program!
 
-## Obligatorisk dad joke:
+## Obligatorisk dad joke
 
 Varför delar Java-programmerare ofta sina koder?
 
-För att de älskar att ha sällskap och dela! 😄
+Sharing is caring!
 
-Lycka till med din Java-kodning och glöm inte att ha kul på vägen! 🚀
+Lycka till med din Java-kodning och glöm inte att ha kul på vägen!

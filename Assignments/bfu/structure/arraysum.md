@@ -120,7 +120,6 @@ Denna uppgift kan också lösas enkelt med 'stream'
     int sum = Arrays.stream(array).sum();
 ```
 
-
 ## Andra användningsområden
 
 Denna kod kan användas som grund för att beräkna summan av talen i andra listor eller för att utforska andra beräkningsoperationer med listor. Du kan också utöka koden för att låta användaren mata in sina egna tal eller utforska olika typer av loopar för att fylla listan med värden.
