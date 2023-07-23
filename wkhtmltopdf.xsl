@@ -5,60 +5,57 @@
                 xmlns="http://www.w3.org/1999/xhtml">
   <xsl:output doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
               doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
-              indent="yes"/>
+              indent="yes" />
   <xsl:template match="outline:outline">
     <html>
       <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Table of Contents</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <style>
-            <!-- Your CSS goes here -->
+          h1 {
+            text-align: center;
+            font-size: 20px;
+            font-family: arial;
+          }
+          div {border-bottom: 1px dashed rgb(200,200,200);}
+          span {float: right;}
+          li {list-style: none;}
+          ul {
+            font-size: 20px;
+            font-family: arial;
+          }
+          ul ul {font-size: 80%; }
+          ul {padding-left: 0em;}
+          ul ul {padding-left: 1em;}
+          a {text-decoration:none; color: black;}
         </style>
       </head>
       <body>
-        <h1 class="doc-toc-title">Table of Contents</h1>
-        <ol class="doc-toc-list">
-          <xsl:apply-templates select="outline:item/outline:item"/>
-        </ol>
+        <h1>Table of Contents</h1>
+        <ul><xsl:apply-templates select="outline:item/outline:item"/></ul>
       </body>
     </html>
   </xsl:template>
-
-  <xsl:template match="outline:item[count(ancestor::outline:item)&lt;=6]">
-    <li class="doc-toc-item level_{count(ancestor::outline:item)}">
+  <xsl:template match="outline:item">
+    <li>
       <xsl:if test="@title!=''">
-        <div class="doc-toc-item-inner">
-
-          <span class="doc-toc-item-pagenum">
-            <xsl:value-of select="@page"/>
-          </span>
-
-          <a class="doc-toc-item-title">
+        <div>
+          <a>
             <xsl:if test="@link">
-              <xsl:attribute name="href">
-                <xsl:value-of select="@link"/>
-              </xsl:attribute>
+              <xsl:attribute name="href"><xsl:value-of select="@link"/></xsl:attribute>
             </xsl:if>
-
             <xsl:if test="@backLink">
-              <xsl:attribute name="name">
-                <xsl:value-of select="@backLink"/>
-              </xsl:attribute>
+              <xsl:attribute name="name"><xsl:value-of select="@backLink"/></xsl:attribute>
             </xsl:if>
-
-            <span class="text">
-              <span class="text-inner">
-                <xsl:value-of select="@title"/>
-              </span>
-            </span>
+            <xsl:value-of select="@title" /> 
           </a>
-
+          <span> <xsl:value-of select="@page" /> </span>
         </div>
       </xsl:if>
-
-      <ol class="doc-toc-list">
+      <ul>
         <xsl:comment>added to prevent self-closing tags in QtXmlPatterns</xsl:comment>
         <xsl:apply-templates select="outline:item"/>
-      </ol>
+      </ul>
     </li>
   </xsl:template>
 </xsl:stylesheet>

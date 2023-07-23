@@ -27,6 +27,10 @@ updated: 2023-06-17 23:23:26
 
 Java för JIN23
 
+<div style="text-align:center" class="hide-on-print">
+<img src="campusmolndal.png" alt="Campus Mölndal Logo">
+</div>
+
 # Välkommen
 
 Välkommen till Campus Mölndals fantastiska elektroniska bok för JIN23. Här hittar du allt du behöver för att komma igång med programmering i Java.<img src="javalogo.jpg" alt="Java Logo" style="float: right;">
