@@ -29,7 +29,7 @@ Java för JIN23
 
 # Välkommen
 
-Välkommen till Campus Mölndals fantastiska elektroniska bok för JIN23. Här hittar du allt du behöver för att komma igång med programmering i Java.<img src="javalogo.png" alt="Java Logo" width="200" height="100" style="float: right;">
+Välkommen till Campus Mölndals fantastiska elektroniska bok för JIN23. Här hittar du allt du behöver för att komma igång med programmering i Java.<img src="javalogo.jpg" alt="Java Logo" style="float: right;">
 
 Java är ett objektorienterat programmeringsspråk som utvecklades av Sun Microsystems (numera ägt av Oracle). Det används ofta för att skapa programvaror och plattformar som sträcker sig från små mobila enheter till stora datorsystem. Java har blivit populärt på grund av sin plattformsoberoende natur och förmåga att köra på olika operativsystem.
 
