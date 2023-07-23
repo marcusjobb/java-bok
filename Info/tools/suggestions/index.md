@@ -17,5 +17,3 @@ school: https://campus.molndal.se/yh
 # Förslag
 
 Här finns förslag på andra program som kan vara bra att använda under studietiden.
-
-*Filen editerades senast 2022-12-09*

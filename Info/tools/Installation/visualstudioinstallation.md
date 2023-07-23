@@ -17,7 +17,6 @@ school: https://campus.molndal.se/yh
 
 [Installera Visual Studio](https://visualstudio.microsoft.com/){: .btn }
 
-*Filen editerades senast 2022-12-09*
 ## Addons till Visual Studio som jag rekommenderar
 
 - [Codemaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaidVS2022)

@@ -1,7 +1,7 @@
 ---
 title: Ordlista
 permalink: ordlista/index
-nav_order: 25
+nav_order: 27
 parent: Home
 author: Marcus Medina
 date: 2022-11-20 02:40

@@ -2,7 +2,7 @@
 title: Else if
 permalink: if/elseif
 nav_order: 3
-parent: If
+parent: Villkor
 grand_parent: Home
 author: Marcus Medina
 date: 2023-07-02

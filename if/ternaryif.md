@@ -2,7 +2,7 @@
 title: Ternary if
 permalink: if/ternaryif
 nav_order: 5
-parent: If
+parent: Villkor
 grand_parent: Home
 author: Marcus Medina
 date: 2023-07-02

@@ -16,92 +16,166 @@ school: https://campus.molndal.se/yh
 
 # Tabeller
 
-Tabeller är som ett rutnät av data som lagras i en databas. Varje tabell har en eller flera kolumner, och varje rad i tabellen är en post. Varje post har en värde för varje kolumn. En tabell kan ha en primärnyckel, som är en kolumn som är unik för varje post. En tabell kan också ha en eller flera främmande nycklar, som är en kolumn som är kopplad till en annan tabell.
-Exemplen här nedanför är för MySQL. Det kan skilja på andra servrar {: warning}
+I denna artikel utforskar vi de spännande skillnaderna i hanteringen av tabeller mellan tre populära databassystem - SQL Server, SQLite och MySQL. Vi kommer att fokusera på hur varje system skiljer sig åt när det gäller att skapa och hantera tabeller, samt användningen av primärnycklar och främmande nycklar. Låt oss dyka in i dessa skillnader och upptäcka hur varje databassystem erbjuder unika egenskaper inom tabellhantering!
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
+## TL;DR
 
-1. TOC
-{:toc}
+- SQL Server, SQLite och MySQL är olika databassystem som används för att hantera tabeller och data.
+- Skillnaderna ligger i syntax och stöd för olika funktioner.
+- SQL Server erbjuder en mäktig och omfattande hantering av tabeller, perfekt för företagsanvändning.
+- SQLite är en lättviktig databasmotor som är perfekt för inbyggda system eller små applikationer.
+- MySQL är ett populärt databassystem som är plattformsoberoende och används ofta för webbapplikationer.
 
-</details>
+## Vad är Databastabeller?
 
-*Filen editerades senast 2022-12-09*
-### Skapa en tabell om den inte finns
+Databastabeller är som rutnät av data som lagras i en databas. Varje tabell består av kolumner och rader, där varje kolumn representerar en specifik datatyp och varje rad innehåller en post med värden för varje kolumn. Tabeller används för att organisera och strukturera data på ett sätt som gör det lätt att läsa och manipulera.
 
-Här skapar vi en tabell med namnet `users` och tre kolumner: `id`, `name` och `email`.
+## Skillnader i Tabellskapande
+
+### SQL Server
+
+För att skapa en tabell i SQL Server använder vi följande syntax:
 
 ```sql
-CREATE TABLE IF NOT EXISTS users (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(30) NOT NULL,
-email VARCHAR(50)
+CREATE TABLE tableName (
+    column1 dataType1 constraints,
+    column2 dataType2 constraints,
 );
 ```
 
-### Lägg till en kolumn
+### SQLite
+
+För att skapa en tabell i SQLite använder vi en liknande syntax, men SQLite är mer flexibelt med datatyper:
 
 ```sql
-ALTER TABLE users ADD COLUMN age INT(3);
-```
-
-### Ta bort en kolumn
-
-```sql
-ALTER TABLE users DROP COLUMN age;
-```
-
-## Referenser
-
-### Lägg till en kolumn och gör den till en ForeignKey
-
-Vi skapar en länk till en annan tabell. I detta fall till tabellen `cars` och kolumnen `CarId`.
-
-```sql
-ALTER TABLE users ADD COLUMN CarId INT(6) UNSIGNED;
-ALTER TABLE users ADD FOREIGN KEY (CarId) REFERENCES cars(CarId);
-```
-
-## Ta bort en ForeignKey
-
-Vi tar bort referensen till Cars.CarId
-
-```sql
-ALTER TABLE users DROP FOREIGN KEY users_ibfk_1;
-```
-
-users_ibfk_1 är den första ForeignKey som finns i tabellen users.
-
-## Skapa en tabell med en ForeignKey
-
-```sql
-CREATE TABLE IF NOT EXISTS cars (
-CarId INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-Model VARCHAR(30) NOT NULL,
-Brand VARCHAR(50),
-UserId INT(6) UNSIGNED,
-FOREIGN KEY (UserId) REFERENCES users(id)
+CREATE TABLE tableName (
+    column1 dataType1 constraints,
+    column2 dataType2 constraints,
 );
 ```
 
-## Skapa en tabell med en ForeignKey och en primärnyckel
+### MySQL
+
+I MySQL används också liknande syntax för att skapa en tabell:
 
 ```sql
-CREATE TABLE IF NOT EXISTS cars (
-CarId INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-Model VARCHAR(30) NOT NULL,
-Brand VARCHAR(50),
-UserId INT(6) UNSIGNED,
-PRIMARY KEY (CarId, UserId),
-FOREIGN KEY (UserId) REFERENCES users(id)
+CREATE TABLE tableName (
+    column1 dataType1 constraints,
+    column2 dataType2 constraints,
 );
 ```
 
-## Referenser
+Skillnader i syntax är små, men det är viktigt att notera att vissa datatyper och funktioner kan variera beroende på vilket system du använder.
 
-- [W3Schools](https://www.w3schools.com/sql/sql_foreignkey.asp)
-- [MySQL](https://dev.mysql.com/doc/refman/8.0/en/create-table-foreign-keys.html)
+## Hantering av Primärnycklar
+
+### SQL Server
+
+I SQL Server definieras en primärnyckel på följande sätt:
+
+```sql
+CREATE TABLE tableName (
+    primaryKeyColumn dataType constraints PRIMARY KEY,
+);
+```
+
+### SQLite
+
+I SQLite definieras en primärnyckel på följande sätt:
+
+```sql
+CREATE TABLE tableName (
+    primaryKeyColumn dataType constraints,
+    PRIMARY KEY (primaryKeyColumn)
+);
+```
+
+### MySQL
+
+I MySQL definieras en primärnyckel på liknande sätt som i SQL Server:
+
+```sql
+CREATE TABLE tableName (
+    primaryKeyColumn dataType constraints,
+    PRIMARY KEY (primaryKeyColumn)
+);
+```
+
+## Hantering av Främmande Nycklar
+
+### SQL Server
+
+I SQL Server definieras en främmande nyckel genom att ange CONSTRAINT och FOREIGN KEY på följande sätt:
+
+```sql
+CREATE TABLE tableName (
+    foreignKeyColumn dataType constraints,
+    CONSTRAINT FK_name FOREIGN KEY (foreignKeyColumn) REFERENCES referenceTable (referenceColumn)
+);
+```
+
+### SQLite
+
+SQLite stödjer också främmande nycklar, men de är inte lika strikta som i SQL Server. Här är hur en främmande nyckel kan definieras:
+
+```sql
+CREATE TABLE tableName (
+    foreignKeyColumn dataType constraints REFERENCES referenceTable (referenceColumn)
+);
+```
+
+### MySQL
+
+I MySQL används liknande syntax för att definiera en främmande nyckel som i SQL Server:
+
+```sql
+CREATE TABLE tableName (
+    foreignKeyColumn dataType constraints,
+    FOREIGN KEY (foreignKeyColumn) REFERENCES referenceTable (referenceColumn)
+);
+```
+
+## Exempelkod - Tabellen "cars"
+
+Här är ett exempel som visar hur tabellen "cars" kan skapas för varje databassystem:
+
+### SQL Server
+
+```sql
+CREATE TABLE cars (
+    CarId INT PRIMARY KEY,
+    Model VARCHAR(30) NOT NULL,
+    Brand VARCHAR(50)
+);
+```
+
+### SQLite
+
+```sql
+CREATE TABLE cars (
+    CarId INTEGER PRIMARY KEY,
+    Model TEXT NOT NULL,
+    Brand TEXT
+);
+```
+
+### MySQL
+
+```sql
+CREATE TABLE cars (
+    CarId INT AUTO_INCREMENT PRIMARY KEY,
+    Model VARCHAR(30) NOT NULL,
+    Brand VARCHAR(50)
+);
+```
+
+## Sammanfattning
+
+Skillnaderna i hantering av tabeller mellan SQL Server, SQLite och MySQL är huvudsakligen relaterade till syntax och stöd för olika funktioner. SQL Server erbjuder en mäktig och omfattande hantering av tabeller, vilket gör det till ett utmärkt val för företagsanvändning. SQLite är en lättviktig databasmotor som är perfekt för inbyggda system eller små applikationer på grund av dess minimala krav på systemresurser. MySQL, å andra sidan, är ett populärt databassystem som är plattformsoberoende och används ofta för webbapplikationer på grund av dess höga prestanda och skalbarhet.
+
+Fortsätt utforska dessa databassystem och använd deras unika egenskaper för att passa dina specifika behov och projekt. Ha kul med databashantering och fortsätt skapa fantastiska applikationer med hjälp av tabeller och databasdrivna funktioner!
+
+## Obligatorisk Dad Joke:
+
+Varför förlorade SQL-databasen sitt jobb?
+För att den inte kunde sluta med att kommunicera med "tables" hela tiden! 😄

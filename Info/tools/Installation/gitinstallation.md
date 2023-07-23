@@ -17,7 +17,6 @@ school: https://campus.molndal.se/yh
 
 [Installera Git](https://git-scm.com/){: .btn }
 
-*Filen editerades senast 2022-12-09*
 ## Beskrivning
 
 Git är ett versionhanteringssystem som används för att spara och hantera källkod. Det är ett av de mest använda versionhanteringssystemen i dagens samhälle. Det är ett gratis program som är öppen källkod.

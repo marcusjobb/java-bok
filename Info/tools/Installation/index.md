@@ -17,5 +17,3 @@ school: https://campus.molndal.se/yh
 # Installation
 
 Här finns en lista på program du kan komma att behöva under utbildningens gång.
-
-*Filen editerades senast 2022-12-09*

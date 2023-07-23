@@ -16,65 +16,100 @@ school: https://campus.molndal.se/yh
 
 # Constraints
 
-SQL-Constraints är ett sätt att begränsa datan i en tabell. Det finns två typer av constraints, primary key och foreign key. Primary key är en constraint som gör att en kolumn i en tabell kan ha unika värden. Foreign key är en constraint som gör att en kolumn i en tabell kan ha värden som finns i en annan tabell.
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
+Begränsningar i SQL för att säkerställa datan i tabeller
 
-1. TOC
-{:toc}
+### Introduktion
 
-</details>
+Välkommen till denna artikel om SQL-Constraints, ett kraftfullt verktyg för att begränsa datan
+i en tabell. I SQL finns det två typer av constraints som vi ska utforska: Primary Key och
+Foreign Key. Dessa constraints hjälper oss att säkerställa att tabellerna innehåller korrekt
+och sammanhängande data. Låt oss ta en närmare titt på hur dessa constraints fungerar och
+varför de är så viktiga inom SQL.
 
-*Filen editerades senast 2022-12-09*
-## Primary Key
+### TL;DR
 
-Primary Key är det värde som är unikt för varje rad i en tabell. Det är det värde som används för att identifiera en rad i en tabell. Det är också det värde som används för att koppla ihop tabeller med varandra. Det är inte möjligt att ha fler än en primary key i en tabell. Det är också inte möjligt att ha en primary key som är null. Det är också möjligt att ha en primary key som är en kombination av flera kolumner.
+SQL-Constraints är ett sätt att begränsa datan i en tabell för att säkerställa att den är
+korrekt och sammanhängande. Det finns två typer av constraints: Primary Key, som används för
+att identifiera unika rader i en tabell, och Foreign Key, som används för att koppla ihop
+tabeller med varandra.
 
-## Foreign Key
+### När du läst detta ska du kunna
 
-Foreign key är ett värde som finns i en tabell som är kopplat till ett värde i en annan tabell. Det är det värde som används för att koppla ihop tabeller med varandra. Det är inte möjligt att ha fler än en foreign key i en tabell. Det är också inte möjligt att ha en foreign key som är null. Det är också möjligt att ha en foreign key som är en kombination av flera kolumner.
+- Förstå och förklara vad SQL-Constraints är och deras relevans inom SQL.
+- Diskutera användningen av Primary Key och Foreign Key för att säkerställa korrekt data i
+  tabeller.
+- Skapa tabeller med rätt constraints för att uppnå databasens integritet.
+- Använda exempelkod för att koppla ihop tabeller och hämta data med hjälp av constraints.
 
-## Exempel
+### Vad är SQL-Constraints?
+
+SQL-Constraints är ett verktyg inom SQL som används för att begränsa datan i en tabell på
+olika sätt. Två viktiga typer av constraints är:
+
+### Primary Key
+
+Primary Key är ett unikt värde för varje rad i en tabell och används för att identifiera
+varje rad på ett entydigt sätt. Det fungerar som en unik identifierare för varje post i
+tabellen och används också för att koppla ihop tabeller genom relationer. I en tabell kan
+det bara finnas en Primary Key och den kan inte ha ett NULL-värde.
+
+### Foreign Key
+
+Foreign Key är ett värde i en tabell som refererar till ett Primary Key-värde i en annan
+tabell. Det används för att skapa relationer mellan tabeller och säkerställa referentiell
+integritet. Precis som med Primary Key kan det bara finnas en Foreign Key i en tabell och
+den kan inte vara NULL.
+
+### Fördelar
+
+Att använda SQL-Constraints har flera fördelar. Genom att använda Primary Key kan vi
+säkerställa att varje rad i en tabell har en unik identifierare, vilket förenklar
+datahanteringen och sökningar. Foreign Key gör det möjligt för oss att skapa relationer
+mellan tabeller och utföra komplexa frågor som involverar data från flera tabeller
+samtidigt.
+
+### Begränsningar
+
+Även om SQL-Constraints är kraftfulla har de också några begränsningar. Till exempel kan
+det vara utmanande att hantera komplexa datastrukturer som kräver sammansatta Primary Keys
+eller Foreign Keys. Dessutom kan felaktiga constraints orsaka problem med dataintegriteten
+och leda till svårigheter vid uppdateringar eller borttagning av data.
+
+### Exempelkod - Användning av Constraints
+
+Låt oss titta på ett exempel där vi skapar två tabeller, Person och Orders, och använder
+Primary Key och Foreign Key för att koppla ihop dem:
 
 ```sql
 CREATE TABLE Person (
-PersonID int NOT NULL PRIMARY KEY,
-LastName varchar(255) NOT NULL,
-FirstName varchar(255),
-Address varchar(255),
-City varchar(255),
-PRIMARY KEY (PersonID)
+    PersonID int NOT NULL PRIMARY KEY,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
 );
+
 CREATE TABLE Orders (
-OrderID int NOT NULL PRIMARY KEY,
-OrderDate date NOT NULL,
-PersonID int NOT NULL,
-PRIMARY KEY (OrderID),
-FOREIGN KEY (PersonID) REFERENCES Person(PersonID)
+    OrderID int NOT NULL PRIMARY KEY,
+    OrderDate date NOT NULL,
+    PersonID int NOT NULL,
+    FOREIGN KEY (PersonID) REFERENCES Person(PersonID)
 );
 ```
 
-Man använder Primary key för att identifiera en rad i en tabell, och Foreign key för att koppla ihop tabeller med varandra.
+I detta exempel skapar vi en relation mellan Person och Orders genom att använda Foreign Key.
+PersonID i Orders refererar till PersonID i Person-tabellen.
 
-## Exempel på hur man kopplar ihop tabellerna
+### Referenser
 
-```sql
-INSERT INTO Person (PersonID, LastName, FirstName, Address, City)
-VALUES (1, 'Peter', 'Petersson', 'St Petersgatan 1', 'Peterstad');
-INSERT INTO Orders (OrderID, OrderDate, PersonID)
-VALUES (1, '2021-01-01', 1);
-```
+Vill du lära dig mer om SQL-Constraints? Kolla in
+[SQL Constraints](https://www.w3schools.com/sql/sql_constraints.asp) för mer information och
+exempel.
 
-och vi kan sedan hämta ut informationen från båda tabellerna med följande kod:
+### Slutsats
 
-```sql
-SELECT * FROM Person
-INNER JOIN Orders ON Person.PersonID = Orders.PersonID;
-```
-
-## Referenser
-
-[SQL Constraints](https://www.w3schools.com/sql/sql_constraints.asp)
+Constraints är ett kraftfullt verktyg inom SQL som hjälper oss att säkerställa att datan i
+våra tabeller är korrekt och sammanhängande. Genom att använda Primary Key och Foreign Key
+kan vi skapa relationer mellan tabeller och effektivt hantera våra data. Så nästa gång du
+designar en databas, se till att använda Constraints för att uppnå bästa möjliga
+dataintegritet och prestanda! Happy coding! 😊

@@ -1,7 +1,7 @@
 ---
-title: If
+title: Villkor
 permalink: if/index
-nav_order: 5
+nav_order: 7
 parent: Home
 author: Marcus Medina
 date: 2023-07-02
@@ -15,7 +15,7 @@ id: 5b760e63-a63c-4011-983c-e2bef4f658d2
 school: https://campus.molndal.se/yh
 ---
 
-# If
+# Villkor
 
 If är en kontrollstruktur som används inom Java för att ställa logiska frågor. Svaren på dessa frågor kan vara antingen sant eller falskt. Baserat på svaret kommer Java att utföra olika handlingar. Om svaret är sant kommer koden efter if att exekveras. Om svaret är falskt kommer Java att hoppa över koden efter if och fortsätta med resten av programmet.
 

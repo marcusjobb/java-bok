@@ -17,7 +17,6 @@ school: https://campus.molndal.se/yh
 
 [Installera Visual Studio Code](https://code.visualstudio.com/){: .btn }
 
-*Filen editerades senast 2022-12-09*
 ## Addons till VS Code som jag rekommenderar
 
 - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt-vscode.roslynator)

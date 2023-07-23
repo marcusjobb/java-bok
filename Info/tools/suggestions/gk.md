@@ -17,7 +17,6 @@ school: https://campus.molndal.se/yh
 
 [Installera Google Keep](https://keep.google.com/){: .btn }
 
-*Filen editerades senast 2022-12-09*
 ## Beskrivning
 
 Google Keep är ett program som är gjort av Google.
