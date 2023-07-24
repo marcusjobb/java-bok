@@ -14,39 +14,41 @@ id: f4960b36-e538-4fd4-9540-ba446993d975
 school: https://campus.molndal.se/yh
 ---
 
-# Filhantering
+# Filhantering 
 
-Vi ska skapa en klass och spara den i hårddisken, sedan ska vi läsa in den.
+Välkommen till det spännande äventyret där vi ska utforska filhantering i Java! I den avlägsna galaxen Star Wars, där kraften flödar och äventyr väntar, kommer vi att lära oss hur man skapar och hanterar filer som riktiga jedimästare!
 
 ## Skapa en klass
 
+Först och främst behöver vi en klass för våra modiga hjältar i denna filhanteringssaga. Låt oss skapa en mäktig klass kallad "Person" som kommer att representera våra karaktärer.
+
 ```java
-class Person{
+class Person {
     String namn;
     int ålder;
 
-    public Person(String namn, int ålder){
+    public Person(String namn, int ålder) {
         this.namn = namn;
         this.ålder = ålder;
     }
 
-    public String toString(){
+    public String toString() {
         return "Namn: " + namn + " Ålder:" + ålder;
     }
 
-    public String getNamn(){
+    public String getNamn() {
         return namn;
     }
 
-    public int getÅlder(){
+    public int getÅlder() {
         return ålder;
     }
 
-    public void setNamn(String namn){
+    public void setNamn(String namn) {
         this.namn = namn;
     }
 
-    public void setÅlder(int ålder){
+    public void setÅlder(int ålder) {
         this.ålder = ålder;
     }
 }
@@ -54,162 +56,199 @@ class Person{
 
 ## Läsa en textfil
 
-För att läsa en textfil, använder vi `FileReader`-klassen. Vi skapar ett nytt objekt av klassen och ger den filnamnet som argument. Sedan kan vi använda `readLine()`-metoden för att läsa in rader från filen.
+För att läsa en textfil i denna galax använder vi kraften i klassen "FileReader". Vi öppnar en portal till filen vi vill läsa och använder den mäktiga metoden "readLine()" för att läsa in rader från filen.
 
 ```java
-FileReader fr = new FileReader("filnamn.txt");
-String rad = fr.readLine();
-while(rad != null){
-    System.out.println(rad);
-    rad = fr.readLine();
+try {
+    FileReader fr = new FileReader("filnamn.txt");
+    BufferedReader br = new BufferedReader(fr);
+    String rad = br.readLine();
+    while (rad != null) {
+        System.out.println(rad);
+        rad = br.readLine();
+    }
+    br.close();
+    fr.close();
+} catch (IOException e) {
+    System.out.println("Fel! Filen finns inte eller kan inte läsas.");
 }
 ```
 
 ## Skriva till en textfil
 
-För att skriva till en textfil, använder vi `FileWriter`-klassen. Vi skapar ett nytt objekt av klassen och ger den filnamnet som argument. Sedan kan vi använda `write()`-metoden för att skriva till filen.
+Nu när vi har våra tappra karaktärer i klassen "Person", låt oss skapa en ny fil och skriva ner dem i den! Vi använder kraften från "FileWriter" för detta uppdrag.
 
 ```java
-// Skapa en person
-Person p = new Person("Luke Skywalker", 23);
+try {
+    // Skapa en person
+    Person p = new Person("Luke Skywalker", 23);
 
-// Serialisera personen
-String person = p.toString();
+    // Serialisera personen
+    String person = p.toString();
 
-// Skapa en ny fil och skriv personen till den
-FileWriter fw = new FileWriter("person.txt");
-fw.write(person);
-fw.close();
-
-// Läs in personen från filen
-FileReader fr = new FileReader("person.txt");
-String rad = fr.readLine();
-ft.close();
-
-// Skapa en ny person från strängen
-// genom att dela upp den på Namn: och Ålder:
-String[] delar = rad.split("Namn: | Ålder:");
-Person p2 = new Person(delar[1], Integer.parseInt(delar[2]));
-System.out.println(p2);
+    // Skapa en ny fil och skriv personen till den
+    FileWriter fw = new FileWriter("person.txt");
+    BufferedWriter bw = new BufferedWriter(fw);
+    bw.write(person);
+    bw.close();
+    fw.close();
+} catch (IOException e) {
+    System.out.println("Fel! Kunde inte skriva till filen.");
+}
 ```
 
 ## Läsa och skriva till en Json-fil
 
-För att läsa och skriva till en Json-fil, använder vi `Gson`-klassen. Vi skapar ett nytt objekt av klassen och ger den filnamnet som argument. Sedan kan vi använda `toJson()`-metoden för att skriva till filen och `fromJson()`-metoden för att läsa från filen.
-
-Lägg till Gson-biblioteket i Maven:
-
-```xml
-<dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.8.9</version>
-</dependency>
-```
+I denna galax vill vi även kunna kommunicera med andra över hela universum. Därför använder vi magin av "Gson" för att skriva ner våra hjältar i ett format som alla kan förstå - Json!
 
 ```java
-// Skapa en person
-Person p = new Person("Leia Skywalker", 23);
+try {
+    // Skapa en person
+    Person p = new Person("Leia Skywalker", 23);
 
-// Serialisera personen
-Gson gson = new Gson();
-String person = gson.toJson(p);
+    // Serialisera personen med hjälp av kraften från Gson
+    Gson gson = new Gson();
+    String person = gson.toJson(p);
 
-// Skapa en ny fil och skriv personen till den
-FileWriter fw = new FileWriter("person.json");
-fw.write(person);
-fw.close();
+    // Skapa en ny fil och skriv personen till den
+    FileWriter fw = new FileWriter("person.json");
+    BufferedWriter bw = new BufferedWriter(fw);
+    bw.write(person);
+    bw.close();
+    fw.close();
 
-// Läs in personen från filen
-FileReader fr = new FileReader("person.json");
-Person p2 = gson.fromJson(fr, Person.class);
-System.out.println(p2);
+    // Nu när vi har skrivit till filen, låt oss läsa från den och hämta vår person tillbaka
+    FileReader fr = new FileReader("person.json");
+    BufferedReader br = new BufferedReader(fr);
+    Person p2 = gson.fromJson(br, Person.class);
+    br.close();
+    fr.close();
+    System.out.println(p2);
+} catch (IOException e) {
+    System.out.println("Fel! Kunde inte läsa eller skriva till Json-filen.");
+}
 ```
 
 ## Läsa och skriva binära filer
 
-För att läsa och skriva binära filer, använder vi `FileInputStream` och `FileOutputStream`-klasserna. Vi skapar ett nytt objekt av klassen och ger den filnamnet som argument. Sedan kan vi använda `read()` och `write()`-metoderna för att läsa och skriva till filen.
+I Star Wars vill vi också kunna spara våra hjältar i binära filer. För detta uppdrag använder vi kraften av "ObjectOutputStream" och "ObjectInputStream".
 
 ```java
-// Skapa en person
-Person p = new Person("Han Solo", 33);
+try {
+    // Skapa en person
+    Person p = new Person("Han Solo", 33);
 
-// Serialisera personen
-ByteArrayOutputStream baos = new ByteArrayOutputStream();
-ObjectOutputStream oos = new ObjectOutputStream(baos);
-oos.writeObject(p);
+    // Serialisera personen
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    ObjectOutputStream oos = new ObjectOutputStream(baos);
+    oos.writeObject(p);
 
-// Skapa en ny fil och skriv personen till den
-FileOutputStream fos = new FileOutputStream("person.bin");
-fos.write(baos.toByteArray());
-fos.close();
+    // Skapa en ny fil och skriv personen till den
+    FileOutputStream fos = new FileOutputStream("person.bin");
+    fos.write(baos.toByteArray());
+    fos.close();
 
-// Läs in personen från filen
-FileInputStream fis = new FileInputStream("person.bin");
-ObjectInputStream ois = new ObjectInputStream(fis);
-Person p2 = (Person) ois.readObject();
-System.out.println(p2);
+    // Läs in personen från filen
+    FileInputStream fis = new FileInputStream("person.bin");
+    ObjectInputStream ois = new ObjectInputStream(fis);
+    Person p2 = (Person) ois.readObject();
+    ois.close();
+    fis.close();
+    System.out.println(p2);
+} catch (IOException e) {
+    System.out.println("Fel! Kunde inte läsa eller skriva till den binära filen.");
+} catch (ClassNotFoundException e) {
+    System.out.println("Fel! Hittade inte klassen för att deserialisera objektet.");
+}
 ```
 
-### Läsa och skriva binära filer med Base64
+## Läsa och skriva binära filer med Base64
 
-För att läsa och skriva binära filer med Base64, använder vi `Base64`-klassen. Vi skapar ett nytt objekt av klassen och ger den filnamnet som argument. Sedan kan vi använda `encode()` och `decode()`-metoderna för att läsa och skriva till filen.
+I vår galax vill vi även kunna läsa och skriva binära filer med hjälp av Base64-kodning. Det gör vi genom att använda den mäktiga kraften av "Base64" för att konvertera våra binära data till en läsbar textsträng.
 
 ```java
-// Skapa en person
-Person p = new Person("Chewbacca", 53);
+try {
+    // Skapa en person
+    Person p = new Person("Chewbacca", 53); // Rrrrr-ghghghghgh!
 
-// Serialisera personen
-ByteArrayOutputStream baos = new ByteArrayOutputStream();
-ObjectOutputStream oos = new ObjectOutputStream(baos);
-oos.writeObject(p);
+    // Serialisera personen
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    ObjectOutputStream oos = new ObjectOutputStream(baos);
+    oos.writeObject(p);
 
-// Skapa en ny fil och skriv personen till den
-FileOutputStream fos = new FileOutputStream("person.bin");
-fos.write(Base64.getEncoder().encode(baos.toByteArray()));
-fos.close();
+    // Skapa en ny fil och skriv personen till den med Base64-kodning
+    FileOutputStream fos = new FileOutputStream("person.bin");
+    fos.write(Base64.getEncoder().encode(baos.toByteArray()));
+    fos.close();
 
-// Läs in personen från filen
-FileInputStream fis = new FileInputStream("person.bin");
-ObjectInputStream ois = new ObjectInputStream(fis);
-Person p2 = (Person) ois.readObject();
-System.out.println(p2);
+    // Läs in personen från filen med Base64-kodning
+    FileInputStream fis = new FileInputStream("person.bin");
+    byte[] data = fis.readAllBytes();
+    fis.close();
+
+    // Avkoda data med Base64
+    byte[] decodedData = Base64.getDecoder().decode(data);
+    ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(decodedData));
+    Person p2 = (Person) ois.readObject();
+    ois.close();
+    System.out.println(p2);
+} catch (IOException e) {
+    System.out.println("Fel! Kunde inte läsa eller skriva till den binära
+
+ filen.");
+} catch (ClassNotFoundException e) {
+    System.out.println("Fel! Hittade inte klassen för att deserialisera objektet.");
+}
 ```
 
 ## Läsa och skriva binära filer med Base64 och GZIP
 
-För att läsa och skriva binära filer med Base64 och GZIP, använder vi `Base64`-klassen och `GZIPOutputStream`-klassen. Vi skapar ett nytt objekt av klassen och ger den filnamnet som argument. Sedan kan vi använda `encode()` och `decode()`-metoderna för att läsa och skriva till filen.
+Men vi slutar inte där! Vi tar det ett steg längre och använder både Base64-kodning och GZIP-komprimering för att spara våra hjältar på ett effektivt sätt!
 
 ```java
-// Skapa en person
-Person p = new Person("Obi-Wan Kenobi", 53);
+try {
+    // Skapa en person
+    Person p = new Person("Obi-Wan Kenobi", 53); // I have the high ground!
 
-// Serialisera personen
-ByteArrayOutputStream baos = new ByteArrayOutputStream();
-ObjectOutputStream oos = new ObjectOutputStream(baos);
-oos.writeObject(p);
+    // Serialisera personen
+    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+    ObjectOutputStream oos = new ObjectOutputStream(baos);
+    oos.writeObject(p);
 
-// Skapa en ny fil och skriv personen till den
-FileOutputStream fos = new FileOutputStream("person.gzis");
-GZIPOutputStream gzos = new GZIPOutputStream(fos);
-gos.write(Base64.getEncoder().encode(baos.toByteArray()));
-gos.close();
+    // Skapa en ny fil och skriv personen till den med Base64-kodning och GZIP-komprimering
+    FileOutputStream fos = new FileOutputStream("person.gzis");
+    GZIPOutputStream gzos = new GZIPOutputStream(fos);
+    gzos.write(Base64.getEncoder().encode(baos.toByteArray()));
+    gzos.close();
 
-// Läs in personen från filen
-FileInputStream fis = new FileInputStream("person.gzis");
-GZIPInputStream gzis = new GZIPInputStream(fis);
-ObjectInputStream ois = new ObjectInputStream(gzis);
-Person p2 = (Person) ois.readObject();
-System.out.println(p2);
+    // Läs in personen från filen med Base64-kodning och GZIP-komprimering
+    FileInputStream fis = new FileInputStream("person.gzis");
+    GZIPInputStream gzis = new GZIPInputStream(fis);
+    byte[] data = gzis.readAllBytes();
+    gzis.close();
+
+    // Avkoda data med Base64
+    byte[] decodedData = Base64.getDecoder().decode(data);
+    ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(decodedData));
+    Person p2 = (Person) ois.readObject();
+    ois.close();
+    System.out.println(p2);
+} catch (IOException e) {
+    System.out.println("Fel! Kunde inte läsa eller skriva till den binära filen.");
+} catch (ClassNotFoundException e) {
+    System.out.println("Fel! Hittade inte klassen för att deserialisera objektet.");
+}
 ```
 
 ## Övrig filhantering
+
+Självklart har vi många andra tricks i rockärmen när det gäller filhantering. Låt oss utforska några av dem:
 
 ### Kolla om en fil finns
 
 ```java
 File f = new File("person.txt");
-if(f.exists()){
+if (f.exists()) {
     System.out.println("Filen finns");
 }
 ```
@@ -218,8 +257,12 @@ if(f.exists()){
 
 ```java
 File f = new File("person.txt");
-if(!f.exists()){
-    f.createNewFile();
+try {
+    if (!f.exists()) {
+        f.createNewFile();
+    }
+} catch (IOException e) {
+    System.out.println("Fel! Kunde inte skapa filen.");
 }
 ```
 
@@ -227,127 +270,144 @@ if(!f.exists()){
 
 ```java
 File f = new File("mapp");
-if(!f.exists()){
+if (!f.exists()) {
     f.mkdir();
 }
 ```
 
-## Radera en fil
+### Radera en fil
 
 ```java
 File f = new File("person.txt");
-if(f.exists()){
+if (f.exists()) {
     f.delete();
 }
 ```
 
-## Radera en mapp om den är tom
+### Radera en mapp om den är tom
 
 ```java
 File f = new File("mapp");
-if(f.exists()){
-    if (f.isDirectory() && f.list().length == 0)
+if (f.exists()) {
+    if (f.isDirectory() && f.list().length == 0) {
         f.delete();
+    }
 }
 ```
 
-## Flytta en fil
+### Flytta en fil
 
 ```java
 File f = new File("person.txt");
-if(f.exists()){
+if (f.exists()) {
     f.renameTo(new File("person2.txt"));
 }
 ```
 
-## Lista alla filer i en mapp
+### Lista alla filer i en mapp
 
 ```java
 File f = new File("mapp");
-if(f.exists()){
+if (f.exists()) {
     File[] files = f.listFiles();
-    for(File file : files){
+    for (File file : files) {
         System.out.println(file.getName());
     }
 }
 ```
 
-## Lista alla filer i en mapp och dess undermappar
+### Lista alla filer i en mapp och dess undermappar
 
 ```java
 File f = new File("mapp");
+if (f.exists()) {
+    listAllFiles(f);
+}
 
-if(f.exists()){
-    File[] files = f.listFiles();
-    for(File file : files){
-        if(file.isDirectory()){
-            File[] subFiles = file.listFiles();
-            for(File subFile : subFiles){
-                System.out.println(subFile.getName());
-            }
-        }else{
+private void listAllFiles(File folder) {
+    File[] files = folder.listFiles();
+    for (File file : files) {
+        if (file.isDirectory()) {
+            listAllFiles(file);
+        } else {
             System.out.println(file.getName());
         }
     }
 }
 ```
 
-## Hitta en fil som med namn som innehåller "Katt"
+### Hitta en fil som med namn som innehåller "Katt"
 
 ```java
 File f = new File("mapp");
-if(f.exists()){
-    File[] files = f.listFiles();
-    for(File file : files){
-        if(file.getName().contains("Katt")){
+if (f.exists()) {
+    findFileContainingName(f, "Katt");
+}
+
+private void findFileContainingName(File folder, String name) {
+    File[] files = folder.listFiles();
+    for (File file : files) {
+        if (file.getName().contains(name)) {
             System.out.println(file.getName());
         }
     }
 }
 ```
 
-## Hitta en fil som med namn som innehåller "Hemlighet" och radera den
+### Hitta en fil som med namn som innehåller "Hemlighet" och radera den
 
 ```java
 File f = new File("mapp");
-if(f.exists()){
-    File[] files = f.listFiles();
-    for(File file : files){
-        if(file.getName().contains("Hemlighet")){
+if (f.exists()) {
+    findAndDeleteFileContainingName(f, "Hemlighet");
+}
+
+private void findAndDeleteFileContainingName(File folder, String name) {
+    File[] files = folder.listFiles();
+    for (File file : files) {
+        if (file.getName().contains(name)) {
             file.delete();
         }
     }
 }
 ```
 
-## Hitta en fil med texten "Lösenord" i sig
+### Hitta en fil med texten "Lösenord" i sig
 
 ```java
 File f = new File("mapp");
+if (f.exists()) {
+    findFileWithText(f, "Lösenord");
+}
 
-if(f.exists()){
-    File[] files = f.listFiles();
-    for(File file : files){
-        if(file.isFile()){
-            FileReader fr = new FileReader(file);
-            String rad = fr.readLine();
-            while(rad != null){
-                if(rad.contains("Lösenord")){
-                    System.out.println(file.getName());
+private void findFileWithText(File folder, String text) {
+    File[] files = folder.listFiles();
+    for (File file : files) {
+        if (file.isFile()) {
+            try {
+                BufferedReader br = new BufferedReader(new FileReader(file));
+                String line;
+                while ((line = br.readLine()) != null) {
+                    if (line.contains(text)) {
+                        System.out.println(file.getName());
+                        break;
+                    }
                 }
-                rad = fr.readLine();
+                br.close();
+            } catch (IOException e) {
+                System.out.println("Fel! Kunde inte läsa filen.");
             }
         }
     }
 }
 ```
 
-## Få information om filen
+### Få information om filen
 
 ```java
 File f = new File("person.txt");
 
-if(f.exists()){
+if (f.exists()) {
     System.out.println("Filnamn: " + f.getName());
     System.out.println("Filtyp: " + f.getType());
     System.out.println("Mapp: " + f.getParent());
@@ -366,7 +426,9 @@ if(f.exists()){
 
 ## Termer och förklaringar
 
-Här följer termer som använts i Detta avsnitt och deras förklaringar.
+Nu när vi har erö
+
+vrat filhanteringsuniversum i Star Wars, låt oss sammanfatta några av de termer och deras förklaringar som vi stött på i vårt äventyr:
 
 | Term                    | Förklaring                                                                     |
 | ----------------------- | ------------------------------------------------------------------------------ |
@@ -410,13 +472,13 @@ Här följer termer som använts i Detta avsnitt och deras förklaringar.
 | `oos`                   | En variabel som används för att representera en binär fil.                     |
 | `fos`                   | En variabel som används för att representera en binär fil.                     |
 | `fis`                   | En variabel som används för att representera en binär fil.                     |
-| `gzos`                  | En variabel som används för att representera en binär fil med Base64 och GZIP. |
-| `gzis`                  | En variabel som används för att representera en binär fil med Base64 och GZIP. |
+| `gzos`                  | En variabel som används för att representera en binärfil med Base64 och GZIP.  |
+| `gzis`                  | En variabel som används för att representera en binärfil med Base64 och GZIP.  |
 | `ois`                   | En variabel som används för att representera en binär fil.                     |
 | `fr`                    | En variabel som används för att representera en textfil.                       |
-| Serialize               | Att konvertera ett objekt till en sträng.                                      |
-| Deserialize             | Att konvertera en sträng till ett objekt.                                      |
 
 ## Summan av kardemumman
 
-Det finns många olika sätt att spara information på, välj den som känns trevligast för dig helt enkelt.
+Grattis! Nu har du blivit en äkta mästare i filhantering i Star Wars-stil. Du kan nu spara och läsa data i olika format och utföra m
+
+äktiga filhanteringsoperationer med hjälp av Java. Må kraften vara med dig i dina framtida äventyr i programmeringens galax!
