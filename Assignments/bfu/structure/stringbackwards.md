@@ -16,21 +16,21 @@ school: https://campus.molndal.se/yh
 
 ## Beskrivning
 
-Denna övning syftar till att träna på stränghantering och loopar genom att skriva ut en given sträng baklänges. Användaren kommer att bli ombedd att ange en sträng, och programmet kommer sedan att skriva ut strängen i omvänd ordning.
+Välkomna till denna spännande övning där vi ska träna på stränghantering och loopar genom att skriva ut en given sträng baklänges. Vi kommer be dig att ange en sträng, och sedan kommer vi att skriva ut den i omvänd ordning.
 
 ## Förkunskaper
 
-För att lösa denna övning bör du ha grundläggande kunskaper i programmering och vara bekant med hur man hanterar strängar och loopar i Java.
+Innan vi börjar ska du ha grundläggande kunskaper i programmering och vara bekant med hur man hanterar strängar och loopar i Java.
 
 ## Tips
 
-- Kom ihåg att en sträng i Java kan behandlas som en serie tecken.
-- Använd en loop (t.ex. en for-loop) för att gå igenom strängen baklänges.
+- Tänk på att en sträng i Java kan behandlas som en serie tecken.
+- Använd en loop, till exempel en for-loop, för att gå igenom strängen baklänges.
 - Var noga med att använda rätt loop-indexering för att få tecknen i rätt ordning.
 
 ## Think Twice, Code Once
 
-Innan du börjar koda, ta några minuter och fundera över hur du kan vända på en sträng. Planera din lösning och identifiera de steg du behöver ta för att uppnå det önskade resultatet. Att tänka igenom koden noggrant innan du börjar skriva kan hjälpa dig att undvika vanliga misstag och göra din kod mer effektiv.
+Innan du sätter igång med koden, ta några minuter och fundera över hur du kan vända på en sträng. Planera din lösning och identifiera de steg du behöver ta för att uppnå det önskade resultatet. Att tänka igenom koden noggrant innan du börjar skriva kan hjälpa dig att undvika vanliga misstag och göra din kod mer effektiv.
 
 ## Planering
 
@@ -61,8 +61,6 @@ public class Main {
 ### Exempel på ord
 
 Här är några roliga ord du kan prova att skriva ut baklänges:
-Absolut! Här är listan med orden sorterade i stigande ordning med siffror framför dem:
-
 1. "banana"
 2. "butterfly"
 3. "chocolate"
@@ -78,11 +76,13 @@ Absolut! Här är listan med orden sorterade i stigande ordning med siffror fram
 13. "sunshine"
 14. "tacocat"
 
-Ha kul med testing av ditt program och fortsätt att utforska olika utmaningar för att förbättra dina färdigheter som kodare!Testa att använda denna kod för att skriva ut de roliga orden baklänges och se vad som händer!
+Ha kul med att testa ditt program och utforska olika utmaningar för att förbättra dina färdigheter som kodare!
 
 ## Lösning och förklaring
 
 Här är en möjlig lösning på övningen:
+
+<details><summary markdown="span">Lösning</summary>
 
 ```java
 import java.util.Scanner;
@@ -104,6 +104,8 @@ public class Main {
 }
 ```
 
+</details>
+
 ### Förklaring av lösningen:
 
 - Vi läser in en sträng från användaren och sparar den i variabeln `input`.
@@ -117,5 +119,3 @@ Att skriva ut en sträng baklänges är ett bra sätt att öva på loopar och st
 ## Summan av kardemumman
 
 Grattis! Du har nu skapat ett program som skriver ut en sträng baklänges. Att programmera handlar om att experimentera och ha kul. Fortsätt att öva och utmana dig själv för att bli en bättre kodare. Du kan lära dig så mycket genom att utforska olika programmeringsproblem och testa nya lösningar. Tro på dig själv och lita på din förmåga att lära dig mer. Ha kul med programmering - det är en fantastisk resa!
-
-<p style = "display:block; clear:both; page-break-after:always;"></p>

@@ -19,14 +19,7 @@ school: https://campus.molndal.se/yh
 
 Här finns några övningar för att träna på att använda arrayer i Java.
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
-1. Innehållsförteckning
-{:toc}
-</details>
+
 
 ## 1. Skapa en array
 

@@ -92,4 +92,3 @@ Bra jobbat! Genom att använda vår for-loop har du lyckats öppna lådan och ta
 
 Du är på rätt väg mot att bli en riktig kodmästare! Fortsätt att kämpa och ha kul med programmering! Lycka till!
 
-<p style="display:block; clear:both; page-break-after:always;"></p>
