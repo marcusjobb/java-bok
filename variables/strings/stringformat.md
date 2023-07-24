@@ -14,7 +14,7 @@ school: https://campus.molndal.se/yh
 
 # Stringformat
 
-I Java är textbehandling en central del av programmering, och för att hantera text på ett strukturerat och anpassningsbart sätt använder vi "String format". "String format" är en cool funktion som låter oss skapa textsträngar med variabler som vi kan ersätta med dynamiskt genererade värden. Hur coolt är inte det? I denna artikel kommer vi att dyka djupare in i "String format" och utforska hur det kan användas för att skapa formatenliga och lättlästa texter. Genom att använda "String format" kan vi presentera information på ett mer tilltalande sätt och ge våra applikationer en personlig touch.
+I Java är textbehandling en central del av programmering, och för att hantera text på ett strukturerat och anpassningsbart sätt använder vi "String format". "String format" är en cool funktion som låter oss skapa textsträngar med variabler som vi kan ersätta med dynamiskt genererade värden. Hur coolt är inte det? I Detta avsnitt kommer vi att dyka djupare in i "String format" och utforska hur det kan användas för att skapa formatenliga och lättlästa texter. Genom att använda "String format" kan vi presentera information på ett mer tilltalande sätt och ge våra applikationer en personlig touch.
 
 ## TL;DR
 
@@ -109,7 +109,7 @@ Belopp i svensk valuta: 1 000,50 kr
 
 ## Slutsats
 
-I denna artikel har vi utforskat "String format" i Java och dess förmåga att skapa strukturerad och anpassningsbar text. Genom att använda formatmönster och specifikatorer kan vi enkelt skapa textsträngar som innehåller dynamiska värden, vilket ger oss möjlighet att presentera information på ett mer tilltalande sätt och ge våra applikationer en personlig touch. Så var kreativ, använd "String format" för att skapa imponerande användargränssnitt och låt din Java-kod utstråla glädje och effektivitet!
+I Detta avsnitt har vi utforskat "String format" i Java och dess förmåga att skapa strukturerad och anpassningsbar text. Genom att använda formatmönster och specifikatorer kan vi enkelt skapa textsträngar som innehåller dynamiska värden, vilket ger oss möjlighet att presentera information på ett mer tilltalande sätt och ge våra applikationer en personlig touch. Så var kreativ, använd "String format" för att skapa imponerande användargränssnitt och låt din Java-kod utstråla glädje och effektivitet!
 
 ## Obligatorisk dad joke:
 

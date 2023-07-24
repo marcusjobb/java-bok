@@ -98,6 +98,6 @@ Count: 2
 Count: 3
 Count: 4
 
-## Sammanfattning
+## Summan av kardemumman
 
 Grattis! Nu har du utforskat spännande möjligheter med while-loopar. Dessa kraftfulla verktyg gör det möjligt för oss att upprepa kodsekvenser och skapa dynamiska och effektiva program. Kom ihåg att vara försiktig med oändliga loopar och se till att uppdatera villkoret på rätt sätt. Fortsätt din programmeringsresa med nyfikenhet och kreativitet - världen av programmering är din att utforska och erövra!

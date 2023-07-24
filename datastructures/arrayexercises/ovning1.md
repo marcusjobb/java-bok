@@ -16,7 +16,7 @@ school: https://campus.molndal.se/yh
 
 # Summera element i en array
 
-Hur summerar man element i en array i Java? I denna artikel kommer vi att undersöka olika sätt att lösa denna uppgift och diskutera deras för- och nackdelar.
+Hur summerar man element i en array i Java? I Detta avsnitt kommer vi att undersöka olika sätt att lösa denna uppgift och diskutera deras för- och nackdelar.
 
 ## När du läst detta ska du kunna
 

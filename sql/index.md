@@ -18,11 +18,11 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-Välkommen till denna artikel som utforskar det mäktiga språket SQL (Structured Query Language), som används för att interagera med databaser. SQL är ett av de mest använda språken i världen och spelar en viktig roll inom programutveckling och datahantering. Vi kommer att undersöka skillnaderna mellan SQL Server, SQLite och MySQL och utforska de olika kommandon som används inom dessa databashanteringssystem.
+Välkommen till Detta avsnitt som utforskar det mäktiga språket SQL (Structured Query Language), som används för att interagera med databaser. SQL är ett av de mest använda språken i världen och spelar en viktig roll inom programutveckling och datahantering. Vi kommer att undersöka skillnaderna mellan SQL Server, SQLite och MySQL och utforska de olika kommandon som används inom dessa databashanteringssystem.
 
 ## TL;DR
 
-SQL (Structured Query Language) är ett kraftfullt språk som används för att kommunicera med databaser. I denna artikel fokuserar vi på skillnaderna mellan SQL Server, SQLite och MySQL samt olika kommandon och deras kategorier inom dessa system.
+SQL (Structured Query Language) är ett kraftfullt språk som används för att kommunicera med databaser. I Detta avsnitt fokuserar vi på skillnaderna mellan SQL Server, SQLite och MySQL samt olika kommandon och deras kategorier inom dessa system.
 
 ## När du läst detta ska du kunna
 

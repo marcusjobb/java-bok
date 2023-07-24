@@ -36,7 +36,7 @@ Java är ett objektorienterat programmeringsspråk som utvecklades av Sun Micros
 
 Java har en stark och tydlig syntax som gör det lätt att lära sig och använda. Språket har ett brett utbud av funktioner som hjälper utvecklare att skapa avancerade system. Funktioner som generiska typer, anonyma metoder, lambda-uttryck och parallell programmering gör Java till ett mycket kraftfullt programmeringsspråk. Java stöder också många olika typer av programutveckling, inklusive webbappar, mobilappar, spel och systemprogramvara.
 
-Java är ett kraftfullt programmeringsspråk som introducerades av Sun Microsystems på 1990-talet. Det är känt för sin bärbarhet, vilket betyder att program skrivna i Java kan köras på olika plattformar utan att behöva omkompileras. Java är också ett objektorienterat språk, vilket främjar modulär kod och återanvändning. I denna artikel kommer vi att utforska vad Java är och varför det har blivit en hörnsten inom programutveckling.
+Java är ett kraftfullt programmeringsspråk som introducerades av Sun Microsystems på 1990-talet. Det är känt för sin bärbarhet, vilket betyder att program skrivna i Java kan köras på olika plattformar utan att behöva omkompileras. Java är också ett objektorienterat språk, vilket främjar modulär kod och återanvändning. I Detta avsnitt kommer vi att utforska vad Java är och varför det har blivit en hörnsten inom programutveckling.
 
 ## Vad är Java?
 

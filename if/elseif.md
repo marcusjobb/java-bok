@@ -17,7 +17,7 @@ school: https://campus.molndal.se/yh
 
 # Else if
 
-## Introduktion I denna artikel kommer vi att utforska den viktiga
+## Introduktion I Detta avsnitt kommer vi att utforska den viktiga
 programmeringskonstruktionen "Else if" i Java. Vi kommer att upptäcka hur denna
 konstruktion erbjuder flexibilitet och tydlighet när det gäller att hantera
 olika villkor och beslut. "Else if" är användbart i olika situationer där vi
@@ -176,7 +176,7 @@ Genom att använda "Else if" i Java får vi tillgång till en kraftfull konstruk
 
 ## TL;DR
 
-I denna artikel har vi utforskat "Else if" i Java, en viktig konstruktion som erbjuder flexibilitet och tydlighet för hantering av olika villkor och beslut. "Else if" kan användas för betygsberäkning, validering, menyval och datum- och tidshantering. Genom att använda "Else if" på ett balanserat sätt kan vi skapa effektiva och lättförståeliga program som uppfyller våra behov.
+I Detta avsnitt har vi utforskat "Else if" i Java, en viktig konstruktion som erbjuder flexibilitet och tydlighet för hantering av olika villkor och beslut. "Else if" kan användas för betygsberäkning, validering, menyval och datum- och tidshantering. Genom att använda "Else if" på ett balanserat sätt kan vi skapa effektiva och lättförståeliga program som uppfyller våra behov.
 
 ## Obligatorisk dad-joke:
 

@@ -27,7 +27,7 @@ I Java spelar åtkomstmodifikatorer en viktig roll i att definiera hur vi kan ko
 
 ## TL;DR
 
-I denna artikel kommer vi att utforska de olika åtkomstmodifikatorerna i Java och hur de påverkar synligheten av klassmedlemmar.
+I Detta avsnitt kommer vi att utforska de olika åtkomstmodifikatorerna i Java och hur de påverkar synligheten av klassmedlemmar.
 
 ## Översikt av Åtkomstmodifikatorer
 

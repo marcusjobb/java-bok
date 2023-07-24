@@ -18,7 +18,7 @@ school: https://campus.molndal.se/yh
 
 # Verktyg
 
-I denna artikel kommer vi att titta på några användbara verktyg för att underlätta utvecklingen av Java-program. Genom att använda dessa verktyg kan vi öka vår produktivitet och förbättra kvaliteten på vår kod. Det är viktigt att välja verktyg som bäst passar våra behov och att utforska och använda dem på rätt sätt.
+I Detta avsnitt kommer vi att titta på några användbara verktyg för att underlätta utvecklingen av Java-program. Genom att använda dessa verktyg kan vi öka vår produktivitet och förbättra kvaliteten på vår kod. Det är viktigt att välja verktyg som bäst passar våra behov och att utforska och använda dem på rätt sätt.
 
 ## 1. IDE (Integrated Development Environment)
 
@@ -58,4 +58,4 @@ Felsökning och profilering är viktiga för att hitta och åtgärda problem i v
 
 ## Summering
 
-Att använda rätt verktyg kan göra en stor skillnad i vår utvecklingsprocess. I denna artikel har vi tittat på några användbara verktyg för att underlätta utvecklingen av Java-program. Genom att välja och använda dessa verktyg på rätt sätt kan vi öka vår produktivitet och förbättra kvaliteten på vår kod.
+Att använda rätt verktyg kan göra en stor skillnad i vår utvecklingsprocess. I Detta avsnitt har vi tittat på några användbara verktyg för att underlätta utvecklingen av Java-program. Genom att välja och använda dessa verktyg på rätt sätt kan vi öka vår produktivitet och förbättra kvaliteten på vår kod.

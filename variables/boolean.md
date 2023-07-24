@@ -17,7 +17,7 @@ titel: boolean
 
 _Den Magiska Världen av Sanning och Falskhet i Programmering_
 
-Välkommen till den spännande världen av Booleans - en grundläggande byggsten inom programmeringens magiska rike. I denna artikel kommer vi att dyka in i vad Booleans är och varför de spelar en så avgörande roll i programmering. Vi kommer att ställa intressanta frågor och utforska konceptet av sanning och falskhet, och hur Booleans hjälper oss att fatta beslut och styra våra program. Så låt oss kasta oss in i den fängslande resan av Booleans!
+Välkommen till den spännande världen av Booleans - en grundläggande byggsten inom programmeringens magiska rike. I Detta avsnitt kommer vi att dyka in i vad Booleans är och varför de spelar en så avgörande roll i programmering. Vi kommer att ställa intressanta frågor och utforska konceptet av sanning och falskhet, och hur Booleans hjälper oss att fatta beslut och styra våra program. Så låt oss kasta oss in i den fängslande resan av Booleans!
 
 ## TL;DR
 
@@ -135,7 +135,7 @@ class Person
 
 ## Termer
 
-Här är en lista över några termer som används i denna artikel:
+Här är en lista över några termer som används i Detta avsnitt:
 
 | Term            | Förklaring                                                                    |
 | --------------- | ----------------------------------------------------------------------------- |

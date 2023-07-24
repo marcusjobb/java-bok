@@ -18,7 +18,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-Välkommen till denna artikel som handlar om databaser! Här kommer vi att utforska olika aspekter av databaser inom programmering. Vi kommer att lära oss hur man skapar en databas, hur man säkert byter namn på den, samt hur man tar bort en databas. Men innan vi dyker in i detaljerna, låt oss titta på varför databaser är så viktiga inom programmering och hur de underlättar hanteringen av data.
+Välkommen till Detta avsnitt som handlar om databaser! Här kommer vi att utforska olika aspekter av databaser inom programmering. Vi kommer att lära oss hur man skapar en databas, hur man säkert byter namn på den, samt hur man tar bort en databas. Men innan vi dyker in i detaljerna, låt oss titta på varför databaser är så viktiga inom programmering och hur de underlättar hanteringen av data.
 
 ## TL;DR
 

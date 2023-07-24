@@ -104,7 +104,7 @@ public class Main {
 
 Detta exempel visar hur du kan plocka ut en del av en array, men samma teknik kan användas för att skapa delar av listor eller andra datastrukturer. Du kan också använda `copyOfRange` för att extrahera specifika delar av en array och utföra olika beräkningar eller operationer på dem.
 
-## Sammanfattning
+## Summan av kardemumman
 
 Att kunna plocka ut en del av en array är en användbar färdighet inom programmering. Genom att använda `copyOfRange` kan du enkelt skapa nya delarrayer utan att ändra den ursprungliga arrayen. Övning och experiment är nyckeln till att bli en bättre programmerare. Fortsätt utforska och utmana dig själv för att förbättra dina färdigheter och ha roligt med programmering!
 

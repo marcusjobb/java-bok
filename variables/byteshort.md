@@ -16,7 +16,7 @@ school: https://campus.molndal.se/yh
 
 Byte och Short i Java - Små Men Kraftfulla Numeriska Datatyper
 
-Inom programmeringens värld stöter vi ofta på situationer där vi behöver hantera små heltal. För att optimera minnesanvändningen och förbättra prestanda introducerades "byte" och "short" som numeriska datatyper i Java. Dessa datatyper tar minimalt med minne och kan användas när vi vet att värdena är inom ett begränsat intervall. I denna artikel ska vi dyka in i "byte" och "short", utforska deras egenskaper och upptäcka varför deras små storlek inte hindrar dem från att vara kraftfulla verktyg i Java-världen.
+Inom programmeringens värld stöter vi ofta på situationer där vi behöver hantera små heltal. För att optimera minnesanvändningen och förbättra prestanda introducerades "byte" och "short" som numeriska datatyper i Java. Dessa datatyper tar minimalt med minne och kan användas när vi vet att värdena är inom ett begränsat intervall. I Detta avsnitt ska vi dyka in i "byte" och "short", utforska deras egenskaper och upptäcka varför deras små storlek inte hindrar dem från att vara kraftfulla verktyg i Java-världen.
 
 ## TL;DR
 
@@ -82,7 +82,7 @@ Fastän denna bugg inte existerade i verkligheten blev "Nuclear Gandhi" en av de
 
 ## Slutsats
 
-I denna artikel har vi dykt in i den spännande världen av "byte" och "short" som små men kraftfulla numeriska datatyper i Java. Dessa datatyper ger oss möjlighet att hantera små heltal och samtidigt optimera minnesanvändningen i våra program. Genom att välja rätt datatyp för våra applikationer kan vi förbättra prestanda och effektivt utnyttja den begränsade resursen av minne. Så låt inte storleken lura dig, "byte" och "short" har bevisat att de kan vara viktiga komponenter i din Java-kod och bidra till en smidig och effektiv programmeringserfarenhet!
+I Detta avsnitt har vi dykt in i den spännande världen av "byte" och "short" som små men kraftfulla numeriska datatyper i Java. Dessa datatyper ger oss möjlighet att hantera små heltal och samtidigt optimera minnesanvändningen i våra program. Genom att välja rätt datatyp för våra applikationer kan vi förbättra prestanda och effektivt utnyttja den begränsade resursen av minne. Så låt inte storleken lura dig, "byte" och "short" har bevisat att de kan vara viktiga komponenter i din Java-kod och bidra till en smidig och effektiv programmeringserfarenhet!
 
 ## Obligatorisk dad joke
 

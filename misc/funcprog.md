@@ -18,11 +18,11 @@ Vad är snyggare än ett bra planerat OOP projekt? Funktionell kod! Det är en S
 
 ## Introduktion
 
-Välkommen till en resa in i den fascinerande världen av funktionell programmering i Java! I denna artikel kommer vi att utforska vad funktionell programmering är och varför det har blivit allt mer populärt inom programmeringsvärlden. Vi kommer att upptäcka hur funktionell kod kan göra våra program mer eleganta, lättlästa och underhållbara. För att illustrera detta kommer vi att jämföra icke-funktionell kod med motsvarande funktionell kod i flera exempel. Låt oss börja resan och låta den funktionella världen av Java ta över!
+Välkommen till en resa in i den fascinerande världen av funktionell programmering i Java! I Detta avsnitt kommer vi att utforska vad funktionell programmering är och varför det har blivit allt mer populärt inom programmeringsvärlden. Vi kommer att upptäcka hur funktionell kod kan göra våra program mer eleganta, lättlästa och underhållbara. För att illustrera detta kommer vi att jämföra icke-funktionell kod med motsvarande funktionell kod i flera exempel. Låt oss börja resan och låta den funktionella världen av Java ta över!
 
 ## TL;DR
 
-I denna artikel har vi utforskat fördelarna med funktionell programmering i Java genom att jämföra icke-funktionell kod med motsvarande funktionell kod. Genom funktionell programmering kan vi skriva snyggare, kortare och mer lättlästa kodavsnitt, vilket gör våra program mer robusta och underhållbara. Genom att använda funktionella koncept som lambda-uttryck och strömmar kan vi skapa eleganta lösningar och förenkla vår kod.
+I Detta avsnitt har vi utforskat fördelarna med funktionell programmering i Java genom att jämföra icke-funktionell kod med motsvarande funktionell kod. Genom funktionell programmering kan vi skriva snyggare, kortare och mer lättlästa kodavsnitt, vilket gör våra program mer robusta och underhållbara. Genom att använda funktionella koncept som lambda-uttryck och strömmar kan vi skapa eleganta lösningar och förenkla vår kod.
 
 ## När du läst detta ska du kunna
 

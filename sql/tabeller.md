@@ -16,7 +16,7 @@ school: https://campus.molndal.se/yh
 
 # Tabeller
 
-I denna artikel utforskar vi de spännande skillnaderna i hanteringen av tabeller mellan tre populära databassystem - SQL Server, SQLite och MySQL. Vi kommer att fokusera på hur varje system skiljer sig åt när det gäller att skapa och hantera tabeller, samt användningen av primärnycklar och främmande nycklar. Låt oss dyka in i dessa skillnader och upptäcka hur varje databassystem erbjuder unika egenskaper inom tabellhantering!
+I Detta avsnitt utforskar vi de spännande skillnaderna i hanteringen av tabeller mellan tre populära databassystem - SQL Server, SQLite och MySQL. Vi kommer att fokusera på hur varje system skiljer sig åt när det gäller att skapa och hantera tabeller, samt användningen av primärnycklar och främmande nycklar. Låt oss dyka in i dessa skillnader och upptäcka hur varje databassystem erbjuder unika egenskaper inom tabellhantering!
 
 ## TL;DR
 
@@ -169,7 +169,7 @@ CREATE TABLE cars (
 );
 ```
 
-## Sammanfattning
+## Summan av kardemumman
 
 Skillnaderna i hantering av tabeller mellan SQL Server, SQLite och MySQL är huvudsakligen relaterade till syntax och stöd för olika funktioner. SQL Server erbjuder en mäktig och omfattande hantering av tabeller, vilket gör det till ett utmärkt val för företagsanvändning. SQLite är en lättviktig databasmotor som är perfekt för inbyggda system eller små applikationer på grund av dess minimala krav på systemresurser. MySQL, å andra sidan, är ett populärt databassystem som är plattformsoberoende och används ofta för webbapplikationer på grund av dess höga prestanda och skalbarhet.
 

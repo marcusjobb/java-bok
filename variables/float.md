@@ -13,7 +13,7 @@ school: https://campus.molndal.se/yh
 ---
 
 # float
-<img src="goatfloat.png" alt="Goat float" style="float: right;">Inom programmering är datatyper fundamentala byggstenar som hjälper oss att representera olika typer av värden. I Java, ett språk känt för sin enkelhet och flexibilitet, har vi två datatyper för att hantera decimaltal: "float" och "double". Dessa datatyper möjliggör exakt representation av flyttal och ger oss möjligheten att hantera olika matematiska operationer med precision. I denna artikel kommer vi att utforska både "float" och "double" och förstå deras användning i både primitiv och objektorienterad form. Vi kommer även att undersöka skillnaderna mellan dem för att välja den mest lämpliga datatypen för våra behov.
+<img src="goatfloat.png" alt="Goat float" style="float: right;">Inom programmering är datatyper fundamentala byggstenar som hjälper oss att representera olika typer av värden. I Java, ett språk känt för sin enkelhet och flexibilitet, har vi två datatyper för att hantera decimaltal: "float" och "double". Dessa datatyper möjliggör exakt representation av flyttal och ger oss möjligheten att hantera olika matematiska operationer med precision. I Detta avsnitt kommer vi att utforska både "float" och "double" och förstå deras användning i både primitiv och objektorienterad form. Vi kommer även att undersöka skillnaderna mellan dem för att välja den mest lämpliga datatypen för våra behov.
 
 ## TL;DR
 
@@ -75,7 +75,7 @@ Här finns en lista på termer som används i artikeln:
 
 ## Slutsats
 
-I denna artikel har vi utforskat datatyperna "float" och "double" i Java. Vi har lärt oss att "float" används för att representera enkla precisionstal medan "double" används för dubbel precisionstal. Valet mellan dessa datatyper beror på applikationskrav och önskad precision. Genom att förstå deras skillnader kan vi välja den mest lämpliga datatypen för att skapa effektiva och exakta Java-applikationer. Så var modig, låt din kreativitet flöda och låt Java guida dig mot spännande programmeringsmöjligheter!
+I Detta avsnitt har vi utforskat datatyperna "float" och "double" i Java. Vi har lärt oss att "float" används för att representera enkla precisionstal medan "double" används för dubbel precisionstal. Valet mellan dessa datatyper beror på applikationskrav och önskad precision. Genom att förstå deras skillnader kan vi välja den mest lämpliga datatypen för att skapa effektiva och exakta Java-applikationer. Så var modig, låt din kreativitet flöda och låt Java guida dig mot spännande programmeringsmöjligheter!
 
 ## Obligatorisk dad joke:
 

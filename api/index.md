@@ -15,47 +15,29 @@ id: 74c8e08c-03f2-429b-9a29-87c8ea2c0ccf
 school: https://campus.molndal.se/yh
 ---
 
-# API
+# API - Application Programming Interface
 
-En artikel som utforskar Application Programming Interface (API), ett viktigt gränssnitt som underlättar kommunikationen med webbapplikationer.
+Välkommen till denna spännande artikel där vi kommer att utforska Application Programming Interface (API), ett viktigt gränssnitt som underlättar kommunikationen med webbapplikationer.
 
-## När du läst detta ska du kunna
+## TL;DR
 
-- Förstå och förklara vad en API är och dess relevans inom programmering.
-- Diskutera fördelar och begränsningar med API:er.
-- Identifiera olika användningsområden där API:er kan tillämpas.
-- Förstå och tolka ett kodexempel som använder en API.
-- Sammanfatta viktiga insikter och rekommendationer för vidare läsning.
+API:er är som hemliga språk för applikationer, de låter dem prata och utbyta data. De ger oss superkrafter i mjukvaruutveckling, men vi måste vara ansvarsfulla med dem. API:er används överallt och är som magi som binder ihop våra applikationer. Vi kan använda API:er i Java för att bygga fantastiska appar. Så använd denna magiska kunskap för att skapa världsförbättrande kod!
 
-## Introduktion
+## Vad är en API och varför behöver vi det?
 
-Application Programming Interface, eller API, är en central komponent i modern mjukvaruutveckling som möjliggör interaktion och kommunikation mellan olika applikationer. Genom API:er kan webbapplikationer utbyta data och funktioner med varandra utan att behöva interagera med grafiska gränssnitt. I denna artikel kommer vi att utforska vad en API är och varför den spelar en nyckelroll inom programmering.
+En Application Programming Interface (API) fungerar som en slags mellanhand mellan olika applikationer, och det gör att de kan prata med varandra och utbyta data utan att behöva använda en grafisk gränssnitt. Det är som ett hemligt språk som olika program kan använda för att kommunicera med varandra.
 
-## Vad är en API?
+## Fördelar och begränsningar
 
-En Application Programming Interface (API) fungerar som en mellanhand mellan två applikationer, vilket möjliggör kommunikation och datautbyte mellan dem. API:er tillhandahåller ett standardiserat gränssnitt där en klientapplikation kan ställa frågor och begära data från en serverapplikation. Svaren från API:et skickas vanligtvis i formatet XML eller JSON, vilket gör det lättare att läsa och tolka den returnerade informationen.
+API:er ger oss superkrafter inom mjukvaruutveckling. De gör att våra applikationer kan vara mer flexibla och skalbara. Vi kan också återanvända delar av koden för att göra saker snabbare och bättre. Men med stor makt kommer också stort ansvar. Det är viktigt att utforma API:er på ett bra sätt och tänka på säkerheten för att undvika trubbel.
 
-## Fördelar
+## Vart kan vi använda API:er?
 
-API:er erbjuder flera fördelar för mjukvaruutvecklingen. Genom att använda API:er blir klientapplikationer och serverapplikationer oberoende av varandra, vilket möjliggör större flexibilitet och skalbarhet i systemet. Detta gör det möjligt för utvecklare att bygga mer dynamiska och effektiva applikationer genom att anpassa datautbytet och funktionaliteten mellan klienten och servern.
+API:er är överallt! De används när appar pratar med servrar, när webbplatser behöver data från andra webbplatser, och till och med när mobila appar vill ha information från en databas. Det är som magi som binder ihop våra olika applikationer och gör dem till riktiga superhjältar.
 
-En annan fördel är att API:er främjar moduläritet i koden, vilket underlättar underhåll och uppgraderingar. Genom att dela upp en applikation i mindre, återanvändbara delar genom API:er blir det enklare att utveckla och testa varje del separat.
+## Ett kul exempel med Java-kod!
 
-## Begränsningar
-
-Trots fördelarna finns det också vissa begränsningar och utmaningar med API:er. Att skapa och underhålla ett API kan vara en komplex process, särskilt om det ska användas av många olika klientapplikationer. Det är viktigt att utforma API:et på ett sätt som är intuitivt och användarvänligt för att undvika förvirring och svårigheter för utvecklarna som använder det.
-
-Säkerhet är också en viktig aspekt att överväga vid användning av API:er. Eftersom API:er tillåter externa åtkomstpunkter till en applikation kan det vara en potentiell risk för obehörig åtkomst eller dataintrång om säkerheten inte är korrekt implementerad.
-
-## Användningsområden
-
-API:er har ett brett spektrum av användningsområden inom mjukvaruutvecklingen. De används i webbutveckling för att möjliggöra kommunikation mellan webbapplikationer och tjänster, vilket gör det möjligt för applikationer att dra nytta av extern funktionalitet och data.
-
-Inom serverutveckling används API:er för att skapa gränssnitt för externa system att kommunicera med serverapplikationer. API:er används också inom mobilutveckling för att integrera mobila applikationer med externa tjänster och databaser.
-
-## Exempelkod - Använda ett API i Java
-
-Här är ett exempel på hur vi kan använda ett API i Java för att hämta data från The Movie Database (TMDb):
+Så här kan vi använda ett API i Java för att hämta data om filmer från The Movie Database (TMDb). Vi skickar helt enkelt en förfrågan till TMDb och får tillbaka informationen som vi kan använda för att bygga fantastiska filmer-appar.
 
 ```java
 import java.io.BufferedReader;
@@ -64,42 +46,48 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+// Enkelt kod för att hantera API-anrop
+class TmdbApiHandler {
+    private String apiKey;
+
+    public TmdbApiHandler(String apiKey) {
+        this.apiKey = apiKey;
+    }
+
+    // Metod för att hämta data från TMDb-API med angiven sökfråga
+    public String fetchDataFromTmdbApi(String query) throws IOException {
+        String url = "https://api.themoviedb.org/3/search/movie?api_key=" + apiKey + "&query=" + query;
+        URL apiURL = new URL(url);
+        HttpURLConnection connection = (HttpURLConnection) apiURL.openConnection();
+        connection.setRequestMethod("GET");
+        int responseCode = connection.getResponseCode();
+        System.out.println("Svarskod: " + responseCode);
+
+        // Läs svaret från anslutningen
+        BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+        String inputLine;
+        StringBuilder response = new StringBuilder();
+        while ((inputLine = reader.readLine()) != null) {
+            response.append(inputLine);
+        }
+        reader.close();
+        connection.disconnect();
+
+        return response.toString();
+    }
+}
+
 public class TmdbApiExample {
     public static void main(String[] args) {
+        String apiKey = "DIN_API_NYCKEL_HÄR";
+
+        // Skapa ett objekt av TmdbApiHandler för att hantera API-anrop
+        TmdbApiHandler apiHandler = new TmdbApiHandler(apiKey);
+
         try {
-            // API-nyckel från The Movie Database (TMDb)
-            String apiKey = "DIN_API_NYCKEL_HÄR";
-
-            // URL för att fråga efter filmen "Happy Death Day"
-            String url = "https://api.themoviedb.org/3/search/movie?api_key=" + apiKey + "&query=Happy+death+day";
-
-            // Skapa en URL-objekt från strängen
-            URL apiURL = new URL(url);
-
-            // Öppna en anslutning till URL:en
-            HttpURLConnection connection = (HttpURLConnection) apiURL.openConnection();
-
-            // Ange att vi vill göra en GET-begäran
-            connection.setRequestMethod("GET");
-
-            // Hämta svarskod från anslutningen
-            int responseCode = connection.getResponseCode();
-            System.out.println("Svarskod: " + responseCode);
-
-            // Läs svaret från anslutningen
-            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-            String inputLine;
-            StringBuilder response = new StringBuilder();
-            while ((inputLine = reader.readLine()) != null) {
-                response.append(inputLine);
-            }
-            reader.close();
-
-            // Visa svaret
-            System.out.println(response.toString());
-
-            // Stäng anslutningen
-            connection.disconnect();
+            String query = "Happy+death+day";
+            String response = apiHandler.fetchDataFromTmdbApi(query);
+            System.out.println(response);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -107,12 +95,7 @@ public class TmdbApiExample {
 }
 ```
 
-Detta Java-exempel visar hur man använder ett API för att kommunicera med The Movie Database (TMDb) och hämta data om en film genom att skicka en GET-begäran.
+## Avslutning
 
-## Slutsats
+API:er är som magiska trollformler som gör det möjligt för våra applikationer att prata med varandra. Med dem kan vi bygga fantastiska saker och göra världen till en bättre plats genom kodningens konst.
 
-API:er är avgörande för modern mjukvaruutveckling genom att möjliggöra smidig och effektiv kommunikation mellan olika applikationer. Genom API:er blir det enklare att bygga skalbara, modulära och dynamiska system som kan utbyta data och funktionalitet på ett standardiserat sätt. Det är viktigt att överväga API-design och säkerhet noggrant för att säkerställa att API:et är intuitivt och säkert för utvecklare att använda.
-
-## TL;DR
-
-API:er, eller Application Programming Interfaces, är viktiga gränssnitt som möjliggör kommunikationen mellan webbapplikationer. De fungerar som en mellanhand mellan klientapplikationer och serverapplikationer, vilket gör det möjligt att ställa frågor och få svar samt skicka och ta emot data. Genom API:er blir klienter och servrar oberoende av varandra och kan enkelt utbyta information. API:er erbjuder fördelar som ökad flexibilitet, skalbarhet och moduläritet, men det finns också utmaningar med design och säkerhet som måste hanteras noggrant. API:er har ett brett spektrum av användningsområden inom webb- och mobilutveckling, och de är avgörande för modern mjukvaruutveckling.

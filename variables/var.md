@@ -20,7 +20,7 @@ I början av utbildningen använder vi inte 'var', för att studenterna ska lär
 
 ## Introduktion
 
-I Java, liksom i många andra programmeringsspråk, spelar variabler en central roll. En variabel är en plats i datorns minne där du kan lagra och manipulera data. Att förstå hur man använder variabler är en grundläggande färdighet för alla Java-utvecklare. I denna artikel kommer vi utforska "var" - nyckelordet i Java som används för att deklarera variabler. Vi kommer diskutera varför "var" är användbart, ge flera exempel på hur man använder det, och väga dess fördelar och nackdelar.
+I Java, liksom i många andra programmeringsspråk, spelar variabler en central roll. En variabel är en plats i datorns minne där du kan lagra och manipulera data. Att förstå hur man använder variabler är en grundläggande färdighet för alla Java-utvecklare. I Detta avsnitt kommer vi utforska "var" - nyckelordet i Java som används för att deklarera variabler. Vi kommer diskutera varför "var" är användbart, ge flera exempel på hur man använder det, och väga dess fördelar och nackdelar.
 
 ## Vad är "var"?
 

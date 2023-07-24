@@ -19,7 +19,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-Välkommen till denna guide om olika typer i Java! I denna artikel kommer vi att utforska både primitiva typer och referenstyper i Java. Vi kommer att lära oss vad de är, hur de används och vilka skillnader som finns mellan dem. Låt oss börja med att ställa några frågor: Vad är skillnaden mellan primitiva typer och referenstyper? Varför har Java dessa olika typer? Hur kan vi använda dem i våra program? Låt oss ta reda på det!
+Välkommen till denna guide om olika typer i Java! I Detta avsnitt kommer vi att utforska både primitiva typer och referenstyper i Java. Vi kommer att lära oss vad de är, hur de används och vilka skillnader som finns mellan dem. Låt oss börja med att ställa några frågor: Vad är skillnaden mellan primitiva typer och referenstyper? Varför har Java dessa olika typer? Hur kan vi använda dem i våra program? Låt oss ta reda på det!
 
 ## TL;DR
 

@@ -14,23 +14,23 @@ school: https://campus.molndal.se/yh
 
 # BFU Övning - Skriv ut en array baklänges
 
-I denna övning ska vi utforska hur man kan skriva ut en array i baklänges ordning. En array är en samling av värden med samma typ, och genom att använda en for-loop kan vi enkelt iterera genom arrayen och skriva ut värdena i motsatt ordning.
+Välkommen till denna spännande övning där vi kommer att utforska hur man skriver ut en array i baklänges ordning. En array är som en samling av saker i en låda, och genom att använda en speciell loop kan vi enkelt ta ut sakerna i motsatt ordning.
 
 ## Förkunskaper
 
-För att lösa denna övning bör du ha grundläggande kunskaper i programmering med Java. Du bör känna till hur man skapar och hanterar arrayer och hur man använder en for-loop för att iterera genom en samling av värden.
+Innan vi börjar med denna resa bör du ha lite förkunskaper i programmering med Java. Men oroa dig inte, vi kommer att använda vår magiska for-loop för att utforska denna värld tillsammans!
 
 ## Tips
 
-Innan vi börjar koda är det bra att planera hur vi kan använda en for-loop för att iterera genom arrayen i baklänges ordning. Fundera över hur du kan använda arrayens längd och index för att komma åt värdena i omvänd ordning.
+Innan vi kastar oss in i koden, låt oss tänka ut en plan för hur vi kan använda for-loopen för att utföra detta magiska trick. Fundera över hur vi kan använda lådans storlek och numren på lådorna för att hitta sakerna i omvänd ordning.
 
 ## Think Twice, Code Once
 
-Innan du börjar koda, ta dig tid att tänka över hur du kan använda en for-loop för att lösa uppgiften på ett elegant sätt. Genom att planera och reflektera över lösningen kan du undvika vanliga misstag och skriva mer lättläst och effektiv kod.
+Ta ett djupt andetag och tänk igenom hur vi kan använda vår for-loop för att lösa detta problem på ett snyggt sätt. Genom att tänka noga innan vi kodar kan vi undvika misstag och skriva koden på ett sätt som alla förstår.
 
 ## Planering
 
-Innan du dyker in i koden, ta några minuter och planera din lösning. Fundera över hur du kan använda en for-loop för att iterera genom arrayen baklänges. Skriv gärna ner en övergripande algoritm för hur du tänker lösa problemet.
+Ta några minuter för att planera din resa genom koden. Fundera över hur vi kan använda for-loopen för att utforska lådan baklänges. Skriv gärna ner din plan för att hålla dig på rätt kurs.
 
 ## Kodexempel
 
@@ -44,7 +44,6 @@ public class Main {
 
     private static void printListReverse(String[] array) {
         // Skriv din kod här
-
     }
 }
 ```
@@ -87,12 +86,10 @@ public class Main {
 
 ## Summan av kardemumman
 
-Du har precis klarat av att skriva ut en array baklänges!
+Du har precis klarat av att skriva ut en array baklänges! Wow, vilket magiskt trick du utförde där!
 
-Bra jobbat!
+Bra jobbat! Genom att använda vår for-loop har du lyckats öppna lådan och ta ut sakerna i motsatt ordning. Fortsätt att utforska och testa dina kunskaper. Det finns alltid mer att lära sig och nya utmaningar att ta sig an.
 
-Genom att använda en for-loop har du lyckats iterera genom arrayen på ett smart sätt och fått värdena att skrivas ut i omvänd ordning. Fortsätt att experimentera med koden och testa olika sätt att lösa problem på. Var öppen för att lära dig nya saker och utmana dig själv. Det finns alltid mer att upptäcka och lära inom programmeringens spännande värld. Så ge aldrig upp, tro på din förmåga och fortsätt att utvecklas som programmerare.
+Du är på rätt väg mot att bli en riktig kodmästare! Fortsätt att kämpa och ha kul med programmering! Lycka till!
 
-Du är på rätt väg mot att bli en riktig kodexpert! Fortsätt kämpa och ha kul med programmering! Lycka till!
-
-<p style = "display:block; clear:both; page-break-after:always;"></p>
+<p style="display:block; clear:both; page-break-after:always;"></p>

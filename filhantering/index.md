@@ -366,7 +366,7 @@ if(f.exists()){
 
 ## Termer och förklaringar
 
-Här följer termer som använts i denna artikel och deras förklaringar.
+Här följer termer som använts i Detta avsnitt och deras förklaringar.
 
 | Term                    | Förklaring                                                                     |
 | ----------------------- | ------------------------------------------------------------------------------ |
@@ -417,6 +417,6 @@ Här följer termer som använts i denna artikel och deras förklaringar.
 | Serialize               | Att konvertera ett objekt till en sträng.                                      |
 | Deserialize             | Att konvertera en sträng till ett objekt.                                      |
 
-## Sammanfattning
+## Summan av kardemumman
 
 Det finns många olika sätt att spara information på, välj den som känns trevligast för dig helt enkelt.

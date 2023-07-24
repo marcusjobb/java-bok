@@ -120,7 +120,7 @@ public class Main {
 
 I detta exempel har vi en klass `Superhero` som representerar en fantastisk hjältinna med namnet och krafterna. Med hjälp av inkapsling är dessa egenskaper privata och kan endast nås och ändras genom metoder som `getName`, `getPowers` och `setPowers`. På så sätt kan vi säkerställa att vårt hjältinna är trygg och kan dela sina magiska krafter med världen på ett kontrollerat sätt!
 
-## Sammanfattning
+## Summan av kardemumman
 
 Inkapsling är som en glänsande juvel inom objektorienterad programmering som främjar säkerhet, moduläritet och kodunderhåll. Genom att kombinera data och metoder inom en klass kan vi skapa en stark och välstrukturerad kod som är lätt att förstå och ändra. Inkapsling ger oss möjligheten att kontrollera åtkomsten till våra klassers medlemmar och skydda våra värdefulla data från obehörig åtkomst.
 

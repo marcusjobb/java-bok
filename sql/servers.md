@@ -17,7 +17,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-I denna artikel kommer vi att jämföra och utforska skillnaderna mellan SQL Server, SQLite och MySQL - tre populära databassystem som används inom programutveckling. Vi kommer att titta på deras egenskaper, användningsområden och fördelar för att hjälpa dig att välja det bästa alternativet för dina projekt.
+I Detta avsnitt kommer vi att jämföra och utforska skillnaderna mellan SQL Server, SQLite och MySQL - tre populära databassystem som används inom programutveckling. Vi kommer att titta på deras egenskaper, användningsområden och fördelar för att hjälpa dig att välja det bästa alternativet för dina projekt.
 
 ## TL;DR
 
@@ -50,7 +50,7 @@ MySQL är en populär och kraftfull öppen källkodsrelationsdatabas som använd
 - Stöd för flera användare och trådar.
 - Omfattande dokumentation och stöd från communityn.
 
-## Sammanfattning
+## Summan av kardemumman
 
 Skillnaderna mellan SQL Server, SQLite och MySQL beror på deras användningsområden och prestandakrav. SQL Server är lämplig för storskaliga företagsapplikationer, medan SQLite passar bra för mobila appar och mindre projekt. MySQL är ett populärt val för webbapplikationer och e-handelsplatser på grund av dess skalbarhet och användarstöd. Oavsett vilken databas du väljer, är det viktigt att förstå deras egenskaper och funktionalitet för att skapa effektiva och pålitliga databaslösningar.
 

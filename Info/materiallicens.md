@@ -20,7 +20,7 @@ Denna licens har valts för att ge studenterna friheten att använda koden på d
 
 För mer information om Creative Commons BY-NC-SA-licensen och dess villkor kan du besöka [Creative Commons webbplats](https://creativecommons.org/licenses/by-nc-sa/).
 
-## Sammanfattning
+## Summan av kardemumman
 
 - **Licens:** Creative Commons BY-NC-SA (Attribution-NonCommercial-ShareAlike)
 - **Användning:** Materialet får användas för icke-kommersiella ändamål.

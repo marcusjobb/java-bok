@@ -16,7 +16,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-I världen av Java, stöter vi på olika datatyper för att hantera olika typer av information. En sådan datatyp är "char," vilket representerar ett enstaka tecken i Unicode-format. I denna artikel kommer vi att utforska char både som en primitiv datatyp och i objektsform. Vi kommer också att jämföra char med String-datatypen och upptäcka char:s förmåga att representera både numeriska och teckenbaserade värden. Låt oss ge oss ut på en resa för att förstå char och dess unika egenskaper inom Java!
+I världen av Java, stöter vi på olika datatyper för att hantera olika typer av information. En sådan datatyp är "char," vilket representerar ett enstaka tecken i Unicode-format. I Detta avsnitt kommer vi att utforska char både som en primitiv datatyp och i objektsform. Vi kommer också att jämföra char med String-datatypen och upptäcka char:s förmåga att representera både numeriska och teckenbaserade värden. Låt oss ge oss ut på en resa för att förstå char och dess unika egenskaper inom Java!
 
 Alltså, Char är förvirrande, det är ett tecken och det är ett tal... weird som fasiken, men coolt!
 

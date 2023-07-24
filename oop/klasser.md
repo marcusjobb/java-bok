@@ -21,7 +21,7 @@ Ett Glatt Äventyr i Programmering med Java
 
 ## Introduktion
 
-Välkommen till detta glada äventyr som utforskar det spännande ämnet Klasser och Objekt inom programmering med Java! I denna artikel kommer vi att ta dig med på en resa genom de förtrollande världarna av Klasser och Objekt, som fungerar som magiska mallar för att skapa fantastiska program och applikationer. Låt oss utforska deras fördelar, ta oss an utmaningarna med ett leende och lära oss hur de kan användas för att skapa magiska program! Men innan vi ger oss iväg, låt oss ställa några frågor: Vad är egentligen Klasser och Objekt? Varför är de så viktiga för oss som programmerare? Och kan vi använda Klasser och Objekt för att lösa olika problem? Låt oss ta reda på det tillsammans!
+Välkommen till detta glada äventyr som utforskar det spännande ämnet Klasser och Objekt inom programmering med Java! I Detta avsnitt kommer vi att ta dig med på en resa genom de förtrollande världarna av Klasser och Objekt, som fungerar som magiska mallar för att skapa fantastiska program och applikationer. Låt oss utforska deras fördelar, ta oss an utmaningarna med ett leende och lära oss hur de kan användas för att skapa magiska program! Men innan vi ger oss iväg, låt oss ställa några frågor: Vad är egentligen Klasser och Objekt? Varför är de så viktiga för oss som programmerare? Och kan vi använda Klasser och Objekt för att lösa olika problem? Låt oss ta reda på det tillsammans!
 
 ## TL;DR - Too Long; Didn't Read
 

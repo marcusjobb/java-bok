@@ -16,7 +16,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-Inom programmeringens värld är heltal en grundläggande och ovärderlig datatyp som används för att representera och hantera hela tal. I denna artikel ska vi utforska världen av heltal, deras betydelse inom programmering och hur de kan användas på olika sätt för att lösa problem. Låt oss ta en spännande resa genom heltalens värld!
+Inom programmeringens värld är heltal en grundläggande och ovärderlig datatyp som används för att representera och hantera hela tal. I Detta avsnitt ska vi utforska världen av heltal, deras betydelse inom programmering och hur de kan användas på olika sätt för att lösa problem. Låt oss ta en spännande resa genom heltalens värld!
 
 ## TL;DR
 

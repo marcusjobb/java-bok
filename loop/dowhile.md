@@ -62,7 +62,7 @@ Medan villkoret i Do While-loopen är sant, körs koden inuti loopen. När villk
 
 I detta specifika exempel kommer loopen att köra 10 gånger och skriva ut värdena från 0 till 9.
 
-## Sammanfattning
+## Summan av kardemumman
 
 Do While är en loopstruktur i Java som körs minst en gång och sedan fortsätter att köra så länge som villkoret är sant. Det är användbart när du behöver utföra en viss kod minst en gång innan villkoret kontrolleras.
 

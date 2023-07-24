@@ -29,7 +29,7 @@ Hashmap är en kraftfull datastruktur för snabb åtkomst. Det kallas även för
 
 ## Introduktion
 
-En Hashmap är en datastruktur som tillåter oss att lagra och hämta värden baserat på nycklar. Den fungerar på ett liknande sätt som en telefonbok där vi kan slå upp ett namn (nyckel) för att få fram ett telefonnummer (värde). Hashmap är en kraftfull datastruktur inom programmering som erbjuder snabb åtkomst och effektiva sökningar. I Java finns det flera olika klasser som kan användas för att implementera en Hashmap, t.ex. `HashMap`, `TreeMap` och `LinkedHashMap`. I denna artikel kommer vi att fokusera på att använda `HashMap`.
+En Hashmap är en datastruktur som tillåter oss att lagra och hämta värden baserat på nycklar. Den fungerar på ett liknande sätt som en telefonbok där vi kan slå upp ett namn (nyckel) för att få fram ett telefonnummer (värde). Hashmap är en kraftfull datastruktur inom programmering som erbjuder snabb åtkomst och effektiva sökningar. I Java finns det flera olika klasser som kan användas för att implementera en Hashmap, t.ex. `HashMap`, `TreeMap` och `LinkedHashMap`. I Detta avsnitt kommer vi att fokusera på att använda `HashMap`.
 
 ## Vad är en Hashmap?
 

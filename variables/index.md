@@ -20,7 +20,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-I denna artikel kommer vi att utforska världen av variabler i Java. En variabel fungerar som en behållare som används för att lagra data under körningstid. I Java måste alla variabler deklareras innan de kan användas, vilket innebär att vi måste ange vilken typ av data som variabeln kommer att lagra. Vi kommer att titta närmare på hur man deklarerar och initierar variabler samt gå igenom olika datatyper som Java erbjuder.
+I Detta avsnitt kommer vi att utforska världen av variabler i Java. En variabel fungerar som en behållare som används för att lagra data under körningstid. I Java måste alla variabler deklareras innan de kan användas, vilket innebär att vi måste ange vilken typ av data som variabeln kommer att lagra. Vi kommer att titta närmare på hur man deklarerar och initierar variabler samt gå igenom olika datatyper som Java erbjuder.
 
 ## TL;DR
 

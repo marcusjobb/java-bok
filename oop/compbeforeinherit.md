@@ -221,8 +221,8 @@ I `Main`-klassen skapar vi instanser av `Lightsaber` och `Blaster` som represent
 
 Detta exempel visar hur vi kan använda komposition för att sammansätta klasser och uppnå flexibilitet och återanvändbarhet. Istället för att ha en hierarki av klasser med olika kombinationer av vapen, kan vi enkelt kombinera olika karaktärer och vapen genom att ändra vilka objektinstanser som tilldelas till varje karaktär.
 
-## Sammanfattning
+## Summan av kardemumman
 
-I denna artikel har vi utforskat konceptet "Komposition över Arv" och dess betydelse inom programmering. Vi har sett fördelarna med att använda komposition, såsom flexibilitet, moduläritet, återanvändbarhet och minskat beroende. Vi har också identifierat begränsningar som ökad komplexitet och mer kod att skriva. Genom ett kodexempel har vi sett hur man kan implementera komposition i praktiken med hjälp av Java.
+I Detta avsnitt har vi utforskat konceptet "Komposition över Arv" och dess betydelse inom programmering. Vi har sett fördelarna med att använda komposition, såsom flexibilitet, moduläritet, återanvändbarhet och minskat beroende. Vi har också identifierat begränsningar som ökad komplexitet och mer kod att skriva. Genom ett kodexempel har vi sett hur man kan implementera komposition i praktiken med hjälp av Java.
 
 För vidare läsning rekommenderas att utforska olika designmönster och principer inom objektorienterad programmering, såsom SOLID-principerna och Design Patterns-boken av Erich Gamma m.fl.

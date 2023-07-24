@@ -18,7 +18,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-Välkommen till en spännande resa genom Star Wars universum där vi kommer att använda Java Map och HashMap för att navigera mellan planeter och smuggla Bacta med Han Solo. I denna artikel kommer vi att utforska vad Map och HashMap är, jämföra deras fördelar och begränsningar samt diskutera när man bör använda dem i olika scenarier. Så låt oss sätta på oss våra Jedi-mössor och ge oss ut på detta äventyr!
+Välkommen till en spännande resa genom Star Wars universum där vi kommer att använda Java Map och HashMap för att navigera mellan planeter och smuggla Bacta med Han Solo. I Detta avsnitt kommer vi att utforska vad Map och HashMap är, jämföra deras fördelar och begränsningar samt diskutera när man bör använda dem i olika scenarier. Så låt oss sätta på oss våra Jedi-mössor och ge oss ut på detta äventyr!
 
 Bacta är en viktig resurs i Star Wars universum som används för att läka sår och sjukdomar. Det är en vätska som extraheras från alger och används för att skapa Bacta-tankar som kan användas för att läka skadade soldater. Det är inte så lätt att få tag på Bacta eftersom det är en dyr resurs som är svår att odla. Det är därför smugglare som Han Solo är så viktiga för att transportera Bacta mellan planeter.
 

@@ -44,7 +44,7 @@ När en metod är markerad som `Runnable` kommer den att returnera ett `Thread`-
 
 Asynkrona metoder är användbara när man vill förbättra applikationens responsivitet och prestanda. De är också användbara när man vill köra flera operationer samtidigt, som att kommunicera med andra system eller hantera tunga beräkningar.
 
-## Sammanfattning
+## Summan av kardemumman
 
 Asynkrona metoder är ett användbart verktyg för att förbättra applikationens responsivitet och prestanda. De gör det möjligt att köra flera metoder samtidigt och blockera inte tråden som kör metoden. I Java kan man använda nyckelordet `Runnable` tillsammans med `Thread` för att ange att en metod ska köras asynkront.3. **Kodförenkling**: Asynkrona metoder kan göra koden mer läsbar och förenkla kodstrukturen.
 

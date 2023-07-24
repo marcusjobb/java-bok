@@ -25,7 +25,7 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-Textfiler är en vanlig filtyp som används för att lagra textbaserad data. I Java kan vi använda olika klasser och metoder för att skapa, läsa, skriva över och radera textfiler. I denna artikel kommer vi att utforska hur vi kan hantera textfiler i Java och vilka möjligheter det ger oss.
+Textfiler är en vanlig filtyp som används för att lagra textbaserad data. I Java kan vi använda olika klasser och metoder för att skapa, läsa, skriva över och radera textfiler. I Detta avsnitt kommer vi att utforska hur vi kan hantera textfiler i Java och vilka möjligheter det ger oss.
 
 ## Skapa en textfil
 

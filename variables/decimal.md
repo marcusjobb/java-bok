@@ -14,7 +14,7 @@ school: https://campus.molndal.se/yh
 
 # Decimal
 
-I världen av programmering stöter vi ofta på behovet av att hantera decimaltal, vilket kan vara avgörande för precisionen och noggrannheten i våra applikationer. I denna artikel kommer vi att utforska hur decimaltal representeras både som primitiva datatyper och som objekt i programmeringsspråket Java. Vi kommer också att förklara skillnaden mellan dessa representationer och varför det är viktigt att vara medveten om dem.
+I världen av programmering stöter vi ofta på behovet av att hantera decimaltal, vilket kan vara avgörande för precisionen och noggrannheten i våra applikationer. I Detta avsnitt kommer vi att utforska hur decimaltal representeras både som primitiva datatyper och som objekt i programmeringsspråket Java. Vi kommer också att förklara skillnaden mellan dessa representationer och varför det är viktigt att vara medveten om dem.
 
 ## TL;DR
 

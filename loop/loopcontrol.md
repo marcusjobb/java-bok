@@ -136,7 +136,7 @@ Resultatet av koden ovan kommer att vara:
 
 I detta exempel använder vi `yield` för att avsluta hela iteratorn när variabeln `i` blir lika med eller större än `max`. Skillnaden mellan `break` och `yield` är att `yield` avslutar hela iteratorn, medan `break` bara avslutar loopen.
 
-## Sammanfattning
+## Summan av kardemumman
 
 Loopkontroller ger oss möjlighet att ha mer kontroll över loopar i programmering. Genom att använda `break`, `continue`, `return`, och `yield`, kan vi anpassa loopar och metoder efter våra behov.
 

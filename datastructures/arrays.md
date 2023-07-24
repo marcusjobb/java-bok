@@ -60,7 +60,7 @@ Vad är fördelen med detta?
 
 ## Introduktion
 
-En array är en grundläggande datastruktur inom programmering som möjliggör lagring av en samling av element av samma datatyp. I Java används arrayer för att organisera och hantera större mängder data på ett strukturerat sätt. Denna artikel kommer att ge dig en introduktion till arrayer i Java och deras användning.
+En array är en grundläggande datastruktur inom programmering som möjliggör lagring av en samling av element av samma datatyp. I Java används arrayer för att organisera och hantera större mängder data på ett strukturerat sätt. Detta avsnitt kommer att ge dig en introduktion till arrayer i Java och deras användning.
 
 ## Vad är arrayer i Java?
 

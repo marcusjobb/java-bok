@@ -85,6 +85,6 @@ public int getAge(Date currentDate) {
 }
 ```
 
-## Sammanfattning
+## Summan av kardemumman
 
 "Public" är en kraftfull åtkomstmodifikator som skapar öppenhet för klasser, metoder och egenskaper att vara tillgängliga för alla. Detta främjar samarbete och kodåteranvändning mellan olika delar av våra projekt. När vi använder "public" bör vi dock vara medvetna om säkerhetsaspekter och kodunderhåll för att säkerställa en stabil och säker programvara. Användningen av getters och setters ger oss mer kontroll över hur data hanteras och kan vara fördelaktig i vissa situationer. Med detta kunskapsrika förhållningssätt kan vi skapa välstrukturerade och samarbetande Java-program! Happy coding! 😊

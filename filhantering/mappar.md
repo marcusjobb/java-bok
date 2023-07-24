@@ -17,7 +17,7 @@ school: https://campus.molndal.se/yh
 
 # Mappar i Java
 
-I denna artikel kommer vi att lära oss hur man hanterar mappar i Java-program genom att använda `File`-klassen från `java.io`-paketet. Vi kommer att utforska de olika operationerna för att kontrollera om en mapp existerar, skapa en ny mapp och radera en befintlig mapp.
+I Detta avsnitt kommer vi att lära oss hur man hanterar mappar i Java-program genom att använda `File`-klassen från `java.io`-paketet. Vi kommer att utforska de olika operationerna för att kontrollera om en mapp existerar, skapa en ny mapp och radera en befintlig mapp.
 
 ## När du läst detta ska du kunna
 
@@ -107,7 +107,7 @@ Sammanfattningsvis har vi i detta kodexempel utforskat hur man arbetar med mappa
 
 Det är viktigt att vara försiktig när man arbetar med mappar och filer och att hantera eventuella fel eller undantag som kan uppstå. Det kan vara användbart att använda try-catch-block för att fånga och hantera eventuella undantag som genereras vid arbete med mappar och filer.
 
-Jag hoppas att denna artikel har varit användbar och gett dig en bättre förståelse för hur man arbetar med mappar i Java. Om du har några frågor eller vill lära dig mer, tveka inte att utforska dokumentationen och resurserna från Oracle som jag har länkat till ovan. Ha kul med att organisera dina filer och mappar i dina Java-projekt!
+Jag hoppas att Detta avsnitt har varit användbar och gett dig en bättre förståelse för hur man arbetar med mappar i Java. Om du har några frågor eller vill lära dig mer, tveka inte att utforska dokumentationen och resurserna från Oracle som jag har länkat till ovan. Ha kul med att organisera dina filer och mappar i dina Java-projekt!
 
 **Källor**:
 

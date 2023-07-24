@@ -18,7 +18,7 @@ Double i Java - Utforska Dubbelnatur av double och Double
 
 ## Introduktion
 
-Inom Java finns det en intressant aspekt som involverar användningen av tal med flyttalsrepresentation. I denna artikel kommer vi att utforska "double" och dess alias "Double". Vi kommer att ta reda på hur dessa två varianter fungerar och när du bör använda dem. Bli inspirerad att omfamna dubbelnatur av double och Double för att förfina dina numeriska färdigheter och skapa mästerliga program!
+Inom Java finns det en intressant aspekt som involverar användningen av tal med flyttalsrepresentation. I Detta avsnitt kommer vi att utforska "double" och dess alias "Double". Vi kommer att ta reda på hur dessa två varianter fungerar och när du bör använda dem. Bli inspirerad att omfamna dubbelnatur av double och Double för att förfina dina numeriska färdigheter och skapa mästerliga program!
 
 ## TL;DR
 

@@ -141,7 +141,7 @@ public class Main {
 }
 ```
 
-## Sammanfattning
+## Summan av kardemumman
 
 Du har nu upptäckt det fantastiska konceptet arv inom objektorienterad programmering! Arv ger oss superkrafter i form av kodåteranvändning, modulär design och flexibilitet. Vi har utforskat hur arv kan användas för att skapa hierarkier av klasser i olika användningsområden som spelutveckling, grafiska användargränssnitt och databashantering.
 

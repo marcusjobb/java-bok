@@ -20,7 +20,7 @@ Begränsningar i SQL för att säkerställa datan i tabeller
 
 ### Introduktion
 
-Välkommen till denna artikel om SQL-Constraints, ett kraftfullt verktyg för att begränsa datan
+Välkommen till Detta avsnitt om SQL-Constraints, ett kraftfullt verktyg för att begränsa datan
 i en tabell. I SQL finns det två typer av constraints som vi ska utforska: Primary Key och
 Foreign Key. Dessa constraints hjälper oss att säkerställa att tabellerna innehåller korrekt
 och sammanhängande data. Låt oss ta en närmare titt på hur dessa constraints fungerar och
