@@ -15,7 +15,7 @@ id: 6d679594-e712-4a30-851e-db2adace5100
 school: https://campus.molndal.se/yh
 ---
 
-# File-klassen: En guide till filhantering i Java
+# File-klassen
 
 Tänk dig om du skulle göra en resa in i Java-programmeringens filvärld och utforska en värld av filhantering. Vi ska tillsammans dyka in i File-klassen i Java, som tillhör paketet `java.io`, och upptäcka en mängd användbara metoder för att hantera filer. Oavsett om du är en nybörjare eller en erfaren kodare kommer du att lära dig hur du skapar, skriver, läser och tar bort filer på ett enkelt och effektivt sätt.
 
@@ -150,7 +150,6 @@ public class FileExample {
 ```
 
 I detta exempel använder vi metoden `Files.delete` för att ta bort filen "C:\\Temp\\example.txt" från filsystemet. Om allt går som det ska, skriver vi ut ett meddelande som bekräftar att filen har tagits bort.
-
 
 ## Termer
 

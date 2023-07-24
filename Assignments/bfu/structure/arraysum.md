@@ -77,7 +77,7 @@ public class Main {
 
 <details><summary markdown="span">Lösning</summary>
 
-Lösningen till denna övning består av en Java-kod som skapar en lista med 10 tal och beräknar deras summa. 
+Lösningen till denna övning består av en Java-kod som skapar en lista med 10 tal och beräknar deras summa.
 
 Förklaring av koden:
 

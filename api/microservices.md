@@ -1,9 +1,18 @@
 ---
 title: Microservices
+permalink: api/microservices
 nav_order: 1
---- 
+parent: API
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: b163ed95-44fe-4d7f-94c7-e126e6512dac
+school: https://campus.molndal.se/yh
+---
 
-# Microservices - En värld av små, självständiga hjältar!
+# Microservices
 
 Välkomna till detta spännande avsnitt där vi kommer att dyka djupare in i vad Microservices är och varför de har blivit en så viktig arkitektonisk stil inom mjukvaruutveckling. Om du någonsin har undrat över hur man kan bygga effektiva och skalbara mjukvarusystem, då har du kommit till rätt plats! Låt oss börja med att utforska några grundläggande frågor om Microservices och varför vi bör överväga att använda dem i vår programmeringsresa.
 

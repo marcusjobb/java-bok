@@ -12,11 +12,11 @@ id: e86aaa09-bc42-412d-b325-be92d0d33125
 school: https://campus.molndal.se/yh
 ---
 
- # BFU Övning - Delning av arrayer
+# BFU Övning - Delning av arrayer
 
 Arrayer kan vara riktigt knepiga ibland, men låt inte det hindra dig! Låt oss lära oss hur man delar upp en array i mindre bitar och skapar nya arrayer av dem.
 
-## Övning: Plocka ut en del av en array och skapa en ny array av det
+# BFU Övning - Delning av arrayer
 
 Vi kommer att börja med en array som innehåller 10 heltal. Uppgiften går ut på att plocka ut de fem första talen och använda dem för att skapa en ny array.
 
@@ -110,4 +110,3 @@ Nu har du lärt dig hur man plockar ut en del av en array, men samma teknik kan 
 ## Summering
 
 Förmågan att plocka ut en del av en array är en användbar kunskap inom programmering. Genom att använda `copyOfRange`, kan du enkelt skapa nya delarrayer utan att ändra den ursprungliga arrayen. Övning och experiment är nyckeln till att bli en bättre programmerare. Fortsätt utforska och utmana dig själv för att förbättra dina färdigheter och ha roligt med programmering!
-

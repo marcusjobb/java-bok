@@ -15,7 +15,7 @@ id: 74c8e08c-03f2-429b-9a29-87c8ea2c0ccf
 school: https://campus.molndal.se/yh
 ---
 
-# API - Application Programming Interface
+# API
 
 Välkommen till denna spännande artikel där vi kommer att utforska Application Programming Interface (API), ett viktigt gränssnitt som underlättar kommunikationen med webbapplikationer.
 
@@ -98,4 +98,3 @@ public class TmdbApiExample {
 ## Avslutning
 
 API:er är som magiska trollformler som gör det möjligt för våra applikationer att prata med varandra. Med dem kan vi bygga fantastiska saker och göra världen till en bättre plats genom kodningens konst.
-

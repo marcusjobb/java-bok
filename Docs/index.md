@@ -14,7 +14,7 @@ id: 2e766ee8-8856-4d67-a73b-de2409fe778b
 school: https://campus.molndal.se/yh
 ---
 
-## Om materialet
+# Om materialet
 
 Hej där kodare, här tar vi oss an en spännande resa in i Java-programmeringens värld tillsammans! Men oroa dig inte, jag lovar att hålla det lättsamt och roligt. Innan vi dyker in vill jag bara varna dig för att det kan förekomma katter, superhjältar (särskilt Superman och Batman) och en och annan knasighet längs vägen. Du har blivit varnad! 😄
 
@@ -68,7 +68,6 @@ Varje artikel med kodförklaringar kommer att innehålla:
 - **Steg för steg-lösning med kodförklaringar**: En detaljerad förklaring av varje kodsteg i lösningen för att ge dig en klar och djup förståelse, som om vi diskuterade krypteringskoder med R2-D2 och hittade hemliga meddelanden!
 
 Och naturligtvis, efter varje artikel med kodförklaringar, kommer vi att inkludera en tabell med termer för att hjälpa dig att förstå de tekniska begreppen bättre och känna dig som en riktig programmeringsmästare!
-
 
 ### Övningar
 

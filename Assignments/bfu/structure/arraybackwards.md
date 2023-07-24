@@ -91,4 +91,3 @@ Du har precis klarat av att skriva ut en array baklänges! Wow, vilket magiskt t
 Bra jobbat! Genom att använda vår for-loop har du lyckats öppna lådan och ta ut sakerna i motsatt ordning. Fortsätt att utforska och testa dina kunskaper. Det finns alltid mer att lära sig och nya utmaningar att ta sig an.
 
 Du är på rätt väg mot att bli en riktig kodmästare! Fortsätt att kämpa och ha kul med programmering! Lycka till!
-

@@ -19,8 +19,6 @@ school: https://campus.molndal.se/yh
 
 Här finns några övningar för att träna på att använda arrayer i Java.
 
-
-
 ## 1. Skapa en array
 
 Skapa en array med namnet `numbers` som innehåller följande tal: 1, 2, 3, 4, 5.

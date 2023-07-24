@@ -15,7 +15,7 @@ id: d25724cc-65a5-4b57-b737-c1410c5b51b3
 school: https://campus.molndal.se/yh
 ---
 
-## CSV - Enkel datalagring och hantering med Java
+# CSV
 
 Hej och välkomna till denna spännande resa in i CSV-filformatets värld! CSV, eller Comma Separated Values, är ett kraftfullt filformat som används för att lagra och hantera data i en tabell. Låt oss utforska dess fördelar, begränsningar och olika användningsområden inom programmering med hjälp av vår trogna vän Java!
 
@@ -217,4 +217,3 @@ Genom att ha denna kunskap i vår verktygslåda kan vi nu bli riktiga mästare p
 - [Google Kalender](https://calendar.google.com/)
 - [Outlook Kalender](https://outlook.live.com/calendar/0/view/month)
 - [Google Kalender CSV](https://support.google.com/calendar/answer/37118?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ccreate-or-edit-a-csv-file)
-

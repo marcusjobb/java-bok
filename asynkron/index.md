@@ -16,7 +16,7 @@ id: 1e86d3a3-ce3e-4d5e-a261-143930f38baf
 school: https://campus.molndal.se/yh
 ---
 
-# Asynkrona metoder i Java: Få fart på din applikation!
+# Asynkron
 
 Välkommen till vår artikel om asynkrona metoder i Java! Här kommer vi att utforska hur asynkrona metoder gör det möjligt för oss att köra flera metoder samtidigt och därigenom förbättra applikationens responsivitet. Vi lovar att hålla det pedagogiskt, inspirerande och med en nypa Göteborgshumor för att göra inlärningen till en spännande och lärorik resa!
 

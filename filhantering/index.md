@@ -14,7 +14,7 @@ id: f4960b36-e538-4fd4-9540-ba446993d975
 school: https://campus.molndal.se/yh
 ---
 
-# Filhantering 
+# Filhantering
 
 Välkommen till det spännande äventyret där vi ska utforska filhantering i Java! I den avlägsna galaxen Star Wars, där kraften flödar och äventyr väntar, kommer vi att lära oss hur man skapar och hanterar filer som riktiga jedimästare!
 

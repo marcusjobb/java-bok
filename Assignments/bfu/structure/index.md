@@ -13,7 +13,7 @@ id: f19f9a56-83f2-4b4a-81ea-e1db4e72d80c
 school: https://campus.molndal.se/yh
 ---
 
-## Strukturer
+# Strukturer
 
 Välkommen till några spännande strukturövningar! Vi kommer att dyka in i arrayernas mystiska värld och förhoppningsvis göra dig till en riktig guru inom arraykodning. Om du väl bemästrar arrayer har du en fantastisk grund för att hantera listor och andra datastrukturer.
 
@@ -35,4 +35,3 @@ String[] favoriteColors = {"blå", "röd", "grön", "gul"};
 ```
 
 För att komma åt en specifik färg i arrayen, behöver du bara veta indexet för den färgen. Tänk på att indexet börjar från 0, så den första färgen har index 0, den andra färgen har index 1, och så vidare.
-

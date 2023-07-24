@@ -1,8 +1,18 @@
 ---
 title: Api och Microservices
+permalink: api/apimicroservices
+nav_order: 3
+parent: API
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: f0f7bb50-93a3-4880-9541-0cc94b1e8fd6
+school: https://campus.molndal.se/yh
 ---
 
-## API och Microservices
+# Api och Microservices
 
 Byggstenar för den Digitala Framtiden
 
@@ -24,7 +34,7 @@ Microservices och API är avgörande för att du ska kunna bygga ett framgångsr
 
 ## Vad är Skillnaden Mellan Microservices och API?
 
-För att skapa ett framgångsrikt system med Microservices och API måste vi förstå deras unika roller. Microservices är en arkitekturstil som bryter ner applikationer i små, självständiga och modulära komponenter. Varje komponent utför en specifik uppgift och kommunicerar med de andra komponenterna via API. Detta gör det möjligt för utvecklare att arbeta självständigt på olika delar av applikationen och förbättrar agiliteten och skalbarheten hos systemet. 
+För att skapa ett framgångsrikt system med Microservices och API måste vi förstå deras unika roller. Microservices är en arkitekturstil som bryter ner applikationer i små, självständiga och modulära komponenter. Varje komponent utför en specifik uppgift och kommunicerar med de andra komponenterna via API. Detta gör det möjligt för utvecklare att arbeta självständigt på olika delar av applikationen och förbättrar agiliteten och skalbarheten hos systemet.
 
 API, som står för Application Programming Interface, är ett gränssnitt som tillåter interaktion och kommunikation mellan olika applikationer och tjänster. API gör det möjligt för Microservices att samverka och utbyta data, vilket skapar en sammanhängande och flexibel infrastruktur för systemet.
 
@@ -121,7 +131,6 @@ Tack så mycket! Här är den utförliga tabellen som förklarar alla tekniska t
 | Container           | En isolerad miljö som innehåller allt som behövs för en applikation att fungera, inklusive kod, bibliotek och konfiguration. Kan enkelt distribueras och köra på olika plattformar.                                        |
 | Övervakning         | Processen att övervaka och mäta prestanda och funktioner hos en applikation eller system för att identifiera eventuella problem och förbättringsmöjligheter.                                                                  |
 | API-plattform       | En infrastruktur eller tjänst som möjliggör utveckling, hantering och säkerhet för API.                                                                                                                                      |
-
 
 ## Sammanfattning
 
