@@ -62,8 +62,7 @@ Obi-Wan Darth Vader C3PO R2D2 Yoda Chewbacca Han Leia Luke
 
 ### Facit
 
-<details>
-<summary>Klicka här för att se facit</summary>
+<details><summary>Klicka här för att se facit</summary>
 
 ```java
 import java.util.Scanner;

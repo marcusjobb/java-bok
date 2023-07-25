@@ -1,7 +1,7 @@
 ---
 title: Enum
 permalink: variables/enum
-nav_order: 27
+nav_order: 25
 parent: Variabler
 grand_parent: Home
 author: Marcus Medina
