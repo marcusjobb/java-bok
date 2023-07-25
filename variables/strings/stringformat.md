@@ -150,6 +150,21 @@ Belopp i svensk valuta: 1 000,50 kr
 
 Visst är  "String format" coolt?. Det är så grymt att kunna skapa strukturerade och dynamiska textsträngar med detta verktyg. Genom att använda formatmönster och specifikatorer kan vi göra textbehandlingen roligare och mer engagerande för våra användare. Så var kreativ och låt din Java-kod glänsa med "String format" och sprid glädje och effektivitet i dina applikationer!
 
+## Funktioner
+
+| Funktion   | Beskrivning                                               | Exempel                                | Resultat                |
+| -----------| -------------------------------------------------------- | -------------------------------------- | ----------------------- |
+| String.format(String format, Object... args) | Skapar en formatterad sträng baserat på angivet format och variabler | `String name = "Alice";`<br>`int age = 30;`<br>`String formattedString = String.format("Hej, mitt namn är %s och jag är %d år gammal.", name, age);`<br>`System.out.println(formattedString);` | `Hej, mitt namn är Alice och jag är 30 år gammal.` |
+| %s         | Specifikator för att ersätta med en sträng               | `String name = "Alice";`<br>`String greeting = String.format("Hej, %s!", name);`<br>`System.out.println(greeting);` | `Hej, Alice!` |
+| %d         | Specifikator för att ersätta med ett heltal             | `int apples = 5;`<br>`String message = String.format("Jag har %d äpplen.", apples);`<br>`System.out.println(message);` | `Jag har 5 äpplen.` |
+| %f         | Specifikator för att ersätta med ett flyttal             | `double price = 19.99;`<br>`String formattedPrice = String.format("Priset är %.2f kr.", price);`<br>`System.out.println(formattedPrice);` | `Priset är 19.99 kr.` |
+| %c         | Specifikator för att ersätta med ett tecken               | `char grade = 'A';`<br>`String message = String.format("Ditt betyg är: %c", grade);`<br>`System.out.println(message);` | `Ditt betyg är: A` |
+| %b         | Specifikator för att ersätta med en boolean (true eller false) | `boolean isSunny = true;`<br>`String weather = String.format("Är det soligt idag? %b", isSunny);`<br>`System.out.println(weather);` | `Är det soligt idag? true` |
+| %n         | Ny rad specifikator (ersätter med ett radbrytning)         | `String multiLine = String.format("Första raden.%nAndra raden.");`<br>`System.out.println(multiLine);` | `Första raden.`<br>`Andra raden.` |
+| %%         | Escapar procenttecken så att det visas som det är          | `double discount = 0.25;`<br>`String message = String.format("Rabatt: %.0f%%", discount * 100);`<br>`System.out.println(message);` | `Rabatt: 25%` |
+
+`String.format` ger dig möjlighet att skapa strängar med variabler på ett flexibelt och lättläst sätt, vilket är användbart när du vill presentera information på ett dynamiskt sätt! ;)
+
 ## Obligatorisk dad joke:
 
 Varför älskar Java-utvecklare "String format" så mycket?

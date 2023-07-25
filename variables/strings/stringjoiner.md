@@ -1,6 +1,17 @@
 ---
-title:String joiner
+title: String joiner
+permalink: strings/stringjoiner
+nav_order: 11
+parent: Stränghantering
+grand_parent: Variabler
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 891145d3-c9fb-4043-8216-6cae2c70daed
+school: https://campus.molndal.se/yh
 ---
+
 # String joiner
 
 ## Introduktion
@@ -55,21 +66,24 @@ joiner.add("name ='");
 joiner.add(name);
 joiner.add("';");
 ```
-ger oss 
+ger oss
 ```
 UPDATE Jedi SET name ='Darth Vader' WHERE name ='Anakin Skywalker';
 ```
 
 ## Anpassning med Prefix och Suffix
 
-Inte nog med det, vi kan även anpassa vår StringJoiner genom att ange ett prefix och ett suffix. Detta gör att vi kan lägga till en speciell text i början och slutet av den sammanfogade strängen. Perfekt för när vi vill skapa kompletta meningar eller stycken!
+Inte nog med det, vi kan även anpassa vår StringJoiner genom att ange ett
+prefix och ett suffix. Detta gör att vi kan lägga till en speciell text i
+början och slutet av den sammanfogade strängen. Perfekt för när vi vill skapa
+kompletta meningar eller stycken!
 
 ```java
     StringJoiner logPath = new StringJoiner("", "/user/", "/documents/diary/");
     StringJoiner logEntry = new StringJoiner("", "Log/" , ".txt");
     logpath.add("Kyp Durron");
     logEntry.add("7 BoE"); // 7 år efter slaget om Endor
-    String log = "Kära dagbok, idag såg jag Exar Kuns spöke :-O"; 
+    String log = "Kära dagbok, idag såg jag Exar Kuns spöke :-O";
 
     String filePath = logPath.toString() + logEntry.toString();
     System.out.println(filePath);
@@ -80,11 +94,30 @@ Inte nog med det, vi kan även anpassa vår StringJoiner genom att ange ett pref
 Resultatet blir:
 
 ```
-/user/Kyp Durron/documents/diary/Log7 BoE.txt
+/user/Kyp Durron/documents/diary/Log/7 BoE.txt
 Kära dagbok, idag såg jag Exar Kuns spöke :-O
 ```
-```
+
+## Funktioner
+
+| Funktion   | Beskrivning                                               | Exempel                                | Resultat                |
+| -----------| -------------------------------------------------------- | -------------------------------------- | ----------------------- |
+| StringJoiner(CharSequence delimiter) | Skapar en ny StringJoiner med angiven delimiter | `StringJoiner sj = new StringJoiner(", ");` | `""` (tom sträng) |
+| add(CharSequence newElement) | Lägger till ett nytt element till StringJoiner | `sj.add("Äpple");`<br>`sj.add("Banan");`<br>`sj.add("Apelsin");` | `"Äpple, Banan, Apelsin"` |
+| length() | Returnerar längden av den resulterande strängen i StringJoiner | `int length = sj.length(); System.out.println(length);` | `17` |
+| setEmptyValue(CharSequence emptyValue) | Ställer in ett värde att returnera om StringJoiner är tom | `sj.setEmptyValue("Inget frukt tillgängligt");`<br>`System.out.println(sj.toString());` | `"Inget frukt tillgängligt"` |
+| toString() | Returnerar den resulterande strängen i StringJoiner | `String result = sj.toString(); System.out.println(result);` | `"Äpple, Banan, Apelsin"` |
+
+Med `StringJoiner` kan du enkelt sammanfoga flera strängar med ett delimiter och skapa en kommaseparerad lista, vilket är användbart när du hanterar listor av värden! ;)
 
 ## Slutsats
 
-Så där har ni det, kära kodare! StringJoiner är ett coolt verktyg som gör textbehandling till ett nöje! Genom att förena flera strängar till ett enda paket kan vi skapa snygga och sammanhängande textsträngar på ett enkelt sätt. Använd StringJoiner för att skapa listor, SQL-frågor, eller bara för att bygga meddelanden som får ditt hjärta att slå lite snabbare! 😄 Nu är det dags att släppa loss din kreativitet och skapa magi med dina kodsträngar! Lycka till och ha det superkul med din nya vän, StringJoiner! 🎉
+Så där har ni det, mäster kodare!
+
+StringJoiner är ett coolt verktyg som gör textbehandling till ett nöje! Genom
+att förena flera strängar till ett enda paket kan vi skapa snygga och
+sammanhängande textsträngar på ett enkelt sätt. Använd StringJoiner för att
+skapa listor, SQL-frågor, eller bara för att bygga meddelanden som får ditt
+hjärta att slå lite snabbare! Nu är det dags att släppa loss din kreativitet
+och skapa magi med dina kodsträngar! Lycka till och ha det superkul med din nya
+vän, StringJoiner!

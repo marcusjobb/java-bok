@@ -1,5 +1,15 @@
 ---
 title: Decimalformat
+permalink: strings/decimalformat
+nav_order: 7
+parent: Stränghantering
+grand_parent: Variabler
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 483c6b16-dfec-4ff4-bf01-78aac99a2bab
+school: https://campus.molndal.se/yh
 ---
 
 # Decimalformat
@@ -120,7 +130,7 @@ public class HanSoloCargo {
         System.out.println("-----------------------------");
         String formattedProfit = formatter.format(totalValue - javaDebt);
         System.out.println("Vinst: " + formattedProfit + " krediter");
-        System.out.println("-----------------------------"); 
+        System.out.println("-----------------------------");
 
     }
 }
@@ -160,8 +170,25 @@ Till exempel:
 
 Med DecimalFormat kan du vara så kreativ du vill! Du kan skapa anpassade format för tal och låta din kod utstråla både elegans och precision. Det charmiga med det hela är att det är så enkelt att använda och ändå så kraftfullt i resultatet!
 
+## Funktioner
+
+Absolut! Här är tabellen med exempel för DecimalFormat:
+
+| Funktion   | Beskrivning                                               | Exempel                                | Resultat                |
+| -----------| -------------------------------------------------------- | -------------------------------------- | ----------------------- |
+| DecimalFormat(String pattern) | Skapar ett DecimalFormat-objekt med det angivna formatmönstret | `DecimalFormat df = new DecimalFormat("#,###.00");` | `#,###.00` |
+| setMinimumFractionDigits(int minDigits) | Ställer in det minsta antalet decimaler för formattering | `df.setMinimumFractionDigits(2); System.out.println(df.format(1234.5));` | `1,234.50` |
+| setMaximumFractionDigits(int maxDigits) | Ställer in det högsta antalet decimaler för formattering | `df.setMaximumFractionDigits(4); System.out.println(df.format(1234.56789));` | `1,234.5679` |
+| setMinimumIntegerDigits(int minDigits) | Ställer in det minsta antalet siffror för formattering före decimaltecknet | `df.setMinimumIntegerDigits(3); System.out.println(df.format(12.345));` | `012.345` |
+| setMaximumIntegerDigits(int maxDigits) | Ställer in det högsta antalet siffror för formattering före decimaltecknet | `df.setMaximumIntegerDigits(5); System.out.println(df.format(123456.789));` | `123,456.79` |
+| setGroupingUsed(boolean useGrouping) | Aktiverar eller inaktiverar gruppering av siffror | `df.setGroupingUsed(false); System.out.println(df.format(123456.789));` | `123456.79` |
+| setDecimalSeparatorAlwaysShown(boolean alwaysShown) | Anger om decimaltecknet alltid ska visas | `df.setDecimalSeparatorAlwaysShown(true); System.out.println(df.format(1234));` | `1,234.` |
+| setParseBigDecimal(boolean newValue) | Anger om metoden `parse` ska returnera ett BigDecimal-objekt | `df.setParseBigDecimal(true); BigDecimal num = (BigDecimal) df.parse("1234.56789"); System.out.println(num);` | `1234.56789` |
+
+DecimalFormat ger dig möjlighet att anpassa formatteringen av decimaltal på olika sätt, vilket är användbart när du vill visa siffror på ett specifikt och överskådligt sätt! ;)
+
 ## Slutsats
 
 Så kära vänner, om ni vill ta er Java-kod till nästa nivå och ge era tal och siffror en touch av elegans, låt mig säga att DecimalFormat är nyckeln till framgång! Genom att använda formatmönster och kreativitet kan vi skapa vackra och välskötta textrepresentationer av tal, som imponerar på både användare och kollegor.
 
-Så se till att utforska detta charmiga verktyg och låt din kod blomstra som aldrig förr! DecimalFormat kommer att ge dina numeriska värden en unik stil och göra din Java-kod till något alldeles extra! 
+Så se till att utforska detta charmiga verktyg och låt din kod blomstra som aldrig förr! DecimalFormat kommer att ge dina numeriska värden en unik stil och göra din Java-kod till något alldeles extra!

@@ -1,7 +1,7 @@
 ---
 title: Om materialet
 permalink: index.md
-nav_order: 5
+nav_order: 7
 parent: Home
 author: Marcus Medina
 date: 2023-07-02

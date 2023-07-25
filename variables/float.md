@@ -1,5 +1,5 @@
 ---
-title: float
+title: Float
 permalink: variables/float
 nav_order: 15
 parent: Variabler
@@ -12,12 +12,13 @@ id: 0ed6c9c8-2360-4828-b179-643fa1e37cf4
 school: https://campus.molndal.se/yh
 ---
 
-# float
-<img src="goatfloat.png" alt="Goat float" style="float: right;">Inom programmering är datatyper fundamentala byggstenar som hjälper oss att representera olika typer av värden. I Java, ett språk känt för sin enkelhet och flexibilitet, har vi två datatyper för att hantera decimaltal: "float" och "double". Dessa datatyper möjliggör exakt representation av flyttal och ger oss möjligheten att hantera olika matematiska operationer med precision. I Detta avsnitt kommer vi att utforska både "float" och "double" och förstå deras användning i både primitiv och objektorienterad form. Vi kommer även att undersöka skillnaderna mellan dem för att välja den mest lämpliga datatypen för våra behov.
+# Float
+
+Inom programmering är datatyper fundamentala byggstenar som hjälper oss att representera olika typer av värden. I Java, ett språk känt för sin enkelhet och flexibilitet, har vi två datatyper för att hantera decimaltal: "float" och "double". Dessa datatyper möjliggör exakt representation av flyttal och ger oss möjligheten att hantera olika matematiska operationer med precision. I Detta avsnitt kommer vi att utforska både "float" och "double" och förstå deras användning i både primitiv och objektorienterad form. Vi kommer även att undersöka skillnaderna mellan dem för att välja den mest lämpliga datatypen för våra behov.
 
 ## TL;DR
 
-I Java har vi två datatyper för decimaltal: "float" och "double". "Float" används för att representera enkla precisionstal med 32-bitar, medan "double" används för dubbel precisionstal med 64-bitar. "Double" ger högre precision och en större intervall för värden jämfört med "float". Att förstå skillnaderna mellan dessa datatyper hjälper oss att välja den bästa datatypen beroende på våra applikationskrav.
+<img src="goatfloat.png" alt="Goat float" style="float: right;">I Java har vi två datatyper för decimaltal: "float" och "double". "Float" används för att representera enkla precisionstal med 32-bitar, medan "double" används för dubbel precisionstal med 64-bitar. "Double" ger högre precision och en större intervall för värden jämfört med "float". Att förstå skillnaderna mellan dessa datatyper hjälper oss att välja den bästa datatypen beroende på våra applikationskrav.
 
 ## När du läst detta ska du kunna
 

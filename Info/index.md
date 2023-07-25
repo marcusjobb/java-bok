@@ -1,7 +1,7 @@
 ---
 title: Info
 permalink: Info/index
-nav_order: 1
+nav_order: 3
 parent: Home
 author: Marcus Medina
 layout: default
@@ -21,6 +21,8 @@ Här kommer jag att posta information om sidan, som t.ex. versionshistorik, anv�
 
 | Version | Datum      | Beskrivning                                                         |
 | ------- | ---------- | ------------------------------------------------------------------- |
+| 1.0.5   | 2023-07-25 | Stringhantering                                                     |
+| 1.0.4b  | 2023-07-24 | Marcuifiering av artiklar som sabbades vid omvandling från C#       |
 | 1.0.4   | 2023-07-23 | BFU exempel, artiklar om datatyper och strukturer                   |
 | 1.0.2   | 2023-07-23 | PDF version finn nu, den kan laddas från /pdf                       |
 | 1.0.1   | 2023-07-14 | Uppdatering av sidan. Mermaid funkar inte, diagrammen syns inte :'( |

@@ -1,5 +1,15 @@
 ---
 title: Stringbuilder
+permalink: strings/stringbuilder
+nav_order: 9
+parent: Stränghantering
+grand_parent: Variabler
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 83cb2b5e-6ad0-44d4-a5ea-dc7a0c276546
+school: https://campus.molndal.se/yh
 ---
 
 # Stringbuilder
@@ -14,7 +24,7 @@ StringBuilder är en av de coolaste klasserna i Java som låter dig bygga, ändr
 
 ## Fördelar med StringBuilder
 
-1. **Effektivt Minneanvändning:** När du ändrar textsträngar med andra metoder skapas nya objekt för varje ändring. Detta kan slösa bort minne och orsaka onödigt skräp i ditt program. Med StringBuilder undviker du dessa problem genom att ändra texten direkt i samma objekt, vilket minimerar minnesförbrukningen. 
+1. **Effektivt Minneanvändning:** När du ändrar textsträngar med andra metoder skapas nya objekt för varje ändring. Detta kan slösa bort minne och orsaka onödigt skräp i ditt program. Med StringBuilder undviker du dessa problem genom att ändra texten direkt i samma objekt, vilket minimerar minnesförbrukningen.
 
 2. **Snabbare Prestanda:** Eftersom StringBuilder tillåter direkt manipulation av text, är det mycket snabbare än andra metoder som skapar nya strängobjekt vid varje ändring. Om du behöver bygga eller ändra stora textsträngar, kommer StringBuilder att imponera dig med sin blixtsnabba prestanda!
 
@@ -22,7 +32,7 @@ StringBuilder är en av de coolaste klasserna i Java som låter dig bygga, ändr
 
 4. **Trådsäkerhet (till viss del):** Om du har flera trådar som hanterar samma StringBuilder-objekt, behöver du inte oroa dig för konflikter. StringBuilder är inte helt trådsäker, men om du använder det i enkeltrådade applikationer, kommer det inte att ge några problem.
 
-kortfattat: Använd alltid StringBuilder när du ska bygga eller manipulera textsträngar. Det är snabbt, effektivt och enkelt att använda! 
+kortfattat: Använd alltid StringBuilder när du ska bygga eller manipulera textsträngar. Det är snabbt, effektivt och enkelt att använda!
 
 ```java
 
@@ -78,7 +88,7 @@ Hocus Pocus! Abracadabra! Simsalabim!
 ```
 
 ```Java
-StringBuilder bond= 
+StringBuilder bond=
     new StringBuilder("My name is ")
     .append("Bond, ")
     .append("James Bond")
@@ -108,9 +118,6 @@ Give me a Martini, shaken, not stirred.
 | indexOf()  | Returnerar den första förekomsten av en sträng eller ett tecken i StringBuilder-objektet | `StringBuilder sb = new StringBuilder("Hello");`<br>`int index = sb.indexOf("l");` | `2`                       |
 | substring()| Returnerar en delsträng av StringBuilder-objektet baserat på angivna index | `StringBuilder sb = new StringBuilder("Hello");`<br>`String subStr = sb.substring(1, 4);` | `ell`                    |
 | toString() | Konverterar StringBuilder-objektet till en vanlig sträng | `StringBuilder sb = new StringBuilder("Hello");`<br>`String str = sb.toString();` | `Hello`                  |
-
-
-
 
 ## Sammanfattning
 
