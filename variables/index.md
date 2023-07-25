@@ -20,21 +20,85 @@ school: https://campus.molndal.se/yh
 
 ## Introduktion
 
-I Detta avsnitt kommer vi att utforska världen av variabler i Java. En variabel fungerar som en behållare som används för att lagra data under körningstid. I Java måste alla variabler deklareras innan de kan användas, vilket innebär att vi måste ange vilken typ av data som variabeln kommer att lagra. Vi kommer att titta närmare på hur man deklarerar och initierar variabler samt gå igenom olika datatyper som Java erbjuder.
+I detta avsnitt kommer vi att utforska världen av variabler i Java. En variabel
+fungerar som en behållare som används för att lagra data under körningstid. I
+Java måste alla variabler deklareras innan de kan användas, vilket innebär att
+vi måste ange vilken typ av data som variabeln kommer att lagra. Vi kommer att
+titta närmare på hur man deklarerar och initierar variabler samt gå igenom
+olika datatyper som Java erbjuder.
 
 ## TL;DR
 
-I Java är variabler behållare som används för att lagra data. Innan en variabel används måste den deklareras, vilket innebär att vi måste ange dess datatyp. Sedan kan vi initiera variabeln genom att tilldela den ett värde. Java erbjuder olika datatyper som int (heltal), String (text), boolean (sant eller falskt), double (decimaltal) och char (tecken).
+I Java är variabler behållare som används för att lagra data. Innan en variabel
+används måste den deklareras, vilket innebär att vi måste ange dess datatyp.
+Sedan kan vi initiera variabeln genom att tilldela den ett värde. Java erbjuder
+olika datatyper som int (heltal), String (text), boolean (sant eller falskt),
+double (decimaltal) och char (tecken).
 
 ## Vad är en Variabel i Java?
 
-En variabel i Java är en behållare som används för att lagra data. När vi deklarerar en variabel talar vi om för Java vilken typ av data som kommer att lagras i den. Detta hjälper kompilatorn att reservera rätt mängd minne för variabeln.
+En variabel i Java är en behållare som används för att lagra data. När vi
+deklarerar en variabel talar vi om för Java vilken typ av data som kommer att
+lagras i den. Detta hjälper kompilatorn att reservera rätt mängd minne för
+variabeln.
 
 ## Hur Deklarerar och Initierar man Variabler i Java?
 
-För att deklarera en variabel i Java behöver vi ange dess datatyp och ge den ett namn. Sedan kan vi initiera variabeln genom att tilldela ett värde till den. Låt oss titta på några exempel:
+För att deklarera en variabel i Java behöver vi ange dess datatyp och ge den
+ett namn. Sedan kan vi initiera variabeln genom att tilldela ett värde till
+den. Låt oss titta på några exempel:
 
-## Exempelkod
+```java
+
+Datatyp namn = värde;
+
+// Datatyp är variabelns datatyp. Exempel: Heltal, text, decimaltal, mm
+// Namn är variabelns namn. Exempel: antal, namn, längd, kattnamn, jediAlias mm
+// Värde är det värde som variabeln ska lagra. Exempel: 5, "Obi Wan Kenobi", 3.14 mm
+
+```
+
+### CamelCase
+
+Det är lika bra att lära sig från början, i Java när du skapar variabler
+använder du camelCase.
+
+Variabler ska ha namn som förklarar vad de gör, men de kan inte innehålla
+mellanslag. Vi kan allså inte skriva såhär
+
+```java
+
+String Namn på katt = "Misse";
+
+```
+
+För att Java kommer att bli förvirrad, den kommer att tänka...
+
+    Ok... dumhuvvet vill ha en datatyp av typen string (text) som heter "Namn" och
+    en något som heter "på" och något som heter "katt" men vad är "på" och "katt" för något?
+    Den stämmer inte in i mallen, och är det "Namn", "katt" eller "på" som ska heta "Misse"...
+    wtf??? Jag klarar inte detta :(  Jag ger upp! :'(
+
+...och sen börjar kompilatorn att gråta i flera bitcyklar och till slut när den
+deppat färdigt kommer den att säga till att den inte förstår sig på dig.
+
+<a href="https://en.wikipedia.org/wiki/Camel_case"><img
+src="wikipediaCamelCase.png" style="float:right"></a>För att inte göra kompilatorn ledsen använder vi alltså CamelCase.
+
+CamelCase heter så för att skrivformen påminner om en kamels utseende. För att
+omvandla vårt `Namn på katt` till CamelCase gör vi så att första bokstaven i
+namnet ska bli gemen, och första bokstaven på alla andra ord ska bli versal
+`namn På Katt` och sedan tar vi bort alla mellanslag `namnPåKatt`, nu har vi
+ett läsbart CamelCase som både du och kompilatorn kan enas om. Vi försöker
+skriva koden igen.s
+
+```java
+String namnPåKatt = "Misse"
+```
+
+Yay! Nu har du en glad kompilator och du kan koda vidare.
+
+## Fler exempel på variabler
 
 ```java
 // Deklarera och initiera en variabel av typen int.
@@ -44,7 +108,7 @@ int number = 1138;
 String name = "Obi Wan Kenobi";
 
 // Deklarera och initiera en variabel av typen boolean.
-boolean isJedi = true;
+boolean isJedi = true; // <-- Observera camelCase
 
 // Deklarera och initiera en variabel av typen double.
 double pi = 3.14;
