@@ -74,7 +74,6 @@ public enum Weekday {
 
 I detta exempel har vi skapat en enum `Weekday` med sju konstanter som representerar veckodagarna. När vi använder denna enum i vår kod, kan vi referera till varje konstant med dess namn, t.ex. `Weekday.MONDAY` eller `Weekday.FRIDAY`.
 
-<image src="gandalfpink.png" style="float:right">
 För att hålla bokens standard stil så lägger vi in ett lite nördighet
 
 ```java
@@ -88,11 +87,10 @@ BAGGINS, TOOK, BRACEGIRDLE, BOLGER, BURROWS, CHUBB, GRUBB, HORNBLOWER, SACKVILLE
 }
 
 enum WizardColors{
-BLUE, BROWN, GREY, GREEN, RED, WHITE, YELLOW,
-PINK /_ HBTQ uppgradering _/
+BLUE, BROWN, GREY, GREEN, RED, WHITE, YELLOW
 }
 
-````
+```
 
 ## Fördelar
 
