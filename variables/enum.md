@@ -80,19 +80,19 @@ För att hålla bokens standard stil så lägger vi in ett lite nördighet
 ```java
 
 enum Race{
-    HOBBIT, DWARF, ELF, HUMAN, ORC, TROLL, WIZARD, DRAGON
+HOBBIT, DWARF, ELF, HUMAN, ORC, TROLL, WIZARD, DRAGON
 }
 
 enum HobbitFamily{
-    BAGGINS, TOOK, BRACEGIRDLE, BOLGER, BURROWS, CHUBB, GRUBB, HORNBLOWER, SACKVILLE, TUNNELLY, UNDERHILL
+BAGGINS, TOOK, BRACEGIRDLE, BOLGER, BURROWS, CHUBB, GRUBB, HORNBLOWER, SACKVILLE, TUNNELLY, UNDERHILL
 }
 
 enum WizardColors{
-    BLUE, BROWN, GREY, GREEN, RED, WHITE, YELLOW,
-    PINK /* HBTQ uppgradering */
+BLUE, BROWN, GREY, GREEN, RED, WHITE, YELLOW,
+PINK /_ HBTQ uppgradering _/
 }
 
-```
+````
 
 ## Fördelar
 
@@ -143,7 +143,7 @@ public class Main {
         }
     }
 }
-```
+````
 
 I detta exempel har vi definierat en enum `Weekday` som representerar de olika veckodagarna. Sedan har vi använt en switch-sats för att skriva ut olika meddelanden baserat på vilken veckodag som är vald. Koden är enkel och lätt att förstå, tack vare användningen av enums.
 
@@ -230,10 +230,12 @@ En vanlig klass i Java representerar vanligtvis en grupp av objekt med olika att
 För att avgöra om du bör använda en enum eller en vanlig klass, överväg följande:
 
 Använd en Enum:
+
 - När du har en definierad uppsättning konstanter som har en klar relation till varandra.
 - När du vill begränsa de möjliga värdena för en variabel eller ett attribut.
 
 Använd en Vanlig Klass:
+
 - När du behöver skapa objekt med olika attribut och beteenden.
 - När objekten i klassen har mer komplexa relationer och inte passar in i en förutbestämd uppsättning konstanter.
 
