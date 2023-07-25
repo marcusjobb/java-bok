@@ -87,9 +87,9 @@ Genomsnittlig arbetad tid per dag: 8.0 timmar
 
 ## Andra tillvägagångssätt
 
-Vårt projekt, även med sin enkla form har en helt klart tydlig kod som är lätt att förstå och lätt att läsa, och som du faktiskt kan använda. Enda nackdelen är kanske  att du får skriva minuter i decimalform, det går att lösa.
+Vårt projekt, även med sin enkla form har en helt klart tydlig kod som är lätt att förstå och lätt att läsa, och som du faktiskt kan använda. Enda nackdelen är kanske att du får skriva minuter i decimalform, det går att lösa.
 
-``` java
+```java
     float onsddag4 = 8 + 15/60; // 8 timmar och 15 minuter, eller 8.25 timmar
 ```
 
@@ -105,11 +105,11 @@ Java har inbyggda funktioner för att räkna ut tid också, den heter LocalTime,
 - Bra namngivning av variabler gör koden lättare att läsa
 - Beräkning av minuter kan vara bråkigt
 - Vår kod är som ett Excel-blad
-    - Lättöverskådlig
-    - Lätt att förstå
-    - Lätt att använda
-    - Lätt att ändra
-    - Lätt att felsöka
+  - Lättöverskådlig
+  - Lätt att förstå
+  - Lätt att använda
+  - Lätt att ändra
+  - Lätt att felsöka
 - Vi använder variabler för allt som innebär saker vi ska hålla koll på
 - Variablerna är våra "minneslappar" för att hålla koll på saker
 

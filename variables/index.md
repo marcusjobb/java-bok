@@ -67,9 +67,7 @@ Variabler ska ha namn som förklarar vad de gör, men de kan inte innehålla
 mellanslag. Vi kan allså inte skriva såhär
 
 ```java
-
 String Namn på katt = "Misse";
-
 ```
 
 För att Java kommer att bli förvirrad, den kommer att tänka...
@@ -90,7 +88,8 @@ omvandla vårt `Namn på katt` till CamelCase gör vi så att första bokstaven 
 namnet ska bli gemen, och första bokstaven på alla andra ord ska bli versal
 `namn På Katt` och sedan tar vi bort alla mellanslag `namnPåKatt`, nu har vi
 ett läsbart CamelCase som både du och kompilatorn kan enas om. Vi försöker
-skriva koden igen.s
+skriva koden igen. [Wikipedia](https://en.wikipedia.org/wiki/Camel_case) har
+en jättebra artikel om CamelCase och den söta kamelen är lånad från den.
 
 ```java
 String namnPåKatt = "Misse"
@@ -105,13 +104,13 @@ Yay! Nu har du en glad kompilator och du kan koda vidare.
 int number = 1138;
 
 // Deklarera och initiera en variabel av typen String.
-String name = "Obi Wan Kenobi";
+String name = "Obi Wan Kenobi"; // I have the high ground!
 
 // Deklarera och initiera en variabel av typen boolean.
 boolean isJedi = true; // <-- Observera camelCase
 
 // Deklarera och initiera en variabel av typen double.
-double pi = 3.14;
+double pi = 3.14; // <-- Pi!
 
 // Deklarera och initiera en variabel av typen char.
 char letter = 'J';

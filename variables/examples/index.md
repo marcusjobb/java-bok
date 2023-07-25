@@ -57,7 +57,7 @@ Det är det som är så bra med variabler, vi kan använda dem för att hålla k
 
 Det är som när du skriver ett document i en ordbehandlare, och inser att du stavat namnet Wilhem helt fel, personen heter ju "Whilhelm" och inte "Wilhem". Om du inte använder variabler måste du gå igenom hela dokumentet och ändra alla felstavningar. Om du använder variabler kan du bara ändra värdet på variabeln och alla felstavningar ändras automatiskt.
 
-Så med programmering kan du alltså ändra hela programmets beteende genom att ändra en variabel. Det är som "The butterfly effect".*"En fjärils vingslag i Brasilien kan orsaka en tornado i Texas"*.
+Så med programmering kan du alltså ändra hela programmets beteende genom att ändra en variabel. Det är som "The butterfly effect"._"En fjärils vingslag i Brasilien kan orsaka en tornado i Texas"_.
 
 Det är därför vi använder variabler, för att vi kan ändra hela programmets beteende genom att ändra en variabel. När vi skriver program som vi sedan skeppar vidare till våra kunder, så ger vi kunden chansen att vara fjärilen, att ange de värden de vill och vi låter vårt program vara orkanen som orsakas i Brasilien, eller Texas.
 
@@ -65,4 +65,4 @@ En programmerare är inte en tråkig grå kodare som gömmer sig i städskåpet,
 
 ... och för att kontrollera den världen vi skapar använder vi **variabler**.
 
- Vi ska titta på några exempel på hur vi kan använda variabler.
+Vi ska titta på några exempel på hur vi kan använda variabler.
