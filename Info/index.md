@@ -22,6 +22,7 @@ Här kommer jag att posta information om sidan, som t.ex. versionshistorik, anv�
 
 | Version | Datum      | Beskrivning                                                         |
 | ------- | ---------- | ------------------------------------------------------------------- |
+| 1.0.6   | 2023-08-10 | ftp, sftp, microservices, api, record                               |
 | 1.0.5   | 2023-07-25 | Stringhantering, TDD                                                |
 | 1.0.4b  | 2023-07-24 | Marcuifiering av artiklar som sabbades vid omvandling från C#       |
 | 1.0.4   | 2023-07-23 | BFU exempel, artiklar om datatyper och strukturer, bilder           |

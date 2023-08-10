@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: JIN23/index
+permalink: /
 nav_order: 1
 parent: Home
 grand_parent: Home
