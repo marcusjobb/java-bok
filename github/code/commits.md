@@ -148,7 +148,7 @@ Detta steg skriver ut en text i loggen för att visa att actionen har körts.
 
 | Contributor | Email                   | Commits | Added | Deleted | Last Commit |
 | ----------- | ----------------------- | ------- | ----- | ------- | ----------- |
-| Batman      | batman@cave.org         | 2       | 2     | 2       | 1234567     |
-| Superman    | superman@metropolis.org | 2       | 2     | 2       | 1234567     |
+| Robin       | robin@cave.org          | 152     | 1     | 5       | 1234567     |
+| Superman    | superman@metropolis.org | 25      | 2     | 8       | 1234567     |
+| Batman      | batman@cave.org         | 20      | 2     | 21      | 1234567     |
 | Joker       | joker@lol.com           | 1       | 1     | 9999    | 1234567     |
-

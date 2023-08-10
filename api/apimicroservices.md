@@ -70,7 +70,7 @@ I ett system som använder Microservices skulle varje del av Iron Man-dräkten r
 
 API agerar som det nödvändiga gränssnittet mellan dessa Microservices. När Tony Starks använder sin
 
- Iron Man-dräkt och stöter på en farlig situation, kommunicerar de olika Microservices via API för att samordna sina funktioner och agera som en sammanhängande enhet.
+Iron Man-dräkt och stöter på en farlig situation, kommunicerar de olika Microservices via API för att samordna sina funktioner och agera som en sammanhängande enhet.
 
 Till exempel, om Tony identifierar ett hot och behöver öka flyghastigheten, skulle Flygegenskaper Microservice kommunicera med Energihantering Microservice för att öka strömflödet och säkerställa att dräkten har tillräcklig energi för den snabba flygningen. Samtidigt skulle Vapensystem Microservice vara redo att aktivera vapen om situationen kräver det.
 
@@ -111,26 +111,26 @@ För att bygga ett framgångsrikt digitalt system med Microservices och API, må
 
 Tack så mycket! Här är den utförliga tabellen som förklarar alla tekniska termer som används i artikeln:
 
-| Term                | Förklaring                                                                                                                                                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Microservices       | En arkitekturstil där applikationer bryts ner i små, självständiga och modulära komponenter för att öka agilitet och flexibilitet för utvecklare.                                                                               |
-| API                 | Står för Application Programming Interface och är ett gränssnitt som tillåter interaktion och kommunikation mellan olika applikationer och tjänster.                                                                              |
-| Digital Transformation | En omfattande förändring i verksamheter och organisationer genom införandet av digitala teknologier och lösningar för att förbättra processer, tjänster och kundupplevelser.                                                    |
-| Ekosystem            | Ett system som består av olika aktörer, applikationer eller tjänster som samverkar och delar resurser för att skapa värde och innovation inom ett visst område.                                                                 |
-| Agilitet            | Förmågan hos en organisation eller en applikation att vara flexibel, anpassningsbar och snabbt kunna svara på förändringar och utmaningar.                                                                                         |
-| Integrering         | Processen att kombinera olika komponenter, applikationer eller tjänster för att skapa en sammanhängande och fungerande infrastruktur.                                                                                           |
-| DevOps              | En metodologi som kombinerar utveckling (Development) och drift (Operations) för att öka samarbete, snabbhet och pålitlighet i mjukvaruleveranser.                                                                             |
-| Skalbarhet          | Förmågan hos en applikation eller en systemarkitektur att hantera ökad belastning och volym utan att förlora prestanda och funktionalitet.                                                                                   |
-| Kontinuerlig Förbättring | En process för ständig utvärdering och förbättring av en applikation, system eller arbetsmetoder för att optimera prestanda och leverans av värde.                                                                             |
-| Enterprise Service Bus | En arkitekturkomponent som kopplar samman olika applikationer och tjänster inom ett företag för att möjliggöra integration och datautbyte.                                                                                        |
-| Komponerbar Verksamhet | En verksamhet där olika komponenter och tjänster är självständiga och kan kombineras på olika sätt för att skapa flexibla lösningar.                                                                                            |
-| API-Portfölj        | En samling av olika API som en organisation hanterar och tillhandahåller för att möjliggöra olika funktioner och tjänster.                                                                                                      |
-| Prestanda           | Mått på hur effektivt och snabbt en applikation eller system svarar på användares förfrågningar och uppgifter.                                                                                                                  |
-| Modulära Komponenter | Små, oberoende delar av en applikation eller tjänst som kan utvecklas, hanteras och skalas separat för att öka effektivitet och underhållbarhet.                                                                                |
-| Fristående Applikationer | Applikationer som är självständiga och inte är beroende av andra applikationer för att fungera.                                                                                                                               |
-| Container           | En isolerad miljö som innehåller allt som behövs för en applikation att fungera, inklusive kod, bibliotek och konfiguration. Kan enkelt distribueras och köra på olika plattformar.                                        |
-| Övervakning         | Processen att övervaka och mäta prestanda och funktioner hos en applikation eller system för att identifiera eventuella problem och förbättringsmöjligheter.                                                                  |
-| API-plattform       | En infrastruktur eller tjänst som möjliggör utveckling, hantering och säkerhet för API.                                                                                                                                      |
+| Term                     | Förklaring                                                                                                                                                                          |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Microservices            | En arkitekturstil där applikationer bryts ner i små, självständiga och modulära komponenter för att öka agilitet och flexibilitet för utvecklare.                                   |
+| API                      | Står för Application Programming Interface och är ett gränssnitt som tillåter interaktion och kommunikation mellan olika applikationer och tjänster.                                |
+| Digital Transformation   | En omfattande förändring i verksamheter och organisationer genom införandet av digitala teknologier och lösningar för att förbättra processer, tjänster och kundupplevelser.        |
+| Ekosystem                | Ett system som består av olika aktörer, applikationer eller tjänster som samverkar och delar resurser för att skapa värde och innovation inom ett visst område.                     |
+| Agilitet                 | Förmågan hos en organisation eller en applikation att vara flexibel, anpassningsbar och snabbt kunna svara på förändringar och utmaningar.                                          |
+| Integrering              | Processen att kombinera olika komponenter, applikationer eller tjänster för att skapa en sammanhängande och fungerande infrastruktur.                                               |
+| DevOps                   | En metodologi som kombinerar utveckling (Development) och drift (Operations) för att öka samarbete, snabbhet och pålitlighet i mjukvaruleveranser.                                  |
+| Skalbarhet               | Förmågan hos en applikation eller en systemarkitektur att hantera ökad belastning och volym utan att förlora prestanda och funktionalitet.                                          |
+| Kontinuerlig Förbättring | En process för ständig utvärdering och förbättring av en applikation, system eller arbetsmetoder för att optimera prestanda och leverans av värde.                                  |
+| Enterprise Service Bus   | En arkitekturkomponent som kopplar samman olika applikationer och tjänster inom ett företag för att möjliggöra integration och datautbyte.                                          |
+| Komponerbar Verksamhet   | En verksamhet där olika komponenter och tjänster är självständiga och kan kombineras på olika sätt för att skapa flexibla lösningar.                                                |
+| API-Portfölj             | En samling av olika API som en organisation hanterar och tillhandahåller för att möjliggöra olika funktioner och tjänster.                                                          |
+| Prestanda                | Mått på hur effektivt och snabbt en applikation eller system svarar på användares förfrågningar och uppgifter.                                                                      |
+| Modulära Komponenter     | Små, oberoende delar av en applikation eller tjänst som kan utvecklas, hanteras och skalas separat för att öka effektivitet och underhållbarhet.                                    |
+| Fristående Applikationer | Applikationer som är självständiga och inte är beroende av andra applikationer för att fungera.                                                                                     |
+| Container                | En isolerad miljö som innehåller allt som behövs för en applikation att fungera, inklusive kod, bibliotek och konfiguration. Kan enkelt distribueras och köra på olika plattformar. |
+| Övervakning              | Processen att övervaka och mäta prestanda och funktioner hos en applikation eller system för att identifiera eventuella problem och förbättringsmöjligheter.                        |
+| API-plattform            | En infrastruktur eller tjänst som möjliggör utveckling, hantering och säkerhet för API.                                                                                             |
 
 ## Sammanfattning
 
