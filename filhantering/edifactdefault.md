@@ -1,8 +1,18 @@
 ---
 title: Edifact grundform
+permalink: filhantering/edifactdefault
+nav_order: 13
+parent: Filhantering
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 46becd79-c53b-4b61-b13e-9e04e058f469
+school: https://campus.molndal.se/yh
 ---
 
-# Edifact grundform 
+# Edifact grundform
 
 Edifact, eller Electronic Data Interchange for Administration, Commerce, and Transport, är en global standard för elektroniskt datautbyte. Men vad är Edifact, och varför är det relevant i Java-programmering? Hur använder DC-hjältar som Batman och Superman det för att göra affärer? Läs vidare för att utforska!
 
@@ -83,7 +93,6 @@ public interface EdifactConvertable {
     String toString();
 }
 
-
 class Purchase implements EdifactConvertable {
     private final String buyerCode;
     private final String buyerName;
@@ -106,7 +115,7 @@ class Purchase implements EdifactConvertable {
 
         return new Purchase(nadDetails[2], nadDetails[5], nadDetails[6], buyDetails[1], Integer.parseInt(buyDetails[2]));
     }
-    
+
     @Override
     public String toString() {
         return "NAD+BY+" + buyerCode + "::91++" + buyerName + "+" + buyerAddress + "++" +
@@ -265,7 +274,7 @@ public class EdifactHandler {
 
 och nu kan vi testa koden
 
-```java	
+```java
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -332,6 +341,6 @@ public class Application {
 
 Att arbeta med Edifact i Java kan vara både utmanande och givande. Med rätt kunskaper och verktyg kan du skapa effektiva och tillförlitliga affärsprocesser! Edifact i grundform är en fascinerande och viktig del av modern datakommunikation, till och med för DC-hjältar! Förståelsen för detta ämne kan hjälpa dig att bli en hjälte i din programmeringsresa!
 
-## Obligatorisk dad joke: 
+## Obligatorisk dad joke:
 
 Varför körde Flash aldrig fast i trafiken? För att han alltid hade en snabbfil!

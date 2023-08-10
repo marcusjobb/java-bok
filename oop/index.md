@@ -3,6 +3,7 @@ title: Objektorienterad programmering (OOP)
 permalink: oop/index
 nav_order: 17
 parent: Home
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-02
 layout: default

@@ -1,7 +1,9 @@
 ---
 title: Home
-permalink: /
+permalink: JIN23/index
 nav_order: 1
+parent: Home
+grand_parent: Home
 author: Marcus Medina
 date: 2023-06-17 23:23:25
 layout: default

@@ -1,13 +1,24 @@
 ---
 title: FTP filhantering
+permalink: ftp/ftpfilhantering
+nav_order: 3
+parent: FTP
+grand_parent: API
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: a6c0a5db-7882-4388-8a20-82ec0b953e1f
+school: https://campus.molndal.se/yh
 ---
-# Hantera filer med FTP 
 
-När du ansluter till en FTP-server, har du oftast behov av att utföra vissa grundläggande operationer som att lista, skapa, läsa, radera och kopiera filer. Hur gör man det? 
+# FTP filhantering
 
-Att interagera med en FTP-server innebär inte bara att hantera enskilda filer. Ibland måste du överföra flera filer samtidigt! För detta ändamål har FTP ett urval av kommandon specifikt avsedda för att hantera multipla filer. Funderar du över hur man hanterar flera filer med FTP? 
+När du ansluter till en FTP-server, har du oftast behov av att utföra vissa grundläggande operationer som att lista, skapa, läsa, radera och kopiera filer. Hur gör man det?
 
-Låt oss dyka ner i FTP:s värld och upptäcka detta tillsammans! 
+Att interagera med en FTP-server innebär inte bara att hantera enskilda filer. Ibland måste du överföra flera filer samtidigt! För detta ändamål har FTP ett urval av kommandon specifikt avsedda för att hantera multipla filer. Funderar du över hur man hanterar flera filer med FTP?
+
+Låt oss dyka ner i FTP:s värld och upptäcka detta tillsammans!
 
 ## När du läst detta ska du kunna
 
@@ -113,4 +124,4 @@ Att kunna utföra dessa grundläggande operationer på en FTP-server ger dig kra
 
 ## Obligatorisk dad joke:
 
-Varför var datorn kall? Den hade för många fönster öppna! 
+Varför var datorn kall? Den hade för många fönster öppna!

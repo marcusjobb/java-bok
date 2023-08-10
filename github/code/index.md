@@ -1,5 +1,16 @@
 ---
 title: GitHub Actions Exempel
+permalink: code/index
+nav_order: 1
+parent: GitHub Actions
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+has_children: true
+id: 749e6229-c49f-491d-9149-be9e60048ac5
+school: https://campus.molndal.se/yh
 ---
 
 # GitHub Actions Exempel

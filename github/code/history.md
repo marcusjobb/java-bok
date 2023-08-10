@@ -1,5 +1,15 @@
 ---
 title: Commit historik
+permalink: code/history
+nav_order: 3
+parent: GitHub Actions Exempel
+grand_parent: GitHub Actions
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 7e4aa4a9-87ef-4939-83f5-a0ce92ce4ab3
+school: https://campus.molndal.se/yh
 ---
 
 # Commit historik

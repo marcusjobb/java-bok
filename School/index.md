@@ -3,6 +3,7 @@ title: Skolan
 permalink: School/index
 nav_order: 1
 parent: Home
+grand_parent: Home
 author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default
@@ -33,6 +34,5 @@ Här är en lista på webbtjänster vi använder i skolan.
 - [Campus Mölndals hemsida](https://campus.molndal.se)
 - [Instagram](https://www.instagram.com/yh_campusmolndal_it/)
 - [Facebook](https://www.facebook.com/campusmolndal/)
-
 
 LinkedIn är ett måste när man vill skapa sig en karriär. Så tveka inte och skapa ett konto. Det är gratis och du kan skapa ett konto med din skolmail.

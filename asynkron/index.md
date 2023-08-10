@@ -3,6 +3,7 @@ title: Asynkron
 permalink: asynkron/index
 nav_order: 21
 parent: Home
+grand_parent: Home
 author: Marcus Medina
 date: 2022-11-28 10:23
 layout: home

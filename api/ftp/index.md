@@ -1,12 +1,23 @@
 ---
 title: FTP
+permalink: ftp/index
+nav_order: 5
+parent: API
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+has_children: true
+id: 12f6ce5e-bd70-4659-9fd2-010fb27a8603
+school: https://campus.molndal.se/yh
 ---
 
-# FTP - File Transfer Protocol 
+# FTP
 
 ## Introduktion
 
-Har du någonsin undrat hur filer överförs mellan datorer över internet? Eller varför FTP är så viktigt för webbplatsadministratörer? FTP, eller File Transfer Protocol, är svaret på dessa frågor. Men hur fungerar det, och varför är det så oumbärligt inom moderna nätverk? 
+Har du någonsin undrat hur filer överförs mellan datorer över internet? Eller varför FTP är så viktigt för webbplatsadministratörer? FTP, eller File Transfer Protocol, är svaret på dessa frågor. Men hur fungerar det, och varför är det så oumbärligt inom moderna nätverk?
 
 ## TL;DR
 

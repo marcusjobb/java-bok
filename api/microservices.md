@@ -64,6 +64,4 @@ Microservices är som en magisk skattkarta för att bygga mjukvarusystem. Genom 
 
 Varför älskar programmerare att använda Microservices?
 
-För att de gillar att göra saker i små bitar! 😄
-
-Nu är du redo att ta på dig din programmerings-cape och ge dig ut på äventyret med Microservices som din guide! Låt oss tillsammans utforska den spännande världen av mjukvaruutveckling med en modig och lekfull inställning. Fortsätt din resa och lär dig ännu mer om dessa fantastiska Microservices! Lycka till, kära programmerings-hjältar!
+För att de gillar att göra saker i små bitar! 

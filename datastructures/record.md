@@ -1,5 +1,15 @@
 ---
 title: Record i Java
+permalink: datastructures/record
+nav_order: 11
+parent: Datastrukturer
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 44e6d94b-13e1-466f-84d6-036bce793c26
+school: https://campus.molndal.se/yh
 ---
 
 # Record i Java
@@ -84,7 +94,7 @@ Med `Record` blir det bara:
 public record Point(int x, int y) {}
 ```
 
-Fascinerande, eller hur? Så nu undrar du, varför lärde jag mig allt det där om klasser? Det är för att du ska förstå hur `Record` fungerar under huven. 
+Fascinerande, eller hur? Så nu undrar du, varför lärde jag mig allt det där om klasser? Det är för att du ska förstå hur `Record` fungerar under huven.
 
 ## Termer
 

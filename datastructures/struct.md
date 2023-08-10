@@ -1,8 +1,18 @@
 ---
 title: Struct
+permalink: datastructures/struct
+nav_order: 13
+parent: Datastrukturer
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 7cbb906b-92cc-4847-b07a-71bb0a55057a
+school: https://campus.molndal.se/yh
 ---
 
-# Struct i Java
+# Struct
 
 ## Introduktion
 

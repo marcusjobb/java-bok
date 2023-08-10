@@ -1,6 +1,6 @@
 ---
 title: Java - Ett Kraftfullt Programmeringsspråk.
-permalink: Java/java
+permalink: Java/Java
 nav_order: 1
 parent: Java
 grand_parent: Home

@@ -3,6 +3,7 @@ title: Villkor
 permalink: if/index
 nav_order: 9
 parent: Home
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-02
 layout: default

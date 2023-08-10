@@ -3,6 +3,7 @@ title: Om materialet
 permalink: index.md
 nav_order: 7
 parent: Home
+grand_parent: Home
 author: Marcus Medina
 date: 2023-07-02
 layout: default

@@ -1,5 +1,16 @@
 ---
 title: GitHub Actions
+permalink: github/index
+nav_order: 37
+parent: Home
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+has_children: true
+id: aeef05d1-7393-4b51-bd65-80269c06d873
+school: https://campus.molndal.se/yh
 ---
 
 # GitHub Actions

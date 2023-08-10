@@ -1,8 +1,18 @@
 ---
 title: FTP-Filhantering i Java
+permalink: ftp/ftpfilhanteringjava
+nav_order: 5
+parent: FTP
+grand_parent: API
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 8c74593c-9827-439b-80a0-8a283ad25619
+school: https://campus.molndal.se/yh
 ---
 
-# Hantera filer med FTP i Java
+# FTP-Filhantering i Java
 
 För att kunna arbeta med FTP behöver du lägga till ett externt bibliotek till ditt projekt. I det här exemplet använder vi Apache Commons Net, som är ett vanligt bibliotek för att arbeta med FTP i Java. Du kan lägga till biblioteket i Maven-projektet genom att lägga till följande i `pom.xml`:
 
@@ -131,5 +141,3 @@ I det här inlägget har vi tittat på hur du kan hantera filer med FTP i Java. 
 ## Obligatorisk dad-joke
 
 Varför gick FTP:n till doktorn? Den kände sig inte synkroniserad!
-
-

@@ -1,5 +1,15 @@
 ---
 title: Edifact med XML
+permalink: filhantering/edifactxml
+nav_order: 15
+parent: Filhantering
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 2a6d480a-719e-4769-bc66-cae499a6865e
+school: https://campus.molndal.se/yh
 ---
 
 # Edifact med XML
@@ -186,7 +196,6 @@ public class Payment implements Transaction {
     }
 }
 
-
 public class Receipt implements Transaction {
     private String seller;
     private String buyer;
@@ -207,7 +216,7 @@ public class Receipt implements Transaction {
 ```
 
 vi skapar även en factory för att kunna hantera dem
-```java	
+```java
 public class TransactionFactory {
 
     public static Transaction createTransaction(String type) {
@@ -225,7 +234,7 @@ public class TransactionFactory {
         }
     }
 }
-```	
+```
 
 och en serialiserare
 

@@ -1,5 +1,15 @@
 ---
 title: XML
+permalink: filhantering/xml
+nav_order: 17
+parent: Filhantering
+grand_parent: Home
+author: Marcus Medina
+layout: default
+author_github: https://github.com/marcusjobb
+author_url: https://marcusmedina.pro
+id: 875b79a9-8f33-47aa-821b-e8de440a9f96
+school: https://campus.molndal.se/yh
 ---
 
 # XML
