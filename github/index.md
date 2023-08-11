@@ -3,7 +3,6 @@ title: GitHub Actions
 permalink: github/index
 nav_order: 37
 parent: Home
-grand_parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

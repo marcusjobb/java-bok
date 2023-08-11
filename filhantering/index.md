@@ -3,7 +3,6 @@ title: Filhantering
 permalink: filhantering/index
 nav_order: 19
 parent: Home
-grand_parent: Home
 author: Marcus Medina
 date: 2022-11-16 08:38
 layout: default

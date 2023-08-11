@@ -3,7 +3,6 @@ title: Ordlista
 permalink: ordlista/index
 nav_order: 29
 parent: Home
-grand_parent: Home
 author: Marcus Medina
 date: 2022-11-20 02:40
 layout: default
