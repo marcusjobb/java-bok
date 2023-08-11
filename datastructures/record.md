@@ -96,6 +96,35 @@ public record Point(int x, int y) {}
 
 Fascinerande, eller hur? Så nu undrar du, varför lärde jag mig allt det där om klasser? Det är för att du ska förstå hur `Record` fungerar under huven.
 
+## Exempel
+
+Här är ett enkelt exempel på hur du kan använda `Record` i Java:
+
+```java
+public record Person(String name, String alias, String workplace) {}
+
+public class TestRecord {
+    public static void main(String[] args) {
+        Person bruceWayne = new Person("Bruce Wayne", "Batman", "Wayne Enterprises, Inc.");
+
+        System.out.println(bruceWayne.name());       // Skriver ut: Bruce Wayne
+        System.out.println(bruceWayne.alias());      // Skriver ut: Batman
+        System.out.println(bruceWayne.workplace());  // Skriver ut: Wayne Enterprises, Inc.
+
+        System.out.println(bruceWayne);  // Skriver ut: Person[name=Bruce Wayne, alias=Batman, workplace=Wayne Enterprises, Inc.]
+    }
+}
+```
+
+med outputen
+
+```text
+Bruce Wayne
+Batman
+Wayne Enterprises, Inc.
+Person[name=Bruce Wayne, alias=Batman, workplace=Wayne Enterprises, Inc.]
+```
+
 ## Termer
 
 | Term         | Förklaring                                                                     |
