@@ -3,7 +3,6 @@ title: Tack
 permalink: Slutord/index
 nav_order: 33
 parent: Home
-grand_parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

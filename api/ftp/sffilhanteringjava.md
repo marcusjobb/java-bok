@@ -1,6 +1,6 @@
 ---
 title: SFTP-Filhantering i Java
-permalink: ftp/filhanteringjava copy
+permalink: ftp/sffilhanteringjava
 nav_order: 1
 parent: FTP
 grand_parent: API

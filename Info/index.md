@@ -3,7 +3,6 @@ title: Info
 permalink: Info/index
 nav_order: 3
 parent: Home
-grand_parent: Home
 author: Marcus Medina
 layout: default
 author_github: https://github.com/marcusjobb

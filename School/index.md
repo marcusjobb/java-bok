@@ -3,7 +3,6 @@ title: Skolan
 permalink: School/index
 nav_order: 1
 parent: Home
-grand_parent: Home
 author: Marcus Medina
 date: 2023-06-17 12:56:23
 layout: default
