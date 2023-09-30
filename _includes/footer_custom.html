@@ -33,14 +33,21 @@
           }
     
           toggleBold() {
-            this.isBold = !this.isBold;
-            this._setCookie('isBold', this.isBold, 7);
-            if (this.isBold) {
-              this._applyBoldToTextNodes(this.element);
-            } else {
-              this.element.innerHTML = this.originalContent;
+                if (this.isBold && this.element.innerHTML !== this.originalContent) {
+                    // Refresh original content if it has changed
+                    this.originalContent = this.element.innerHTML;
+                }
+                
+                this.isBold = !this.isBold;
+                this._setCookie('isBold', this.isBold, 7);
+
+                if (this.isBold) {
+                    this._applyBoldToTextNodes(this.element);
+                } else {
+                    this.element.innerHTML = this.originalContent;
+                }
             }
-          }
+
     
           _applyBoldToTextNodes(node) {
             if (node.nodeType === 3) { 
@@ -73,7 +80,6 @@
         let bionicTextInstance; 
 
         document.addEventListener("DOMContentLoaded", function() {
-        console.log("DOMContentLoaded fired");
         bionicTextInstance = new BionicText('main-content');
 
         document.getElementById('toggleBoldButton').addEventListener('click', function() {
