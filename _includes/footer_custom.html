@@ -43,9 +43,9 @@
           }
     
           _applyBoldToTextNodes(node) {
-            if (node.nodeType === 3) { // Text node
+            if (node.nodeType === 3) { 
               this._toggleTextNodeBold(node);
-            } else if (node.nodeType === 1) { // Element node
+            } else if (node.nodeType === 1) {
               for (const child of Array.from(node.childNodes)) {
                 this._applyBoldToTextNodes(child);
               }
