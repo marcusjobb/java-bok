@@ -40,7 +40,7 @@ toc_depth: 10
 
 # back to top
 back_to_top: true
-back_to_top_text: "<center>Upp</a><button onclick="bionicTextInstance.toggleBold()">Bionic reading</button></center><br><div id=\"google_translate_element\"></div><script type=\"text/javascript\">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'sv'},'google_translate_element');} </script> <script type=\"text/javascript\" src=\"https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script><a> <div id="main-content" class="main-content"></center>"
+back_to_top_text: "<center>Upp</a><button onclick='bionicTextInstance.toggleBold()'>Bionic reading</button></center><br><div id=\"google_translate_element\"></div><script type=\"text/javascript\">function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'sv'},'google_translate_element');} </script> <script type=\"text/javascript\" src=\"https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script><a></center>"
 
 # TOC
 toc:
