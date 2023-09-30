@@ -70,13 +70,12 @@
           }
         }
  
-        let bionicTextInstance;  // Declare it in the global scope
+        let bionicTextInstance; 
 
         document.addEventListener("DOMContentLoaded", function() {
         console.log("DOMContentLoaded fired");
         bionicTextInstance = new BionicText('main-content');
 
-        // Set the click event here
         document.getElementById('toggleBoldButton').addEventListener('click', function() {
             console.log("Button clicked");
             bionicTextInstance.toggleBold();
