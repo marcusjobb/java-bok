@@ -5,3 +5,76 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.forest.min.css">
 <script src="includes/mermaid.js"></script>
 {% endif %}
+
+<script>
+
+    class BionicText {
+          constructor(elementId) {
+            this.element = document.getElementById(elementId);
+            this.originalContent = this.element.innerHTML;
+            this.isBold = this._readCookie('isBold') === 'true';
+            if (this.isBold) this._applyBoldToTextNodes(this.element);
+          }
+    
+          _setCookie(name, value, days) {
+            let expires = '';
+            if (days) {
+              const date = new Date();
+              date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+              expires = '; expires=' + date.toUTCString();
+            }
+            document.cookie = name + '=' + value + expires + '; path=/';
+          }
+    
+          _readCookie(name) {
+            const nameEQ = name + '=';
+            const ca = document.cookie.split(';');
+            for (let c of ca) {
+              while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+              if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+          }
+    
+          toggleBold() {
+            this.isBold = !this.isBold;
+            this._setCookie('isBold', this.isBold, 7);
+            if (this.isBold) {
+              this._applyBoldToTextNodes(this.element);
+            } else {
+              this.element.innerHTML = this.originalContent;
+            }
+          }
+    
+          _applyBoldToTextNodes(node) {
+            if (node.nodeType === 3) { // Text node
+              this._toggleTextNodeBold(node);
+            } else if (node.nodeType === 1) { // Element node
+              for (const child of Array.from(node.childNodes)) {
+                this._applyBoldToTextNodes(child);
+              }
+            }
+          }
+    
+          _toggleTextNodeBold(textNode) {
+            const words = textNode.textContent.split(' ');
+            let newContent = [];
+    
+            for (let word of words) {
+              if (word.length > 4) {
+                newContent.push(`<strong>${word.slice(0, 3)}</strong>${word.slice(3)}`);
+              } else {
+                newContent.push(word);
+              }
+            }
+    
+            textNode.replaceWith(...newContent.join(' ').split(/(<strong>.*?<\/strong>)/g).map((part, i) => 
+              i % 2 === 0 ? document.createTextNode(part) : new DOMParser().parseFromString(part, 'text/html').body.firstChild
+            ));
+          }
+        }
+    
+        document.addEventListener("DOMContentLoaded", function() {
+          window.bionicTextInstance = new BionicText('main-content');
+        });
+    </script>
