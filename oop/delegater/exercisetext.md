@@ -1,6 +1,6 @@
 ---
 title: Övning - Textbehandling
-permalink: delegater/excersisetext
+permalink: delegater/exercisetext
 nav_order: 3
 parent: Delegater
 grand_parent: Objektorienterad programmering (OOP)
