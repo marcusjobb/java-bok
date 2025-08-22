@@ -4,7 +4,7 @@ permalink: variables/boolean
 nav_order: 3
 parent: Variabler
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

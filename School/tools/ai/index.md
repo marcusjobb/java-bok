@@ -4,7 +4,7 @@ permalink: ai/index
 nav_order: 5
 parent: Verktyg
 grand_parent: Skolan
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-15
 layout: default
 author_github: https://github.com/marcusjobb

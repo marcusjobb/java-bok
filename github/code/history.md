@@ -4,7 +4,7 @@ permalink: code/history
 nav_order: 3
 parent: GitHub Actions Exempel
 grand_parent: GitHub Actions
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

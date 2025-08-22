@@ -4,7 +4,7 @@ permalink: Info/omsidan
 nav_order: 1
 parent: Info
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-16 08:32
 layout: default
 author_github: https://github.com/marcusjobb

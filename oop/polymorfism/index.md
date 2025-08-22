@@ -4,7 +4,7 @@ permalink: polymorfism/index
 nav_order: 13
 parent: Objektorienterad programmering (OOP)
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-19 02:33
 layout: default
 author_github: https://github.com/marcusjobb

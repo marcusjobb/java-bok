@@ -4,7 +4,7 @@ permalink: structure/stringbackwards
 nav_order: 7
 parent: Strukturer
 grand_parent: Övningsuppgifter - Behörighetsgivande förutbildning
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

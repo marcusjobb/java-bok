@@ -4,7 +4,7 @@ permalink: arrayexercises/arraycopy
 nav_order: 1
 parent: Array övningar
 grand_parent: Datastrukturer
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-04
 layout: default
 author_github: https://github.com/marcusjobb

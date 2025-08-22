@@ -4,7 +4,7 @@ permalink: Installation/netbeans
 nav_order: 9
 parent: Installation
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

@@ -4,7 +4,7 @@ permalink: loop/omloopar
 nav_order: 1
 parent: Loopar
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-02
 language: Svenska
 layout: default

@@ -3,7 +3,7 @@ title: Skolan
 permalink: School/index
 nav_order: 1
 parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-06-17 12:56:23
 layout: default
 author_github: https://github.com/marcusjobb

@@ -4,7 +4,7 @@ permalink: delegater/exempel
 nav_order: 1
 parent: Delegater
 grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-20 02:59
 layout: default
 author_github: https://github.com/marcusjobb

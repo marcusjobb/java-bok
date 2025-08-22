@@ -4,7 +4,7 @@ permalink: interfaces/plugins
 nav_order: 1
 parent: Interfaces
 grand_parent: Polymorfism
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-20
 layout: default
 author_github: https://github.com/marcusjobb

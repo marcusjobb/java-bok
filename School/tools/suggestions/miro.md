@@ -4,7 +4,7 @@ permalink: suggestions/miro
 nav_order: 7
 parent: Förslag
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-06
 layout: default
 author_github: https://github.com/marcusjobb

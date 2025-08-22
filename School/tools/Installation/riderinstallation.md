@@ -4,7 +4,7 @@ permalink: Installation/riderinstallation
 nav_order: 11
 parent: Installation
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-16 08:32
 layout: default
 author_github: https://github.com/marcusjobb

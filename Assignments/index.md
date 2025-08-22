@@ -3,7 +3,7 @@ title: Övningsuppgifter
 permalink: Assignments/index
 nav_order: 31
 parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

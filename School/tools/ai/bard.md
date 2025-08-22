@@ -4,7 +4,7 @@ permalink: ai/bard
 nav_order: 11
 parent: Artificiell intelligens
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

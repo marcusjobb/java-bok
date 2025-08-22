@@ -4,7 +4,7 @@ permalink: suggestions/evernote
 nav_order: 1
 parent: Förslag
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-16 08:56
 layout: default
 author_github: https://github.com/marcusjobb

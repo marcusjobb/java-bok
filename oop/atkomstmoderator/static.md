@@ -4,7 +4,7 @@ permalink: atkomstmoderator/static
 nav_order: 7
 parent: Åtkomstmoderator
 grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb

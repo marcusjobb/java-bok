@@ -4,7 +4,7 @@ permalink: sql/constraints
 nav_order: 5
 parent: SQL
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-16 08:38
 layout: default
 author_github: https://github.com/marcusjobb

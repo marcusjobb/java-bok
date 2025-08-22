@@ -3,7 +3,7 @@ title: Objektorienterad programmering (OOP)
 permalink: oop/index
 nav_order: 17
 parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb

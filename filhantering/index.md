@@ -3,7 +3,7 @@ title: Filhantering
 permalink: filhantering/index
 nav_order: 19
 parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-16 08:38
 layout: default
 author_github: https://github.com/marcusjobb

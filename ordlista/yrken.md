@@ -4,7 +4,7 @@ permalink: ordlista/yrken
 nav_order: 9
 parent: Ordlista
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-20 02:40
 layout: default
 author_github: https://github.com/marcusjobb

@@ -4,7 +4,7 @@ permalink: suggestions/githubstudent
 nav_order: 3
 parent: Förslag
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

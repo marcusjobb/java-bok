@@ -4,7 +4,7 @@ permalink: arrayexercises/ovning3
 nav_order: 7
 parent: Array övningar
 grand_parent: Datastrukturer
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-05
 layout: default
 author_github: https://github.com/marcusjobb

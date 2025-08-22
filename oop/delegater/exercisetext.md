@@ -4,7 +4,7 @@ permalink: delegater/exercisetext
 nav_order: 3
 parent: Delegater
 grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

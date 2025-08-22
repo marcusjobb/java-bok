@@ -3,7 +3,7 @@ title: Asynkron
 permalink: asynkron/index
 nav_order: 21
 parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-28 10:23
 layout: home
 author_github: https://github.com/marcusjobb

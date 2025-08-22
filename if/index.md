@@ -3,7 +3,7 @@ title: Villkor
 permalink: if/index
 nav_order: 9
 parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb

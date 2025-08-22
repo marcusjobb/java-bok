@@ -4,7 +4,7 @@ permalink: ai/tabnine
 nav_order: 7
 parent: Artificiell intelligens
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

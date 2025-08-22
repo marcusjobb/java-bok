@@ -4,7 +4,7 @@ permalink: ftp/ftpfilhanteringjava
 nav_order: 5
 parent: FTP
 grand_parent: API
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

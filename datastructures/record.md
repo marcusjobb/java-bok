@@ -4,7 +4,7 @@ permalink: datastructures/record
 nav_order: 11
 parent: Datastrukturer
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

@@ -4,7 +4,7 @@ permalink: School/ggcal
 nav_order: 5
 parent: Skolan
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-06-17 12:56:23
 layout: default
 author_github: https://github.com/marcusjobb

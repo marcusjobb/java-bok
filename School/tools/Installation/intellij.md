@@ -4,7 +4,7 @@ permalink: Installation/intellij
 nav_order: 7
 parent: Installation
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-06-17 12:56:23
 layout: default
 author_github: https://github.com/marcusjobb

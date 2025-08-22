@@ -4,7 +4,7 @@ permalink: arrayexercises/index
 nav_order: 1
 parent: Datastrukturer
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-04
 layout: default
 author_github: https://github.com/marcusjobb

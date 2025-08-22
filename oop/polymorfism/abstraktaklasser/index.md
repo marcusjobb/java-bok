@@ -4,7 +4,7 @@ permalink: abstraktaklasser/index
 nav_order: 3
 parent: Polymorfism
 grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-19 08:17
 layout: default
 author_github: https://github.com/marcusjobb

@@ -3,7 +3,7 @@ title: README
 permalink: JIN23/readme
 nav_order: 2
 parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 nav_exclude: true
 author_github: https://github.com/marcusjobb

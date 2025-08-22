@@ -4,7 +4,7 @@ permalink: abstraktaklasser/exempel
 nav_order: 1
 parent: Abstrakta Klasser
 grand_parent: Polymorfism
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-20 01:27
 layout: default
 author_github: https://github.com/marcusjobb

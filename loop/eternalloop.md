@@ -4,7 +4,7 @@ permalink: loop/eternalloop
 nav_order: 15
 parent: Loopar
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-07-02
 layout: default
 author_github: https://github.com/marcusjobb

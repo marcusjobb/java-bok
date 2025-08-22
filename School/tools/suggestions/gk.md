@@ -4,7 +4,7 @@ permalink: suggestions/gk
 nav_order: 5
 parent: Förslag
 grand_parent: Verktyg
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2022-11-17 11:01
 layout: default
 author_github: https://github.com/marcusjobb

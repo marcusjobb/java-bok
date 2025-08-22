@@ -2,7 +2,7 @@
 title: Home
 permalink: /
 nav_order: 1
-author: Marcus Medina
+author: Marcus Ackre Medina
 date: 2023-06-17 23:23:25
 layout: default
 author_github: https://github.com/marcusjobb

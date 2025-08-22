@@ -4,7 +4,7 @@ permalink: sql/servers
 nav_order: 7
 parent: SQL
 grand_parent: Home
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro

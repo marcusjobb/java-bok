@@ -4,7 +4,7 @@ permalink: examples/kladdkaka
 nav_order: 3
 parent: Kodexempel
 grand_parent: Variabler
-author: Marcus Medina
+author: Marcus Ackre Medina
 layout: default
 author_github: https://github.com/marcusjobb
 author_url: https://marcusmedina.pro
