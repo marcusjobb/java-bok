@@ -1,18 +1,15 @@
 ---
 title: Bard
-permalink: ai/bard
-nav_order: 11
-parent: Artificiell intelligens
-grand_parent: Verktyg
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: any
-id: 482f495d-8987-4bad-b85b-bffde038dd6f
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Artificiell intelligens
+nav_order: 70
 ---
-
 # Bard
 
 Bard är en stor språkmodell, även känd som en konversations-AI eller chatbot, tränad för att vara informativ och omfattande. Den är tränad på en enorm mängd textdata och kan kommunicera och generera människoliknande text som svar på ett brett spektrum av uppmaningar och frågor. Till exempel kan den ge sammanfattningar av faktaämnen eller skapa berättelser.

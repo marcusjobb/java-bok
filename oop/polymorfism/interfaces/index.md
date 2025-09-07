@@ -1,18 +1,16 @@
 ---
 title: Interfaces
-permalink: interfaces/index
-nav_order: 1
-parent: Polymorfism
-grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: 6f44637f-d8ef-45c4-89bd-685337996e05
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Polymorfism
+nav_order: 10
+has_children: True
 ---
-
 # Interfaces
 
 Skapa Flexibla och Återanvändbara Komponenter i Java!

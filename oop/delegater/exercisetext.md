@@ -1,17 +1,15 @@
 ---
 title: Övning - Textbehandling
-permalink: delegater/exercisetext
-nav_order: 3
-parent: Delegater
-grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 37d880c6-e130-4041-9581-61c9f076a59a
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Delegater
+nav_order: 20
 ---
-
 # Övning - Textbehandling
 
 I denna övning ska vi skapa en interaktiv "ordbehandlingsapp" i Java där användaren kan manipulera text på olika sätt. Vi kommer att använda delegater för att representera olika textmanipulationsmetoder och ge användaren möjlighet att välja och utföra önskad manipulation på en given textsträng.

@@ -1,17 +1,16 @@
 ---
 title: GitHub Actions
-permalink: github/index
-nav_order: 37
-parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: aeef05d1-7393-4b51-bd65-80269c06d873
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 10
+has_children: True
 ---
-
 # GitHub Actions
 
 Github Actions är ett automatiseringsverktyg som tillåter utvecklare att automatisera, anpassa och utföra arbetsflöden direkt i sina GitHub-repositorier. Det används för att hantera allt från att bygga, testa och leverera kod till att hantera projektets arbetsflöden. Men hur fungerar GitHub Actions egentligen? Och varför har det blivit så populärt bland programmerare som arbetar med Java?

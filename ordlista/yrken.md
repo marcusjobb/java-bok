@@ -1,19 +1,15 @@
 ---
 title: Yrken
-permalink: ordlista/yrken
-nav_order: 9
-parent: Ordlista
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-20 02:40
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-id: 2c3f7c51-efcf-4a9f-8343-e189dd345a44
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Ordlista
+nav_order: 50
 ---
-
 # Yrken
 
 | Ord                 | Förklaring                                            |

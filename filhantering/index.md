@@ -1,19 +1,16 @@
 ---
 title: Filhantering
-permalink: filhantering/index
-nav_order: 19
-parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-16 08:38
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-has_children: true
-id: f4960b36-e538-4fd4-9540-ba446993d975
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 100
+has_children: True
 ---
-
 # Filhantering
 
 Välkommen till det spännande äventyret där vi ska utforska filhantering i Java! I den avlägsna galaxen Star Wars, där kraften flödar och äventyr väntar, kommer vi att lära oss hur man skapar och hanterar filer som riktiga jedimästare!

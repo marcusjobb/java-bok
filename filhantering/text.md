@@ -1,19 +1,15 @@
 ---
 title: Textfiler
-permalink: filhantering/text
-nav_order: 7
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-16 08:38
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-id: e42c5e7f-dcb8-451f-9026-2ac28dedeb39
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 40
 ---
-
 # Textfiler
 
 ## När du läst detta ska du kunna

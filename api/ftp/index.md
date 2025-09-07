@@ -1,18 +1,16 @@
 ---
 title: FTP
-permalink: ftp/index
-nav_order: 5
-parent: API
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: 12f6ce5e-bd70-4659-9fd2-010fb27a8603
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: API
+nav_order: 30
+has_children: True
 ---
-
 # FTP
 
 ## Introduktion

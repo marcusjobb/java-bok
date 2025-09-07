@@ -1,20 +1,15 @@
 ---
 title: Protected
-permalink: atkomstmoderator/protected
-nav_order: 3
-parent: Åtkomstmoderator
-grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java Java
-codelanguage: C#
-id: 91c193e4-c32c-4d30-9925-48c5f654a67f
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Åtkomstmoderator
+nav_order: 20
 ---
-
 # Protected
 
 En Nyckel till Polymorfismens Hemligheter!

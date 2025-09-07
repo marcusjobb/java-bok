@@ -1,17 +1,15 @@
 ---
 title: Kladdkaka
-permalink: examples/kladdkaka
-nav_order: 3
-parent: Kodexempel
-grand_parent: Variabler
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: e485f0b3-a8b6-4e53-b1ec-6fc839508c29
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Examples
+nav_order: 20
 ---
-
 # Kladdkaka
 
 Vi ska göra en kladdkaka, vi gör detta genom att skapa variabler för varje ingrediens, sedan skapar vi en variabel för hela kladdkakan.

@@ -1,19 +1,16 @@
 ---
 title: Java
-permalink: Java/index
-nav_order: 5
-parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-has_children: true
-id: a60927b6-6311-4739-bc6b-49f0b3a4a92b
-langspecific: true
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 20
+has_children: True
 ---
-
 # Java
 
 Välkommen till Java världen!

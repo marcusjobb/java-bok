@@ -1,21 +1,15 @@
 ---
 title: Public
-permalink: atkomstmoderator/public
-nav_order: 5
-parent: Åtkomstmoderator
-grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java Java
-codelanguage: C#
-id: d2bb99cc-1fe2-44cf-a659-e5803b1a1d72
-mermaid: true
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Åtkomstmoderator
+nav_order: 30
 ---
-
 # Public
 
 Öppenheten som Skapar Samarbete!

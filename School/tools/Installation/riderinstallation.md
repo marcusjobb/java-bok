@@ -1,18 +1,15 @@
 ---
 title: Rider installation
-permalink: Installation/riderinstallation
-nav_order: 11
-parent: Installation
-grand_parent: Verktyg
-author: Marcus Ackre Medina
-date: 2022-11-16 08:32
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: fada25cb-61e1-4287-881d-66d175532668
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Installation
+nav_order: 70
 ---
-
 # Rider installation
 
 [Installera Jetbrains Rider](https://www.jetbrains.com/rider/){: .btn }

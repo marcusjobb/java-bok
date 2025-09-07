@@ -1,20 +1,15 @@
 ---
 title: Do While
-permalink: loop/dowhile
-nav_order: 11
-parent: Loopar
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: 559deb59-12ae-4343-9c3f-d9328063729c
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Loopar
+nav_order: 60
 ---
-
 # Do While
 
 En artikel som utforskar Do While-loopen i Java och dess användningsområden för att köra kodblock minst en gång och sedan fortsätta så länge som ett villkor är sant.

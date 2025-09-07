@@ -1,18 +1,15 @@
 ---
 title: Google Keep
-permalink: suggestions/gk
-nav_order: 5
-parent: Förslag
-grand_parent: Verktyg
-author: Marcus Ackre Medina
-date: 2022-11-17 11:01
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 0f8187dc-6f75-452f-b579-b0a2206739b1
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Förslag
+nav_order: 40
 ---
-
 # Google Keep
 
 [Installera Google Keep](https://keep.google.com/){: .btn }

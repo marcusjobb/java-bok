@@ -1,20 +1,15 @@
 ---
 title: Mappar i Java
-permalink: filhantering/mappar
-nav_order: 5
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-16 08:38
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: d9b6691e-809d-4120-a82c-9519704a9b13
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 30
 ---
-
 # Mappar i Java
 
 I Detta avsnitt kommer vi att lära oss hur man hanterar mappar i Java-program genom att använda `File`-klassen från `java.io`-paketet. Vi kommer att utforska de olika operationerna för att kontrollera om en mapp existerar, skapa en ny mapp och radera en befintlig mapp.

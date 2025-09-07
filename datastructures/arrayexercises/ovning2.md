@@ -1,19 +1,15 @@
 ---
 title: Hitta det största elementet i en array
-permalink: arrayexercises/ovning2
-nav_order: 5
-parent: Array övningar
-grand_parent: Datastrukturer
-author: Marcus Ackre Medina
-date: 2023-07-05
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-id: a62e5100-5fbf-4976-b4a2-61754e794004
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Array övningar
+nav_order: 40
 ---
-
 # Hitta det största elementet i en array
 
 ## Introduktion

@@ -1,21 +1,15 @@
 ---
 title: Static
-permalink: atkomstmoderator/static
-nav_order: 7
-parent: Åtkomstmoderator
-grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java Java
-codelanguage: C#
-id: 507a847c-b7af-4357-9946-7bc110f26aeb
-mermaid: true
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Åtkomstmoderator
+nav_order: 40
 ---
-
 # Static
 
 Ordet Statisk betyder "oföränderlig" eller "oföränderlig". I Java är `static` en åtkomstmodifikator som används för att definiera gemensamma egenskaper och metoder som delas av alla instanser av en klass. Genom att använda `static` kan vi dela data mellan olika klasser utan att behöva skapa flera instanser av en klass. Detta sparar minnesutrymme och gör våra program mer effektiva.

@@ -1,21 +1,16 @@
 ---
 title: Verktyg
-permalink: tools/index
-nav_order: 11
+layout: default
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
 parent: Skolan
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-19 02:33
-layout: home
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-has_children: true
-id: e495588d-64d1-4339-b960-439dd10c0443
-school: https://campus.molndal.se/yh
+nav_order: 10
+has_children: True
 ---
-
 # Verktyg
 
 I Detta avsnitt kommer vi att titta på några användbara verktyg för att underlätta utvecklingen av Java-program. Genom att använda dessa verktyg kan vi öka vår produktivitet och förbättra kvaliteten på vår kod. Det är viktigt att välja verktyg som bäst passar våra behov och att utforska och använda dem på rätt sätt.

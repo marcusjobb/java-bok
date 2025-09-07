@@ -1,17 +1,15 @@
 ---
 title: Stringbuilder
-permalink: strings/stringbuilder
-nav_order: 9
-parent: Stränghantering
-grand_parent: Variabler
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 83cb2b5e-6ad0-44d4-a5ea-dc7a0c276546
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:22"
+parent: Stränghantering
+nav_order: 50
 ---
-
 # Stringbuilder
 
 ## Introduktion

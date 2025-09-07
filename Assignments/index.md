@@ -1,17 +1,16 @@
 ---
 title: Övningsuppgifter
-permalink: Assignments/index
-nav_order: 31
-parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: d0ca0a33-2f10-48bb-a76a-7b9576ceb128
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 10
+has_children: True
 ---
-
 # Övningsuppgifter
 
 Här finns samlade övningsuppgifter från lektioner och annat. Dessa är tänkta att användas för att öva på olika koncept och för att förbereda sig inför tentor.

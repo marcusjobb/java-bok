@@ -1,20 +1,15 @@
 ---
 title: Home
-permalink: /
-nav_order: 1
-author: Marcus Ackre Medina
-date: 2023-06-17 23:23:25
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-company: Campus Mölndal
-has_children: true
-id: 2c5e4466-f978-429e-8a20-270cbf28d831
-school: https://campus.molndal.se/yh
-updated: 2023-06-17 23:23:26
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+nav_order: 10
+has_children: True
 ---
-
 <style>
     @media print {
   .hide-on-print {

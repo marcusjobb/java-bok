@@ -1,18 +1,16 @@
 ---
 title: GitHub Actions Exempel
-permalink: code/index
-nav_order: 1
-parent: GitHub Actions
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: 749e6229-c49f-491d-9149-be9e60048ac5
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: GitHub Actions
+nav_order: 20
+has_children: True
 ---
-
 # GitHub Actions Exempel
 GitHub Actions erbjuder en värld av möjligheter när det kommer till automatisering. Men hur kan vi använda detta verktyg på ett roligt och kreativt sätt? Vad kan vi åstadkomma som går bortom de vanliga arbetsflödena? Dessa frågor kommer att besvaras med hjälp av några inspirerande exempel.
 

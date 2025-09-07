@@ -1,23 +1,16 @@
 ---
 title: Skolan
-permalink: School/index
-nav_order: 1
-parent: Home
-author: Marcus Ackre Medina
-date: 2023-06-17 12:56:23
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-category: ["skolan"]
-codelanguage: CSharp
-company: Campus Mölndal
-has_children: true
-id: 9183020b-a472-43ca-96e9-b7bb56583b1d
-order: 0
-school: https://campus.molndal.se/yh
-updated: 2023-06-17 12:56:23
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 10
+has_children: True
 ---
-
 # Skolan
 
 Här är en lista på webbtjänster vi använder i skolan.

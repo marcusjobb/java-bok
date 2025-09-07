@@ -1,17 +1,15 @@
 ---
 title: TDD
-permalink: aualityassurance/tdd
-nav_order: 1
-parent: Kvalitetssäkring
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 3d0cafda-5248-40d0-8284-0ae747970a98
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Kvalitetssäkring
+nav_order: 10
 ---
-
 # TDD
 
 Nu ska vi vända upp och ner på allt du lärt dig hittils om programmering... Bokstavligt talat.

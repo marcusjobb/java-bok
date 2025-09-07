@@ -1,19 +1,16 @@
 ---
 title: Förslag
-permalink: suggestions/index
-nav_order: 3
-parent: Verktyg
-grand_parent: Skolan
-author: Marcus Ackre Medina
-date: 2022-11-16 08:56
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: 2c885418-2733-470f-a0a3-d2893e2b943a
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Verktyg
+nav_order: 20
+has_children: True
 ---
-
 # Förslag
 
 Här finns förslag på andra program som kan vara bra att använda under studietiden.

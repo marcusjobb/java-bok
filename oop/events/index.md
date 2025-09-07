@@ -1,21 +1,16 @@
 ---
 title: Händelser i Java
-permalink: events/index
-nav_order: 17
-parent: Objektorienterad programmering (OOP)
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-20 02:59
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-has_children: true
-id: 8f3f3ae4-2872-400e-92b1-1f2a454a589c
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Objektorienterad programmering (OOP)
+nav_order: 20
+has_children: True
 ---
-
 # Händelser i Java
 
 Programmera och Reagera på Spännande Händelser!

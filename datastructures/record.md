@@ -1,17 +1,15 @@
 ---
 title: Record i Java
-permalink: datastructures/record
-nav_order: 11
-parent: Datastrukturer
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 44e6d94b-13e1-466f-84d6-036bce793c26
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Datastrukturer
+nav_order: 50
 ---
-
 # Record i Java
 
 ## Introduktion

@@ -1,17 +1,15 @@
 ---
 title: Röd Grön Blå
-permalink: aualityassurance/redgreenblue
-nav_order: 3
-parent: Kvalitetssäkring
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 74430402-9e01-41a3-b67d-6f439f50e1b1
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Kvalitetssäkring
+nav_order: 20
 ---
-
 # Röd Grön Blå
 
 Red-Green-Blue (RGB) är en förkortning som används inom Testdriven Utveckling (TDD) för att beskriva den arbetsprocess som används vid implementeringen av tester och kod. RGB-metoden hjälper till att styra utvecklingscykeln och säkerställa att koden fungerar som förväntat innan nya funktioner eller förbättringar införs. Låt oss förklara varje steg, och sedan ge ett kodexempel för att förtydliga processen.

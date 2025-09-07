@@ -1,19 +1,15 @@
 ---
 title: Summera element i en array
-permalink: arrayexercises/ovning1
-nav_order: 3
-parent: Array övningar
-grand_parent: Datastrukturer
-author: Marcus Ackre Medina
-date: 2023-07-05
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-id: de74e26f-1ef7-401e-a349-43343b27e0a6
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Array övningar
+nav_order: 30
 ---
-
 # Summera element i en array
 
 Hur summerar man element i en array i Java? I Detta avsnitt kommer vi att undersöka olika sätt att lösa denna uppgift och diskutera deras för- och nackdelar.

@@ -1,18 +1,15 @@
 ---
 title: VS Code installation
-permalink: Installation/vscodeinstallation
-nav_order: 5
-parent: Installation
-grand_parent: Verktyg
-author: Marcus Ackre Medina
-date: 2022-11-16 08:32
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 38ea073b-9ef9-47ac-a087-8146f4ff0b0c
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Installation
+nav_order: 40
 ---
-
 # VS Code installation
 
 [Installera Visual Studio Code](https://code.visualstudio.com/){: .btn }

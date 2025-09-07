@@ -1,17 +1,15 @@
 ---
 title: Inkapsling
-permalink: oop/inkapsling
-nav_order: 5
-parent: Objektorienterad programmering (OOP)
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 57a431a6-a21a-4b1d-81c9-eacf51b07d9c
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Objektorienterad programmering (OOP)
+nav_order: 30
 ---
-
 # Inkapsling
 
 ## Introduktion

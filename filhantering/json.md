@@ -1,17 +1,15 @@
 ---
 title: Json
-permalink: filhantering/json
-nav_order: 11
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 8aa258c8-ced4-4b65-ae1e-03a455c61eea
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 60
 ---
-
 # Json
 
 ## Introduktion till JSON

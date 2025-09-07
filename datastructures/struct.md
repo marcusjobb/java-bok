@@ -1,17 +1,15 @@
 ---
 title: Struct
-permalink: datastructures/struct
-nav_order: 13
-parent: Datastrukturer
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 7cbb906b-92cc-4847-b07a-71bb0a55057a
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Datastrukturer
+nav_order: 60
 ---
-
 # Struct
 
 ## Introduktion

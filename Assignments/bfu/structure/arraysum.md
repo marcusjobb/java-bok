@@ -1,17 +1,15 @@
 ---
 title: BFU Övning - Skapa en lista och beräkna summan
-permalink: structure/arraysum
-nav_order: 5
-parent: Strukturer
-grand_parent: Övningsuppgifter - Behörighetsgivande förutbildning
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 1d126cb2-8780-4fd4-88e1-827493a4682d
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Strukturer
+nav_order: 40
 ---
-
 # BFU Övning - Skapa en lista och beräkna summan
 
 Välkommen till en spännande övning där vi ska utforska hur man skapar en lista med 10 tal och beräknar summan av dessa tal. Oroa dig inte om du är nybörjare, vi kommer att använda enkel och begriplig kod som alla kan förstå!

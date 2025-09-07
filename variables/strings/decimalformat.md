@@ -1,17 +1,15 @@
 ---
 title: Decimalformat
-permalink: strings/decimalformat
-nav_order: 7
-parent: Stränghantering
-grand_parent: Variabler
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 483c6b16-dfec-4ff4-bf01-78aac99a2bab
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:22"
+parent: Stränghantering
+nav_order: 40
 ---
-
 # Decimalformat
 
 ## Introduktion

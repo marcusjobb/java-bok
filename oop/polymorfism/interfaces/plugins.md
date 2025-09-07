@@ -1,20 +1,15 @@
 ---
 title: Plugins
-permalink: interfaces/plugins
-nav_order: 1
-parent: Interfaces
-grand_parent: Polymorfism
-author: Marcus Ackre Medina
-date: 2022-11-20
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: c0155fa9-1c24-4fe8-a452-221be5b112a8
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Interfaces
+nav_order: 20
 ---
-
 # Plugins
 
 Anpassa din Hjälteroll

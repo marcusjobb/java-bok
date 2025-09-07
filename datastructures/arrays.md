@@ -1,21 +1,15 @@
 ---
 title: Arrayer
-permalink: datastructures/arrays
-nav_order: 3
-parent: Datastrukturer
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java
-codelanguage: Java
-enhance: false
-id: 5794d079-0ee1-4fcc-882f-51f8554c311b
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Datastrukturer
+nav_order: 10
 ---
-
 # Arrayer
 
 En grundläggande guide till datastrukturer i Java, med fokus på arrayer och deras användning för att lagra och hantera samlingar av element av samma datatyp. Arrayer är ganska coola saker faktiskt, och de är väldigt användbara i programmering. Låt oss ta en titt på hur de fungerar och hur du kan använda dem i dina egna projekt.

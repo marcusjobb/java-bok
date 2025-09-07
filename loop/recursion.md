@@ -1,20 +1,15 @@
 ---
 title: Rekursiva loopar
-permalink: loop/recursion
-nav_order: 13
-parent: Loopar
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: 96fd69ad-f794-4e2c-bc52-1f6d1bed02f2
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Loopar
+nav_order: 70
 ---
-
 # Rekursiva loopar
 
 Nu ska vi utforska Magin i Rekursion!

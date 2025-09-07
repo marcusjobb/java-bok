@@ -1,21 +1,15 @@
 ---
 title: Dictionary (Hashmap)
-permalink: datastructures/dictionary
-nav_order: 5
-parent: Datastrukturer
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java
-codelanguage: Java
-enhance: false
-id: e55062fc-1bb4-4444-9652-67d668e6bb6c
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Datastrukturer
+nav_order: 20
 ---
-
 # Dictionary (Hashmap)
 Hashmap är en kraftfull datastruktur för snabb åtkomst. Det kallas även för Dictoinary i vissa språk.
 

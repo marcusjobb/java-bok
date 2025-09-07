@@ -1,18 +1,15 @@
 ---
 title: Git installation
-permalink: Installation/gitinstallation
-nav_order: 1
-parent: Installation
-grand_parent: Verktyg
-author: Marcus Ackre Medina
-date: 2022-11-16 08:38
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 8ef98c0c-108c-4ede-ac37-e2a13c120c53
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Installation
+nav_order: 10
 ---
-
 # Git installation
 
 [Installera Git](https://git-scm.com/){: .btn }

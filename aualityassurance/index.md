@@ -1,17 +1,16 @@
 ---
 title: Kvalitetssäkring
-permalink: aualityassurance/index
-nav_order: 35
-parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: e5fb46a9-d5ed-4186-8bf5-44bc57f05186
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 60
+has_children: True
 ---
-
 # Kvalitetssäkring
 
 Nu ska vi kolla på kvalitetssäkring enligt TDD. Låt oss ställa några

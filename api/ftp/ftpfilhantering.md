@@ -1,17 +1,15 @@
 ---
 title: FTP filhantering
-permalink: ftp/ftpfilhantering
-nav_order: 3
-parent: FTP
-grand_parent: API
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: a6c0a5db-7882-4388-8a20-82ec0b953e1f
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: FTP
+nav_order: 20
 ---
-
 # FTP filhantering
 
 När du ansluter till en FTP-server, har du oftast behov av att utföra vissa grundläggande operationer som att lista, skapa, läsa, radera och kopiera filer. Hur gör man det?

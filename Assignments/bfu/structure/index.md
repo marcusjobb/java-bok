@@ -1,18 +1,16 @@
 ---
 title: Strukturer
-permalink: structure/index
-nav_order: 1
-parent: Övningsuppgifter - Behörighetsgivande förutbildning
-grand_parent: Övningsuppgifter
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: f19f9a56-83f2-4b4a-81ea-e1db4e72d80c
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Övningsuppgifter - Behörighetsgivande förutbildning
+nav_order: 20
+has_children: True
 ---
-
 # Strukturer
 
 Välkommen till några spännande strukturövningar! Vi kommer att dyka in i arrayernas mystiska värld och förhoppningsvis göra dig till en riktig guru inom arraykodning. Om du väl bemästrar arrayer har du en fantastisk grund för att hantera listor och andra datastrukturer.

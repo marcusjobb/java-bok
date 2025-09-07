@@ -1,17 +1,15 @@
 ---
 title: Api och Microservices
-permalink: api/apimicroservices
-nav_order: 3
-parent: API
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: f0f7bb50-93a3-4880-9541-0cc94b1e8fd6
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: API
+nav_order: 20
 ---
-
 # Api och Microservices
 
 Byggstenar för den Digitala Framtiden

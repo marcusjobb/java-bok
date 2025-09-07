@@ -1,23 +1,15 @@
 ---
 title: Skolportalen
-permalink: School/skolportalen
-nav_order: 1
-parent: Skolan
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-06-17 12:56:23
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-category: ["skolan"]
-codelanguage: CSharp
-company: Campus Mölndal
-id: ebde3120-1ff9-4cea-add4-f3db4521a59b
-order: 9999
-school: https://campus.molndal.se/yh
-updated: 2023-06-17 12:56:23
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Skolan
+nav_order: 20
 ---
-
 # Skolportalen
 
 [Öppna skolportalen](https://www.molndal.se/skolportal?authmech=Personal%20och%20elever){: .btn .btn-blue }

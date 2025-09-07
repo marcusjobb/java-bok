@@ -1,19 +1,15 @@
 ---
 title: ArrayCopy
-permalink: arrayexercises/arraycopy
-nav_order: 1
-parent: Array övningar
-grand_parent: Datastrukturer
-author: Marcus Ackre Medina
-date: 2023-07-04
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-id: 4c7fecf5-fe6e-4f20-bb41-bed431c0c29f
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Array övningar
+nav_order: 20
 ---
-
 # ArrayCopy
 
 ## När du läst detta ska du kunna

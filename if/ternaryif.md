@@ -1,20 +1,15 @@
 ---
 title: Ternary if
-permalink: if/ternaryif
-nav_order: 5
-parent: Villkor
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: 33ea4332-b1cb-4c58-bd72-c428c3d35d96
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Villkor
+nav_order: 30
 ---
-
 # Ternary if
 
 Ternary if, även känd som conditional operator, är en kompakt syntax i programmeringsspråket Java som tillåter oss att uttrycka en enkel if-sats på en rad. Det ger oss möjlighet att utvärdera ett villkor och välja en av två uttryck beroende på om villkoret är sant eller falskt. Syntaxen för ternary if består av tre delar: villkor, frågetecken och uttryck för sant och falskt. Det är ett kraftfullt verktyg som kan göra koden mer koncis och läsbar.

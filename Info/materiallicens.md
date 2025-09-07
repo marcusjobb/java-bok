@@ -1,17 +1,15 @@
 ---
 title: Licens för materialet på denna webbsida
-permalink: Info/materiallicens
-nav_order: 3
-parent: Info
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: daa8f5d0-b7e9-4ec5-9d0d-dd7077b3e00d
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Info
+nav_order: 20
 ---
-
 # Licens för materialet på denna webbsida
 
 Materialet på denna webbsida är licensierat under en [Creative Commons BY-NC-SA (Attribution-NonCommercial-ShareAlike)](https://creativecommons.org/licenses/by-nc-sa/4.0/) licens. Det innebär att du fritt får använda materialet för **icke-kommersiella ändamål**, under förutsättning att du **anger källan** och delar **ditt material under samma licens**.

@@ -1,20 +1,15 @@
 ---
 title: Exempel
-permalink: abstraktaklasser/exempel
-nav_order: 1
-parent: Abstrakta Klasser
-grand_parent: Polymorfism
-author: Marcus Ackre Medina
-date: 2022-11-20 01:27
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-enhance: false
-id: 7b2a61ca-28e9-4efe-9104-3c808ba4b9f1
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Abstrakta Klasser
+nav_order: 10
 ---
-
 # Exempel
 
 Vi ska skapa en Abstrakt Klass för Webbskrapning i Java

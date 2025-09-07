@@ -1,20 +1,15 @@
 ---
 title: Else if
-permalink: if/elseif
-nav_order: 3
-parent: Villkor
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: 1974ec3c-7ac9-47e6-8ec8-6cbaab55be08
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Villkor
+nav_order: 20
 ---
-
 # Else if
 
 ## Introduktion I Detta avsnitt kommer vi att utforska den viktiga

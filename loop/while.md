@@ -1,20 +1,15 @@
 ---
 title: While
-permalink: loop/while
-nav_order: 9
-parent: Loopar
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: 3b122b09-74c2-4831-801f-20a874f4f368
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Loopar
+nav_order: 50
 ---
-
 # While
 
 Vi ska nu uppleva Upprepade Äventyr i Programmering. Vi ska utforska While-loopar! Yay! While loopar är superenkla och effektiva att använda, de kräver inte mycket av dig men de hjälper en hel del! Hur bra är inte det!

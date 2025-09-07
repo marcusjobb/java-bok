@@ -1,17 +1,15 @@
 ---
 title: String joiner
-permalink: strings/stringjoiner
-nav_order: 11
-parent: Stränghantering
-grand_parent: Variabler
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 891145d3-c9fb-4043-8216-6cae2c70daed
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:22"
+parent: Stränghantering
+nav_order: 60
 ---
-
 # String joiner
 
 ## Introduktion

@@ -1,17 +1,15 @@
 ---
 title: BFU Övning - Skriv ut en array baklänges
-permalink: structure/arraybackwards
-nav_order: 3
-parent: Strukturer
-grand_parent: Övningsuppgifter - Behörighetsgivande förutbildning
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: d2a509c8-0b8d-4bf3-9b1b-1a6b7ed13534
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Strukturer
+nav_order: 30
 ---
-
 # BFU Övning - Skriv ut en array baklänges
 
 Välkommen till denna spännande övning där vi kommer att utforska hur man skriver ut en array i baklänges ordning. En array är som en samling av saker i en låda, och genom att använda en speciell loop kan vi enkelt ta ut sakerna i motsatt ordning.

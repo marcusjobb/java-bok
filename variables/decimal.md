@@ -1,17 +1,15 @@
 ---
 title: Decimal
-permalink: variables/decimal
-nav_order: 11
-parent: Variabler
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: f2821374-40c6-4967-aa88-201229d935d4
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Variabler
+nav_order: 60
 ---
-
 # Decimal
 
 I världen av programmering stöter vi ofta på behovet av att hantera decimaltal, vilket kan vara avgörande för precisionen och noggrannheten i våra applikationer. I Detta avsnitt kommer vi att utforska hur decimaltal representeras både som primitiva datatyper och som objekt i programmeringsspråket Java. Vi kommer också att förklara skillnaden mellan dessa representationer och varför det är viktigt att vara medveten om dem.

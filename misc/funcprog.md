@@ -1,17 +1,15 @@
 ---
 title: Funktionell Programmering i Java
-permalink: misc/funcprog
-nav_order: 1
-parent: Övrigt
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 0f738300-2d71-44bd-a585-26348275309f
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Övrigt
+nav_order: 10
 ---
-
 # Funktionell Programmering i Java
 
 Vad är snyggare än ett bra planerat OOP projekt? Funktionell kod! Det är en Snyggare och Bättre Värld av Kod!

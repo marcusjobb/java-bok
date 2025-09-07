@@ -1,17 +1,15 @@
 ---
 title: Float Double och Decimal
-permalink: variables/floatdoubledecimal
-nav_order: 19
-parent: Variabler
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 289e7433-a813-4307-8bce-5084a4f70ec5
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Variabler
+nav_order: 100
 ---
-
 # Float Double och Decimal
 
 Inom programmeringens fascinerande värld har vi olika numeriska datatyper för att hantera decimaltal. I Java, ett språk känt för sin mångsidighet, introduceras vi för tre av dessa datatyper: "double", "float" och "BigDecimal". Var och en av dessa datatyper har sina unika egenskaper och användningsområden som gör dem lämpliga för olika situationer. I Detta avsnitt kommer vi att dyka in i dessa datatyper, utforska deras skillnader och upptäcka varför valet av rätt datatyp kan göra hela skillnaden för din programmeringsresa.

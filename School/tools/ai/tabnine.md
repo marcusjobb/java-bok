@@ -1,18 +1,15 @@
 ---
 title: Tabnine
-permalink: ai/tabnine
-nav_order: 7
-parent: Artificiell intelligens
-grand_parent: Verktyg
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: any
-id: f3b3be05-58f6-4b24-b88b-1c532e0a9259
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Artificiell intelligens
+nav_order: 50
 ---
-
 # Tabnine
 
 Tabnine är en AI-baserad kodförslagstjänst som hjälper utvecklare att skriva bättre kod snabbare. Den fungerar genom att analysera din kod och sedan föreslå förbättringar, till exempel nya metoder, funktioner och variabler. Tabnine är tillgänglig för en mängd olika språk, inklusive Python, Java, C++ och JavaScript.

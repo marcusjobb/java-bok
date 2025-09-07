@@ -1,18 +1,15 @@
 ---
 title: Long
-permalink: variables/long
-nav_order: 9
-parent: Variabler
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: de1c99ec-9d6b-4065-92cc-3cdf52fca383
-school: https://campus.molndal.se/yh
-type: Long
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Variabler
+nav_order: 50
 ---
-
 # Long
 
 ## Introduktion

@@ -1,17 +1,15 @@
 ---
 title: BFU Övning - Sträng baklänges
-permalink: structure/stringbackwards
-nav_order: 7
-parent: Strukturer
-grand_parent: Övningsuppgifter - Behörighetsgivande förutbildning
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: cf2a76cf-4b2e-4d05-b0dd-38ab60a5a59c
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Strukturer
+nav_order: 50
 ---
-
 # BFU Övning - Sträng baklänges
 
 ## Beskrivning

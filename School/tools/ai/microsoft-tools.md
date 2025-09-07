@@ -1,18 +1,15 @@
 ---
 title: Microsoft-tools
-permalink: ai/microsoft-tools
-nav_order: 3
-parent: Artificiell intelligens
-grand_parent: Verktyg
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: any
-id: 0db01f9c-bbb3-4783-8277-76078de853d7
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Artificiell intelligens
+nav_order: 20
 ---
-
 # Microsoft-tools
 
 Microsoft erbjuder två olika IDE:er (integrerade utvecklingsmiljöer) för programutveckling: Visual Studio Community och Visual Studio Code.

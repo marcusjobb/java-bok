@@ -1,21 +1,16 @@
 ---
 title: Datastrukturer
-permalink: datastructures/index
-nav_order: 13
-parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java Java
-codelanguage: C#
-enhance: false
-has_children: true
-id: 5369652b-3134-4966-a7bd-5509534e0d7a
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 70
+has_children: True
 ---
-
 # Datastrukturer
 
 <details open markdown="block">

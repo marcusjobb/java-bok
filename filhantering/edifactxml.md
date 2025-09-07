@@ -1,17 +1,15 @@
 ---
 title: Edifact med XML
-permalink: filhantering/edifactxml
-nav_order: 15
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 2a6d480a-719e-4769-bc66-cae499a6865e
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 80
 ---
-
 # Edifact med XML
 
 Edifact och XML är två teknologier som används för att hantera datautbyte mellan olika system. Men hur kombinerar vi dessa två? Vad kan vi göra med dem, och varför skulle vi vilja använda dem tillsammans? Svaren på dessa frågor kommer att uppenbara sig genom att vi går igenom detta avsnitt. Edifact står för "Electronic Data Interchange for Administration, Commerce, and Transport." Det är ett internationellt system för att överföra data. XML används ofta tillsammans med Edifact för att presentera data i en läsbar och strukturerad form.

@@ -1,20 +1,16 @@
 ---
 title: Objektorienterad programmering (OOP)
-permalink: oop/index
-nav_order: 17
-parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-has_children: true
-id: de0512ef-23c1-4252-b793-13b46f7ad50d
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 60
+has_children: True
 ---
-
 # Objektorienterad programmering (OOP)
 
 Skapa hierarkier av klasser!

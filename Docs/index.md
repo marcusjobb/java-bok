@@ -1,19 +1,16 @@
 ---
 title: Om materialet
-permalink: index.md
-nav_order: 7
-parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-enhance: false
-has_children: true
-id: 2e766ee8-8856-4d67-a73b-de2409fe778b
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 10
+has_children: True
 ---
-
 # Om materialet
 
 Hej där kodare, här tar vi oss an en spännande resa in i Java-programmeringens värld tillsammans! Men oroa dig inte, jag lovar att hålla det lättsamt och roligt. Innan vi dyker in vill jag bara varna dig för att det kan förekomma katter, superhjältar (särskilt Superman och Batman) och en och annan knasighet längs vägen. Du har blivit varnad! 😄

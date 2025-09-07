@@ -1,17 +1,15 @@
 ---
 title: Edifact grundform
-permalink: filhantering/edifactdefault
-nav_order: 13
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 46becd79-c53b-4b61-b13e-9e04e058f469
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 70
 ---
-
 # Edifact grundform
 
 Edifact, eller Electronic Data Interchange for Administration, Commerce, and Transport, är en global standard för elektroniskt datautbyte. Men vad är Edifact, och varför är det relevant i Java-programmering? Hur använder DC-hjältar som Batman och Superman det för att göra affärer? Läs vidare för att utforska!

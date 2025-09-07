@@ -1,17 +1,15 @@
 ---
 title: Fler exempel
-permalink: aualityassurance/moreexemples
-nav_order: 9
-parent: Kvalitetssäkring
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 4dd621ce-aba6-4df9-9490-e45f340ea4db
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Kvalitetssäkring
+nav_order: 50
 ---
-
 # Fler exempel
 
 I den här övningen fokuserar vi på att skapa testfall för en enkel Java-klass, som hanterar

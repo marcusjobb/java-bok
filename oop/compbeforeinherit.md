@@ -1,20 +1,15 @@
 ---
 title: Komposition över arv
-permalink: oop/compbeforeinherit
-nav_order: 9
-parent: Objektorienterad programmering (OOP)
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: 4cf54a57-e5a6-4d7b-8139-cb22ebe9a554
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Objektorienterad programmering (OOP)
+nav_order: 50
 ---
-
 # Komposition över arv
 
 ## Vad är det för något?

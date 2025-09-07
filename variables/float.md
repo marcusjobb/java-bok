@@ -1,17 +1,15 @@
 ---
 title: Float
-permalink: variables/float
-nav_order: 15
-parent: Variabler
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 0ed6c9c8-2360-4828-b179-643fa1e37cf4
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Variabler
+nav_order: 90
 ---
-
 # Float
 
 Inom programmering är datatyper fundamentala byggstenar som hjälper oss att representera olika typer av värden. I Java, ett språk känt för sin enkelhet och flexibilitet, har vi två datatyper för att hantera decimaltal: "float" och "double". Dessa datatyper möjliggör exakt representation av flyttal och ger oss möjligheten att hantera olika matematiska operationer med precision. I Detta avsnitt kommer vi att utforska både "float" och "double" och förstå deras användning i både primitiv och objektorienterad form. Vi kommer även att undersöka skillnaderna mellan dem för att välja den mest lämpliga datatypen för våra behov.

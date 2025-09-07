@@ -1,20 +1,16 @@
 ---
 title: Polymorfism
-permalink: polymorfism/index
-nav_order: 13
-parent: Objektorienterad programmering (OOP)
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-19 02:33
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-has_children: true
-id: 64110526-2c7e-468c-adcc-d695a8c14dc7
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Objektorienterad programmering (OOP)
+nav_order: 10
+has_children: True
 ---
-
 # Polymorfism
 
 ## Introduktion

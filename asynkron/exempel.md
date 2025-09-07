@@ -1,20 +1,15 @@
 ---
 title: Exempel
-permalink: asynkron/exempel
-nav_order: 1
-parent: Asynkron
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-28 10:23
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: f04ed4d1-583e-4ec2-961d-c08706401c64
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Asynkron
+nav_order: 10
 ---
-
 # Exempel
 
 Välkommen till en spännande resa in i asynkron programmeringens värld tillsammans med Java! Här kommer vi att utforska ett coolt exempel där vi skapar en metod för asynkron sökning i filer, vilket möjliggör effektivt sökande efter specifik text i en mapp.

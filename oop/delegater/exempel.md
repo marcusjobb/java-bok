@@ -1,20 +1,15 @@
 ---
 title: Exempel
-permalink: delegater/exempel
-nav_order: 1
-parent: Delegater
-grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Ackre Medina
-date: 2022-11-20 02:59
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: e2a625a1-45b1-4d4c-b88b-b868ce6dc947
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Delegater
+nav_order: 10
 ---
-
 # Exempel
 
 Nu ska vi kliva ner i en djup och mörk grotta av kodning och utforska Delegater i Java! Gör dig redo för en helt ny nyvå inom programmering... Utforska Kreativ Programmering... utforska Delegater i Java!

@@ -1,19 +1,16 @@
 ---
 title: Loopar
-permalink: loop/index
-nav_order: 15
-parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-enhance: false
-has_children: true
-id: 6dcdd3eb-9705-4329-a68f-cf26522ac4c0
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 100
+has_children: True
 ---
-
 # Loopar
 
 Loopar är en viktig del av programmering. De används för att upprepa en viss uppsättning instruktioner eller handlingar ett visst antal gånger eller tills ett specifikt villkor uppfylls. Loopar gör det möjligt att automatisera och effektivisera repetitiva uppgifter i koden.

@@ -1,23 +1,15 @@
 ---
 title: Google Calendar
-permalink: School/ggcal
-nav_order: 5
-parent: Skolan
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-06-17 12:56:23
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-category: ["skolan"]
-codelanguage: CSharp
-company: Campus Mölndal
-id: 0a5867fe-6238-4f33-a303-ac9cbdbf1a38
-order: 9999
-school: https://campus.molndal.se/yh
-updated: 2023-06-17 12:56:23
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Skolan
+nav_order: 40
 ---
-
 # Google Calendar
 
 [Öppna Google Calendar](https://calendar.google.com/){: .btn .btn-blue }

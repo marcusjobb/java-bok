@@ -1,17 +1,15 @@
 ---
 title: Arbetad tid
-permalink: examples/timereport
-nav_order: 1
-parent: Kodexempel
-grand_parent: Variabler
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: f4679733-c9f8-4582-8108-4d12fdca21e9
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:22"
+parent: Examples
+nav_order: 10
 ---
-
 # Arbetad tid
 
 Vi ska göra en beräkning av arbetad tid på en månad, vi gör detta genom att

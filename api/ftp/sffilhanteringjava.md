@@ -1,17 +1,15 @@
 ---
 title: SFTP-Filhantering i Java
-permalink: ftp/sffilhanteringjava
-nav_order: 1
-parent: FTP
-grand_parent: API
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: afb1ab18-71aa-47bd-a331-d84e24d6d0aa
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: FTP
+nav_order: 10
 ---
-
 # SFTP-Filhantering i Java
 
 SFTP står för Secure File Transfer Protocol och är ett säkert sätt att överföra filer över ett nätverk. För att kunna arbeta med SFTP i Java kan vi använda biblioteket JSch. Lägg till det i ditt Maven-projekt genom att lägga till följande i `pom.xml`:

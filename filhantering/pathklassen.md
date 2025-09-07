@@ -1,20 +1,15 @@
 ---
 title: Path-klassen
-permalink: filhantering/pathklassen
-nav_order: 9
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-20 03:49
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: b907f3be-d890-404d-8133-486e55ab91cc
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 50
 ---
-
 # Path-klassen
 
 I Java erbjuder Path-klassen verktyg för att hantera sökvägar till filer och mappar. Genom att använda Path-klassens olika metoder kan vi enkelt utföra olika operationer, såsom att slå ihop sökvägar, extrahera information om filer och mappar, ändra filändelser och mycket mer. Denna förmåga underlättar arbetet med filsystemet inom våra program och möjliggör skapandet av bättre och mer robusta applikationer.

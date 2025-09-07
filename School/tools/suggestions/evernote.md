@@ -1,18 +1,15 @@
 ---
 title: Evernote
-permalink: suggestions/evernote
-nav_order: 1
-parent: Förslag
-grand_parent: Verktyg
-author: Marcus Ackre Medina
-date: 2022-11-16 08:56
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: b1036b80-001c-48fc-a1c5-daa3a2cbc39d
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Förslag
+nav_order: 10
 ---
-
 # Evernote
 
 [Installera Evernote](https://evernote.com/intl/sv/download/){: .btn .btn-blue }

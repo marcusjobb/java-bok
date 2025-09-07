@@ -1,20 +1,16 @@
 ---
 title: Artificiell intelligens
-permalink: ai/index
-nav_order: 5
-parent: Verktyg
-grand_parent: Skolan
-author: Marcus Ackre Medina
-date: 2023-07-15
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: any
-has_children: true
-id: ebb72645-d9b4-4bf2-8144-967b82f34a56
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Verktyg
+nav_order: 30
+has_children: True
 ---
-
 # Artificiell intelligens
 
 Artificiell intelligens (AI) är ett brett fält inom datavetenskap som handlar om att skapa intelligenta agenter. Intelligenta agenter är system som kan tänka, lära sig och agera självständigt. AI används inom en mängd olika områden, bland annat medicin, finans, transport och utbildning.

@@ -1,17 +1,15 @@
 ---
 title: MIT-licens för Just the docs
-permalink: Info/justthedocslicens
-nav_order: 5
-parent: Info
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: b45215c5-d8d3-4b7a-9507-4393a767882d
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Info
+nav_order: 40
 ---
-
 # MIT-licens för Just the docs
 
 Upphovsrätt (c) 2023 Marcus Medina, Campus Mölndal

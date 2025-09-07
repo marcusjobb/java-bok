@@ -1,17 +1,15 @@
 ---
 title: README
-permalink: JIN23/readme
-nav_order: 2
-parent: Home
-author: Marcus Ackre Medina
 layout: default
-nav_exclude: true
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 3eafd158-cbc2-4b04-bd9d-e1c1bcd2defa
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 20
 ---
-
 # README
 [Jekyll]: https://jekyllrb.com
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/

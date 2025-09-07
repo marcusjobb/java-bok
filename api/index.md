@@ -1,20 +1,16 @@
 ---
 title: API
-permalink: api/index
-nav_order: 23
-parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-23 12:27
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-enhance: false
-has_children: true
-id: 74c8e08c-03f2-429b-9a29-87c8ea2c0ccf
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 30
+has_children: True
 ---
-
 # API
 
 Välkommen till denna spännande artikel där vi kommer att utforska Application Programming Interface (API), ett viktigt gränssnitt som underlättar kommunikationen med webbapplikationer.

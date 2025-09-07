@@ -1,17 +1,15 @@
 ---
 title: NetBeans installation
-permalink: Installation/netbeans
-nav_order: 9
-parent: Installation
-grand_parent: Verktyg
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 869c253f-561f-41b2-859d-734bca59e504
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Installation
+nav_order: 60
 ---
-
 # NetBeans installation
 
 [Installera NetBeans](https://netbeans.apache.org/download/index.html){: .btn }

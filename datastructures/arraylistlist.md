@@ -1,17 +1,15 @@
 ---
 title: Arraylists och Listor
-permalink: datastructures/arraylistlist
-nav_order: 7
-parent: Datastrukturer
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 5de93b0d-4d8b-4603-8ad6-a273b9505919
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Datastrukturer
+nav_order: 30
 ---
-
 # Arraylists och Listor
 
 Nu ska vi utforska The Force of dä ArrayList and List i Java Programmering! Vi kommer att utforska både ljusa och mörka sidor av dessa datatyper och applicera Star Wars-namn för att ge liv åt våra exempel. Må kraften vara med oss när vi utforskar fördelar, begränsningar, skillnader och användningsområden av ArrayList och List!

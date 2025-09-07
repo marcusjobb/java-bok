@@ -1,18 +1,16 @@
 ---
 title: Övningsuppgifter - Behörighetsgivande förutbildning
-permalink: bfu/index
-nav_order: 1
-parent: Övningsuppgifter
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: 942ee0d9-ae04-4128-8143-d8416c8c481a
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Övningsuppgifter
+nav_order: 10
+has_children: True
 ---
-
 # Övningsuppgifter - Behörighetsgivande förutbildning
 
 Behörighetsgivande förutbildning är en snabbkurs i programmering där man går igenom hela första kursen i snabb takt så att man får en försmak av godiset som kommer sedan. Läs mer om detta på [Myndigheten för yrkeshögskolan - MYH](https://www.myh.se/yrkeshogskolan/for-utbildningsanordare/behorighetsgivande-forutbildning-bfu/).

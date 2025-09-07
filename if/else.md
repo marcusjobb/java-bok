@@ -1,20 +1,15 @@
 ---
 title: Else
-permalink: if/else
-nav_order: 1
-parent: Villkor
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: 657e61c6-5301-47d1-bd1a-5469496ae2b6
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Villkor
+nav_order: 10
 ---
-
 # Else
 
 I programmeringsspråket Java används nyckelordet "Else" för att skapa en alternativ väg i en kodblockstruktur. Det ger möjlighet att utföra en annan sekvens av kod om en "if"-sats utvärderas som falsk. Med andra ord kan "Else" användas för att hantera fall där "if"-villkoret inte är uppfyllt, och programmet kan utföra en annan uppsättning instruktioner istället.

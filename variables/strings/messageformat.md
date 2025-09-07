@@ -1,17 +1,15 @@
 ---
 title: MessageFormat
-permalink: strings/messageformat
-nav_order: 3
-parent: Stränghantering
-grand_parent: Variabler
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 9ab55f4b-7620-4ac8-b18b-d7ef750ac398
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:22"
+parent: Stränghantering
+nav_order: 20
 ---
-
 # MessageFormat
 
 Nu ska vi kolla på MessageFormat! Här kommer vi att utforska hur vi kan ge

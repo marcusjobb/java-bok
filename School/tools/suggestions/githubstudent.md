@@ -1,18 +1,15 @@
 ---
 title: Githubstudent
-permalink: suggestions/githubstudent
-nav_order: 3
-parent: Förslag
-grand_parent: Verktyg
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-id: b0ecc1f5-3421-4325-89d6-d948d7a09c99
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Förslag
+nav_order: 30
 ---
-
 # Githubstudent
 
 Github Student Developer Pack är ett gratispaket som ger studenter tillgång till ett brett utbud av verktyg och tjänster för att hjälpa dem att lära sig och utveckla sina kodningskunskaper. Paketet inkluderar:

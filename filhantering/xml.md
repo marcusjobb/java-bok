@@ -1,17 +1,15 @@
 ---
 title: XML
-permalink: filhantering/xml
-nav_order: 17
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 875b79a9-8f33-47aa-821b-e8de440a9f96
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 90
 ---
-
 # XML
 
 Har du någonsin undrat vad som driver datans bakom många applikationer, konfigurationsfiler eller datautbyte mellan system? Möt XML! Men vad är XML egentligen? Och varför är det så populärt inom programmeringsvärlden? Låt oss utforska tillsammans!

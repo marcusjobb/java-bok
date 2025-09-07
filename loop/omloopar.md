@@ -1,22 +1,16 @@
 ---
 title: Loopar i Java
-permalink: loop/omloopar
-nav_order: 1
-parent: Loopar
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
-language: Svenska
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Loopar
+nav_order: 10
 has_children: true
-id: a04361e4-591b-4d7b-b9ba-8f6975cf1170
-school: https://campus.molndal.se/yh
 ---
-
 # Loopar i Java
 
 Loopar är en viktig del av programmering inom Java och används för att upprepa ett block av kod tills ett visst villkor är uppfyllt. I Java finns flera olika typer av loopar som for, while, do-while och foreach, som ger programmerare olika sätt att hantera repetition.

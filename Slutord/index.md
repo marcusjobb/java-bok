@@ -1,17 +1,16 @@
 ---
 title: Tack
-permalink: Slutord/index
-nav_order: 33
-parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: fb0406f9-c469-4251-9684-0f4be44de0c3
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Home
+nav_order: 10
+has_children: True
 ---
-
 # Tack
 
 Tack för att du läst denna e-bok. Jag hoppas att du har lärt dig något nytt och att du kommer att använda dina nya kunskaper i ditt framtida arbete.

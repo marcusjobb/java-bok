@@ -1,23 +1,15 @@
 ---
 title: Google Classroom
-permalink: School/ggcl
-nav_order: 3
-parent: Skolan
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-06-17 12:56:23
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-category: ["skolan"]
-codelanguage: CSharp
-company: Campus Mölndal
-id: 01e4ed37-c99b-4685-973f-8e661e829d77
-order: 9999
-school: https://campus.molndal.se/yh
-updated: 2023-06-17 12:56:23
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Skolan
+nav_order: 30
 ---
-
 # Google Classroom
 
 [Öppna Google Classroom](https://classroom.google.com/){: .btn .btn-blue }

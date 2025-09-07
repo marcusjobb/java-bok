@@ -1,20 +1,15 @@
 ---
 title: Klasser och Objekt inom programmering med Java
-permalink: oop/klasser
-nav_order: 1
-parent: Objektorienterad programmering (OOP)
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-enhance: false
-id: 3f523dea-f2e6-451b-8966-c79399f2c147
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Objektorienterad programmering (OOP)
+nav_order: 10
 ---
-
 # Klasser och Objekt inom programmering med Java
 
 Ett Glatt Äventyr i Programmering med Java

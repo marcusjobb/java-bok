@@ -1,19 +1,15 @@
 ---
 title: Invertera en array
-permalink: arrayexercises/ovning3
-nav_order: 7
-parent: Array övningar
-grand_parent: Datastrukturer
-author: Marcus Ackre Medina
-date: 2023-07-05
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-id: 71f79975-5ba6-4a67-90cd-11a84a1434a8
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Array övningar
+nav_order: 50
 ---
-
 # Invertera en array
 
 <details open markdown="block">

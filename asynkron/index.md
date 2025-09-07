@@ -1,21 +1,16 @@
 ---
 title: Asynkron
-permalink: asynkron/index
-nav_order: 21
+layout: default
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
 parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-28 10:23
-layout: home
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java Java
-codelanguage: C#
-enhance: false
-has_children: true
-id: 1e86d3a3-ce3e-4d5e-a261-143930f38baf
-school: https://campus.molndal.se/yh
+nav_order: 20
+has_children: True
 ---
-
 # Asynkron
 
 Välkommen till vår artikel om asynkrona metoder i Java! Här kommer vi att utforska hur asynkrona metoder gör det möjligt för oss att köra flera metoder samtidigt och därigenom förbättra applikationens responsivitet. Vi lovar att hålla det pedagogiskt, inspirerande och med en nypa Göteborgshumor för att göra inlärningen till en spännande och lärorik resa!

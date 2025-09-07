@@ -1,18 +1,15 @@
 ---
 title: Notion
-permalink: suggestions/notion
-nav_order: 9
-parent: Förslag
-grand_parent: Verktyg
-author: Marcus Ackre Medina
-date: 2022-11-16 08:56
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 4e115aad-4341-4792-96f0-7cdbb501fb8a
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Förslag
+nav_order: 60
 ---
-
 # Notion
 
 [Öppna Notion](https://www.notion.so/){: .btn .btn-blue }

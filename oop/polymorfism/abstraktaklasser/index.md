@@ -1,20 +1,16 @@
 ---
 title: Abstrakta Klasser
-permalink: abstraktaklasser/index
-nav_order: 3
-parent: Polymorfism
-grand_parent: Objektorienterad programmering (OOP)
-author: Marcus Ackre Medina
-date: 2022-11-19 08:17
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-has_children: true
-id: 41b84e28-8a7e-4b61-a87d-ca4642273d4f
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Polymorfism
+nav_order: 20
+has_children: True
 ---
-
 # Abstrakta Klasser
 
 Ett Kreativt Vägval i Programmering!

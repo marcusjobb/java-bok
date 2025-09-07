@@ -1,19 +1,16 @@
 ---
 title: Delegater
-permalink: delegater/index
-nav_order: 15
-parent: Objektorienterad programmering (OOP)
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-13
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-has_children: true
-id: 2f5a6f86-fb9f-4eb0-ac93-8fe618b8e185
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Objektorienterad programmering (OOP)
+nav_order: 30
+has_children: True
 ---
-
 # Delegater
 
 Delegater - Flexibilitet och Kraft i Java!

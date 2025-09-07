@@ -1,20 +1,16 @@
 ---
 title: Array övningar
-permalink: arrayexercises/index
-nav_order: 1
-parent: Datastrukturer
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-04
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: Java
-has_children: true
-id: 6bd8f15d-6991-4955-8927-6fbe768b266b
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Datastrukturer
+nav_order: 10
+has_children: True
 ---
-
 # Array övningar
 
 Här finns några övningar för att träna på att använda arrayer i Java.

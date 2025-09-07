@@ -1,20 +1,15 @@
 ---
 title: CSV
-permalink: filhantering/csv
-nav_order: 1
-parent: Filhantering
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2022-11-16 08:38
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-codelanguage: C#
-enhance: false
-id: d25724cc-65a5-4b57-b737-c1410c5b51b3
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Filhantering
+nav_order: 10
 ---
-
 # CSV
 
 Hej och välkomna till denna spännande resa in i CSV-filformatets värld! CSV, eller Comma Separated Values, är ett kraftfullt filformat som används för att lagra och hantera data i en tabell. Låt oss utforska dess fördelar, begränsningar och olika användningsområden inom programmering med hjälp av vår trogna vän Java!

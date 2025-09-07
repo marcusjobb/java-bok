@@ -1,17 +1,15 @@
 ---
 title: Budgetexempel
-permalink: aualityassurance/budgetexempel
-nav_order: 5
-parent: Kvalitetssäkring
-grand_parent: Home
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 2fe5cb9a-2da7-4465-80af-8d51b33ac212
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: Kvalitetssäkring
+nav_order: 30
 ---
-
 # Budgetexempel
 
 Vi ska nu utforska hur du kan använda TDD-metodiken för att skapa en budgetapplikation som hjälper användare att hålla koll på sina inkomster och utgifter per månad. Vi kommer att gå igenom processen steg för steg, börjande med att skapa pseudoklasser med tomma metoder, sedan skriva testerna för att säkerställa att allt fungerar som förväntat, och till sist implementera funktionaliteten för applikationen.

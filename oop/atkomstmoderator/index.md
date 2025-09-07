@@ -1,22 +1,16 @@
 ---
 title: Åtkomstmoderator
-permalink: atkomstmoderator/index
-nav_order: 11
-parent: Objektorienterad programmering (OOP)
-grand_parent: Home
-author: Marcus Ackre Medina
-date: 2023-07-02
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-available: Java
-codelanguage: C#
-enhance: false
-has_children: true
-id: 07de5481-b270-41bc-a1aa-454cb9158e19
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:11"
+updated: "2025-09-06 23:35:21"
+parent: Objektorienterad programmering (OOP)
+nav_order: 50
+has_children: True
 ---
-
 # Åtkomstmoderator
 
 Nu ska du få lära dig hur du kontrollerar åtkomsten till dina Klassmedlemmar!

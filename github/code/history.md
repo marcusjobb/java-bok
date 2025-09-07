@@ -1,17 +1,15 @@
 ---
 title: Commit historik
-permalink: code/history
-nav_order: 3
-parent: GitHub Actions Exempel
-grand_parent: GitHub Actions
-author: Marcus Ackre Medina
 layout: default
-author_github: https://github.com/marcusjobb
-author_url: https://marcusmedina.pro
-id: 7e4aa4a9-87ef-4939-83f5-a0ce92ce4ab3
-school: https://campus.molndal.se/yh
+author: Campus Mölndal
+author_github: CampusMolndalEducation
+author_url: "https://github.com/CampusMolndalEducation"
+school: Campus Mölndal
+date: "2025-08-18 15:43:10"
+updated: "2025-09-06 23:35:21"
+parent: GitHub Actions Exempel
+nav_order: 30
 ---
-
 # Commit historik
 
 Denna action genererar en markdown-fil med en lista över alla commits som har gjorts i repot och av vem.
