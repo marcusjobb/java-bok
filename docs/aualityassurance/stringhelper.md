@@ -1,12 +1,6 @@
 ---
 title: Stringhelper
-layout: default
-author: Campus Mölndal
-author_github: CampusMolndalEducation
-author_url: "https://github.com/CampusMolndalEducation"
-school: Campus Mölndal
-date: "2025-08-18 15:43:10"
-updated: "2025-09-06 23:35:21"
+author: Marcus Ackre Medina
 parent: Kvalitetssäkring
 nav_order: 40
 ---
@@ -42,7 +36,7 @@ Environment). Skapa sedan en ny Java-klass med namnet "StringHelper".
 
 ```java
 public class StringHelper {
-    package org.campusmolndal;
+    package com.marcusjobb;
 
     import java.util.Arrays;
     import java.util.List;
@@ -167,7 +161,7 @@ public String SwapWords(String text, String word1, String word2) {
 Här är hela StringHelper-klassen med alla metoder implementerade:
 
 ```java
-package org.campusmolndal;
+package com.marcusjobb;
 
 import java.util.Arrays;
 import java.util.List;
@@ -274,7 +268,7 @@ public class StringHelper {
 Nu ska vi skapa en testklass för att testa vår StringHelper-klass. Vi kommer att använda JUnit för att skapa våra testfall.
 
 ```java
-package org.campusmolndal;
+package com.marcusjobb;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -327,7 +321,7 @@ Här är de implementerade metoderna för StringHelper-klassen:
 <details><summary>Klicka här för att se facit</summary>
 
 ```java
-package org.campusmolndal;
+package com.marcusjobb;
 
 import java.util.Arrays;
 import java.util.List;
@@ -439,7 +433,7 @@ public class StringHelper {
 Här är lösningen på testklassen:
 
 ```java
-package org.campusmolndal;
+package com.marcusjobb;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

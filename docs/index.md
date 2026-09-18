@@ -1,41 +1,40 @@
 ---
-title: Home
-layout: default
-author: Campus Mölndal
-author_github: CampusMolndalEducation
-author_url: "https://github.com/CampusMolndalEducation"
-school: Campus Mölndal
-date: "2025-08-18 15:43:10"
-updated: "2025-09-06 23:35:21"
-nav_order: 10
-has_children: True
+title: Java
+description: "Java — Java-boken av Marcus Ackre Medina"
+nav_order: 1
+has_children: true
 ---
-<style>
-    @media print {
-  .hide-on-print {
-    display: none;
-  }
-}
-</style>
 
-# Home
+# Java av Marcus A.M.
 
-Java för JIN23
+{: .important }
+**Det här är inte en kurs.** Det är ett uppslagsverk. Du förväntas inte läsa det från början till slut — du använder det när du kör fast, när du glömt syntaxen, eller när du undrar hur en viss del av Java egentligen fungerar.
 
-<div style="text-align:center" class="hide-on-print">
-<img src="campusmolndal.png" alt="Campus Mölndal Logo">
-</div>
+Hitta det du söker, förstå det, gå tillbaka till koden.
 
-# Välkommen
+---
 
-Välkommen till Campus Mölndals fantastiska elektroniska bok för JIN23. Här hittar du allt du behöver för att komma igång med programmering i Java.<img src="javalogo.jpg" alt="Java Logo" style="float: right;">
+## Vad hittar du här?
 
-Java är ett objektorienterat programmeringsspråk som utvecklades av Sun Microsystems (numera ägt av Oracle). Det används ofta för att skapa programvaror och plattformar som sträcker sig från små mobila enheter till stora datorsystem. Java har blivit populärt på grund av sin plattformsoberoende natur och förmåga att köra på olika operativsystem.
+| Avsnitt | Innehåll |
+|---------|---------|
+| Variabler & typer | Datatyper, strängar, konvertering |
+| If / Loopar | Villkor, for, while, do-while |
+| OOP | Klasser, arv, inkapsling, polymorfism |
+| Datastrukturer | Arrays, ArrayList, Dictionary, Map |
+| Filhantering | Text, JSON, CSV, XML |
+| SQL | Databaser och SQL-kommandon |
+| API | REST, FTP, mikrotjänster |
+| Asynkron | Trådar och asynkron programmering |
 
-Java har en enkel och lättförståelig syntax som gör det till ett idealiskt språk för nybörjare. Samtidigt erbjuder det avancerade funktioner och bibliotek för att hantera komplexa program. Generiska typer, anonyma inre klasser, lambda-uttryck och trådhantering är några av de kraftfulla funktionerna som Java erbjuder.
+Använd sökfunktionen (överst till höger) eller menyn till vänster.
 
-En av de stora fördelarna med Java är dess stora ekosystem av bibliotek och ramverk. Det finns ett brett utbud av bibliotek för att hjälpa till med allt från grafisk användargränssnittsutveckling till databashantering och nätverksprogrammering. Ramverk som Spring och Hibernate förenklar utvecklingsprocessen och främjar goda designmönster.
+---
 
-Java används inom en mängd olika områden, inklusive webbutveckling, mobilapputveckling, spelutveckling och företagsapplikationer. Det är ett mångsidigt språk som ger utvecklare möjlighet att skapa kraftfulla och skalbara program.
+## Om boken
 
-Visst är Java cool!? Så låt oss börja!
+Boken skapades ursprungligen för kursen JIN23 vid Campus Mölndal och har sedan migrerats hit. Den uppdateras löpande, och tanken är att den så småningom ska publiceras som en riktig bok — när innehållet är tillräckligt komplett.
+
+Saknar du ett ämne eller en förklaring? Hör av dig — på Discord, via skolans mail, eller via ett issue på [GitHub](https://github.com/marcusjobb/java-bok).
+
+/Marcus

@@ -1,12 +1,6 @@
 ---
 title: Api och Microservices
-layout: default
-author: Campus Mölndal
-author_github: CampusMolndalEducation
-author_url: "https://github.com/CampusMolndalEducation"
-school: Campus Mölndal
-date: "2025-08-18 15:43:10"
-updated: "2025-09-06 23:35:21"
+author: Marcus Ackre Medina
 parent: API
 nav_order: 20
 ---

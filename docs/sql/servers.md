@@ -1,12 +1,6 @@
 ---
 title: Skillnaderna mellan SQL Server, SQLite och MySQL
-layout: default
-author: Campus Mölndal
-author_github: CampusMolndalEducation
-author_url: "https://github.com/CampusMolndalEducation"
-school: Campus Mölndal
-date: "2025-08-18 15:43:11"
-updated: "2025-09-06 23:35:21"
+author: Marcus Ackre Medina
 parent: SQL
 nav_order: 40
 ---
