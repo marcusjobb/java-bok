@@ -1,0 +1,18 @@
+# Java — öppen lärobok av Marcus Ackre Medina
+
+> En praktisk guide till Java-programmering för YH-studerande.
+> Skriven på svenska. Fokus på det du faktiskt behöver på jobbet.
+
+## Om boken
+
+Denna bok täcker Java-programmering från grunderna till OOP, datastrukturer och API:er.
+Målgrupp: programmeringsstuderande på YH-nivå.
+Licens: Apache 2.0
+Källa: https://github.com/marcusjobb/java-bok
+Publicerad: https://marcusjobb.github.io/java-bok/
+
+## Författare
+
+Marcus Ackre Medina — lärare i mjukvaruutveckling, NionIT
+Kontakt: marcus.medina@nionit.com
+LinkedIn: https://www.linkedin.com/in/marcusmedina/
