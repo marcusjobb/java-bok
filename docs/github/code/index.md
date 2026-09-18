@@ -3,7 +3,7 @@ title: GitHub Actions Exempel
 author: Marcus Ackre Medina
 parent: GitHub Actions
 nav_order: 20
-has_children: True
+has_children: true
 ---
 # GitHub Actions Exempel
 GitHub Actions erbjuder en värld av möjligheter när det kommer till automatisering. Men hur kan vi använda detta verktyg på ett roligt och kreativt sätt? Vad kan vi åstadkomma som går bortom de vanliga arbetsflödena? Dessa frågor kommer att besvaras med hjälp av några inspirerande exempel.

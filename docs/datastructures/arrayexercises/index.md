@@ -3,7 +3,7 @@ title: Array övningar
 author: Marcus Ackre Medina
 parent: Datastrukturer
 nav_order: 10
-has_children: True
+has_children: true
 ---
 # Array övningar
 

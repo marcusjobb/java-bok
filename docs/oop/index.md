@@ -1,9 +1,9 @@
 ---
 title: Objektorienterad programmering (OOP)
 author: Marcus Ackre Medina
-parent: Home
-nav_order: 60
-has_children: True
+parent: Java
+nav_order: 40
+has_children: true
 ---
 # Objektorienterad programmering (OOP)
 

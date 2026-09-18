@@ -1,9 +1,9 @@
 ---
 title: Variabler
 author: Marcus Ackre Medina
-parent: Home
-nav_order: 80
-has_children: True
+parent: Java
+nav_order: 10
+has_children: true
 ---
 # Variabler
 

@@ -1,9 +1,10 @@
 ---
 title: Abstrakta Klasser
+grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Ackre Medina
 parent: Polymorfism
 nav_order: 20
-has_children: True
+has_children: true
 ---
 # Abstrakta Klasser
 

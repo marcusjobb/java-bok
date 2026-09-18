@@ -1,5 +1,6 @@
 ---
 title: FTP-Filhantering i Java
+grand_parent: API
 author: Marcus Ackre Medina
 parent: FTP
 nav_order: 40

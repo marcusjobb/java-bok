@@ -1,9 +1,9 @@
 ---
 title: Datastrukturer
 author: Marcus Ackre Medina
-parent: Home
-nav_order: 70
-has_children: True
+parent: Java
+nav_order: 50
+has_children: true
 ---
 # Datastrukturer
 

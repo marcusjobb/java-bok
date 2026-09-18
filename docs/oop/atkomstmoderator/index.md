@@ -3,7 +3,7 @@ title: Åtkomstmoderator
 author: Marcus Ackre Medina
 parent: Objektorienterad programmering (OOP)
 nav_order: 50
-has_children: True
+has_children: true
 ---
 # Åtkomstmoderator
 

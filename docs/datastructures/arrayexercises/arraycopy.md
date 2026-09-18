@@ -1,5 +1,6 @@
 ---
 title: ArrayCopy
+grand_parent: Datastrukturer
 author: Marcus Ackre Medina
 parent: Array övningar
 nav_order: 20

@@ -1,9 +1,9 @@
 ---
 title: GitHub Actions
 author: Marcus Ackre Medina
-parent: Home
-nav_order: 10
-has_children: True
+parent: Java
+nav_order: 120
+has_children: true
 ---
 # GitHub Actions
 

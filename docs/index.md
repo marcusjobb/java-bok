@@ -1,5 +1,6 @@
 ---
 title: Java
+layout: home
 description: "Java — Java-boken av Marcus Ackre Medina"
 nav_order: 1
 has_children: true

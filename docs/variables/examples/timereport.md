@@ -1,7 +1,7 @@
 ---
 title: Arbetad tid
 author: Marcus Ackre Medina
-parent: Examples
+parent: Variabler
 nav_order: 10
 ---
 # Arbetad tid

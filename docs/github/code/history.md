@@ -1,5 +1,6 @@
 ---
 title: Commit historik
+grand_parent: GitHub Actions
 author: Marcus Ackre Medina
 parent: GitHub Actions Exempel
 nav_order: 30

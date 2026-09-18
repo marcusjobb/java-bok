@@ -1,5 +1,6 @@
 ---
 title: MessageFormat
+grand_parent: Variabler
 author: Marcus Ackre Medina
 parent: Stränghantering
 nav_order: 20

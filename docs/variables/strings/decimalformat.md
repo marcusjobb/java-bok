@@ -1,5 +1,6 @@
 ---
 title: Decimalformat
+grand_parent: Variabler
 author: Marcus Ackre Medina
 parent: Stränghantering
 nav_order: 40

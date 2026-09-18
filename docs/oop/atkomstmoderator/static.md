@@ -1,5 +1,6 @@
 ---
 title: Static
+grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Ackre Medina
 parent: Åtkomstmoderator
 nav_order: 40

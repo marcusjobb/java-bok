@@ -1,9 +1,10 @@
 ---
 title: Interfaces
+grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Ackre Medina
 parent: Polymorfism
 nav_order: 10
-has_children: True
+has_children: true
 ---
 # Interfaces
 

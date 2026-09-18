@@ -1,7 +1,7 @@
 ---
 title: Kladdkaka
 author: Marcus Ackre Medina
-parent: Examples
+parent: Variabler
 nav_order: 20
 ---
 # Kladdkaka

@@ -1,9 +1,9 @@
 ---
 title: Loopar
 author: Marcus Ackre Medina
-parent: Home
-nav_order: 100
-has_children: True
+parent: Java
+nav_order: 30
+has_children: true
 ---
 # Loopar
 

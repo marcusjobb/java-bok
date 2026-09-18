@@ -3,7 +3,7 @@ title: Stränghantering
 author: Marcus Ackre Medina
 parent: Variabler
 nav_order: 70
-has_children: True
+has_children: true
 ---
 # Stränghantering
 

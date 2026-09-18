@@ -1,5 +1,6 @@
 ---
 title: Plugins
+grand_parent: Polymorfism
 author: Marcus Ackre Medina
 parent: Interfaces
 nav_order: 20

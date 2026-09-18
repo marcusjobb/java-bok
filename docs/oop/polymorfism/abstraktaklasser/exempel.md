@@ -1,5 +1,6 @@
 ---
 title: Exempel
+grand_parent: Polymorfism
 author: Marcus Ackre Medina
 parent: Abstrakta Klasser
 nav_order: 10

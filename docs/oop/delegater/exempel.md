@@ -1,5 +1,6 @@
 ---
 title: Exempel
+grand_parent: Objektorienterad programmering (OOP)
 author: Marcus Ackre Medina
 parent: Delegater
 nav_order: 10

@@ -1,5 +1,6 @@
 ---
 title: Hitta det största elementet i en array
+grand_parent: Datastrukturer
 author: Marcus Ackre Medina
 parent: Array övningar
 nav_order: 40

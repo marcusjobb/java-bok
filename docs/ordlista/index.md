@@ -1,9 +1,9 @@
 ---
 title: Ordlista
 author: Marcus Ackre Medina
-parent: Home
-nav_order: 60
-has_children: True
+parent: Java
+nav_order: 990
+has_children: true
 ---
 # Ordlista
 

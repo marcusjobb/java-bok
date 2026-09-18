@@ -1,9 +1,9 @@
 ---
 title: Villkor
 author: Marcus Ackre Medina
-parent: Home
-nav_order: 40
-has_children: True
+parent: Java
+nav_order: 20
+has_children: true
 ---
 # Villkor
 

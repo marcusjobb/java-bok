@@ -3,7 +3,7 @@ title: FTP
 author: Marcus Ackre Medina
 parent: API
 nav_order: 30
-has_children: True
+has_children: true
 ---
 # FTP
 

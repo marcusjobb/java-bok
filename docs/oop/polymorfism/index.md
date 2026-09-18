@@ -3,7 +3,7 @@ title: Polymorfism
 author: Marcus Ackre Medina
 parent: Objektorienterad programmering (OOP)
 nav_order: 10
-has_children: True
+has_children: true
 ---
 # Polymorfism
 
