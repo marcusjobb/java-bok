@@ -12,3 +12,6 @@ Docs/output.*
 cover.html
 output.*
 _output/*
+
+docs/vendor/
+docs/.bundle/
