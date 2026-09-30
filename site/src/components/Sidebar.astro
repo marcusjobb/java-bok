@@ -17,8 +17,7 @@ function entryUrl(entry: any) {
 const allDocs = await getCollection('docs');
 
 const sections = allDocs
-  .filter(e => e.data.has_children === true && !e.data.parent &&
-    e.id.replace(/\.mdx?$/, '').replace(/\/index$/, '').replace(/^index$/, '') !== '')
+  .filter(e => e.data.parent === 'Java')
   .sort((a, b) => (a.data.nav_order ?? 99) - (b.data.nav_order ?? 99));
 
 function getChildren(sectionTitle: string) {
