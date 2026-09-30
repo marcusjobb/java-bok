@@ -29,7 +29,7 @@ const homeEntry = allDocs.find((e: any) => {
 });
 
 const sections = allDocs
-  .filter((e: any) => e.data.parent === 'C# bok')
+  .filter((e: any) => e.data.parent === 'Java')
   .sort((a: any, b: any) => (a.data.nav_order ?? 99) - (b.data.nav_order ?? 99));
 
 function getChildren(title: string) {
