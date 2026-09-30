@@ -1,7 +1,9 @@
 ---
 import { ClientRouter } from 'astro:transitions';
+import { getCollection } from 'astro:content';
 import Sidebar from '../components/Sidebar.astro';
 import '../styles/nion-book.css';
+import { AUTHOR } from '../site.config';
 
 interface Props {
   title: string;
@@ -24,12 +26,64 @@ const {
 } = Astro.props;
 
 const siteTitle = 'Java bok';
-const fullTitle = title ? `${title} · ${siteTitle}` : siteTitle;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? 'https://marcusjobb.github.io');
 
 const entryIdNorm = entry?.id?.replace(/\.mdx?$/, '').replace(/\/index$/, '').replace(/^index$/, '') ?? null;
 const isHome = entryIdNorm === '';
+const fullTitle = (title && !isHome) ? `${title} · ${siteTitle}` : siteTitle;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+function docUrl(e: any): string {
+  const id = e.id.replace(/\.mdx?$/, '').replace(/\/index$/, '').replace(/^index$/, '');
+  return id ? `${base}/${id}/` : `${base}/`;
+}
+
+const siteOrigin = (Astro.site ? Astro.site.toString() : 'https://marcusjobb.github.io/').replace(/\/$/, '');
+
+const breadcrumbItems: { name: string; url: string }[] = [
+  { name: siteTitle, url: `${siteOrigin}${base}/` },
+];
+if (!isHome && entry?.data?.parent) {
+  const allDocs = await getCollection('docs');
+  const parentEntry = allDocs.find((e: any) => e.data.title === entry.data.parent);
+  if (parentEntry) {
+    breadcrumbItems.push({ name: parentEntry.data.title, url: `${siteOrigin}${docUrl(parentEntry)}` });
+  }
+}
+if (!isHome && title) {
+  breadcrumbItems.push({ name: title, url: canonicalURL.toString() });
+}
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": isHome ? "WebSite" : "TechArticle",
+      "name": fullTitle,
+      "headline": isHome ? undefined : title,
+      "description": description,
+      "url": canonicalURL.toString(),
+      "inLanguage": "sv",
+      "author": { "@type": "Person", "@id": "https://marcusjobb.github.io/#person", "name": AUTHOR.name, "sameAs": [AUTHOR.linkedinUrl, AUTHOR.githubUrl, "https://orcid.org/0009-0005-7717-306X"] },
+      "publisher": { "@type": "Person", "@id": "https://marcusjobb.github.io/#person", "name": AUTHOR.name },
+      ...(!isHome ? {
+        "educationalLevel": "Yrkeshögskola",
+        "teaches": ["Java", "Objektorienterad programmering", "JVM", "Samlingar", "Generics", "Spring Boot"],
+        "audience": { "@type": "EducationalAudience", "educationalRole": "student", "audienceType": "Yrkeshögskolestuderande i mjukvaruutveckling" },
+        "isPartOf": { "@type": "WebSite", "name": "YH-böcker av Marcus Ackre Medina", "url": "https://marcusjobb.github.io/" }
+      } : {}),
+    },
+    ...(breadcrumbItems.length > 1 ? [{
+      "@type": "BreadcrumbList",
+      "itemListElement": breadcrumbItems.map((item, i) => ({
+        "@type": "ListItem",
+        "position": i + 1,
+        "name": item.name,
+        "item": item.url,
+      })),
+    }] : []),
+  ],
+};
 ---
 <!DOCTYPE html>
 <html lang="sv" data-theme="dark">
@@ -45,33 +99,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <meta property="og:url" content={canonicalURL}>
   <meta property="og:type" content="article">
   <meta property="og:site_name" content={siteTitle}>
-
   <meta property="og:locale" content="sv_SE">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://marcusjobb.github.io/java-bok/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content={fullTitle}>
   <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content="https://marcusjobb.github.io/java-bok/og-image.png">
 
-  <script type="application/ld+json" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": isHome ? "WebSite" : "TechArticle",
-        "name": fullTitle,
-        "headline": isHome ? undefined : title,
-        "description": description,
-        "url": canonicalURL.toString(),
-        "inLanguage": "sv",
-        "author": { "@type": "Person", "@id": "https://marcusjobb.github.io/#person", "name": "Marcus Ackre Medina", "sameAs": ["https://www.linkedin.com/in/marcusmedina/", "https://github.com/marcusjobb", "https://orcid.org/0009-0005-7717-306X"] },
-        "publisher": { "@type": "Person", "@id": "https://marcusjobb.github.io/#person", "name": "Marcus Ackre Medina" },
-        ...(!isHome ? {
-          "educationalLevel": "Yrkeshögskola",
-          "teaches": ["Java", "Objektorienterad programmering", "JVM", "Samlingar", "Generics"],
-          "audience": { "@type": "EducationalAudience", "educationalRole": "student", "audienceType": "Yrkeshögskolestuderande i mjukvaruutveckling" },
-          "isPartOf": { "@type": "WebSite", "name": "YH-böcker av Marcus Ackre Medina", "url": "https://marcusjobb.github.io/" }
-        } : {})
-      }
-    ]
-  })} />
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
   <!-- Pre-paint: hämta tema + teckenstorlek ur localStorage INNAN första render, annars blinkar sidan -->
   <script is:inline>
@@ -108,7 +146,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <main class="main" id="main-content">
     {isHome && (
       <section class="hero">
-        <span class="hero-badge">Java · Spring · NionIT</span>
+        <span class="hero-badge">C# · .NET 10 · NionIT</span>
         <h1 class="hero-title">Java-boken</h1>
         <p class="hero-sub">Java-programmering för YH-studerande av Marcus Ackre Medina — från grunderna till Spring Boot och API-utveckling.</p>
         <div class="hero-actions">
@@ -127,6 +165,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="prose">
       <slot />
     </div>
+    {!isHome && (
+      <p class="byline">
+        Skriven av <a href={AUTHOR.linkedinUrl} target="_blank" rel="noopener">{AUTHOR.name}</a>
+        {' · '}<a href={AUTHOR.githubUrl} target="_blank" rel="noopener">GitHub</a>
+        {' · '}{AUTHOR.school}
+      </p>
+    )}
     {(prevUrl || nextUrl) && (
       <nav class="page-nav" aria-label="Sidnavigering">
         {prevUrl ? (
@@ -155,7 +200,42 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 <script>
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
-  document.addEventListener('astro:page-load', () => mermaid.run());
+
+  // Expressive Code syntax-highlightar ```mermaid-block innan mermaid.js ser dem
+  // (radbryter källkoden i massor av <span>, döper inte om till class="mermaid").
+  // Vi plockar ut rå text rad för rad ur dess markup och renderar varje diagram
+  // FÖR SIG med mermaid.render() + eget try/catch — mermaid.run() bearbetar alla
+  // diagram på sidan som en batch, så ett enda diagram med syntaxfel kan stoppa
+  // resten. Med individuell rendering blir ett trasigt diagram isolerat.
+  let renderCounter = 0;
+
+  async function renderMermaidDiagrams() {
+    const blocks = document.querySelectorAll('pre[data-language="mermaid"]');
+    for (const pre of Array.from(blocks)) {
+      const lines = Array.from(pre.querySelectorAll('.ec-line')).map(l => l.textContent ?? '');
+      const code = (lines.length ? lines.join('\n') : (pre.textContent ?? '')).trim();
+
+      const container = document.createElement('div');
+      container.className = 'mermaid';
+      const frame = pre.closest('.expressive-code') ?? pre;
+      frame.replaceWith(container);
+
+      if (!code) continue;
+
+      try {
+        const { svg, bindFunctions } = await mermaid.render(`mermaid-diagram-${renderCounter++}`, code);
+        container.innerHTML = svg;
+        bindFunctions?.(container);
+      } catch (err) {
+        console.error('Mermaid-diagrammet gick inte att rendera:', err, code);
+        container.classList.remove('mermaid');
+        container.classList.add('mermaid-error');
+        container.textContent = code;
+      }
+    }
+  }
+
+  document.addEventListener('astro:page-load', () => { renderMermaidDiagrams(); });
 </script>
 
 <!-- Search modal + TOC + bionic re-apply -->
@@ -252,13 +332,16 @@ document.getElementById('search-overlay')?.addEventListener('click', (e: MouseEv
 
 // ── Page-load: bionic, TOC, search trigger ───────────────────────────────────
 document.addEventListener('astro:page-load', () => {
+  // Re-bind search trigger (button lives in sidebar, which persists via transition:persist)
   document.getElementById('search-trigger')?.addEventListener('click', openSearch);
 
+  // Återapplicera bionic på nytt innehåll om aktiv
   if (getCookie(BIONIC_COOKIE) === 'true') {
     const content = document.getElementById('main-content');
     if (content) applyBionic(content);
   }
 
+  // Bygg TOC från h2/h3 i .prose
   const prose = document.querySelector('.prose');
   const tocNav = document.getElementById('toc-nav');
   const tocAside = document.getElementById('toc-aside') as HTMLElement | null;
