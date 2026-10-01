@@ -15,3 +15,8 @@ _output/*
 
 docs/vendor/
 docs/.bundle/
+
+# Astro/npm
+node_modules/
+site/dist/
+site/.astro/
