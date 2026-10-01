@@ -17,7 +17,7 @@ Att få siffror och tal att se snygga och välorganiserade ut har aldrig varit s
 
 Innan vi börjar leka med decimaltal, är det viktigt att du förstår de olika numeriska datatyperna i Java. Om du inte redan har gjort det, se till att kolla in dessa dokument innan du fortsätter:
 
-- [String](../string.md)
+- [String](index.md)
 - [Decimal](../decimal.md)
 - [Double](../double.md)
 - [Float](../float.md)
