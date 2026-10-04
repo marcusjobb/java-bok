@@ -57,8 +57,8 @@ Path-klassen har en mängd olika användningsområden inom filhantering, inklusi
 Här presenteras ett kodexempel som visar hur man använder Path-klassen för att utföra sökvägshantering i en filhanteringsapplikation.
 
 ```java
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nine.file.Path;
+import java.nine.file.Paths;
 
 public class PathExample {
     public static void main(String[] args) {

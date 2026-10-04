@@ -44,12 +44,12 @@ Låt oss titta på ett kodexempel där vi använder heltal för att skapa en enk
 ```java
 public class SimpleCalculator {
     public static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 5;
+        int num = 10;
+        int num = 5;
 
-        int sum = num1 + num2;
+        int sum = num + num;
 
-        System.out.println("Summan av " + num1 + " och " + num2 + " är: " + sum);
+        System.out.println("Summan av " + num + " och " + num + " är: " + sum);
     }
 }
 ```

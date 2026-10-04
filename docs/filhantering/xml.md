@@ -29,7 +29,7 @@ XML är ett verktyg för att strukturera information, påminnande om HTML. Medan
 Varje element i XML definieras med en starttagg (<tagg>) och en sluttagg (</tagg>). Allt som finns mellan dessa två taggar kallas elementets värde.
 
 ```xml
-    <element>elementets värde</element>
+    <element>element value</element>
 ```
 
 ### Attribut
@@ -37,7 +37,7 @@ Varje element i XML definieras med en starttagg (<tagg>) och en sluttagg (</tagg
 Förutom element kan XML också ha attribut som tillhandahåller extra information. Ett attribut placeras i starttaggen. Det består av ett namn och ett värde, separerade av ett likhetstecken. Ett element kan ha flera attribut.
 
 ```xml
-    <element attribut="värde">elementets information</element>
+    <element attribute="värde">element information</element>
 ```
 
 ## Fördelar
@@ -65,32 +65,32 @@ Förutom element kan XML också ha attribut som tillhandahåller extra informati
 Tänk dig att du vill lagra information om ditt favoritbibliotek och de böcker det innehåller. Nedan är ett exempel på hur det kan se ut med XML:
 
 ```xml
-<bibliotek>
-    <bok id="152101">
-        <titel>Planer för Gotham</titel>
-        <författare>Joker</författare>
-    </bok>
-    <bok id="152113">
-        <titel>Iskall Manipulation</titel>
-        <författare>Mr. Freeze</författare>
-    </bok>
-    <bok id="152129">
-        <titel>Förföringens Regler</titel>
-        <författare>Catwoman</författare>
-    </bok>
-    <bok id="152143">
-        <titel>Skuggornas Kallelse</titel>
-        <författare>Ra's al Ghul</författare>
-    </bok>
-    <bok id="152158">
-        <titel>Riddlarens Gåtor</titel>
-        <författare>Riddler</författare>
-    </bok>
-    <bok id="152169">
-        <titel>Fågelns Flykt</titel>
-        <författare>Penguin</författare>
-    </bok>
-</bibliotek>
+<library>
+    <book id="152101">
+        <title>Plans for Gotham</title>
+        <author>Joker</author>
+    </book>
+    <book id="152113">
+        <title>Icy Manipulation</title>
+        <author>Mr. Freeze</author>
+    </book>
+    <book id="152129">
+        <title>Förföringens Rules</title>
+        <author>Catwoman</author>
+    </book>
+    <book id="152143">
+        <title>Shadows Call</title>
+        <author>Ra's al Ghul</författare>
+    </book>
+    <book id="152158">
+        <title>Riddlarens Riddles</title>
+        <author>Riddler</author>
+    </book>
+    <book id="152169">
+        <title>Bird Escape</title>
+        <author>Penguin</author>
+    </book>
+</library>
 ```
 
 ## XML-attack
@@ -135,7 +135,7 @@ XML är ett kraftfullt verktyg för att lagra och transportera data på ett sät
 | Term             | Förklaring                                                                                                                                                                   |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | XML              | Extensible Markup Language, ett språk för att definiera och transportera data.                                                                                               |
-| Tagg             | Markerar start och slut på en element i XML (ex. `<namn>`).                                                                                                                  |
+| Tagg             | Markerar start och slut på en element i XML (ex. `<name>`).                                                                                                                  |
 | Attribut         | En extra upplysning eller egenskap som kan läggas till en tagg i XML, t.ex. `id="1234"`.                                                                                     |
 | Element          | Datastrukturen skapad av en starttagg, sluttagg och dess värde.                                                                                                              |
 | Deklaration      | En inledande rad i XML-dokument, t.ex. `<?xml version="1.0" encoding="UTF-8"?>`. Den specificerar versionen av XML och (eventuellt) teckenkodningen som dokumentet använder. |

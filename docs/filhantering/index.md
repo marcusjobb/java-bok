@@ -15,32 +15,32 @@ Först och främst behöver vi en klass för våra modiga hjältar i denna filha
 
 ```java
 class Person {
-    String namn;
-    int ålder;
+    String name;
+    int age;
 
-    public Person(String namn, int ålder) {
-        this.namn = namn;
-        this.ålder = ålder;
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     public String toString() {
-        return "Namn: " + namn + " Ålder:" + ålder;
+        return "Namn: " + name + " Ålder:" + age;
     }
 
-    public String getNamn() {
-        return namn;
+    public String getName() {
+        return name;
     }
 
-    public int getÅlder() {
-        return ålder;
+    public int getAge() {
+        return age;
     }
 
-    public void setNamn(String namn) {
-        this.namn = namn;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setÅlder(int ålder) {
-        this.ålder = ålder;
+    public void setAge(int age) {
+        this.age = age;
     }
 }
 ```
@@ -53,10 +53,10 @@ För att läsa en textfil i denna galax använder vi kraften i klassen "FileRead
 try {
     FileReader fr = new FileReader("filnamn.txt");
     BufferedReader br = new BufferedReader(fr);
-    String rad = br.readLine();
-    while (rad != null) {
-        System.out.println(rad);
-        rad = br.readLine();
+    String row = br.readLine();
+    while (row != null) {
+        System.out.println(row);
+        row = br.readLine();
     }
     br.close();
     fr.close();
@@ -169,7 +169,7 @@ try {
 
     // Skapa en ny fil och skriv personen till den med Base64-kodning
     FileOutputStream fos = new FileOutputStream("person.bin");
-    fos.write(Base64.getEncoder().encode(baos.toByteArray()));
+    fos.write(Base.getEncoder().encode(baos.toByteArray()));
     fos.close();
 
     // Läs in personen från filen med Base64-kodning
@@ -178,7 +178,7 @@ try {
     fis.close();
 
     // Avkoda data med Base64
-    byte[] decodedData = Base64.getDecoder().decode(data);
+    byte[] decodedData = Base.getDecoder().decode(data);
     ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(decodedData));
     Person p2 = (Person) ois.readObject();
     ois.close();
@@ -186,7 +186,7 @@ try {
 } catch (IOException e) {
     System.out.println("Fel! Kunde inte läsa eller skriva till den binära
 
- filen.");
+ file.");
 } catch (ClassNotFoundException e) {
     System.out.println("Fel! Hittade inte klassen för att deserialisera objektet.");
 }
@@ -209,7 +209,7 @@ try {
     // Skapa en ny fil och skriv personen till den med Base64-kodning och GZIP-komprimering
     FileOutputStream fos = new FileOutputStream("person.gzis");
     GZIPOutputStream gzos = new GZIPOutputStream(fos);
-    gzos.write(Base64.getEncoder().encode(baos.toByteArray()));
+    gzos.write(Base.getEncoder().encode(baos.toByteArray()));
     gzos.close();
 
     // Läs in personen från filen med Base64-kodning och GZIP-komprimering
@@ -219,7 +219,7 @@ try {
     gzis.close();
 
     // Avkoda data med Base64
-    byte[] decodedData = Base64.getDecoder().decode(data);
+    byte[] decodedData = Base.getDecoder().decode(data);
     ObjectInputStream ois = new ObjectInputStream(new ByteArrayInputStream(decodedData));
     Person p2 = (Person) ois.readObject();
     ois.close();
@@ -426,7 +426,7 @@ vrat filhanteringsuniversum i Star Wars, låt oss sammanfatta några av de terme
 | `FileReader`            | En klass som används för att läsa textfiler.                                   |
 | `FileWriter`            | En klass som används för att skriva till textfiler.                            |
 | `Gson`                  | En klass som används för att läsa och skriva till Json-filer.                  |
-| `Base64`                | En klass som används för att läsa och skriva binära filer.                     |
+| `Base`                | En klass som används för att läsa och skriva binära filer.                     |
 | `GZIPOutputStream`      | En klass som används för att läsa och skriva binära filer med Base64 och GZIP. |
 | `ObjectOutputStream`    | En klass som används för att läsa och skriva binära filer.                     |
 | `ObjectInputStream`     | En klass som används för att läsa och skriva binära filer.                     |
@@ -445,17 +445,17 @@ vrat filhanteringsuniversum i Star Wars, låt oss sammanfatta några av de terme
 | `close()`               | En metod som används för att stänga en fil.                                    |
 | `split()`               | En metod som används för att dela upp en sträng i en array.                    |
 | `toString()`            | En metod som används för att konvertera ett objekt till en sträng.             |
-| `getNamn()`             | En metod som används för att hämta namnet på en person.                        |
-| `getÅlder()`            | En metod som används för att hämta åldern på en person.                        |
-| `setNamn()`             | En metod som används för att sätta namnet på en person.                        |
-| `setÅlder()`            | En metod som används för att sätta åldern på en person.                        |
+| `getName()`             | En metod som används för att hämta namnet på en person.                        |
+| `getAge()`            | En metod som används för att hämta åldern på en person.                        |
+| `setName()`             | En metod som används för att sätta namnet på en person.                        |
+| `setAge()`            | En metod som används för att sätta åldern på en person.                        |
 | `Person`                | En klass som används för att representera en person.                           |
-| `namn`                  | En variabel som används för att lagra namnet på en person.                     |
-| `ålder`                 | En variabel som används för att lagra åldern på en person.                     |
+| `name`                  | En variabel som används för att lagra namnet på en person.                     |
+| `age`                 | En variabel som används för att lagra åldern på en person.                     |
 | `p`                     | En variabel som används för att representera en person.                        |
 | `p2`                    | En variabel som används för att representera en person.                        |
-| `rad`                   | En variabel som används för att representera en rad i en textfil.              |
-| `delar`                 | En variabel som används för att representera en array av strängar.             |
+| `row`                   | En variabel som används för att representera en rad i en textfil.              |
+| `parts`                 | En variabel som används för att representera en array av strängar.             |
 | `fr`                    | En variabel som används för att representera en textfil.                       |
 | `fw`                    | En variabel som används för att representera en textfil.                       |
 | `gson`                  | En variabel som används för att representera en Json-fil.                      |

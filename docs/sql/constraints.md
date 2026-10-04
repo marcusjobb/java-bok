@@ -72,7 +72,7 @@ Primary Key och Foreign Key för att koppla ihop dem:
 
 ```sql
 CREATE TABLE Person (
-    PersonID int NOT NULL PRIMARY KEY,
+    PersonId int NOT NULL PRIMARY KEY,
     LastName varchar(255) NOT NULL,
     FirstName varchar(255),
     Address varchar(255),
@@ -82,8 +82,8 @@ CREATE TABLE Person (
 CREATE TABLE Orders (
     OrderID int NOT NULL PRIMARY KEY,
     OrderDate date NOT NULL,
-    PersonID int NOT NULL,
-    FOREIGN KEY (PersonID) REFERENCES Person(PersonID)
+    PersonId int NOT NULL,
+    FOREIGN KEY (PersonId) REFERENCES Person(PersonId)
 );
 ```
 

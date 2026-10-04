@@ -150,13 +150,13 @@ public class CalculatorTest {
     @Test
     public void testGetDeciliters() {
         Measurements measurements = new Measurements();
-        float result = measurements.getDeciliters(1);
+        float result = measurements.getDecilitres(1);
         assertEquals(2.37, result, 0.01);
     }
 }
 
 public class Measurements{
-    public float getDeciliters(float cups){
+    public float getDecilitres(float cups){
         return cups * 2.36588237;
     }
 }

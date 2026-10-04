@@ -27,9 +27,9 @@ Innan vi börjar leka med decimaltal, är det viktigt att du förstår de olika 
 Innan vi dyker in i det roliga måste vi förstå vad DecimalFormat handlar om. I Java, när vi behöver visa tal i specifika format med antal decimaler, tusentalsavgränsare eller valutor, är DecimalFormat vårt hemliga vapen! 🗡️ Det tillåter oss att formatera numeriska värden på ett sätt som gör att de ser ut precis som vi vill ha dem, vilket ger våra applikationer en professionell och polerad touch.
 
 ```java
-float pris = 55.75;
-double mängd = 3.14159265359;
-Decimal avstånd = 55.75;
+float price = 55.75;
+double quantity = 3.14159265359;
+Decimal distance = 55.75;
 ```
 
 ## TL;DR
@@ -52,13 +52,13 @@ Låt mig visa dig ett exempel:
 ```java
 import java.text.DecimalFormat;
 
-public class CharmigFormattering {
+public class CharmingFormatting {
     public static void main(String[] args) {
-        double pris = 55.75;
+        double price = 55.75;
         DecimalFormat formatter = new DecimalFormat("#,##0.00 kr");
 
-        String formateratPris = formatter.format(pris);
-        System.out.println("Produktpris: " + formateratPris);
+        String formattedPrice = formatter.format(price);
+        System.out.println("Produktpris: " + formattedPrice);
     }
 }
 ```
@@ -169,14 +169,14 @@ Absolut! Här är tabellen med exempel för DecimalFormat:
 
 | Funktion   | Beskrivning                                               | Exempel                                | Resultat                |
 | -----------| -------------------------------------------------------- | -------------------------------------- | ----------------------- |
-| DecimalFormat(String pattern) | Skapar ett DecimalFormat-objekt med det angivna formatmönstret | `DecimalFormat df = new DecimalFormat("#,###.00");` | `#,###.00` |
-| setMinimumFractionDigits(int minDigits) | Ställer in det minsta antalet decimaler för formattering | `df.setMinimumFractionDigits(2); System.out.println(df.format(1234.5));` | `1,234.50` |
-| setMaximumFractionDigits(int maxDigits) | Ställer in det högsta antalet decimaler för formattering | `df.setMaximumFractionDigits(4); System.out.println(df.format(1234.56789));` | `1,234.5679` |
-| setMinimumIntegerDigits(int minDigits) | Ställer in det minsta antalet siffror för formattering före decimaltecknet | `df.setMinimumIntegerDigits(3); System.out.println(df.format(12.345));` | `012.345` |
-| setMaximumIntegerDigits(int maxDigits) | Ställer in det högsta antalet siffror för formattering före decimaltecknet | `df.setMaximumIntegerDigits(5); System.out.println(df.format(123456.789));` | `123,456.79` |
-| setGroupingUsed(boolean useGrouping) | Aktiverar eller inaktiverar gruppering av siffror | `df.setGroupingUsed(false); System.out.println(df.format(123456.789));` | `123456.79` |
-| setDecimalSeparatorAlwaysShown(boolean alwaysShown) | Anger om decimaltecknet alltid ska visas | `df.setDecimalSeparatorAlwaysShown(true); System.out.println(df.format(1234));` | `1,234.` |
-| setParseBigDecimal(boolean newValue) | Anger om metoden `parse` ska returnera ett BigDecimal-objekt | `df.setParseBigDecimal(true); BigDecimal num = (BigDecimal) df.parse("1234.56789"); System.out.println(num);` | `1234.56789` |
+| DecimalFormat(String pattern) | Skapar ett DecimalFormat-objekt med det angivna formatmönstret | `DecimalFormat the = new DecimalFormat("#,###.00");` | `#,###.00` |
+| setMinimumFractionDigits(int minDigits) | Ställer in det minsta antalet decimaler för formattering | `the.setMinimumFractionDigits(2); System.out.println(the.format(1234.5));` | `1,234.50` |
+| setMaximumFractionDigits(int maxDigits) | Ställer in det högsta antalet decimaler för formattering | `the.setMaximumFractionDigits(4); System.out.println(the.format(1234.56789));` | `1,234.5679` |
+| setMinimumIntegerDigits(int minDigits) | Ställer in det minsta antalet siffror för formattering före decimaltecknet | `the.setMinimumIntegerDigits(3); System.out.println(the.format(12.345));` | `012.345` |
+| setMaximumIntegerDigits(int maxDigits) | Ställer in det högsta antalet siffror för formattering före decimaltecknet | `the.setMaximumIntegerDigits(5); System.out.println(the.format(123456.789));` | `123,456.79` |
+| setGroupingUsed(boolean useGrouping) | Aktiverar eller inaktiverar gruppering av siffror | `the.setGroupingUsed(false); System.out.println(the.format(123456.789));` | `123456.79` |
+| setDecimalSeparatorAlwaysShown(boolean alwaysShown) | Anger om decimaltecknet alltid ska visas | `the.setDecimalSeparatorAlwaysShown(true); System.out.println(the.format(1234));` | `1,234.` |
+| setParseBigDecimal(boolean newValue) | Anger om metoden `parse` ska returnera ett BigDecimal-objekt | `the.setParseBigDecimal(true); BigDecimal num = (BigDecimal) the.parse("1234.56789"); System.out.println(num);` | `1234.56789` |
 
 DecimalFormat ger dig möjlighet att anpassa formatteringen av decimaltal på olika sätt, vilket är användbart när du vill visa siffror på ett specifikt och överskådligt sätt! ;)
 

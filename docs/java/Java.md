@@ -51,19 +51,19 @@ Låt oss titta på ett exempel där Java används för att skapa en enkel kalkyl
 ```java
 public class Calculator {
     public static void main(String[] args) {
-        int num1 = 10;
-        int num2 = 5;
+        int num = 10;
+        int num = 5;
 
-        int sum = num1 + num2;
+        int sum = num + num;
         System.out.println("Sum: " + sum);
 
-        int difference = num1 - num2;
+        int difference = num - num;
         System.out.println("Difference: " + difference);
 
-        int product = num1 * num2;
+        int product = num * num;
         System.out.println("Product: " + product);
 
-        int quotient = num1 / num2;
+        int quotient = num / num;
         System.out.println("Quotient: " + quotient);
     }
 }

@@ -58,7 +58,7 @@ Här följer några exempel:
 <EDIFACT>
   <INVOICE>
     <CUSTOMER>Lex Luthor</CUSTOMER>
-    <ITEM>Grön Kryptonit</ITEM>
+    <ITEM>Green Kryptonit</ITEM>
     <QUANTITY>1</QUANTITY>
     <PRICE>5000</PRICE>
     <TOTAL>5000</TOTAL>
@@ -73,7 +73,7 @@ Här följer några exempel:
 <EDIFACT>
   <INVOICE>
     <CUSTOMER>Jimmy Olsen</CUSTOMER>
-    <ITEM>Kameralinser</ITEM>
+    <ITEM>CameraLenses</ITEM>
     <QUANTITY>3</QUANTITY>
     <PRICE>300</PRICE>
     <TOTAL>900</TOTAL>
@@ -87,7 +87,7 @@ Här följer några exempel:
   <PAYMENT>
     <PAYEE>Peter Parker</PAYEE>
     <PAYER>Daily Bugle</PAYER>
-    <DESCRIPTION>Foton på Spindelmannen</DESCRIPTION>
+    <DESCRIPTION>Photos on Spindelmannen</DESCRIPTION>
     <AMOUNT>2000</AMOUNT>
     <CURRENCY>USD</CURRENCY>
     <DATE>2023-08-10</DATE>

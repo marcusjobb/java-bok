@@ -14,28 +14,28 @@ Nu ska vi att utforska hur vi kan hantera text på ett strukturerat och roligt s
 Tänk dig mardrömmen att skriva ut fem personer med namn och ålder
 
 ```java
-String name1 = "Anakin";
+String name = "Anakin";
 int age1 = 9;
-String name2 = "Padme";
+String name = "Padme";
 int age2 = 14;
-String name3 = "Obi Wan";
+String name = "Obi Wan";
 int age3 = 25;
-String name4 = "Qui Gon";
+String name = "Qui Gon";
 int age4 = 38;
 
-System.out.println("Namn: " + name1 + ", Ålder: " + age1);
-System.out.println("Namn: " + name2 + ", Ålder: " + age2);
-System.out.println("Namn: " + name3 + ", Ålder: " + age3);
-System.out.println("Namn: " + name4 + ", Ålder: " + age4);
+System.out.println("Namn: " + name + ", Ålder: " + age1);
+System.out.println("Namn: " + name + ", Ålder: " + age2);
+System.out.println("Namn: " + name + ", Ålder: " + age3);
+System.out.println("Namn: " + name + ", Ålder: " + age4);
 ```
 
 Det funkar men det ser rörigt ut, med String.format kan vi göra det snyggare
 
 ```java
-System.out.println(String.format("Namn: %s, Ålder: %d", name1, age1));
-System.out.println(String.format("Namn: %s, Ålder: %d", name2, age2));
-System.out.println(String.format("Namn: %s, Ålder: %d", name3, age3));
-System.out.println(String.format("Namn: %s, Ålder: %d", name4, age4));
+System.out.println(String.format("Namn: %s, Ålder: %d", name, age1));
+System.out.println(String.format("Namn: %s, Ålder: %d", name, age2));
+System.out.println(String.format("Namn: %s, Ålder: %d", name, age3));
+System.out.println(String.format("Namn: %s, Ålder: %d", name, age4));
 ```
 
 ## TL;DR
@@ -73,9 +73,9 @@ System.out.println(song);
 Resultatet blir:
 
 ```
-Hej, mitt namn är Alice.
+Hej, mitt name is Alice.
 
-My name is Luka, I live on the andra floor
+My name is Luka, I live on the other floor
 ```
 
 ## Användning av Specifikatorer
@@ -105,7 +105,7 @@ System.out.println(formattedInfo);
 Resultatet blir:
 
 ```
-Ålder: 30, Längd: 1.75 m, Kön: M, Student: true
+Age: 30, Length: 1.75 m, Gender: M, Student: true
 ```
 
 ## Anpassningsbarhet med "String format"
@@ -136,7 +136,7 @@ public class CurrencyFormatter {
 Resultatet blir:
 
 ```
-Belopp i svensk valuta: 1 000,50 kr
+Amount i swedish currency: 1 000,50 kr
 ```
 
 ## Slutsats
@@ -147,14 +147,14 @@ Visst är  "String format" coolt?. Det är så grymt att kunna skapa strukturera
 
 | Funktion   | Beskrivning                                               | Exempel                                | Resultat                |
 | -----------| -------------------------------------------------------- | -------------------------------------- | ----------------------- |
-| String.format(String format, Object... args) | Skapar en formatterad sträng baserat på angivet format och variabler | `String name = "Alice";`<br>`int age = 30;`<br>`String formattedString = String.format("Hej, mitt namn är %s och jag är %d år gammal.", name, age);`<br>`System.out.println(formattedString);` | `Hej, mitt namn är Alice och jag är 30 år gammal.` |
+| String.format(String format, Object... args) | Skapar en formatterad sträng baserat på angivet format och variabler | `String name = "Alice";`<br>`int age = 30;`<br>`String formattedString = String.format("Hej, mitt namn är %s och jag är %d år gammal.", name, age);`<br>`System.out.println(formattedString);` | `Hej, mitt name is Alice och jag is 30 year old.` |
 | %s         | Specifikator för att ersätta med en sträng               | `String name = "Alice";`<br>`String greeting = String.format("Hej, %s!", name);`<br>`System.out.println(greeting);` | `Hej, Alice!` |
-| %d         | Specifikator för att ersätta med ett heltal             | `int apples = 5;`<br>`String message = String.format("Jag har %d äpplen.", apples);`<br>`System.out.println(message);` | `Jag har 5 äpplen.` |
-| %f         | Specifikator för att ersätta med ett flyttal             | `double price = 19.99;`<br>`String formattedPrice = String.format("Priset är %.2f kr.", price);`<br>`System.out.println(formattedPrice);` | `Priset är 19.99 kr.` |
-| %c         | Specifikator för att ersätta med ett tecken               | `char grade = 'A';`<br>`String message = String.format("Ditt betyg är: %c", grade);`<br>`System.out.println(message);` | `Ditt betyg är: A` |
-| %b         | Specifikator för att ersätta med en boolean (true eller false) | `boolean isSunny = true;`<br>`String weather = String.format("Är det soligt idag? %b", isSunny);`<br>`System.out.println(weather);` | `Är det soligt idag? true` |
-| %n         | Ny rad specifikator (ersätter med ett radbrytning)         | `String multiLine = String.format("Första raden.%nAndra raden.");`<br>`System.out.println(multiLine);` | `Första raden.`<br>`Andra raden.` |
-| %%         | Escapar procenttecken så att det visas som det är          | `double discount = 0.25;`<br>`String message = String.format("Rabatt: %.0f%%", discount * 100);`<br>`System.out.println(message);` | `Rabatt: 25%` |
+| %d         | Specifikator för att ersätta med ett heltal             | `int apples = 5;`<br>`String message = String.format("Jag har %d äpplen.", apples);`<br>`System.out.println(message);` | `Jag has 5 apples.` |
+| %f         | Specifikator för att ersätta med ett flyttal             | `double price = 19.99;`<br>`String formattedPrice = String.format("Priset är %.2f kr.", price);`<br>`System.out.println(formattedPrice);` | `Price is 19.99 kr.` |
+| %c         | Specifikator för att ersätta med ett tecken               | `char grade = 'A';`<br>`String message = String.format("Ditt betyg är: %c", grade);`<br>`System.out.println(message);` | `Ditt grade is: A` |
+| %b         | Specifikator för att ersätta med en boolean (true eller false) | `boolean isSunny = true;`<br>`String weather = String.format("Är det soligt idag? %b", isSunny);`<br>`System.out.println(weather);` | `Is it soligt today? true` |
+| %n         | Ny rad specifikator (ersätter med ett radbrytning)         | `String multiLine = String.format("Första raden.%nAndra raden.");`<br>`System.out.println(multiLine);` | `First row.`<br>`Other row.` |
+| %%         | Escapar procenttecken så att det visas som det är          | `double discount = 0.25;`<br>`String message = String.format("Rabatt: %.0f%%", discount * 100);`<br>`System.out.println(message);` | `Discount: 25%` |
 
 `String.format` ger dig möjlighet att skapa strängar med variabler på ett flexibelt och lättläst sätt, vilket är användbart när du vill presentera information på ett dynamiskt sätt! ;)
 

@@ -14,8 +14,8 @@ If är en kontrollstruktur som används inom Java för att ställa logiska fråg
 Här är ett exempel på hur man använder if i Java:
 
 ```java
-int ålder = 18;
-if (ålder >= 18) {
+int age = 18;
+if (age >= 18) {
     System.out.println("Du är myndig");
 }
 ```

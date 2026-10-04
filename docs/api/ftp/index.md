@@ -49,9 +49,9 @@ FTP står för File Transfer Protocol och är en standard som definierar hur fil
 Anna, en webbutvecklare, har just färdigställt en ny version av sin webbplats. Hon behöver nu ladda upp alla filer till sin server. Hon använder en FTP-klient för att ansluta till sin webbserver:
 
 ```bash
-ftp mittwebbhotell.se
-> Användarnamn: AnnaWebb
-> Lösenord: [Annas lösenord]
+ftp mittwebbhotell.see
+> UserName: AnnaWebb
+> Password: [Annas password]
 cd public_html
 binary
 mput *.html

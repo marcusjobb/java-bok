@@ -23,7 +23,7 @@ Innan vi börjar utforska hur man interagerar med databaser är det viktigt att 
 Nu när vi har en grundläggande förståelse för vad en databas är, låt oss lära oss hur man skapar en databas. I SQL använder vi följande kommando för att skapa en databas:
 
 ```sql
-CREATE DATABASE databasnamn;
+CREATE DATABASE databaseName;
 ```
 
 ### Skillnader i kod mellan SQL Server, SQLite och MySQL:
@@ -31,19 +31,19 @@ CREATE DATABASE databasnamn;
 - SQL Server:
 
 ```sql
-CREATE DATABASE databasnamn;
+CREATE DATABASE databaseName;
 ```
 
 - SQLite:
 
 ```sql
-CREATE DATABASE databasnamn;
+CREATE DATABASE databaseName;
 ```
 
 - MySQL:
 
 ```sql
-CREATE DATABASE databasnamn;
+CREATE DATABASE databaseName;
 ```
 
 Som vi kan se ovan är syntaxen för att skapa en databas liknande i SQL Server, SQLite och MySQL. Detta beror på att SQL-standarder används för att definiera grundläggande databashanteringskommandon.
@@ -53,7 +53,7 @@ Som vi kan se ovan är syntaxen för att skapa en databas liknande i SQL Server,
 Det finns också ett sätt att skapa en databas bara om den inte redan finns. Detta är användbart för att undvika oväntade konflikter. I SQL använder vi följande kommando för att skapa en databas endast om den inte redan finns:
 
 ```sql
-CREATE DATABASE IF NOT EXISTS databasnamn;
+CREATE DATABASE IF NOT EXISTS databaseName;
 ```
 
 På detta sätt kan vi säkerställa att databasen skapas bara om den inte redan är tillgänglig.
@@ -63,7 +63,7 @@ På detta sätt kan vi säkerställa att databasen skapas bara om den inte redan
 Att ta bort en databas är en kritisk åtgärd och måste utföras med försiktighet. Innan du tar bort en databas, se till att göra en backup av dess innehåll för att undvika permanent förlust av data. I SQL använder vi följande kommando för att ta bort en databas:
 
 ```sql
-DROP DATABASE databasnamn;
+DROP DATABASE databaseName;
 ```
 
 Tänk på att detta kommando är oåterkalleligt och all data i databasen kommer att raderas.
@@ -73,19 +73,19 @@ Tänk på att detta kommando är oåterkalleligt och all data i databasen kommer
 - SQL Server:
 
 ```sql
-DROP DATABASE databasnamn;
+DROP DATABASE databaseName;
 ```
 
 - SQLite:
 
 ```sql
-DROP DATABASE databasnamn;
+DROP DATABASE databaseName;
 ```
 
 - MySQL:
 
 ```sql
-DROP DATABASE databasnamn;
+DROP DATABASE databaseName;
 ```
 
 Precis som vid skapandet av en databas är syntaxen för att ta bort en databas liknande i SQL Server, SQLite och MySQL på grund av användningen av SQL-standarder.
@@ -95,7 +95,7 @@ Precis som vid skapandet av en databas är syntaxen för att ta bort en databas 
 Att ändra namnet på en databas kan vara en riskabel operation, särskilt om databasen används av andra program. Om du ändrar namnet kan det leda till problem med anslutning och dataåtkomst. Innan du ändrar namnet på en databas, se till att inga andra applikationer använder den. För att ändra namnet på en databas i SQL använder vi följande kommando:
 
 ```sql
-ALTER DATABASE databasnamn RENAME TO nytt_databasnamn;
+ALTER DATABASE databaseName RENAME TO new_databaseName;
 ```
 
 Var noga med att vara försiktig när du använder detta kommando för att undvika potentiella problem.
@@ -105,19 +105,19 @@ Var noga med att vara försiktig när du använder detta kommando för att undvi
 - SQL Server:
 
 ```sql
-ALTER DATABASE databasnamn MODIFY NAME = nytt_databasnamn;
+ALTER DATABASE databaseName MODIFY NAME = new_databaseName;
 ```
 
 - SQLite:
 
 ```sql
-ALTER DATABASE databasnamn RENAME TO nytt_databasnamn;
+ALTER DATABASE databaseName RENAME TO new_databaseName;
 ```
 
 - MySQL:
 
 ```sql
-ALTER DATABASE databasnamn RENAME TO nytt_databasnamn;
+ALTER DATABASE databaseName RENAME TO new_databaseName;
 ```
 
 Som vi kan se ovan är syntaxen för att ändra namnet på en databas något olika i SQL Server, SQLite och MySQL. Detta beror på att olika databashanteringsverktyg har sina egna specifika kommandon för att hantera detta.

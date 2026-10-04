@@ -207,8 +207,8 @@ public class Main {
 I detta exempel har vi skapat en enum `UserRole` som representerar olika användarroller. Varje konstant har också en beskrivning av rollen som lagras i en privat instansvariabel. Vi använder sedan denna enum i en användarobjektklass för att definiera användarnas roller. I `Main`-klassen skapar vi två användare med olika roller och skriver ut deras användarnamn och roller. Resultatet blir:
 
 ```
-JohnDoe har rollen: Administratör
-JaneSmith har rollen: Användare
+JohnDoe has role: Administrator
+JaneSmith has role: User
 ```
 
 Som vi kan se ger enums oss en tydligare representation av användarrollerna, vilket gör vår kod mer lättläst och lättförståelig.
@@ -301,9 +301,9 @@ public class Main {
 I detta exempel har vi utökat det tidigare exemplet genom att använda en switch-sats för att utföra olika operationer baserat på användarens roll. Vi har även skapat en metod i vår enum för att få rollens beskrivning. Resultatet blir:
 
 ```
-JohnDoe har rollen: Administratör
-JaneSmith har rollen: Användare
-JohnDoe har administratörsbehörighet.
+JohnDoe has role: Administrator
+JaneSmith has role: User
+JohnDoe has administratorPermissions.
 ```
 
 Som vi kan se ger enums oss möjligheten att enkelt jämföra olika värden och utföra olika operationer baserat på dessa värden, vilket gör vår kod mer flexibel och lättläst.

@@ -59,14 +59,14 @@ baserat på tiden på dygnet, som visas i kodexemplet nedan.
 ### Betygsberäkning
 
 ```java
-int poäng = 75;
-if (poäng >= 90) {
+int score = 75;
+if (score >= 90) {
     System.out.println("A");
-} else if (poäng >= 80) {
+} else if (score >= 80) {
     System.out.println("B");
-} else if (poäng >= 70) {
+} else if (score >= 70) {
     System.out.println("C");
-} else if (poäng >= 60) {
+} else if (score >= 60) {
     System.out.println("D");
 } else {
     System.out.println("F");
@@ -117,12 +117,12 @@ System.out.println("Välj ett alternativ:");
 System.out.println("1. Visa saldo");
 System.out.println("2. Gör en insättning");
 System.out.println("3. Gör ett uttag");
-int val = Integer.parseInt(System.console().readLine());
-if (val == 1) {
+int choice = Integer.parseInt(System.console().readLine());
+if (choice == 1) {
     // Visa saldo
-} else if (val == 2) {
+} else if (choice == 2) {
     // Gör en insättning
-} else if (val == 3) {
+} else if (choice == 3) {
     // Gör ett uttag
 } else {
     System.out.println("Ogiltigt val");

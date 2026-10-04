@@ -61,20 +61,20 @@ Så, med arv kan du skapa magiska världar i dina program!
 Nu är det dags att ge liv åt våra hjältar och skurkar i Java-kod! Låt oss skapa en överordnad "Karaktär" klass som innehåller deras gemensamma egenskaper:
 
 ```java
-public class Karaktär {
-    private String namn;
-    private int hälsa;
+public class Character {
+    private String name;
+    private int health;
 
-    public Karaktär(String namn, int hälsa) {
-        this.namn = namn;
-        this.hälsa = hälsa;
+    public Character(String name, int health) {
+        this.name = name;
+        this.health = health;
     }
 
-    public void attackera(Karaktär motståndare) {
+    public void attack(Character opponent) {
         // Implementera attacklogik här
     }
 
-    public void försvara() {
+    public void defend() {
         // Implementera försvarlogik här
     }
 }
@@ -83,27 +83,27 @@ public class Karaktär {
 Nu kan vi skapa nedärvande klasser för våra hjältar och skurkar:
 
 ```java
-public class Hjälte extends Karaktär {
-    private int hjälteNivå;
+public class Hero extends Character {
+    private int heroLevel;
 
-    public Hjälte(String namn, int hälsa, int hjälteNivå) {
-        super(namn, hälsa);
-        this.hjälteNivå = hjälteNivå;
+    public Hero(String name, int health, int heroLevel) {
+        super(name, health);
+        this.heroLevel = heroLevel;
     }
 
-    public void användSuperkraft() {
+    public void useSuperpower() {
         // Implementera
 
- superkraftlogik här
+ superpowerLogic here
     }
 }
 
-public class Skurk extends Karaktär {
-    private int skurkNivå;
+public class Villain extends Character {
+    private int villainLevel;
 
-    public Skurk(String namn, int hälsa, int skurkNivå) {
-        super(namn, hälsa);
-        this.skurkNivå = skurkNivå;
+    public Villain(String name, int health, int villainLevel) {
+        super(name, health);
+        this.villainLevel = villainLevel;
     }
 
     public void användOndskefullPlan() {
@@ -112,21 +112,21 @@ public class Skurk extends Karaktär {
 }
 ```
 
-Som du ser har vi skapat klasserna `Hjälte` och `Skurk`, och båda ärver egenskaper och beteenden från den överordnade klassen `Karaktär`. Hjältarna har en extra egenskap `hjälteNivå` och en unik metod `användSuperkraft`, medan skurkarna har en extra egenskap `skurkNivå` och en unik metod `användOndskefullPlan`.
+Som du ser har vi skapat klasserna `Hero` och `Villain`, och båda ärver egenskaper och beteenden från den överordnade klassen `Character`. Hjältarna har en extra egenskap `heroLevel` och en unik metod `useSuperpower`, medan skurkarna har en extra egenskap `villainLevel` och en unik metod `användOndskefullPlan`.
 
 Nu kan vi skapa våra hjältar och skurkar och låta dem utföra sina fantastiska bedrifter:
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        Hjälte hjälte = new Hjälte("Superman", 100, 5);
-        Skurk skurk = new Skurk("Joker", 80, 7);
+        Hero hero = new Hero("Superman", 100, 5);
+        Villain villain = new Villain("Joker", 80, 7);
 
-        hjälte.attackera(skurk); // Hjälten attackerar skurken!
-        skurk.försvara(); // Skurken försvarar sig!
+        hero.attack(villain); // Hjälten attackerar skurken!
+        villain.defend(); // Skurken försvarar sig!
 
-        hjälte.användSuperkraft(); // Hjälten använder sin superkraft!
-        skurk.användOndskefullPlan(); // Skurken smider sin ondskefulla plan!
+        hero.useSuperpower(); // Hjälten använder sin superkraft!
+        villain.användOndskefullPlan(); // Skurken smider sin ondskefulla plan!
     }
 }
 ```

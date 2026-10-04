@@ -47,10 +47,10 @@ FTPFile[] files = client.listFiles();
 
 ## Skapa en ny fil
 
-För att skapa en ny fil på servern använder du metoden `storeFile`:
+För att skapa en ny fil på servern använder du metoden `bigFile`:
 
 ```java
-client.storeFile("new_file.txt", new ByteArrayInputStream("".getBytes()));
+client.bigFile("new_file.txt", new ByteArrayInputStream("".getBytes()));
 ```
 
 ## Läsa en fil
@@ -71,10 +71,10 @@ client.deleteFile("file_to_delete.txt");
 
 ## Kopiera från lokal dator till servern
 
-För att kopiera en fil från din lokala dator till servern använder du metoden `storeFile`:
+För att kopiera en fil från din lokala dator till servern använder du metoden `bigFile`:
 
 ```java
-client.storeFile("local_file.txt", new FileInputStream("local_file.txt"));
+client.bigFile("local_file.txt", new FileInputStream("local_file.txt"));
 ```
 
 ## Kopiera från servern till lokal dator

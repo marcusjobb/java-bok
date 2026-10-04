@@ -29,11 +29,11 @@ För att kontrollera om en mapp existerar, använder vi `File`-klassens `exists(
 ```java
 import java.io.File;
 
-public class MapparExempel {
+public class FoldersExample {
     public static void main(String[] args) {
-        String mappSokvag = "C:\\exempel\\mapp";
-        File mapp = new File(mappSokvag);
-        if (mapp.exists()) {
+        String folderPath = "C:\\exempel\\mapp";
+        File folder = new File(folderPath);
+        if (folder.exists()) {
             System.out.println("Mappen finns.");
         } else {
             System.out.println("Mappen finns inte.");
@@ -49,12 +49,12 @@ För att skapa en ny mapp, använder vi `File`-klassens `mkdir()`-metod. Innan v
 ```java
 import java.io.File;
 
-public class MapparExempel {
+public class FoldersExample {
     public static void main(String[] args) {
-        String nyMappSokvag = "C:\\exempel\\ny_mapp";
-        File nyMapp = new File(nyMappSokvag);
-        if (!nyMapp.exists()) {
-            if (nyMapp.mkdir()) {
+        String newFolderPath = "C:\\exempel\\ny_mapp";
+        File newFolder = new File(newFolderPath);
+        if (!newFolder.exists()) {
+            if (newFolder.mkdir()) {
                 System.out.println("Mappen har skapats.");
             } else {
                 System.out.println("Kunde inte skapa mappen.");
@@ -73,12 +73,12 @@ För att radera en befintlig mapp, använder vi `File`-klassens `delete()`-metod
 ```java
 import java.io.File;
 
-public class MapparExempel {
+public class FoldersExample {
     public static void main(String[] args) {
-        String raderaMappSokvag = "C:\\exempel\\att_radera";
-        File raderaMapp = new File(raderaMappSokvag);
-        if (raderaMapp.exists()) {
-            if (raderaMapp.delete()) {
+        String deleteFolderPath = "C:\\exempel\\att_radera";
+        File deleteFolder = new File(deleteFolderPath);
+        if (deleteFolder.exists()) {
+            if (deleteFolder.delete()) {
                 System.out.println("Mappen har raderats.");
             } else {
                 System.out.println("Kunde inte radera mappen.");

@@ -29,8 +29,8 @@ joiner.add("Mission Vao"); // I'm not scared of you! Well, maybe a little.
 joiner.add("Zaalbar"); // Rrrraaargh!
 joiner.add("Darth Traya"); // It is such a quiet thing, to fall. But far more terrible is to admit it.
 
-String resultat = joiner.toString();
-System.out.println(resultat);
+String result = joiner.toString();
+System.out.println(result);
 ```
 
 Resultatet kommer att vara:
@@ -88,7 +88,7 @@ Resultatet blir:
 
 ```
 /user/Kyp Durron/documents/diary/Log/7 BoE.txt
-Kära dagbok, idag såg jag Exar Kuns spöke :-O
+Dear diary, today saw jag Exar Kuns ghost :-O
 ```
 
 ## Funktioner

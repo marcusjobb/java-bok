@@ -61,9 +61,9 @@ Låt oss nu ta några praktiska exempel för att visa hur vi kan använda några
 
 ```java
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nine.file.Files;
+import java.nine.file.Path;
+import java.nine.file.Paths;
 
 public class FileExample {
     public static void main(String[] args) {
@@ -91,8 +91,8 @@ I detta exempel skapar vi en ny fil med hjälp av metoden `Files.createFile` på
 
 ```java
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nine.file.Files;
+import java.nine.file.Paths;
 
 public class FileExample {
     public static void main(String[] args) {
@@ -119,8 +119,8 @@ I detta exempel använder vi metoden `Files.readString` för att läsa innehåll
 
 ```java
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.nine.file.Files;
+import java.nine.file.Paths;
 
 public class FileExample {
     public static void main(String[] args) {

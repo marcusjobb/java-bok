@@ -39,7 +39,7 @@ den. Låt oss titta på några exempel:
 
 ```java
 
-Datatyp namn = värde;
+DataType name = value;
 
 // Datatyp är variabelns datatyp. Exempel: Heltal, text, decimaltal, mm
 // Namn är variabelns namn. Exempel: antal, namn, längd, kattnamn, jediAlias mm
@@ -56,7 +56,7 @@ Variabler ska ha namn som förklarar vad de gör, men de kan inte innehålla
 mellanslag. Vi kan allså inte skriva såhär
 
 ```java
-String Namn på katt = "Misse";
+String Name on cat = "Misse";
 ```
 
 För att Java kommer att bli förvirrad, den kommer att tänka...
@@ -73,15 +73,15 @@ deppat färdigt kommer den att säga till att den inte förstår sig på dig.
 src="wikipediaCamelCase.png" style="float:right"></a>För att inte göra kompilatorn ledsen använder vi alltså CamelCase.
 
 CamelCase heter så för att skrivformen påminner om en kamels utseende. För att
-omvandla vårt `Namn på katt` till CamelCase gör vi så att första bokstaven i
+omvandla vårt `Name on cat` till CamelCase gör vi så att första bokstaven i
 namnet ska bli gemen, och första bokstaven på alla andra ord ska bli versal
-`namn På Katt` och sedan tar vi bort alla mellanslag `namnPåKatt`, nu har vi
+`name On Cat` och sedan tar vi bort alla mellanslag `nameForCat`, nu har vi
 ett läsbart CamelCase som både du och kompilatorn kan enas om. Vi försöker
 skriva koden igen. [Wikipedia](https://en.wikipedia.org/wiki/Camel_case) har
 en jättebra artikel om CamelCase och den söta kamelen är lånad från den.
 
 ```java
-String namnPåKatt = "Misse"
+String nameForCat = "Misse"
 ```
 
 Yay! Nu har du en glad kompilator och du kan koda vidare.

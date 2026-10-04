@@ -16,36 +16,36 @@ Vi kommer att använda oss av `float` för att kunna använda decimaler, för at
 class Main {
   public static void main(String[] args) {
 
-    int antal = 1; // 1 kladdkaka
+    int count = 1; // 1 kladdkaka
     // Ingredienser
-    float kakao = 1.5f * antal; // 1.5 dl kakao
-    float socker = 3 * antal; // 3 dl socker
-    float mjöl = 2.5f * antal; // 2.5 dl mjöl
-    float smör = 150 * antal; // 150 gram smör
-    float ägg = 2 * antal; // 2 ägg
-    float vaniljsocker = 1 * antal; // 1 tsk vaniljsocker
-    float bakpulver = 2 * antal; // 2 tsk bakpulver
-    float salt = 1 * antal; // 1 krm salt
-    float bakTid = 20; // 20 minuter i ugnen
+    float cocoa = 1.5f * count; // 1.5 dl kakao
+    float sugar = 3 * count; // 3 dl socker
+    float flour = 2.5f * count; // 2.5 dl mjöl
+    float butter = 150 * count; // 150 gram smör
+    float eggs = 2 * count; // 2 ägg
+    float vanillaSugar = 1 * count; // 1 tsk vaniljsocker
+    float bakingPowder = 2 * count; // 2 tsk bakpulver
+    float salt = 1 * count; // 1 krm salt
+    float bakingTime = 20; // 20 minuter i ugnen
 
     // Kladdkaka
-    float kladdkaka = kakao + socker + mjöl + smör + ägg + vaniljsocker + bakpulver + salt;
+    float stickyCake = cocoa + sugar + flour + butter + eggs + vanillaSugar + bakingPowder + salt;
 
-    System.out.println("Kladdkaka (" + antal + " stycken kladdkakor))");
+    System.out.println("Kladdkaka (" + count + " stycken kladdkakor))");
     System.out.println("Ingredienser:");
-    System.out.println("Kakao: " + kakao + " dl");
-    System.out.println("Socker: " + socker + " dl");
-    System.out.println("Mjöl: " + mjöl + " dl");
-    System.out.println("Smör: " + smör + " gram");
-    System.out.println("Ägg: " + ägg + " st");
-    System.out.println("Vaniljsocker: " + vaniljsocker + " tsk");
-    System.out.println("Bakpulver: " + bakpulver + " tsk");
+    System.out.println("Kakao: " + cocoa + " dl");
+    System.out.println("Socker: " + sugar + " dl");
+    System.out.println("Mjöl: " + flour + " dl");
+    System.out.println("Smör: " + butter + " gram");
+    System.out.println("Ägg: " + eggs + " st");
+    System.out.println("Vaniljsocker: " + vanillaSugar + " tsk");
+    System.out.println("Bakpulver: " + bakingPowder + " tsk");
     System.out.println("Salt: " + salt + " krm");
-    System.out.println("Totalt: " + kladdkaka + " dl");
+    System.out.println("Totalt: " + stickyCake + " dl");
     System.out.println(); // Tomrad
     System.out.println("Blanda alla ingredienser i en bunke");
     System.out.println("Häll smeten i en smord form per kladdkaka");
-    System.out.println("Grädda i ugnen i " + bakTid + " minuter per kladdkaka");
+    System.out.println("Grädda i ugnen i " + bakingTime + " minuter per kladdkaka");
     System.out.println("Låt svalna");
     System.out.println("Servera med grädde eller glass");
     System.out.println("Mumsa vilt!");
@@ -76,7 +76,7 @@ Servera med grädde eller glass
 Mumsa vilt!
 ```
 
-Som du ser i exemplet ovan så har vi skapat en variabel för varje ingrediens, sedan har vi skapat en variabel för hela kladdkakan. Vi har också skapat en variabel för hur lång tid det tar att grädda kladdkakan. Vi ger även möjligheten att skapa flera kladdkakor genom att ändra värdet på variabeln `antal`. Om du vill göra den mindre söt ändrar du värdet på variabeln `socker` till 2 dl istället för 3 dl. Du kan prova med att ändra i olika variabler och det kommer att ge dig olika resultat.
+Som du ser i exemplet ovan så har vi skapat en variabel för varje ingrediens, sedan har vi skapat en variabel för hela kladdkakan. Vi har också skapat en variabel för hur lång tid det tar att grädda kladdkakan. Vi ger även möjligheten att skapa flera kladdkakor genom att ändra värdet på variabeln `count`. Om du vill göra den mindre söt ändrar du värdet på variabeln `sugar` till 2 dl istället för 3 dl. Du kan prova med att ändra i olika variabler och det kommer att ge dig olika resultat.
 
 En annan lösning du skulle kunna använda en sådan här kod till är om du har ett amerikansk recept men vill ha ditt recept i deciliter istället för cups (1 cup (amerikansk) = 2.36 deciliter). Då kan du skapa en variabel för varje ingrediens göra beräkningen i variabeln, utan att ändra hur det skrivs ut.
 

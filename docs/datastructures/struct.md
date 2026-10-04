@@ -50,12 +50,12 @@ Java-klasser används i stort sett överallt inom Java-programmering. De kan rep
 I detta exempel kommer vi att skapa en Java-klass som representerar en 2D-punkt, liknande hur en struct skulle användas i C.
 
 ```java
-public class Punkt {
+public class Point {
     public int x; // x-koordinat
     public int y; // y-koordinat
 
     // Konstruktor
-    public Punkt(int x, int y) {
+    public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }

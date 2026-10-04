@@ -11,15 +11,15 @@ nav_order: 20
 En for-loop används när vi vill upprepa en uppsättning instruktioner ett känt antal gånger. Syntaxen för en for-loop är följande:
 
 ```java
-for (initialisering; villkor; iteration) {
+for (initialisation; condition; iteration) {
     // Kod som ska upprepas
 }
 ```
 
 Här är en förklaring av de olika delarna i en for-loop:
 
-- `initialisering`: Här initieras en räknare eller en variabel som används för att kontrollera antalet iterationer. Detta görs vanligtvis genom att tilldela ett startvärde till räknaren.
-- `villkor`: Här definieras villkoret som kontrollerar om loopen ska fortsätta att upprepas eller avslutas. Om villkoret är sant, fortsätter loopen att köras. Om villkoret är falskt, avslutas loopen och programmet fortsätter med koden efter loopen.
+- `initialisation`: Här initieras en räknare eller en variabel som används för att kontrollera antalet iterationer. Detta görs vanligtvis genom att tilldela ett startvärde till räknaren.
+- `condition`: Här definieras villkoret som kontrollerar om loopen ska fortsätta att upprepas eller avslutas. Om villkoret är sant, fortsätter loopen att köras. Om villkoret är falskt, avslutas loopen och programmet fortsätter med koden efter loopen.
 - `iteration`: Här specificeras hur räknaren eller variabeln ska ändras vid varje iteration. Vanligtvis ökar eller minskar man värdet på räknaren med ett visst steg.
 
 Här är ett exempel på en for-loop som skriver ut talen 1 till 5:

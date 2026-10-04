@@ -77,7 +77,7 @@ FTP innehåller specifika kommandon för att hantera flera filer åt gången. De
 För att ladda upp flera filer från din lokala dator till FTP-servern, använd `mput`:
 
 ```bash
-mput file1.txt file2.txt file3.txt
+mput file.txt file.txt file.txt
 ```
 
 Eller använd vildkort för att välja flera filer:

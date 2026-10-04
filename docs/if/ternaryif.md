@@ -39,7 +39,7 @@ Ternary if, eller conditional operator, är ett användbart verktyg inom program
 Ternary if använder följande syntax:
 
 ```java
-villkor ? uttryck om sant : uttryck om falskt
+condition ? expression if true : expression if false
 ```
 
 Där "villkor" är det uttryck som utvärderas, "?" är frågetecknet som markerar början på ternary if, "uttryck om sant" är det värde eller uttryck som tilldelas om villkoret är sant, och "uttryck om falskt" är det värde eller uttryck som tilldelas om villkoret är falskt.

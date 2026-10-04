@@ -17,13 +17,13 @@ Foreach-loopar är en enkel och effektiv metod för att iterera över samlingar 
 En foreach-loop är en typ av loop som har en enklare syntax jämfört med andra typer av loopar. Den används för att iterera över en samling av objekt eller värden och utföra en handling för varje element i samlingen. Syntaxen för en foreach-loop är följande:
 
 ```java
-for (var element : samling) {
+for (var element : collection) {
     // Kod som ska utföras för varje element
 }
 ```
 
 - `element`: En variabel som används för att representera varje element i samlingen när loopen itererar över den.
-- `samling`: Den samling av objekt eller värden som ska itereras över, t.ex. en lista, ett fält eller en array.
+- `collection`: Den samling av objekt eller värden som ska itereras över, t.ex. en lista, ett fält eller en array.
 
 ## Fördelar med foreach-loopar
 

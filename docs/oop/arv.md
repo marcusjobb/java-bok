@@ -77,38 +77,38 @@ Anta att vi bygger ett spel där vi har olika typer av karaktärer, inklusive fi
 
 ```java
 // Definiera överordnad klass Karaktär
-public class Karaktär {
-    public String Namn;
-    public int Hälsa;
+public class Character {
+    public String Name;
+    public int Greet;
 }
 
 // Definiera nedärvande klass Fiende
-public class Fiende extends Karaktär {
-    public void Attackera() {
+public class Enemy extends Character {
+    public void Attack() {
         // Implementera attacklogik för fiender
     }
 }
 
 // Definiera nedärvande klass Hjälte
-public class Hjälte extends Karaktär {
-    public void Försvara() {
+public class Hero extends Character {
+    public void Defend() {
         // Implementera försvarlogik för hjältar
     }
 }
 
 // Användning av arv i spellogik
-Fiende fiende = new Fiende();
-fiende.Namn = "Ond skurk";
-fiende.Hälsa = 100;
-fiende.Attackera();
+Enemy enemy = new Enemy();
+enemy.Name = "Ond skurk";
+enemy.Greet = 100;
+enemy.Attack();
 
-Hjälte hjälte = new Hjälte();
-hjälte.Namn = "Modig hjälte";
-hjälte.Hälsa = 100;
-hjälte.Försvara();
+Hero hero = new Hero();
+hero.Name = "Modig hjälte";
+hero.Greet = 100;
+hero.Defend();
 ```
 
-I detta kodexempel har vi en överordnad klass `Karaktär` som innehåller gemensamma egenskaper för både fiender och hjältar. Genom att ärva från `Karaktär` kan vi definiera specialiserad funktionalitet för fiender och hjältar i deras respektive nedärvande klasser `Fiende` och `Hjälte`. Vi kan sedan skapa instanser av dessa klasser och använda deras unika funktioner, som `Attackera()` för fiender och `Försvara()` för hjältar.
+I detta kodexempel har vi en överordnad klass `Character` som innehåller gemensamma egenskaper för både fiender och hjältar. Genom att ärva från `Character` kan vi definiera specialiserad funktionalitet för fiender och hjältar i deras respektive nedärvande klasser `Enemy` och `Hero`. Vi kan sedan skapa instanser av dessa klasser och använda deras unika funktioner, som `Attack()` för fiender och `Defend()` för hjältar.
 
 ## Avslutning
 

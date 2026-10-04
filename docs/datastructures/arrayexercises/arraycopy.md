@@ -23,15 +23,15 @@ I detta exempel visar vi hur du kan plocka ut en del av en array och skapa en ny
 public class MainClass {
     public static void main(String[] args) {
         // Skapa en array med 10 heltal
-        int[] heltal = { 5, 2, 7, 1, 9, 3, 8, 4, 6, 10 };
+        int[] integer = { 5, 2, 7, 1, 9, 3, 8, 4, 6, 10 };
 
         // Skriv ut den ursprungliga arrayen
         System.out.print("Siffror: ");
-        printArray(heltal);
+        printArray(integer);
 
         // Skapa en ny array som innehåller de fem första talen i den ursprungliga arrayen
         int[] femForsta = new int[5];
-        System.arraycopy(heltal, 0, femForsta, 0, 5);
+        System.arraycopy(integer, 0, femForsta, 0, 5);
 
         // Skriv ut den nya arrayen
         System.out.print("De fem första talen: ");
@@ -55,7 +55,7 @@ Siffror: 5 2 7 1 9 3 8 4 6 10
 De fem första talen: 5 2 7 1 9
 ```
 
-I det här exemplet skapar vi en array `heltal` med 10 heltal. Sedan använder vi `System.arraycopy` för att kopiera de fem första talen från `heltal` till en ny array `femForsta`. Vi skriver ut både den ursprungliga arrayen och den nya arrayen genom att använda metoden `printArray`.
+I det här exemplet skapar vi en array `integer` med 10 heltal. Sedan använder vi `System.arraycopy` för att kopiera de fem första talen från `integer` till en ny array `femForsta`. Vi skriver ut både den ursprungliga arrayen och den nya arrayen genom att använda metoden `printArray`.
 
 ## Metoden `printArray`
 
@@ -66,7 +66,7 @@ Metoden `printArray` används för att skriva ut innehållet i en array. Den anv
 Det finns flera sätt att kopiera delar av en array i Java. Istället för att använda `System.arraycopy` kan du även använda metoden `Arrays.copyOfRange` för att skapa en ny array med en del av den ursprungliga arrayen. Detta gör att du kan kopiera delen med en enda metodanrop.
 
 ```java
-int[] femForsta = Arrays.copyOfRange(heltal, 0, 5);
+int[] femForsta = Arrays.copyOfRange(integer, 0, 5);
 ```
 
 En annan möjlighet är att använda en `for`-loop för att manuellt kopiera elementen från den ursprungliga arrayen till den nya arrayen.

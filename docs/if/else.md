@@ -54,8 +54,8 @@ Några saker att vara medveten om när du använder "Else":
 För att förtydliga användningen av "Else", låt oss gå igenom ett exempel där vi använder "Else" för att bestämma om ett nummer är positivt eller negativt:
 
 ```java
-int nummer = -5;
-if (nummer >= 0) {
+int number = -5;
+if (number >= 0) {
     System.out.println("Numret är positivt");
 } else {
     System.out.println("Numret är negativt");

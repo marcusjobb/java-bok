@@ -21,47 +21,47 @@ class Main {
   public static void main(String[] args) {
 
     // Vecka 1
-    float måndag1 = 7.5; // 7 timmar och 30 minuter
-    float tisdag1 = 8;
-    float onsdag1 = 8;
-    float torsdag1 = 9; // Personal möte
-    float fredag1 = 6;
-    float vecka1 = måndag1 + tisdag1 + onsdag1 + torsdag1 + fredag1;
-    float genomSnittVecka1 = vecka1 / 5;
+    float monday = 7.5; // 7 timmar och 30 minuter
+    float tuesday = 8;
+    float wednesday = 8;
+    float thursday = 9; // Personal möte
+    float friday = 6;
+    float week = monday + tuesday + wednesday + thursday + friday;
+    float throughAverageWeek = week / 5;
 
     // Vecka 2
-    float måndag2 = 8;
-    float tisdag2 = 8.5;
-    float onsdag2 = 8.5;
-    float torsdag2 = 9; // Personal möte
-    float fredag2 = 5.5;
-    float vecka2 = måndag2 + tisdag2 + onsdag2 + torsdag2 + fredag2;
-    float genomSnittVecka2 = vecka2 / 5;
+    float monday = 8;
+    float tuesday = 8.5;
+    float wednesday = 8.5;
+    float thursday = 9; // Personal möte
+    float friday = 5.5;
+    float week = monday + tuesday + wednesday + thursday + friday;
+    float throughAverageWeek = week / 5;
 
     // Vecka 3
-    float måndag3 = 8.5;
-    float tisdag3 = 8.5;
-    float onsdag3 = 8.5;
-    float torsdag3 = 9; // Personal möte
-    float fredag3 = 6;
-    float vecka3 = måndag3 + tisdag3 + onsdag3 + torsdag3 + fredag3;
-    float genomsnittVecka3 = vecka3 / 5;
+    float monday = 8.5;
+    float tuesday = 8.5;
+    float wednesday = 8.5;
+    float thursday = 9; // Personal möte
+    float friday = 6;
+    float week = monday + tuesday + wednesday + thursday + friday;
+    float genomsnittVecka3 = week / 5;
 
     // Vecka 4
-    float måndag4 = 8;
-    float tisdag4 = 8.5;
-    float onsdag4 = 8.5;
-    float torsdag4 = 9; // Personal möte
-    float fredag4 = 6;
-    float vecka4 = måndag4 + tisdag4 + onsdag4 + torsdag4 + fredag4;
-    float genomsnittVecka4 = vecka4 / 5;
+    float monday = 8;
+    float tuesday = 8.5;
+    float wednesday = 8.5;
+    float thursday = 9; // Personal möte
+    float friday = 6;
+    float week = monday + tuesday + wednesday + thursday + friday;
+    float genomsnittVecka4 = week / 5;
 
     // Månad
-    float månad = vecka1 + vecka2 + vecka3 + vecka4;
-    float genomsnittMåmnad = genomSnittVecka1 + genomSnittVecka2 + genomsnittVecka3 + genomsnittVecka4;
+    float month = week + week + week + week;
+    float genomsnittMåmnad = throughAverageWeek + throughAverageWeek + genomsnittVecka3 + genomsnittVecka4;
 
     // Rapport
-    System.out.println("Arbetad tid denna månad: " + månad + " timmar");
+    System.out.println("Arbetad tid denna månad: " + month + " timmar");
     System.out.println("Genomsnittlig arbetad tid per vecka: " + genomsnittMåmnad + " timmar");
     System.out.println("Genomsnittlig arbetad tid per dag: " + genomsnittMåmnad / 5 + " timmar");
 
@@ -82,14 +82,14 @@ Genomsnittlig arbetad tid per dag: 8.0 timmar
 Vårt projekt, även med sin enkla form har en helt klart tydlig kod som är lätt att förstå och lätt att läsa, och som du faktiskt kan använda. Enda nackdelen är kanske att du får skriva minuter i decimalform, det går att lösa.
 
 ```java
-    float onsddag4 = 8 + 15/60; // 8 timmar och 15 minuter, eller 8.25 timmar
+    float wednesday = 8 + 15/60; // 8 timmar och 15 minuter, eller 8.25 timmar
 ```
 
 Java har inbyggda funktioner för att räkna ut tid också, den heter LocalTime, men tyvärr arbetar den med heltal, så vi får omvandla och göra koden rörigare.
 
 ```java
-    LocalTime onsdag4 = LocalTime.of(8, 15); // 8 timmar och 15 minuter
-    float onsdag4 = onsdag4.getHour() + onsdag4.getMinute() / 60; // 8.25 timmar
+    LocalTime wednesday = LocalTime.of(8, 15); // 8 timmar och 15 minuter
+    float wednesday = wednesday.getHour() + wednesday.getMinute() / 60; // 8.25 timmar
 ```
 
 ## Lärdomar av detta

@@ -65,24 +65,24 @@ Så resultatet av att anropa `Fibonacci(6)` är 8 enligt definitionen av Fibonac
 Rekursion är en kraftfull teknik som låter oss lösa komplexa problem genom att bryta ner dem i mindre delar. I Java kan vi använda rekursion för att skapa eleganta och effektiva lösningar. Ta en titt på exemplet nedan som använder rekursion för att beräkna summan av heltal från 1 till ett givet tal `n`:
 
 ```java
-public class RekursionExempel {
+public class RecursionExample {
     public static void main(String[] args) {
 
-        int resultat = summera(5);
-        System.out.println("Summan är: " + resultat);
+        int result = summarise(5);
+        System.out.println("Summan är: " + result);
     }
 
-    public static int summera(int n) {
+    public static int summarise(int n) {
         if (n == 1) {
             return 1;
         } else {
-            return n + summera(n - 1);
+            return n + summarise(n - 1);
         }
     }
 }
 ```
 
-I det här enkla exemplet använder vi en rekursiv funktion `summera` för att beräkna summan av alla heltal från 1 till det givna talet `n`. Funktionen anropar sig själv med ett minskande värde tills den når basfallet då `n` är 1. Sedan börjar den returnera värden på vägen tillbaka och summerar dem för att få det slutliga resultatet. Detta ger oss summan av alla heltal från 1 till 5, vilket är 15.
+I det här enkla exemplet använder vi en rekursiv funktion `summarise` för att beräkna summan av alla heltal från 1 till det givna talet `n`. Funktionen anropar sig själv med ett minskande värde tills den når basfallet då `n` är 1. Sedan börjar den returnera värden på vägen tillbaka och summerar dem för att få det slutliga resultatet. Detta ger oss summan av alla heltal från 1 till 5, vilket är 15.
 
 Rekursion kan vara lite knepigt i början, men med övning och förståelse för hur det fungerar kan du upptäcka nya möjligheter att skapa elegant kod och lösa komplexa problem. Utforska rekursionens kreativa potential och låt din programmeringsfantasi flöda!
 
