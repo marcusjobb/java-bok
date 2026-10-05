@@ -1,8 +1,8 @@
 ---
 title: GitHub Actions
 author: Marcus Ackre Medina
-parent: Java
-nav_order: 120
+parent: Verktyg
+nav_order: 20
 has_children: true
 ---
 # GitHub Actions

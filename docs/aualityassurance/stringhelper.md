@@ -1,7 +1,7 @@
 ---
 title: Stringhelper
 author: Marcus Ackre Medina
-parent: Kvalitetssäkring
+parent: Testa din kod
 nav_order: 40
 ---
 # Stringhelper

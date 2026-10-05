@@ -2,7 +2,7 @@
 title: SQL
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 70
+nav_order: 100
 has_children: true
 ---
 # SQL

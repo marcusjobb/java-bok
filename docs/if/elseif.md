@@ -1,7 +1,7 @@
 ---
 title: Else if
 author: Marcus Ackre Medina
-parent: Villkor
+parent: If
 nav_order: 20
 ---
 # Else if

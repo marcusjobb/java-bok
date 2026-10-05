@@ -2,7 +2,7 @@
 title: Loopar
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 30
+nav_order: 50
 has_children: true
 ---
 # Loopar

@@ -1,11 +1,11 @@
 ---
-title: API
+title: APIer
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 80
+nav_order: 120
 has_children: true
 ---
-# API
+# APIer
 
 Välkommen till denna spännande artikel där vi kommer att utforska Application Programming Interface (API), ett viktigt gränssnitt som underlättar kommunikationen med webbapplikationer.
 

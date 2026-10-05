@@ -1,7 +1,7 @@
 ---
 title: Ternary if
 author: Marcus Ackre Medina
-parent: Villkor
+parent: If
 nav_order: 30
 ---
 # Ternary if

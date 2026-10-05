@@ -1,8 +1,8 @@
 ---
-title: Introduktion
+title: Grunder
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 110
+nav_order: 15
 has_children: true
 ---
 # Java

@@ -1,7 +1,7 @@
 ---
 title: TDD
 author: Marcus Ackre Medina
-parent: Kvalitetssäkring
+parent: Testa din kod
 nav_order: 10
 ---
 # TDD

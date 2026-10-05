@@ -2,7 +2,7 @@
 title: Asynkron
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 90
+nav_order: 140
 has_children: true
 ---
 # Asynkron

@@ -2,19 +2,10 @@
 title: Datastrukturer
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 50
+nav_order: 70
 has_children: true
 ---
 # Datastrukturer
-
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 ## Beskrivning
 

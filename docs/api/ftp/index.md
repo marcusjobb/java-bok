@@ -1,7 +1,7 @@
 ---
 title: FTP
 author: Marcus Ackre Medina
-parent: API
+parent: APIer
 nav_order: 30
 has_children: true
 ---

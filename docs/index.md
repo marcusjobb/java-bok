@@ -21,8 +21,8 @@ Hitta det du söker, förstå det, gå tillbaka till koden.
 |---------|---------|
 | Variabler & typer | Datatyper, strängar, konvertering |
 | If / Loopar | Villkor, for, while, do-while |
-| OOP | Klasser, arv, inkapsling, polymorfism |
 | Datastrukturer | Arrays, ArrayList, Dictionary, Map |
+| OOP | Klasser, arv, inkapsling, polymorfism |
 | Filhantering | Text, JSON, CSV, XML |
 | SQL | Databaser och SQL-kommandon |
 | API | REST, FTP, mikrotjänster |

@@ -7,16 +7,6 @@ nav_order: 50
 ---
 # Invertera en array
 
-<details open markdown="block">
-<summary>
-Innehållsförteckning
-</summary>
-{: .text-delta }
-
-1. TOC
-{:toc}
-</details>
-
 ## Beskrivning av övningen
 
 Denna övning handlar om att skriva en metod som inverterar ordningen på elementen i en array av strängar. Metoden ska returnera den resulterande inverterade arrayen.

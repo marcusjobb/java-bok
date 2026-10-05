@@ -2,7 +2,7 @@
 title: Variabler
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 10
+nav_order: 20
 has_children: true
 ---
 # Variabler

@@ -1,7 +1,7 @@
 ---
 title: Java - Ett Kraftfullt Programmeringsspråk.
 author: Marcus Ackre Medina
-parent: Introduktion
+parent: Grunder
 nav_order: 10
 ---
 # Java - Ett Kraftfullt Programmeringsspråk.

@@ -1,11 +1,11 @@
 ---
-title: Villkor
+title: If
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 20
+nav_order: 30
 has_children: true
 ---
-# Villkor
+# If
 
 If är en kontrollstruktur som används inom Java för att ställa logiska frågor. Svaren på dessa frågor kan vara antingen sant eller falskt. Baserat på svaret kommer Java att utföra olika handlingar. Om svaret är sant kommer koden efter if att exekveras. Om svaret är falskt kommer Java att hoppa över koden efter if och fortsätta med resten av programmet.
 

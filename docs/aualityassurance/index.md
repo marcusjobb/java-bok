@@ -1,11 +1,11 @@
 ---
-title: Kvalitetssäkring
+title: Testa din kod
 author: Marcus Ackre Medina
 parent: Java
-nav_order: 100
+nav_order: 115
 has_children: true
 ---
-# Kvalitetssäkring
+# Testa din kod
 
 Nu ska vi kolla på kvalitetssäkring enligt TDD. Låt oss ställa några
 grundläggande frågor för att sätta tonen: Vad är kvalitetssäkring, varför är

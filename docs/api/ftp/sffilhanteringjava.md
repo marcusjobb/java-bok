@@ -1,6 +1,6 @@
 ---
 title: SFTP-Filhantering i Java
-grand_parent: API
+grand_parent: APIer
 author: Marcus Ackre Medina
 parent: FTP
 nav_order: 10
