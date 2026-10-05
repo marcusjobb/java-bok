@@ -754,3 +754,11 @@ div.highlight pre.highlight,
 #pagefind-ui-container .pagefind-ui__result-link { color: var(--accent); font-weight: 600; }
 #pagefind-ui-container .pagefind-ui__result-excerpt { color: var(--text-muted); font-size: 0.875rem; }
 #pagefind-ui-container .pagefind-ui__message { color: var(--text-muted); font-size: 0.875rem; padding: 0.5rem 0; }
+
+/* Undersidor i högermenyn */
+.subpages {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.subpages-list .subpages-list { padding-left: 0.85rem; }
