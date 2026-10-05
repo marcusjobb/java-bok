@@ -93,5 +93,3 @@ Skriptet är skrivet för SQLite. I MySQL skriver du `INT AUTO_INCREMENT PRIMARY
 ---
 
 [Tillbaka till översikten](index.md)
-
-*Av Marcus Ackre Medina · Nion Education · marcus.medina@nionit.com*

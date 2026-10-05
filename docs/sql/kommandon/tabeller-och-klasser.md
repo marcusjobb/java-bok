@@ -644,5 +644,3 @@ Samma fråga gav alltså tre olika utfall: SQL hoppade över David, den första 
 [Tillbaka till översikten](index.md)
 
 Du kunde redan klasser. Nu ser du att du har kunnat tänka i tabeller hela tiden. Snyggt jobbat! 💪
-
-*Av Marcus Ackre Medina · Nion Education · marcus.medina@nionit.com*
